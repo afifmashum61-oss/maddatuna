@@ -8,7 +8,7 @@ Aplikasi Web Interaktif Media Pembelajaran Bahasa Arab Kelas 7 Madrasah Tsanawiy
 ## 🌟 Fitur Utama
 
 - 🎨 **Desain UI Modern (Hijau Botol & Putih)**: Menggunakan kombinasi warna Hijau Botol (`#004D40`), Putih, dan aksen Emas (`#D4AF37`) yang elegan, responsif untuk HP dan PC.
-- 🗂️ **25 Mufrodat Interaktif (Kartu Flip 3D)** per Bab: 
+- 🗂️ **30 Mufrodat Interaktif (Kartu Flip 3D)** per Bab: 
   - Kosakata Arab berharakat + Latin + Terjemahan Indonesia.
   - Pelafalan Audio **Text-to-Speech (`ar-SA`)**.
   - Contoh Kalimat Sederhana (*Jumlah Mufidah*) di balik setiap kartu.

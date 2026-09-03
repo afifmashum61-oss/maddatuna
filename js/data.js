@@ -1,6 +1,7 @@
 /**
  * Database Media Pembelajaran Bahasa Arab Kelas 7 MTs
  * Kurikulum 2025 Kementerian Agama RI
+ * Total: 30 Mufrodat per Bab (Total 180 Mufrodat + Contoh Kalimat)
  */
 
 const arabicData = {
@@ -36,7 +37,12 @@ const arabicData = {
                 { id: 122, ar: "عَفْوًا", latin: "Afwan", indo: "Sama-sama / Maaf", exAr: "عَفْوًا يَا صَدِيقِي، لاَ شُكْرَ عَلَى وَاجِبٍ.", exIndo: "Sama-sama wahai temanku, tidak perlu terima kasih." },
                 { id: 123, ar: "إِلَى اللِّقَاءِ", latin: "Ilal liqa'", indo: "Sampai jumpa", exAr: "إِلَى اللِّقَاءِ فِي الْغَدِ.", exIndo: "Sampai jumpa besok." },
                 { id: 124, ar: "مَعَ السَّلاَمَةِ", latin: "Ma'as salamah", indo: "Semoga selamat / Dadaa", exAr: "مَعَ السَّلاَمَةِ، حَفِظَكَ اللَّهُ.", exIndo: "Semoga selamat, semoga Allah menjagamu." },
-                { id: 125, ar: "طَالِبٌ / طَالِبَةٌ", latin: "Talib / Talibah", indo: "Siswa / Siswi", exAr: "أَحْمَدُ طَالِبٌ، وَفَاطِمَةُ طَالِبَةٌ.", exIndo: "Ahmad adalah siswa, dan Fatimah adalah siswi." }
+                { id: 125, ar: "طَالِبٌ / طَالِبَةٌ", latin: "Talib / Talibah", indo: "Siswa / Siswi", exAr: "أَحْمَدُ طَالِبٌ، وَفَاطِمَةُ طَالِبَةٌ.", exIndo: "Ahmad adalah siswa, dan Fatimah adalah siswi." },
+                { id: 126, ar: "أُسْتَاذٌ / أُسْتَاذَةٌ", latin: "Ustaz / Ustazah", indo: "Guru Laki-laki / Perempuan", exAr: "الأُسْتَاذُ حَسَنٌ يُمَلِّمُنَا اللُّغَةَ الْعَرَبِيَّةَ.", exIndo: "Pak Guru Hasan mengajar kami bahasa Arab." },
+                { id: 127, ar: "صَدِيقٌ / صَدِيقَةٌ", latin: "Sadiq / Sadiqah", indo: "Teman Laki-laki / Perempuan", exAr: "عُمَرُ صَدِيقِي الْمُخْلِصُ.", exIndo: "Umar adalah temanku yang setia." },
+                { id: 128, ar: "نَحْنُ", latin: "Nahnu", indo: "Kami / Kita", exAr: "نَحْنُ طُلَّابٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ.", exIndo: "Kami adalah siswa di Madrasah Tsanawiyah." },
+                { id: 129, ar: "سَعِيدٌ بِلِقَائِكَ", latin: "Sa'idun biliqa'ik", indo: "Senang bertemu denganmu", exAr: "أَنَا سَعِيدٌ بِلِقَائِكَ يَا أَخِي.", exIndo: "Saya senang bertemu denganmu wahai saudaraku." },
+                { id: 130, ar: "مَعْذِرَةً", latin: "Ma'ziratan", indo: "Permisi / Maaf", exAr: "مَعْذِرَةً يَا أُسْتَاذُ، أَيْنَ الْمَكْتَبَةُ؟", exIndo: "Permisi wahai Pak Guru, di mana perpustakaan?" }
             ],
             hiwar: {
                 title: "الْحِوَارُ: التَّعَارُفُ بَيْنَ عَزَّامَ وَنَوْفَلٍ",
@@ -166,7 +172,12 @@ const arabicData = {
                 { id: 222, ar: "صَغِيرٌ / صَغِيرَةٌ", latin: "Saghir / Saghirah", indo: "Kecil", exAr: "الْمَقْصَفُ صَغِيرٌ وَلٰكِنَّهُ نَظِيفٌ.", exIndo: "Kantin itu kecil tetapi bersih." },
                 { id: 223, ar: "نَظِيفٌ / نَظِيفَةٌ", latin: "Nazif / Nazifah", indo: "Bersih", exAr: "فَصْلُنَا نَظِيفٌ وَمُرَتَّبٌ.", exIndo: "Kelas kami bersih dan teratur." },
                 { id: 224, ar: "وَاسِعٌ / وَاسِعَةٌ", latin: "Wasi' / Wasi'ah", indo: "Luas", exAr: "سَاحَةُ الْمَدْرَسَةِ وَاسِعَةٌ.", exIndo: "Halaman sekolah sangat luas." },
-                { id: 225, ar: "جَمِيلٌ / جَمِيلَةٌ", latin: "Jamil / Jamilah", indo: "Indah / Bagus", exAr: "الْبُسْتَانُ جَمِيلٌ جِدًّا.", exIndo: "Taman itu sangat indah." }
+                { id: 225, ar: "جَمِيلٌ / جَمِيلَةٌ", latin: "Jamil / Jamilah", indo: "Indah / Bagus", exAr: "الْبُسْتَانُ جَمِيلٌ جِدًّا.", exIndo: "Taman itu sangat indah." },
+                { id: 226, ar: "سُلَّمٌ", latin: "Sullam", indo: "Tangga", exAr: "أَصْعَدُ السُّلَّمَ إِلَى الطَّابَقِ الثَّانِي.", exIndo: "Saya naik tangga ke lantai dua." },
+                { id: 227, ar: "طَابَقٌ", latin: "Tabaq", indo: "Lantai (Tingkat)", exAr: "فَصْلِي فِي الطَّابَقِ الأَوَّلِ.", exIndo: "Kelasku berada di lantai pertama." },
+                { id: 228, ar: "حَارِسٌ", latin: "Haris", indo: "Satpam / Penjaga Sekolah", exAr: "الْحَارِسُ يَقِفُ عِنْدَ بَابِ الْمَدْرَسَةِ.", exIndo: "Satpam berdiri di pintu gerbang sekolah." },
+                { id: 229, ar: "عِيَادَةٌ مَدْرَسِيَّةٌ", latin: "Iyadah madrasiyyah", indo: "UKS / Poliklinik Sekolah", exAr: "الطَالِبُ الْمَرِيضُ فِي الْعِيَادَةِ.", exIndo: "Siswa yang sakit ada di UKS." },
+                { id: 230, ar: "مَوْقِفُ الدَّرَّاجَاتِ", latin: "Mauqifud darrajat", indo: "Parkiran Sepeda", exAr: "أَضَعُ دَرَّاجَتِي فِي الْمَوْقِفِ.", exIndo: "Saya menaruh sepedaku di tempat parkir." }
             ],
             hiwar: {
                 title: "الْحِوَارُ: جَوْلَةٌ فِي الْمَرَافِقِ الْمَدْرَسِيَّةِ",
@@ -286,7 +297,12 @@ const arabicData = {
                 { id: 322, ar: "أَزْرَقُ / زَرْقَاءُ", latin: "Azraq / Zarqa'", indo: "Biru", exAr: "الْكِتَابُ أَزْرَقُ.", exIndo: "Buku itu berwarna biru." },
                 { id: 323, ar: "أَخْضَرُ / خَضْرَاءُ", latin: "Akhdar / Khadra'", indo: "Hijau", exAr: "السَّبُّورَةُ خَضْرَاءُ.", exIndo: "Papan tulis itu berwarna hijau." },
                 { id: 324, ar: "أَسْوَدُ / سَوْدَاءُ", latin: "Aswad / Sauda'", indo: "Hitam", exAr: "الْقَلَمُ أَسْوَدُ.", exIndo: "Pulpen itu berwarna hitam." },
-                { id: 325, ar: "أَبْيَضُ / بَيْضَاءُ", latin: "Abyad / Baida'", indo: "Putih", exAr: "الْوَرَقَةُ بَيْضَاءُ.", exIndo: "Kertas itu berwarna putih." }
+                { id: 325, ar: "أَبْيَضُ / بَيْضَاءُ", latin: "Abyad / Baida'", indo: "Putih", exAr: "الْوَرَقَةُ بَيْضَاءُ.", exIndo: "Kertas itu berwarna putih." },
+                { id: 326, ar: "مِقَصٌّ", latin: "Miqas", indo: "Gunting", exAr: "أَقُصُّ الْوَرَقَةَ بِالْمِقَصِّ.", exIndo: "Saya menggunting kertas dengan gunting." },
+                { id: 327, ar: "شَرِيطٌ لاَصِقٌ", latin: "Sarit lasiq", indo: "Isolasi / Solasi Tape", exAr: "أَلْصِقُ الصُّورَةَ بِالشَّرِيطِ اللاَّصِقِ.", exIndo: "Saya menempelkan gambar dengan isolasi." },
+                { id: 328, ar: "مِلَفٌّ", latin: "Milaf", indo: "Stopmap / Folder Berkas", exAr: "أَضَعُ الأَوْرَاقَ فِي الْمِلَفِّ.", exIndo: "Saya menaruh lembaran kertas di dalam stopmap." },
+                { id: 329, ar: "حِبْرٌ", latin: "Hibr", indo: "Tinta Pulpen", exAr: "حِبْرُ الْقَلَمِ أَسْوَدُ.", exIndo: "Tinta pulpen ini berwarna hitam." },
+                { id: 330, ar: "طَبَاشِيرُ", latin: "Tabasir", indo: "Kapur Tulis", exAr: "نَكْتُبُ عَلَى السَّبُّورَةِ بِالطَّبَاشِيرِ.", exIndo: "Kami menulis di papan tulis dengan kapur tulis." }
             ],
             hiwar: {
                 title: "الْحِوَارُ: الأَدَوَاتُ فِي الْحَقِيبَةِ",
@@ -400,7 +416,12 @@ const arabicData = {
                 { id: 422, ar: "مَا رَقْمُ...؟", latin: "Ma raqmu...?", indo: "Berapa nomor...?", exAr: "مَا رَقْمُ بَيْتِكَ؟", exIndo: "Berapa nomor rumahmu?" },
                 { id: 423, ar: "أَسْكُنُ فِي...", latin: "Askunu fi...", indo: "Saya tinggal di...", exAr: "أَسْكُنُ فِي شَارِعِ أُحُدٍ.", exIndo: "Saya tinggal di jalan Uhud." },
                 { id: 424, ar: "مَسَافَةٌ", latin: "Masafah", indo: "Jarak", exAr: "الْمَسَافَةُ قَصِيرَةٌ.", exIndo: "Jaraknya pendek/dekat." },
-                { id: 425, ar: "مَوْقِعٌ", latin: "Mauqi'", indo: "Lokasi / Posisi", exAr: "مَوْقِعُ الْبَيْتِ مُمْتَازٌ.", exIndo: "Lokasi rumahnya strategis." }
+                { id: 425, ar: "مَوْقِعٌ", latin: "Mauqi'", indo: "Lokasi / Posisi", exAr: "مَوْقِعُ الْبَيْتِ مُمْتَازٌ.", exIndo: "Lokasi rumahnya strategis." },
+                { id: 426, ar: "حَيٌّ", latin: "Hayy", indo: "Kompleks / Kawasan Permukiman", exAr: "أَسْكُنُ فِي حَيِّ الزُّهُورِ.", exIndo: "Saya tinggal di kompleks Permukiman Bunga." },
+                { id: 427, ar: "بَرِيدٌ", latin: "Barid", indo: "Pos / Surat Pos", exAr: "أَرْسَلْتُ الرِّسَالَةَ عَبْرَ الْبَرِيدِ.", exIndo: "Saya mengirim surat melalui kantor pos." },
+                { id: 428, ar: "كُودٌ بَرِيدِيٌّ", latin: "Kud baridiyy", indo: "Kode Pos", exAr: "كُودُ الْبَرِيدِ لِمَدِينَتِي ٦٠١١١.", exIndo: "Kode pos kotaku adalah 60111." },
+                { id: 429, ar: "مَوْقِعٌ إِلِكْتُرُونِيٌّ", latin: "Mauqi' iliktruniyy", indo: "Website / Situs Web", exAr: "مَوْقِعُ الْمَدْرَسَةِ عَلَى الإِنْتِرْنِت.", exIndo: "Website sekolah ada di internet." },
+                { id: 430, ar: "خَرِيطَةُ الْمَوْقِعِ", latin: "Kharitatul mauqi'", indo: "Denah / Peta Posisi", exAr: "هٰذِهِ خَرِيطَةُ مَوْقِعِ بَيْتِي.", exIndo: "Ini adalah denah lokasi rumahku." }
             ],
             hiwar: {
                 title: "الْحِوَارُ: السُّؤَالُ عَنِ الْعُنْوَانِ",
@@ -517,7 +538,12 @@ const arabicData = {
                 { id: 522, ar: "مُرَّكَبُ التَّكْيِيفِ (مُكَيِّفٌ)", latin: "Mukayyif", indo: "AC (Pengondisi Udara)", exAr: "الْمُكَيِّفُ فِي غُرْفَةِ النَّوْمِ.", exIndo: "AC ada di kamar tidur." },
                 { id: 523, ar: "بَابٌ", latin: "Bab", indo: "Pintu", exAr: "أَفْتَحُ الْبَابَ صَبَاحًا.", exIndo: "Saya membuka pintu di pagi hari." },
                 { id: 524, ar: "نَافِذَةٌ / شُبَّاكٌ", latin: "Nafizah", indo: "Jendela", exAr: "نَافِذَةُ الْغُرْفَةِ نَظِيفَةٌ.", exIndo: "Jendela kamar bersih." },
-                { id: 525, ar: "سَقْفٌ", latin: "Saqf", indo: "Atap / Plafon", exAr: "السَّقْفُ عَالٍ وَمُرْتَفِعٌ.", exIndo: "Atapnya tinggi." }
+                { id: 525, ar: "سَقْفٌ", latin: "Saqf", indo: "Atap / Plafon", exAr: "السَّقْفُ عَالٍ وَمُرْتَفِعٌ.", exIndo: "Atapnya tinggi." },
+                { id: 526, ar: "مِلْعَقَةٌ", latin: "Mil'aqah", indo: "Sendok Makan", exAr: "آكُلُ الأَرُزَّ بِالْمِلْعَقَةِ.", exIndo: "Saya makan nasi menggunakan sendok." },
+                { id: 527, ar: "شَوْكَةٌ", latin: "Syaukah", indo: "Garpu", exAr: "الْمِلْعَقَةُ وَالشَّوْكَةُ عَلَى طَاوِلَةِ الأَكْلِ.", exIndo: "Sendok dan garpu ada di atas meja makan." },
+                { id: 528, ar: "طَبَقٌ / صَحْنٌ", latin: "Tabaq / Sahn", indo: "Piring", exAr: "أَضَعُ الطَّعَامَ فِي الطَّبَقِ.", exIndo: "Saya menaruh makanan di atas piring." },
+                { id: 529, ar: "كُوبٌ / كَأْسٌ", latin: "Kub / Ka's", indo: "Gelas Minum", exAr: "أَشْرَبُ الْمَاءَ فِي الْكُوبِ.", exIndo: "Saya minum air dari gelas." },
+                { id: 530, ar: "صَابُونٌ", latin: "Sabun", indo: "Sabun Mandi", exAr: "أَغْسِلُ يَدَيَّ بِالصَّابُونِ.", exIndo: "Saya mencuci kedua tanganku dengan sabun." }
             ],
             hiwar: {
                 title: "الْحِوَارُ: فِي بَيْتِ خَالِدٍ",
@@ -628,7 +654,12 @@ const arabicData = {
                 { id: 622, ar: "فَطُورٌ", latin: "Fatur", indo: "Sarapan Pagi", exAr: "الْفَطُورُ لَذِيذٌ وَمُفِيدٌ.", exIndo: "Sarapan pagi itu lezat dan bermanfaat." },
                 { id: 623, ar: "غَدَاءٌ", latin: "Gada'", indo: "Makan Siang", exAr: "نَتَنَاوَلُ الْغَدَاءَ فِي السَّاعَةِ الْوَاحِدَةِ.", exIndo: "Kami makan siang pada pukul 13.00." },
                 { id: 624, ar: "عَشَاءٌ", latin: "Asya'", indo: "Makan Malam", exAr: "نَتَنَاوَلُ الْعَشَاءَ بَعْدَ صَلاَةِ الْمَغْرِبِ.", exIndo: "Kami makan malam setelah shalat Maghrib." },
-                { id: 625, ar: "يَوْمِيَّاتٌ", latin: "Yaumiyyat", indo: "Kegiatan Rutin Harian", exAr: "هٰذِهِ يَوْمِيَّاتِي الْيَوْمِيَّةُ.", exIndo: "Ini adalah kegiatan rutin harianku." }
+                { id: 625, ar: "يَوْمِيَّاتٌ", latin: "Yaumiyyat", indo: "Kegiatan Rutin Harian", exAr: "هٰذِهِ يَوْمِيَّاتِي الْيَوْمِيَّةُ.", exIndo: "Ini adalah kegiatan rutin harianku." },
+                { id: 626, ar: "أَتَوَضَّأُ", latin: "Atawadda'u", indo: "Saya berwudhu", exAr: "أَتَوَضَّأُ قَبْلَ صَلاَةِ الصُّبْحِ.", exIndo: "Saya berwudhu sebelum shalat Subuh." },
+                { id: 627, ar: "أُنَظِّفُ", latin: "Unazzifu", indo: "Saya membersihkan", exAr: "أُنَظِّفُ غُرْفَتِي كُلَّ صَبَاحٍ.", exIndo: "Saya membersihkan kamarku setiap pagi." },
+                { id: 628, ar: "أَشْرَبُ", latin: "Asyrabu", indo: "Saya minum", exAr: "أَشْرَبُ الْحَلِيبَ الطَّازَجَ صَبَاحًا.", exIndo: "Saya minum susu segar di pagi hari." },
+                { id: 629, ar: "آكُلُ", latin: "Aakulu", indo: "Saya makan", exAr: "آكُلُ الْفَواكِهَ اللَّذِيذَةَ.", exIndo: "Saya makan buah-buahan yang lezat." },
+                { id: 630, ar: "أُمَارِسُ الرِّيَاضَةَ", latin: "Umarisur riyadan", indo: "Saya berolahraga", exAr: "أُمَارِسُ الرِّيَاضَةَ فِي مَسَاءِ يَوْمِ الأَحَدِ.", exIndo: "Saya berolahraga pada sore hari Minggu." }
             ],
             hiwar: {
                 title: "الْحِوَارُ: الأَنْشِطَةُ الْيَوْمِيَّةُ فِي الْبَيْتِ",
