@@ -1,0 +1,258 @@
+/* ============================================================
+   MEDIA PEMBELAJARAN BAHASA ARAB KELAS 7 - KURIKULUM 2025
+   Theme: Bottle Green (#004D40 / #046A38), White (#FFFFFF) & Gold (#D4AF37)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Scheherazade+New:wght@400;700&display=swap');
+
+:root {
+    --bottle-green-dark: #00332a;
+    --bottle-green: #004d40;
+    --bottle-green-mid: #0b6623;
+    --bottle-green-light: #1b4d3e;
+    --emerald-accent: #10b981;
+    --gold: #d4af37;
+    --gold-light: #fef3c7;
+    --gold-hover: #b89628;
+    --bg-light: #f4f9f6;
+    --card-bg: #ffffff;
+    --text-dark: #1e293b;
+    --text-muted: #64748b;
+    --border-color: #e2e8f0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    overflow-x: hidden;
+}
+
+/* Arabic Font Utility */
+.font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', serif;
+    direction: rtl;
+    line-height: 1.9;
+}
+
+/* Bottle Green Gradient Backgrounds */
+.bg-bottle-green-gradient {
+    background: linear-gradient(135deg, #00332a 0%, #004d40 50%, #0b6623 100%);
+}
+
+.bg-bottle-card {
+    background: linear-gradient(145deg, #004d40, #046a38);
+}
+
+.text-gold {
+    color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--gold);
+}
+
+.border-gold {
+    border-color: var(--gold);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #e2e8f0;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--bottle-green);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bottle-green-dark);
+}
+
+/* 3D FLIP CARD FOR MUFRODAT (25 CARDS) */
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+    height: 260px;
+    cursor: pointer;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-style: preserve-3d;
+    box-shadow: 0 10px 25px -5px rgba(0, 77, 64, 0.15);
+    border-radius: 1rem;
+}
+
+.flip-card.flipped .flip-card-inner,
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.25rem;
+    border: 2px solid rgba(212, 175, 55, 0.2);
+}
+
+.flip-card-front {
+    background: #ffffff;
+    color: var(--bottle-green-dark);
+}
+
+.flip-card-back {
+    background: linear-gradient(145deg, #004d40 0%, #064e3b 100%);
+    color: #ffffff;
+    transform: rotateY(180deg);
+    border-color: var(--gold);
+}
+
+/* HIWAR DIALOGUE BUBBLES */
+.dialogue-bubble-right {
+    background: #ffffff;
+    border-left: 5px solid var(--bottle-green);
+    border-radius: 1rem 1rem 0 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.dialogue-bubble-left {
+    background: #f0fdf4;
+    border-right: 5px solid var(--gold);
+    border-radius: 1rem 1rem 1rem 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* QAWAID TABLE */
+.qawaid-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.qawaid-table th {
+    background-color: var(--bottle-green);
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.qawaid-table td {
+    padding: 0.75rem 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: right;
+}
+
+.qawaid-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* INTERACTIVE WORD BUILDER (TARKIB) */
+.word-chip {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background-color: #ffffff;
+    border: 2px solid var(--bottle-green);
+    color: var(--bottle-green);
+    border-radius: 9999px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.word-chip:hover {
+    background-color: var(--bottle-green);
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.word-chip.selected {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.drop-zone {
+    min-height: 80px;
+    background-color: #ffffff;
+    border: 2px dashed var(--gold);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* QUIZ OPTIONS */
+.quiz-option-btn {
+    width: 100%;
+    text-align: right;
+    padding: 1rem 1.25rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.75rem;
+    background-color: #ffffff;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz-option-btn:hover {
+    border-color: var(--bottle-green);
+    background-color: #f0fdf4;
+}
+
+.quiz-option-btn.selected-correct {
+    background-color: #dcfce7 !important;
+    border-color: #16a34a !important;
+    color: #15803d !important;
+}
+
+.quiz-option-btn.selected-wrong {
+    background-color: #fee2e2 !important;
+    border-color: #dc2626 !important;
+    color: #b91c1c !important;
+}
+
+/* CERTIFICATE PRINT STYLING */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #certificateModalContent, #certificateModalContent * {
+        visibility: visible;
+    }
+    #certificateModalContent {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}

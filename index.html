@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Pembelajaran Bahasa Arab Kelas 7 MTs - Buku Terbaru 2025</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bottle-green': '#004d40',
+                        'bottle-green-dark': '#00332a',
+                        'gold': '#d4af37',
+                        'gold-hover': '#b89628',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- FontAwesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 min-h-screen flex flex-col selection:bg-gold selection:text-bottle-green-dark">
+
+    <!-- HEADER & HERO SECTION -->
+    <header class="bg-bottle-green-gradient text-white shadow-xl relative overflow-hidden">
+        <!-- Background Pattern Decor -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                
+                <!-- Logo & Title -->
+                <div class="flex items-center gap-4 text-center md:text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-white/10 border-2 border-gold/40 flex items-center justify-center p-2 backdrop-blur-md shadow-inner flex-shrink-0">
+                        <i class="fa-solid fa-book-quran text-3xl text-gold"></i>
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-gold/20 border border-gold/30 text-gold text-[11px] font-bold tracking-wider uppercase mb-1">
+                            <i class="fa-solid fa-certificate"></i> Kementerian Agama RI 2025
+                        </div>
+                        <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                            Media Pembelajaran Bahasa Arab <span class="text-gold">Kelas 7 MTs</span>
+                        </h1>
+                        <p class="text-xs text-emerald-100 mt-0.5">Berdasarkan Buku Siswa Terbaru Kurikulum 2025</p>
+                    </div>
+                </div>
+
+                <!-- Student Identity & Settings -->
+                <div class="bg-white/10 backdrop-blur-md p-3.5 rounded-2xl border border-white/15 flex items-center gap-3 w-full md:w-auto">
+                    <div class="w-10 h-10 rounded-xl bg-gold/20 text-gold flex items-center justify-center font-bold">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+                    <div class="flex-grow">
+                        <label class="block text-[10px] uppercase font-bold text-emerald-200 tracking-wider">Nama Siswa / Pengguna:</label>
+                        <input type="text" id="studentNameInput" 
+                            class="bg-transparent font-bold text-sm text-white focus:outline-none w-full border-b border-white/20 focus:border-gold pb-0.5" 
+                            placeholder="Ketik Nama Anda...">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CHAPTER SELECTOR NAVIGATION -->
+            <div class="mt-8 pt-4 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
+                
+                <!-- Desktop Chapter Pill Nav -->
+                <div id="chapterNavBtns" class="hidden md:flex items-center gap-2 overflow-x-auto w-full pb-2 scrollbar-none">
+                    <!-- Injected by JavaScript -->
+                </div>
+
+                <!-- Mobile Chapter Selector Dropdown -->
+                <div class="w-full md:hidden">
+                    <label class="block text-xs font-bold text-emerald-200 mb-1">Pilih Bab Pembelajaran:</label>
+                    <select id="chapterSelect" class="w-full bg-white text-bottle-green font-bold text-sm py-2.5 px-4 rounded-xl border-2 border-gold shadow-md">
+                        <!-- Injected by JavaScript -->
+                    </select>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow w-full">
+        
+        <!-- MODULE HEADER & DESCRIPTION -->
+        <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-emerald-100 mb-8">
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+                
+                <div>
+                    <h2 id="moduleTitle" class="text-3xl font-extrabold text-bottle-green-dark">
+                        <!-- Chapter Title Injected by JS -->
+                    </h2>
+                    <p id="moduleDesc" class="text-sm text-gray-600 font-medium mt-1">
+                        <!-- Chapter Description Injected by JS -->
+                    </p>
+                </div>
+
+                <!-- MODULE TABS -->
+                <div class="flex flex-wrap gap-2 bg-slate-100 p-1.5 rounded-2xl border border-slate-200">
+                    <button data-tab="mufrodat" class="nav-tab-btn px-4 py-2.5 rounded-xl font-bold text-xs transition-all bg-bottle-green text-white shadow-md flex items-center gap-2">
+                        <i class="fa-solid fa-cards-blank"></i> <span>25 Mufrodat</span>
+                    </button>
+                    <button data-tab="hiwar" class="nav-tab-btn px-4 py-2.5 rounded-xl font-bold text-xs transition-all bg-gray-100 text-gray-700 hover:bg-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-comments"></i> <span>Hiwar (Percakapan)</span>
+                    </button>
+                    <button data-tab="qiraah" class="nav-tab-btn px-4 py-2.5 rounded-xl font-bold text-xs transition-all bg-gray-100 text-gray-700 hover:bg-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-book-open"></i> <span>Qira'ah (Membaca)</span>
+                    </button>
+                    <button data-tab="qawaid" class="nav-tab-btn px-4 py-2.5 rounded-xl font-bold text-xs transition-all bg-gray-100 text-gray-700 hover:bg-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-spell-check"></i> <span>Kitabah & Qawa'id</span>
+                    </button>
+                    <button data-tab="quiz" class="nav-tab-btn px-4 py-2.5 rounded-xl font-bold text-xs transition-all bg-gray-100 text-gray-700 hover:bg-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-graduation-cap"></i> <span>Soal Latihan</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- DYNAMIC MAIN CONTENT AREA -->
+        <div id="mainContentArea">
+            <!-- Dynamic Content rendered by app.js -->
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-bottle-green-dark text-white border-t border-gold/30 mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-xs text-emerald-200">
+            <div>
+                <p class="font-bold text-white text-sm">Media Pembelajaran Bahasa Arab MTs Kelas 7</p>
+                <p class="mt-0.5">Disusun sesuai Buku Siswa Kementerian Agama Republik Indonesia Tahun 2025.</p>
+            </div>
+            <div class="flex items-center gap-2 font-semibold">
+                <span class="px-3 py-1 bg-gold/20 text-gold rounded-full border border-gold/30">Warna Hijau Botol & Putih</span>
+                <span>• Interaktif & Digital</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Data & Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
