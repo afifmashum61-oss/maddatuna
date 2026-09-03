@@ -555,9 +555,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100">
                 <div class="flex items-center justify-between pb-4 border-b border-gray-100 mb-6">
                     <div>
-                        <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">اِخْتِبَارُ التَّقْيِيمِ</span>
-                        <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">Soal Latihan Interaktif Bab ${chapter.id}</h2>
-                        <p class="text-sm font-semibold text-gray-600">Uji pemahaman kosakata dan tata bahasamu.</p>
+                        <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">اِخْتِبَارُ التَّقْيِيمِ (٣٠ سُؤَالًا)</span>
+                        <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">30 Soal Latihan Interaktif Bab ${chapter.id} (Full Bahasa Arab)</h2>
+                        <p class="text-sm font-semibold text-gray-600">أَجِبْ عَنِ الأسْئِلَةِ الآتِيَةِ لِتَقْيِيمِ مَدَى فَهْمِكَ لِلدَّرْسِ (30 Soal Pilihan Ganda Full Bahasa Arab).</p>
                     </div>
                 </div>
 
