@@ -1,7 +1,6 @@
 /**
  * Database Media Pembelajaran Bahasa Arab Kelas 7 MTs
  * Kurikulum 2025 Kementerian Agama RI
- * Total: 30 Mufrodat per Bab + Hiwar Percakapan Panjang Kaya Dialog
  */
 
 const arabicData = {
@@ -70,14 +69,14 @@ const arabicData = {
                 ]
             },
             qiraah: {
-                title: "قِرَاءَةٌ: التَّعَارُفُ فِي الْمَدْرَسَةِ الْجَدِيدَةِ",
-                titleIndo: "Teks Bacaan: Perkenalan di Sekolah Baru",
-                textAr: "هٰذَا طَالِبٌ جَدِيدٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلاَمِيَّةِ. اسْمُهُ مَحْمُودٌ. هُوَ قَادِمٌ مِنْ مَدِينَةِ بَانْدُونْج. مَحْمُودٌ طَالِبٌ نَشِيطٌ وَمُجْتَهِدٌ.\n\nفِي الْيَوْمِ الأَوَّلِ، يَلْتَقِي مَحْمُودٌ بِصَدِيقِهِ الْجَدِيدِ فِي السَّاحَةِ. اسْمُ الصَّدِيقِ فَرِيدٌ. فَرِيدٌ مِنْ مَدِينَةِ سُمَارَانْج. يَتَعَارَفُ مَحْمُودٌ وَفَرِيدٌ بِابْتِسَامَةٍ وَأَدَبٍ.\n\nيَقُولُ مَحْمُودٌ: \"السَّلاَمُ عَلَيْكُمْ، أَنَا مَحْمُودٌ\". فَيَرُدُّ فَرِيدٌ: \"وَعَلَيْكُمُ السَّلاَمُ، أَنَا فَرِيدٌ. أَهْلًا وَسَهْلًا!\". فَيَفْرَحُ كِلاَهُمَا بِهٰذِهِ الصَّدَاقَةِ الْجَدِيدَةِ.",
-                textIndo: "Ini adalah seorang siswa baru di Madrasah Tsanawiyah. Namanya Mahmud. Dia datang dari kota Bandung. Mahmud adalah siswa yang aktif dan rajin.\n\nPada hari pertama, Mahmud bertemu dengan teman barunya di halaman sekolah. Nama temannya adalah Farid. Farid berasal dari kota Semarang. Mahmud dan Farid saling berkenalan dengan senyuman dan santun.\n\nMahmud berkata: 'Assalamu'alaikum, saya Mahmud'. Farid menjawab: 'Wa'alaikumussalam, saya Farid. Selamat datang!'. Keduanya merasa bahagia dengan pertemanan baru ini.",
+                title: "التَّعْرِيفُ بِالْعَامِلِينَ فِي الْمَدْرَسَةِ",
+                titleIndo: "Teks Bacaan: Mengenal Warga & Staf di Sekolah",
+                textAr: "إِسْمِي فَارُوْقُ، أَنَا طَالِبٌ فِي هٰذِهِ الْمَدْرَسَةِ. وَهٰذَا أَخِي، اِسْمُهُ صَالِحٌ، هُوَ طَالِبٌ. وَهٰذِهِ صَدِيْقَتِي، اِسْمُهَا فِطْرِيَّةُ، هِيَ طَالِبَةٌ. تِلْكَ مُدَرِّسَتِي، اِسْمُهَا الأُسْتَاذَةُ نَفِيْسَةُ، هِيَ مُدَرِّسَةُ اللُّغَةِ الْعَرَبِيَّةِ. وَذٰلِكَ الأُسْتَاذُ مَنْصُوْرُ، هُوَ نَاظِرُ الْمَدْرَسَةِ.\n\nأُنْظُرْ إِلىٰ هٰذِهِ الصُّوْرَةِ! ذٰلِكَ السَّيِّدُ عُمَرُ، هُوَ أَمِيْنُ الْمَكْتَبَةِ فِي هٰذِهِ الْمَدْرَسَةِ. وَتِلْكَ السَّيِّدَةُ حَفْصَةُ، هِيَ مُوَظَّفَةٌ فِي الْمَكْتَبَةِ. وَهٰذَا بَائِعٌ، اِسْمُهُ السَّيِّدُ خَالِصٌ. وَهٰذِهِ بَائِعَةٌ، اِسْمُهَا السَّيِّدَةُ فَاطِمَةُ. وَذٰلِكَ سَائِقٌ، السَّائِقُ اِسْمُهُ السَّيِّدُ حَفِيْظٌ. أُنْظُرْ أَيْضًا! ذٰلِكَ بَوَّابٌ، اِسْمُهُ السَّيِّدُ مَسْعُوْدٌ، هُوَ مِنْ سُوْرَابَايَا. وَتِلْكَ خَادِمَةٌ، اِسْمُهَا نَبِيْلَةُ، هِيَ مِنْ بَانْدُوْنْج.",
+                textIndo: "Namaku Faruq, saya adalah siswa di sekolah ini. Dan ini saudaraku, namanya Salih, dia seorang siswa. Dan ini temanku, namanya Fitriyah, dia seorang siswi. Itu guruku, namanya Ustazah Nafisah, dia adalah guru Bahasa Arab. Dan itu Pak Mansur, dia adalah kepala sekolah.\n\nLihatlah gambar ini! Itu Pak Umar, dia adalah kepala perpustakaan di sekolah ini. Dan itu Bu Hafsah, dia adalah pegawai perpustakaan. Dan ini penjual (pedagang), namanya Pak Khalis. Dan ini penjual wanita, namanya Bu Fatimah. Dan itu seorang sopir, sopir itu namanya Pak Hafiz. Lihatlah juga! Itu penjaga gerbang (satpam), namanya Pak Mas'ud, dia berasal dari Surabaya. Dan itu seorang pembantu (staf kebersihan), namanya Nabilah, dia berasal dari Bandung.",
                 questions: [
-                    { q: "مَنْ هٰذَا الطَّالِبُ الْجَدِيدُ؟", options: ["محمود", "فريد", "عزام", "نوفل"], answer: 0 },
-                    { q: "مِنْ أَيْن قَادِمٌ مَحْمُودٌ؟", options: ["جاكرتا", "سورابايا", "باندونج", "سمارانج"], answer: 2 },
-                    { q: "أَيْن يَلْتَقِي مَحْمُودٌ بِفَرِيدٍ؟", options: ["في الفصل", "في الساحة", "في المكتبة", "في المقصف"], answer: 1 }
+                    { q: "مَنْ هُوَ نَاظِرُ الْمَدْرَسَةِ؟", options: ["الأستاذ منصور", "السيد عمر", "فاروق", "صالح"], answer: 0 },
+                    { q: "مِنْ أَيْن السَّيِّدُ مَسْعُوْدٌ (الْبَوَّابُ)؟", options: ["من سورابايا", "من باندونج", "من جاكرتا", "من سمارانج"], answer: 0 },
+                    { q: "مَا وَظِيفَةُ الأُسْتَاذَةِ نَفِيسَةَ؟", options: ["مدرسة اللغة العربية", "أمينة المكتبة", "طالبة", "خادمة"], answer: 0 }
                 ]
             },
             qawaid: {
