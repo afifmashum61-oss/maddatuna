@@ -266,9 +266,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
 
                         <div class="my-auto">
-                            <h3 class="font-arabic text-3xl font-bold text-bottle-green-dark mb-1">${item.ar}</h3>
-                            <p class="text-xs font-semibold text-emerald-600 tracking-wide">${item.latin}</p>
-                            <p class="text-sm font-bold text-gray-800 mt-2">${item.indo}</p>
+                            <h3 class="font-arabic text-3xl font-bold text-bottle-green-dark mb-2 leading-relaxed">${item.ar}</h3>
+                            <p class="text-sm font-bold text-gray-800">${item.indo}</p>
                         </div>
 
                         <div class="text-right text-[11px] text-gray-400 font-medium flex items-center justify-end gap-1">
