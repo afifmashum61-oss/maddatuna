@@ -16,8 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // DOM Elements
-    const chapterSelect = document.getElementById('chapterSelect');
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const hamburgerQuickTrigger = document.getElementById('hamburgerQuickTrigger');
+    const closeDrawerBtn = document.getElementById('closeDrawerBtn');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+    const drawerMenu = document.getElementById('drawerMenu');
+    const drawerChapterList = document.getElementById('drawerChapterList');
     const chapterNavBtns = document.getElementById('chapterNavBtns');
+    const currentChapterName = document.getElementById('currentChapterName');
+
     const tabBtns = document.querySelectorAll('.nav-tab-btn');
     const moduleTitle = document.getElementById('moduleTitle');
     const moduleDesc = document.getElementById('moduleDesc');
@@ -36,38 +43,110 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        initDrawerEvents();
         renderChapterSelectors();
         bindTabEvents();
         loadChapterData(state.activeChapterId);
     }
 
+    // ==========================================
+    // HAMBURGER DRAWER MENU CONTROLLER
+    // ==========================================
+    function initDrawerEvents() {
+        if (hamburgerBtn) hamburgerBtn.addEventListener('click', openDrawer);
+        if (hamburgerQuickTrigger) hamburgerQuickTrigger.addEventListener('click', openDrawer);
+        if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeDrawer);
+        if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+    }
+
+    function openDrawer() {
+        if (drawerOverlay) {
+            drawerOverlay.classList.remove('opacity-0', 'pointer-events-none');
+            drawerOverlay.classList.add('opacity-100');
+        }
+        if (drawerMenu) {
+            drawerMenu.classList.remove('-translate-x-full');
+            drawerMenu.classList.add('translate-x-0');
+        }
+    }
+
+    function closeDrawer() {
+        if (drawerOverlay) {
+            drawerOverlay.classList.remove('opacity-100');
+            drawerOverlay.classList.add('opacity-0', 'pointer-events-none');
+        }
+        if (drawerMenu) {
+            drawerMenu.classList.remove('translate-x-0');
+            drawerMenu.classList.add('-translate-x-full');
+        }
+    }
+
     function renderChapterSelectors() {
-        if (!chapterNavBtns) return;
-        chapterNavBtns.innerHTML = '';
-        chapterSelect.innerHTML = '';
+        renderDrawerChapters();
+        renderHeaderPills();
+    }
+
+    function renderDrawerChapters() {
+        if (!drawerChapterList) return;
+        drawerChapterList.innerHTML = '';
 
         arabicData.chapters.forEach((chap) => {
-            // Dropdown option
-            const opt = document.createElement('option');
-            opt.value = chap.id;
-            opt.textContent = `Bab ${chap.id}: ${chap.titleIndo}`;
-            if (chap.id === state.activeChapterId) opt.selected = true;
-            chapterSelect.appendChild(opt);
+            const isActive = chap.id === state.activeChapterId;
 
-            // Nav Button
+            const card = document.createElement('div');
+            card.className = `p-3.5 rounded-2xl border-2 transition-all cursor-pointer flex items-center justify-between gap-3 ${
+                isActive
+                    ? 'bg-bottle-green-gradient text-white border-gold shadow-lg font-bold'
+                    : 'bg-gray-50 text-gray-800 border-gray-200 hover:border-bottle-green hover:bg-emerald-50/50'
+            }`;
+
+            card.innerHTML = `
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl flex items-center justify-center text-base font-bold flex-shrink-0 ${
+                        isActive ? 'bg-gold text-bottle-green-dark shadow' : 'bg-emerald-100 text-bottle-green'
+                    }">
+                        <i class="fa-solid ${chap.icon}"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs font-extrabold uppercase tracking-wide ${isActive ? 'text-gold' : 'text-bottle-green'}">Bab ${chap.id}</span>
+                            <span class="font-arabic text-sm font-bold ${isActive ? 'text-white' : 'text-gray-900'}">${chap.title}</span>
+                        </div>
+                        <p class="text-xs ${isActive ? 'text-emerald-100' : 'text-gray-500'} font-medium mt-0.5">${chap.titleIndo}</p>
+                    </div>
+                </div>
+                ${isActive ? '<i class="fa-solid fa-circle-check text-gold text-lg"></i>' : '<i class="fa-solid fa-chevron-right text-gray-300 text-xs"></i>'}
+            `;
+
+            card.addEventListener('click', () => {
+                switchChapter(chap.id);
+                closeDrawer();
+            });
+
+            drawerChapterList.appendChild(card);
+        });
+    }
+
+    function renderHeaderPills() {
+        if (!chapterNavBtns) return;
+        chapterNavBtns.innerHTML = '';
+
+        const activeChap = getActiveChapter();
+        if (currentChapterName) {
+            currentChapterName.textContent = `Bab ${activeChap.id} - ${activeChap.titleIndo}`;
+        }
+
+        arabicData.chapters.forEach((chap) => {
+            const isActive = chap.id === state.activeChapterId;
             const btn = document.createElement('button');
-            btn.className = `px-4 py-2.5 rounded-xl font-semibold text-sm transition-all flex items-center gap-2 whitespace-nowrap ${
-                chap.id === state.activeChapterId
-                    ? 'bg-gold text-bottle-green-dark shadow-md font-bold'
-                    : 'bg-white/10 text-white hover:bg-white/20'
+            btn.className = `px-3.5 py-2 rounded-xl font-bold text-xs transition-all flex items-center gap-2 whitespace-nowrap ${
+                isActive
+                    ? 'bg-gold text-bottle-green-dark shadow-md border-2 border-white'
+                    : 'bg-white/10 text-white hover:bg-white/20 border border-white/10'
             }`;
             btn.innerHTML = `<i class="fa-solid ${chap.icon}"></i> <span>Bab ${chap.id}</span>`;
             btn.addEventListener('click', () => switchChapter(chap.id));
             chapterNavBtns.appendChild(btn);
-        });
-
-        chapterSelect.addEventListener('change', (e) => {
-            switchChapter(parseInt(e.target.value));
         });
     }
 
@@ -133,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ==========================================
-    // 1. MUFRODAT TAB (25 CARDS WITH FLIP & TTS)
+    // 1. MUFRODAT TAB (30 CARDS WITH FLIP & TTS)
     // ==========================================
     function renderMufrodatTab(chapter) {
         const items = chapter.mufrodat;
@@ -143,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="flex items-center gap-3 w-full sm:w-auto">
                     <span class="bg-emerald-100 text-bottle-green p-3 rounded-xl"><i class="fa-solid fa-layer-group text-xl"></i></span>
                     <div>
-                        <h3 class="font-bold text-gray-800">Kartu Mufrodat Interaktif</h3>
+                        <h3 class="font-bold text-gray-800">Kartu Mufrodat Interaktif (30 Kosakata)</h3>
                         <p class="text-xs text-gray-500">Klik kartu untuk membalik & melihat contoh kalimat di balik kotak.</p>
                     </div>
                 </div>
