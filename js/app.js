@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // DOM Elements
     const hamburgerBtn = document.getElementById('hamburgerBtn');
-    const hamburgerQuickTrigger = document.getElementById('hamburgerQuickTrigger');
     const closeDrawerBtn = document.getElementById('closeDrawerBtn');
     const drawerOverlay = document.getElementById('drawerOverlay');
     const drawerMenu = document.getElementById('drawerMenu');
@@ -53,7 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     function initDrawerEvents() {
         if (hamburgerBtn) hamburgerBtn.addEventListener('click', openDrawer);
-        if (hamburgerQuickTrigger) hamburgerQuickTrigger.addEventListener('click', openDrawer);
         if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeDrawer);
         if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
     }
