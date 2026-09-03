@@ -1,7 +1,7 @@
 /**
  * Database Media Pembelajaran Bahasa Arab Kelas 7 MTs
  * Kurikulum 2025 Kementerian Agama RI
- * Total: 30 Mufrodat per Bab (Total 180 Mufrodat + Contoh Kalimat)
+ * Total: 30 Mufrodat per Bab + Hiwar Percakapan Panjang Kaya Dialog
  */
 
 const arabicData = {
@@ -45,25 +45,28 @@ const arabicData = {
                 { id: 130, ar: "مَعْذِرَةً", latin: "Ma'ziratan", indo: "Permisi / Maaf", exAr: "مَعْذِرَةً يَا أُسْتَاذُ، أَيْنَ الْمَكْتَبَةُ؟", exIndo: "Permisi wahai Pak Guru, di mana perpustakaan?" }
             ],
             hiwar: {
-                title: "الْحِوَارُ: التَّعَارُفُ بَيْنَ عَزَّامَ وَنَوْفَلٍ",
-                titleIndo: "Percakapan: Perkenalan Antara Azzam dan Naufal",
+                title: "الْحِوَارُ: التَّعَارُفُ الْكَاَمِلُ بَيْنَ عَزَّامَ وَنَوْفَلٍ",
+                titleIndo: "Percakapan Lengkap: Perkenalan Antara Azzam dan Naufal",
                 lines: [
                     { speaker: "عَزَّام", ar: "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.", indo: "Assalamu'alaikum warahmatullahi wabarakatuh." },
                     { speaker: "نَوْفَل", ar: "وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.", indo: "Wa'alaikumussalam warahmatullahi wabarakatuh." },
-                    { speaker: "عَزَّام", ar: "صَبَاحُ الْخَيْرِ يَا أَخِي!", indo: "Selamat pagi wahai saudaraku!" },
-                    { speaker: "نَوْفَل", ar: "صَبَاحُ النُّورِ وَالسُّرُورِ!", indo: "Selamat pagi juga dengan kebahagiaan!" },
-                    { speaker: "عَزَّام", ar: "اسْمِي عَزَّامٌ، وَمَا اسْمُكَ؟", indo: "Namaku Azzam, dan siapa namamu?" },
-                    { speaker: "نَوْفَل", ar: "اسْمِي نَوْفَلٌ. أَهْلًا وَسَهْلًا يَا عَزَّامُ!", indo: "Namaku Naufal. Selamat datang wahai Azzam!" },
-                    { speaker: "عَزَّام", ar: "أَهْلًا بِكَ يَا نَوْفَلُ. كَيْفَ حَالُكَ؟", indo: "Selamat datang juga wahai Naufal. Bagaimana kabarmu?" },
-                    { speaker: "نَوْفَل", ar: "أَنَا بِخَيْرٍ وَالْحَمْدُ لِلَّهِ. وَكَيْفَ حَالُكَ أَنْتَ؟", indo: "Saya baik-baik saja, alhamdulillah. Dan bagaimana kabarmu sendiri?" },
-                    { speaker: "عَزَّام", ar: "الْحَمْدُ لِلَّهِ، أَنَا بِخَيْرٍ أَيْضًا. مِنْ أَيْن أَنْتَ يَا نَوْفَلُ؟", indo: "Alhamdulillah, saya juga baik. Dari mana kamu wahai Naufal?" },
-                    { speaker: "نَوْفَل", ar: "أَنَا مِنْ مَدِينَةِ جَاكَرْتَا، وَهَلْ أَنْتَ مِنْ جَاكَرْتَا أَيْضًا؟", indo: "Saya dari kota Jakarta, dan apakah kamu dari Jakarta juga?" },
-                    { speaker: "عَزَّام", ar: "لاَ، أَنَا مِنْ مَدِينَةِ سُورَابَايَا. هَلْ أَنْتَ طَالِبٌ جَدِيدٌ فِي هٰذِهِ الْمَدْرَسَةِ؟", indo: "Tidak, saya dari kota Surabaya. Apakah kamu siswa baru di sekolah ini?" },
-                    { speaker: "نَوْفَل", ar: "نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ فِي الصَّفِّ السَّابِعِ (٧).", indo: "Ya, saya siswa baru di kelas 7." },
-                    { speaker: "عَزَّام", ar: "مَاشَاءَ اللَّهُ! أَنَا أَيْضًا فِي الصَّفِّ السَّابِعِ. سَعِيدٌ بِلِقَائِكَ!", indo: "Masya Allah! Saya juga di kelas 7. Senang bertemu denganmu!" },
-                    { speaker: "نَوْفَل", ar: "وَأَنَا سَعِيدٌ بِلِقَائِكَ أَيْضًا. شُكْرًا جَزِيلًا!", indo: "Dan saya juga senang bertemu denganmu. Terima kasih banyak!" },
-                    { speaker: "عَزَّام", ar: "عَفْوًا، إِلَى اللِّقَاءِ!", indo: "Sama-sama, sampai jumpa!" },
-                    { speaker: "نَوْفَل", ar: "مَعَ السَّلاَمَةِ!", indo: "Semoga selamat!" }
+                    { speaker: "عَزَّام", ar: "صَبَاحُ الْخَيْرِ يَا أَخِي، كَيْفَ حَالُكَ الْيَوْمَ؟", indo: "Selamat pagi wahai saudaraku, bagaimana kabarmu hari ini?" },
+                    { speaker: "نَوْفَل", ar: "صَبَاحُ النُّورِ وَالسُّرُورِ! أَنَا بِخَيْرٍ وَالْحَمْدُ لِلَّهِ. وَكَيْفَ حَالُكَ أَنْتَ؟", indo: "Selamat pagi juga! Saya baik alhamdulillah. Bagaimana kabarmu sendiri?" },
+                    { speaker: "عَزَّام", ar: "الْحَمْدُ لِلَّهِ، أَنَا بِخَيْرٍ أَيْضًا. اسْمِي عَزَّامٌ، وَمَا اسْمُكَ الْكَرِيمُ؟", indo: "Alhamdulillah, saya juga baik. Namaku Azzam, dan siapa namamu yang mulia?" },
+                    { speaker: "نَوْفَل", ar: "اسْمِي نَوْفَلٌ. أَهْلًا وَسَهْلًا بِكَ يَا عَزَّامُ فِي هٰذِهِ الْمَدْرَسَةِ!", indo: "Namaku Naufal. Selamat datang wahai Azzam di sekolah ini!" },
+                    { speaker: "عَزَّام", ar: "أَهْلًا بِكَ يَا نَوْفَلُ. مِنْ أَيْن أَنْتَ قَادِمٌ؟", indo: "Selamat datang juga wahai Naufal. Dari mana kamu berasal?" },
+                    { speaker: "نَوْفَل", ar: "أَنَا قَادِمٌ مِنْ مَدِينَةِ جَاكَرْتَا، وَهَلْ أَنْتَ مِنْ جَاكَرْتَا أَيْضًا؟", indo: "Saya berasal dari kota Jakarta, dan apakah kamu dari Jakarta juga?" },
+                    { speaker: "عَزَّام", ar: "لاَ، أَنَا لَسْتُ مِنْ جَاكَرْتَا. أَنَا مِنْ مَدِينَةِ سُورَابَايَا، ثَانِي أَكْبَرِ مَدِينَةٍ فِي إِنْدُونِيسِيَا.", indo: "Tidak, saya bukan dari Jakarta. Saya dari kota Surabaya, kota terbesar kedua di Indonesia." },
+                    { speaker: "نَوْفَل", ar: "مَا أَرْوَعَ ذٰلِكَ! هَلْ أَنْتَ طَالِبٌ جَدِيدٌ فِي هٰذِهِ الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلاَمِيَّةِ؟", indo: "Sungguh luar biasa! Apakah kamu siswa baru di Madrasah Tsanawiyah ini?" },
+                    { speaker: "عَزَّام", ar: "نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ فِي الصَّفِّ السَّابِعِ (٧-أَ). وَفِي أَيِّ صَفٍّ أَنْتَ؟", indo: "Ya, saya siswa baru di kelas 7-A. Dan di kelas mana kamu?" },
+                    { speaker: "نَوْفَل", ar: "مَاشَاءَ اللَّهُ! أَنَا فِي الصَّفِّ السَّابِعِ (٧-أَ) أَيْضًا! نَحْنُ زُمَلاَءُ فِي نَفْسِ الْفَصْلِ!", indo: "Masya Allah! Saya di kelas 7-A juga! Kita adalah teman sekelas!" },
+                    { speaker: "عَزَّام", ar: "الْحَمْدُ لِلَّهِ! أَنَا سَعِيدٌ جِدًّا بِلِقَائِكَ وَبِهٰذِهِ الصَّدَاقَةِ الْجَدِيدَةِ.", indo: "Alhamdulillah! Saya sangat senang bertemu denganmu dan dengan pertemanan baru ini." },
+                    { speaker: "نَوْفَل", ar: "وَأَنَا أَيْضًا سَعِيدٌ بِلِقَائِكَ يَا صَدِيقِي. مَن هٰذَا الأُسْتَاذُ الَّذِي يَمْشِي هُنَاكَ؟", indo: "Dan saya juga senang bertemu denganmu temanku. Siapa pak guru yang berjalan di sana?" },
+                    { speaker: "عَزَّام", ar: "ذٰلِكَ الأُسْتَاذُ عُثْمَانُ، هُوَ مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي مَدْرَسَتِنَا.", indo: "Itu Pak Guru Utsman, beliau adalah guru Bahasa Arab di sekolah kita." },
+                    { speaker: "نَوْفَل", ar: "مُمْتَازٌ! هَيَّا نَدْخُلُ الْفَصْلَ لِنَسْتَعِدَّ لِلدَّرْسِ الأَوَّلِ!", indo: "Bagus sekali! Ayo kita masuk kelas untuk bersiap mengikuti pelajaran pertama!" },
+                    { speaker: "عَزَّام", ar: "فِكْرَةٌ سَدِيدَةٌ، هَيَّا بِنَا! شُكْرًا جَزِيلًا يَا نَوْفَلُ.", indo: "Ide yang sangat tepat, ayo berangkat! Terima kasih banyak wahai Naufal." },
+                    { speaker: "نَوْفَل", ar: "عَفْوًا يَا عَزَّامُ، لاَ شُكْرَ عَلَى وَاجِبٍ. إِلَى اللِّقَاءِ فِي الْفَصْلِ!", indo: "Sama-sama wahai Azzam. Sampai jumpa di kelas!" },
+                    { speaker: "عَزَّام", ar: "مَعَ السَّلاَمَةِ، حَفِظَكَ اللَّهُ!", indo: "Semoga selamat, semoga Allah menjagamu!" }
                 ]
             },
             qiraah: {
@@ -180,21 +183,27 @@ const arabicData = {
                 { id: 230, ar: "مَوْقِفُ الدَّرَّاجَاتِ", latin: "Mauqifud darrajat", indo: "Parkiran Sepeda", exAr: "أَضَعُ دَرَّاجَتِي فِي الْمَوْقِفِ.", exIndo: "Saya menaruh sepedaku di tempat parkir." }
             ],
             hiwar: {
-                title: "الْحِوَارُ: جَوْلَةٌ فِي الْمَرَافِقِ الْمَدْرَسِيَّةِ",
-                titleIndo: "Percakapan: Keliling Fasilitas Sekolah",
+                title: "الْحِوَارُ: جَوْلَةٌ شَامِلَةٌ فِي الْمَرَافِقِ الْمَدْرَسِيَّةِ",
+                titleIndo: "Percakapan Lengkap: Keliling Fasilitas Sekolah",
                 lines: [
-                    { speaker: "إِلْيَاس", ar: "يَا فِرْسَانُ، هَلْ هٰذِهِ مَدْرَسَتُكَ الْجَدِيدَةُ؟", indo: "Wahai Firsan, apakah ini sekolah barumu?" },
-                    { speaker: "فِرْسَان", ar: "نَعَمْ يَا إِلْيَاسُ، هٰذِهِ مَدْرَسَتِي الثَّانَوِيَّةُ الإِسْلاَمِيَّةُ.", indo: "Ya wahai Ilyas, ini sekolah madrasah tsanawiyah saya." },
-                    { speaker: "إِلْيَاس", ar: "مَاشَاءَ اللَّهُ! مَدْرَسَتُكَ كَبِيرَةٌ وَجَمِيلَةٌ جِدًّا. أَيْن فَصْلُكَ؟", indo: "Masya Allah! Sekolahmu sangat besar dan indah. Di mana kelasmu?" },
-                    { speaker: "فِرْسَان", ar: "فَصْلِي فِي الطَّابَقِ الثَّانِي، بِجَانِبِ مَعْمَلِ الْعُلُومِ.", indo: "Kelasku di lantai dua, di samping laboratorium IPA." },
-                    { speaker: "إِلْيَاس", ar: "وَيْن تَقَعُ الْمَكْتَبَةُ الْمَدْرَسِيَّةُ؟", indo: "Dan di mana letak perpustakaan sekolah?" },
-                    { speaker: "فِرْسَان", ar: "الْمَكْتَبَةُ أَمَامَ غُرْفَةِ الْمُدَرِّسِينَ، وَهِيَ وَاسِعَةٌ وَمُنَظَّمَةٌ.", indo: "Perpustakaan ada di depan ruang guru, perpustakaannya luas dan rapi." },
-                    { speaker: "إِلْيَاس", ar: "وَهَلْ تُوجَدُ حَدِيقَةٌ أَوْ بُسْتَانٌ فِي الْمَدْرَسَةِ؟", indo: "Dan apakah ada kebun atau taman di sekolah?" },
-                    { speaker: "فِرْسَان", ar: "نَعَمْ، اُِنْظُرْ هُنَاكَ! الْبُسْتَانُ وَرَاءَ الْمَسْجِدِ، فِيهِ أَزْهَارٌ مُلَوَّنَةٌ.", indo: "Ya, lihatlah di sana! Taman ada di belakang masjid, di dalamnya ada bunga berwarna-warni." },
-                    { speaker: "إِلْيَاس", ar: "أَيْنَ يَأْكُلُ الطُّلاَّبُ فِي وَقْتِ الرَّاحَةِ؟", indo: "Di mana para siswa makan pada jam istirahat?" },
-                    { speaker: "فِرْسَان", ar: "يَأْكُلُونَ فِي الْمَقْصَفِ، الْمَقْصَفُ بِجَانِبِ الْمَلْعَبِ.", indo: "Mereka makan di kantin, kantin ada di samping lapangan." },
-                    { speaker: "إِلْيَاس", ar: "حَسَنًا، هَيَّا نَذْهَبُ إِلَى الْمَقْصَفِ لِنَشْتَرِيَ الْعَصِيرَ!", indo: "Baiklah, ayo kita pergi ke kantin untuk membeli jus!" },
-                    { speaker: "فِرْسَان", ar: "فِكْرَةٌ مُمْتَازَةٌ، هَيَّا بِنَا!", indo: "Ide yang bagus, ayo berangkat!" }
+                    { speaker: "إِلْيَاس", ar: "السَّلاَمُ عَلَيْكُمْ يَا فِرْسَانُ، هَلْ هٰذِهِ مَدْرَسَتُكَ الْجَدِيدَةُ؟", indo: "Assalamu'alaikum wahai Firsan, apakah ini sekolah barumu?" },
+                    { speaker: "فِرْسَان", ar: "وَعَلَيْكُمُ السَّلاَمُ يَا إِلْيَاسُ! نَعَمْ، هٰذِهِ مَدْرَسَتِي الثَّانَوِيَّةُ الإِسْلاَمِيَّةُ الْحُكُومِيَّةُ.", indo: "Wa'alaikumussalam wahai Ilyas! Ya, ini sekolah Madrasah Tsanawiyah Negeri saya." },
+                    { speaker: "إِلْيَاس", ar: "مَاشَاءَ اللَّهُ! مَدْرَسَتُكَ كَبِيرَةٌ وَجَمِيلَةٌ جِدًّا. أَيْن يَقَعُ فَصْلُكَ؟", indo: "Masya Allah! Sekolahmu sangat besar dan indah. Di mana letak kelasmu?" },
+                    { speaker: "فِرْسَان", ar: "فَصْلِي فِي الطَّابَقِ الثَّانِي، نَصْعَدُ إِلَيْهِ عَبْرَ السُّلَّمِ بِجَانِبِ مَعْمَلِ الْعُلُومِ.", indo: "Kelasku di lantai dua, kita naik lewat tangga di samping laboratorium IPA." },
+                    { speaker: "إِلْيَاس", ar: "وَيْن تَقَعُ الْمَكْتَبَةُ الْمَدْرَسِيَّةُ الْكَبِيرَةُ؟", indo: "Dan di mana letak perpustakaan sekolah yang besar itu?" },
+                    { speaker: "فِرْسَان", ar: "الْمَكْتَبَةُ أَمَامَ غُرْفَةِ الْمُدَرِّسِينَ، وَهِيَ وَاسِعَةٌ، مَالِئَةٌ بِآلاَفِ الْكُتُبِ وَالْمَجَلاَّتِ.", indo: "Perpustakaan di depan ruang guru, perpustakaannya luas, penuh dengan ribuan buku dan majalah." },
+                    { speaker: "إِلْيَاس", ar: "هَلْ يُوجَدُ مَعْمَلٌ لِلْحَاسُوبِ فِي الْمَدْرَسَةِ؟", indo: "Apakah terdapat laboratorium komputer di sekolah?" },
+                    { speaker: "فِرْسَان", ar: "نَعَمْ، مَعْمَلُ الْحَاسُوبِ بِجَانِبِ غُرْفَةِ الإِدَارَةِ، فِيهِ أَجْهِزَةٌ حَدِيثَةٌ لِلطُّلاَّبِ.", indo: "Ya, laboratorium komputer di samping ruang kantor/TU, di dalamnya ada perangkat modern untuk siswa." },
+                    { speaker: "إِلْيَاس", ar: "وَهَلْ تُوجَدُ حَدِيقَةٌ أَوْ بُسْتَانٌ جَمِيلٌ فِي هٰذِهِ الْمَدْرَسَةِ؟", indo: "Dan apakah ada kebun atau taman yang indah di sekolah ini?" },
+                    { speaker: "فِرْسَان", ar: "نَعَمْ، اُِنْظُرْ هُنَاكَ! الْبُسْتَانُ وَرَاءَ الْمَسْجِدِ، فِيهِ أَزْهَارٌ مُلَوَّنَةٌ وَأَشْجَارٌ ظَلِيلَةٌ.", indo: "Ya, lihatlah di sana! Taman ada di belakang masjid, di dalamnya ada bunga berwarna-warni dan pohon rindang." },
+                    { speaker: "إِلْيَاس", ar: "أَيْنَ يُصَلِّي الطُّلاَّبُ وَالْمُدَرِّسُونَ صَلاَةَ الظُّهْرِ؟", indo: "Di mana para siswa dan guru shalat Zuhur?" },
+                    { speaker: "فِرْسَان", ar: "نُصَلِّي جَمِيعًا فِي الْمَسْجِدِ الْكَبِيرِ فِي وَسَطِ الْمَدْرَسَةِ.", indo: "Kami semua shalat di masjid besar di tengah-tengah sekolah." },
+                    { speaker: "إِلْيَاس", ar: "وَأَيْنَ يَأْكُلُ الطُّلاَّبُ فِي وَقْتِ الرَّاحَةِ وَالإِفْطَارِ؟", indo: "Dan di mana para siswa makan pada waktu istirahat?" },
+                    { speaker: "فِرْسَان", ar: "يَأْكُلُونَ فِي الْمَقْصَفِ، الْمَقْصَفُ نَظِيفٌ وَبِجَانِبِ الْمَلْعَبِ الْكَبِيرِ.", indo: "Mereka makan di kantin, kantinnya bersih dan ada di samping lapangan besar." },
+                    { speaker: "إِلْيَاس", ar: "وَمَاذَا يَلْعَبُونَ فِي الْمَلْعَبِ؟", indo: "Dan apa yang mereka mainkan di lapangan?" },
+                    { speaker: "فِرْسَان", ar: "يَلْعَبُونَ كُرَةَ الْقَدَمِ وَكُرَةَ السَّلَّةِ بِشَغَفٍ وَنَشَاطٍ.", indo: "Mereka bermain sepak bola dan bola basket dengan antusias dan aktif." },
+                    { speaker: "إِلْيَاس", ar: "حَسَنًا يَا فِرْسَانُ، هَيَّا نَذْهَبُ إِلَى الْمَقْصَفِ لِنَشْتَرِيَ الْعَصِيرَ وَالْمَأْكُولاَتِ!", indo: "Baiklah wahai Firsan, ayo kita pergi ke kantin untuk membeli jus dan makanan!" },
+                    { speaker: "فِرْسَان", ar: "فِكْرَةٌ مُمْتَازَةٌ وَرَائِعَةٌ، هَيَّا بِنَا صَدِيقِي!", indo: "Ide yang sangat bagus dan hebat, ayo berangkat temanku!" }
                 ]
             },
             qiraah: {
@@ -305,19 +314,23 @@ const arabicData = {
                 { id: 330, ar: "طَبَاشِيرُ", latin: "Tabasir", indo: "Kapur Tulis", exAr: "نَكْتُبُ عَلَى السَّبُّورَةِ بِالطَّبَاشِيرِ.", exIndo: "Kami menulis di papan tulis dengan kapur tulis." }
             ],
             hiwar: {
-                title: "الْحِوَارُ: الأَدَوَاتُ فِي الْحَقِيبَةِ",
-                titleIndo: "Percakapan: Peralatan di Dalam Tas",
+                title: "الْحِوَارُ: الأَدَوَاتُ الْمَدْرَسِيَّةُ فِي الْحَقِيبَةِ",
+                titleIndo: "Percakapan Lengkap: Peralatan Sekolah di Dalam Tas",
                 lines: [
-                    { speaker: "سَلْمَان", ar: "مَاذَا فِي حَقِيبَتِكَ يَا يُوسُفُ؟", indo: "Apa yang ada di dalam tasmu wahai Yusuf?" },
-                    { speaker: "يُوسُف", ar: "فِي حَقِيبَتِي أَدَوَاتٌ مَدْرَسِيَّةٌ كَثِيرَةٌ.", indo: "Di dalam tas saya ada banyak peralatan sekolah." },
-                    { speaker: "سَلْمَان", ar: "هَلْ فِيهَا كُتُبٌ وَدَفَاتِرُ؟", indo: "Apakah di dalamnya ada buku paket dan buku tulis?" },
-                    { speaker: "يُوسُف", ar: "نَعَمْ، فِيهَا كِتَابُ اللُّغَةِ الْعَرَبِيَّةِ، وَدَفْتَرٌ لِلْكِتَابَةِ.", indo: "Ya, di dalamnya ada buku paket Bahasa Arab, dan buku tulis untuk mencatat." },
-                    { speaker: "سَلْمَان", ar: "وَمَا هٰذِهِ الْمِقْلَمَةُ الْجَمِيلَةُ؟", indo: "Dan apa kotak pensil yang indah ini?" },
-                    { speaker: "يُوسُف", ar: "هٰذِهِ مِقْلَمَتِي الْجَدِيدَةُ، لَوْنُهَا أَزْرَقُ.", indo: "Ini kotak pensil baru saya, warnanya biru." },
-                    { speaker: "سَلْمَان", ar: "مَاذَا تَضَعُ دَاخِلَ الْمِقْلَمَةِ؟", indo: "Apa yang kamu taruh di dalam kotak pensil?" },
-                    { speaker: "يُوسُف", ar: "أَضَعُ فِيهَا قَلَمَ الرَّصَاصِ، وَقَلَمًا أَحْمَرَ، وَمِمْحَاةً، وَمِبْرَاةً، وَمِسْطَرَةً.", indo: "Saya menaruh di dalamnya pensil, pulpen merah, penghapus, rautan, dan penggaris." },
-                    { speaker: "سَلْمَان", ar: "مَاشَاءَ اللَّهُ! أَدَوَاتُكَ كَامِلَةٌ وَمُنَظَّمَةٌ جِدًّا.", indo: "Masya Allah! Peralatanmu sangat lengkap dan rapi." },
-                    { speaker: "يُوسُف", ar: "شُكْرًا يَا سَلْمَانُ، وَأَنْتَ أَيْضًا طَالِبٌ مُنَظَّمٌ!", indo: "Terima kasih wahai Salman, dan kamu juga siswa yang rapi!" }
+                    { speaker: "سَلْمَان", ar: "السَّلاَمُ عَلَيْكُمْ يَا يُوسُفُ، مَاذَا تَحْمِلُ فِي حَقِيبَتِكَ؟", indo: "Assalamu'alaikum wahai Yusuf, apa yang kamu bawa di dalam tasmu?" },
+                    { speaker: "يُوسُف", ar: "وَعَلَيْكُمُ السَّلاَمُ يَا سَلْمَانُ! أَنَا أَحْمِلُ أَدَوَاتِي الْمَدْرَسِيَّةَ الْكَامِلَةَ.", indo: "Wa'alaikumussalam wahai Salman! Saya membawa peralatan sekolahku yang lengkap." },
+                    { speaker: "سَلْمَان", ar: "مَاشَاءَ اللَّهُ! حَقِيبَتُكَ جَمِيلَةٌ وَلَوْنُهَا أَخْضَرُ. هَلْ فِيهَا كُتُبٌ وَدَفَاتِرُ؟", indo: "Masya Allah! Tasmu indah berwarna hijau. Apakah di dalamnya ada buku paket dan buku tulis?" },
+                    { speaker: "يُوسُف", ar: "نَعَمْ، فِيهَا كِتَابُ اللُّغَةِ الْعَرَبِيَّةِ، وَكِتَابُ الرِّيَاضِيَّاتِ، وَدَفَاتِرُ مُرَتَّبَةٌ لِلْكِتَابَةِ.", indo: "Ya, di dalamnya ada buku paket Bahasa Arab, buku Matematika, dan buku tulis teratur untuk mencatat." },
+                    { speaker: "سَلْمَان", ar: "وَمَا هٰذِهِ الْمِقْلَمَةُ الأَنِيقَةُ؟", indo: "Dan apa kotak pensil yang anggun ini?" },
+                    { speaker: "يُوسُف", ar: "هٰذِهِ مِقْلَمَتِي الْجَدِيدَةُ، لَوْنُهَا أَزْرَقُ زَاهٍ.", indo: "Ini kotak pensil baru saya, warnanya biru cerah." },
+                    { speaker: "سَلْمَان", ar: "مَاذَا تَضَعُ دَاخِلَ هٰذِهِ الْمِقْلَمَةِ؟", indo: "Apa saja yang kamu taruh di dalam kotak pensil ini?" },
+                    { speaker: "يُوسُف", ar: "أَضَعُ فِيهَا قَلَمَ حِبْرٍ أَسْوَدَ، وَقَلَمَ رَصَاصٍ، وَقَلَمًا أَحْمَرَ، وَمِمْحَاةً، وَمِبْرَاةً، وَمِسْطَرَةً طَوِيلَةً.", indo: "Saya menaruh di dalamnya pulpen tinta hitam, pensil, pulpen merah, penghapus, rautan, dan penggaris panjang." },
+                    { speaker: "سَلْمَان", ar: "وَهَلْ عِنْدَكَ مِقَصٌّ وَشَرِيطٌ لاَصِقٌ لِدَرْسِ الْفُنُونِ؟", indo: "Dan apakah kamu punya gunting dan isolasi untuk pelajaran seni?" },
+                    { speaker: "يُوسُف", ar: "نَعَمْ، عِنْدِي مِقَصٌّ صَغِيرٌ وَشَرِيطٌ لاَصِقٌ فِي الْمِلَفِّ.", indo: "Ya, saya punya gunting kecil dan isolasi di dalam folder stopmap." },
+                    { speaker: "سَلْمَان", ar: "وَمَا هٰذِهِ الْكُرَّاسَةُ الْكَبِيرَةُ ذَاتُ الغِلاَفِ الأَصْفَرِ؟", indo: "Dan apa buku besar bersampul kuning ini?" },
+                    { speaker: "يُوسُف", ar: "هٰذِهِ كَرَّاسَةُ الرَّسْمِ، أَرْسُمُ فِيهَا الْمَنَاظِرَ الطَّبِيعِيَّةَ الْجَمِيلَةَ.", indo: "Ini adalah buku gambar, saya menggambar pemandangan alam yang indah di dalamnya." },
+                    { speaker: "سَلْمَان", ar: "أَنْتَ طَالِبٌ مُنَظَّمٌ وَمُسْتَعِدٌّ جِدًّا لِلدِّرَاسَةِ يَا يُوسُفُ!", indo: "Kamu adalah siswa yang sangat teratur dan siap untuk belajar wahai Yusuf!" },
+                    { speaker: "يُوسُف", ar: "شُكْرًا جَزِيلًا يَا سَلْمَانُ، وَالنَّظَافَةُ وَالتَّنْظِيمُ يُمَكِّنَانِنَا مِنَ النَّجَاحِ!", indo: "Terima kasih banyak wahai Salman, kebersihan dan keteraturan membuat kita sukses!" }
                 ]
             },
             qiraah: {
@@ -424,17 +437,23 @@ const arabicData = {
                 { id: 430, ar: "خَرِيطَةُ الْمَوْقِعِ", latin: "Kharitatul mauqi'", indo: "Denah / Peta Posisi", exAr: "هٰذِهِ خَرِيطَةُ مَوْقِعِ بَيْتِي.", exIndo: "Ini adalah denah lokasi rumahku." }
             ],
             hiwar: {
-                title: "الْحِوَارُ: السُّؤَالُ عَنِ الْعُنْوَانِ",
-                titleIndo: "Percakapan: Menanyakan Alamat",
+                title: "الْحِوَارُ: السُّؤَالُ وَالإِجَابَةُ عَنِ الْعُنْوَانِ",
+                titleIndo: "Percakapan Lengkap: Menanyakan dan Menjawab Alamat",
                 lines: [
-                    { speaker: "إِبْرَاهِيم", ar: "أَيْنَ تَسْكُنُ يَا إِسْمَاعِيلُ؟", indo: "Di mana kamu tinggal wahai Ismail?" },
-                    { speaker: "إِسْمَاعِيل", ar: "أَسْكُنُ فِي شَارِعِ أَحْمَد يَانِي رَقْم ٧ (سَبْعَة)، مَدِينَةِ سُورَابَايَا.", indo: "Saya tinggal di Jalan Ahmad Yani Nomor 7, kota Surabaya." },
-                    { speaker: "إِبْرَاهِيم", ar: "هَلْ بَيْتُكَ قَرِيبٌ مِنَ الْمَدْرَسَةِ؟", indo: "Apakah rumahmu dekat dari sekolah?" },
-                    { speaker: "إِسْمَاعِيل", ar: "نَعَمْ، بَيْتِي قَرِيبٌ جِدًّا مِنَ الْمَدْرَسَةِ، أَمْشِي إِلَيْهَا أَقْدَامًا.", indo: "Ya, rumahku sangat dekat dari sekolah, saya jalan kaki ke sana." },
-                    { speaker: "إِبْرَاهِيم", ar: "وَمَا رَقْمُ هَاتِفِكَ يَا إِسْمَاعِيلُ؟", indo: "Dan berapa nomor teleponmu wahai Ismail?" },
-                    { speaker: "إِسْمَاعِيل", ar: "رَقْمُ هَاتِفِي: ٠٨١٢٣٤٥٦٧٨ (صِفْر - ثَمَانِيَة - وَاحِد - إِثْنَان - ثَلاَثَة - أَرْبَعَة - خَمْسَة - سِتَّة - سَبْعَة - ثَمَانِيَة).", indo: "Nomor HP-ku: 0812345678." },
-                    { speaker: "إِبْرَاهِيم", ar: "شُكْرًا جَزِيلًا! سَأَزُورُ بَيْتَكَ فِي يَوْمِ الأَحَدِ إنْ شَاءَ اللَّهُ.", indo: "Terima kasih banyak! Saya akan mengunjungi rumahmu pada hari Minggu insya Allah." },
-                    { speaker: "إِسْمَاعِيل", ar: "أَهْلًا وَسَهْلًا بِكَ فِي أَيِّ وَقْتٍ!", indo: "Selamat datang kapan saja!" }
+                    { speaker: "إِبْرَاهِيم", ar: "السَّلاَمُ عَلَيْكُمْ يَا إِسْمَاعِيلُ، أَيْنَ تَسْكُنُ الآنَ؟", indo: "Assalamu'alaikum wahai Ismail, di mana kamu tinggal sekarang?" },
+                    { speaker: "إِسْمَاعِيل", ar: "وَعَلَيْكُمُ السَّلاَمُ يَا إِبْرَاهِيمُ! أَسْكُنُ مَعَ أُسْرَتِي فِي شَارِعِ أَحْمَد يَانِي رَقْم ٧ (سَبْعَة)، مَدِينَةِ سُورَابَايَا.", indo: "Wa'alaikumussalam wahai Ibrahim! Saya tinggal bersama keluargaku di Jalan Ahmad Yani nomor 7, kota Surabaya." },
+                    { speaker: "إِبْرَاهِيم", ar: "وَفِي أَيِّ حَيٍّ يَقَعُ بَيْتُكَ؟", indo: "Dan di kawasan/kompleks mana letak rumahmu?" },
+                    { speaker: "إِسْمَاعِيل", ar: "يَقَعُ بَيْتِي فِي حَيِّ الزُّهُورِ، وَهُوَ حَيٌّ هَادِئٌ وَنَظِيفٌ.", indo: "Rumahku terletak di Kompleks Bunga, kompleks yang tenang dan bersih." },
+                    { speaker: "إِبْرَاهِيم", ar: "هَلْ بَيْتُكَ قَرِيبٌ مِنَ الْمَدْرَسَةِ أَمْ بَعِيدٌ عَنْهَا؟", indo: "Apakah rumahmu dekat dari sekolah atau jauh dari sekolah?" },
+                    { speaker: "إِسْمَاعِيل", ar: "بَيْتِي قَرِيبٌ جِدًّا مِنَ الْمَدْرَسَةِ، الْمَسَافَةُ قَصِيرَةٌ، أَمْشِي إِلَيْهَا أَقْدَامًا فِي خَمْسِ دَقَائِقَ.", indo: "Rumahku sangat dekat dari sekolah, jaraknya pendek, saya jalan kaki ke sana dalam lima menit." },
+                    { speaker: "إِبْرَاهِيم", ar: "مَا شَاءَ اللَّهُ! وَمَا رَقْمُ هَاتِفِكَ الْمَحْمُولِ (الْجَوَّالِ)؟", indo: "Masya Allah! Dan berapa nomor telepon seluler (HP) mu?" },
+                    { speaker: "إِسْمَاعِيل", ar: "رَقْمُ جَوَّالِي هُوَ: ٠٨١٢٣٤٥٦٧٨٩ (صِفْر - ثَمَانِيَة - وَاحِد - إِثْنَان - ثَلاَثَة - أَرْبَعَة - خَمْسَة - سِتَّة - سَبْعَة - ثَمَانِيَة - تِسْعَة).", indo: "Nomor HP-ku adalah: 08123456789." },
+                    { speaker: "إِبْرَاهِيم", ar: "وَهَلْ لَدَيْكُمْ كُودٌ بَرِيدِيٌّ لِلْمَنـْزِلِ؟", indo: "Dan apakah kalian punya kode pos untuk rumah?" },
+                    { speaker: "إِسْمَاعِيل", ar: "نَعَمْ، كُودُ الْبَرِيدِ لِحَيِّنَا هُوَ: ٦٠١١١ (سِتَّة - صِفْر - وَاحِد - وَاحِد - وَاحِد).", indo: "Ya, kode pos kompleks kami adalah: 60111." },
+                    { speaker: "إِبْرَاهِيم", ar: "مَا عُنْوَانُ الْبَرِيدِ الإِلِكْتُرُونِيِّ لَكَ؟", indo: "Apa alamat email milikmu?" },
+                    { speaker: "إِسْمَاعِيل", ar: "عُنْوَانُ بَرِيدِي الإِلِكْتُرُونِيِّ هُوَ: ismail@gmail.com", indo: "Alamat email saya adalah: ismail@gmail.com" },
+                    { speaker: "إِبْرَاهِيم", ar: "شُكْرًا جَزِيلًا يَا إِسْمَاعِيلُ! سَأَزُورُ بَيْتَكَ الكَرِيمَ فِي يَوْمِ الأَحَدِ إنْ شَاءَ اللَّهُ.", indo: "Terima kasih banyak wahai Ismail! Saya akan mengunjungi rumahmu yang mulia pada hari Minggu insya Allah." },
+                    { speaker: "إِسْمَاعِيل", ar: "أَهْلًا وَسَهْلًا بِكَ فِي أَيِّ وَقْتٍ، بَيْتِي بَيْتُكَ صَدِيقِي!", indo: "Selamat datang kapan saja, rumahku adalah rumahmu temanku!" }
                 ]
             },
             qiraah: {
@@ -546,18 +565,27 @@ const arabicData = {
                 { id: 530, ar: "صَابُونٌ", latin: "Sabun", indo: "Sabun Mandi", exAr: "أَغْسِلُ يَدَيَّ بِالصَّابُونِ.", exIndo: "Saya mencuci kedua tanganku dengan sabun." }
             ],
             hiwar: {
-                title: "الْحِوَارُ: فِي بَيْتِ خَالِدٍ",
-                titleIndo: "Percakapan: Di Rumah Khalid",
+                title: "الْحِوَارُ: زِيَارَةُ طَارِقٍ فِي بَيْتِ خَالِدٍ",
+                titleIndo: "Percakapan Lengkap: Kunjungan Tariq di Rumah Khalid",
                 lines: [
-                    { speaker: "طَارِق", ar: "السَّلاَمُ عَلَيْكُمْ يَا خَالِدُ!", indo: "Assalamu'alaikum wahai Khalid!" },
-                    { speaker: "خَالِد", ar: "وَعَلَيْكُمُ السَّلاَمُ يَا طَارِقُ! أَهْلًا وَسَهْلًا فِي بَيْتِي!", indo: "Wa'alaikumussalam wahai Tariq! Selamat datang di rumahku!" },
-                    { speaker: "طَارِق", ar: "بَيْتُكَ جَمِيلٌ وَمُنَظَّمٌ جِدًّا! مَا هٰذِهِ الْغُرْفَةُ الْكَبِيرَةُ؟", indo: "Rumahmu sangat indah dan rapi! Ruangan besar apa ini?" },
-                    { speaker: "خَالِد", ar: "هٰذِهِ غُرْفَةُ الْجُلُوسِ، نَسْتَقْبِلُ فِيهَا الضُّيُوفَ. اِجْلِسْ عَلَى الأَرِيكَةِ!", indo: "Ini ruang tamu, kami menyambut tamu di sini. Duduklah di atas sofa!" },
-                    { speaker: "طَارِق", ar: "شُكْرًا. وَأَيْنَ غُرْفَةُ مُذَاكَرَتِكَ؟", indo: "Terima kasih. Dan di mana ruang belajarmu?" },
-                    { speaker: "خَالِد", ar: "غُرْفَةُ الْمُذَاكَرَةِ بِجَانِبِ غُرْفَةِ النَّوْمِ. فِيهَا مَكْتَبِي وَخَزَانَةُ كُتُبِي.", indo: "Ruang belajar di samping kamar tidur. Di sana ada mejaku dan lemari bukuku." },
-                    { speaker: "طَارِق", ar: "وَمَنْ فِي الْمَطْبَخِ الآنَ؟", indo: "Dan siapa yang ada di dapur sekarang?" },
-                    { speaker: "خَالِد", ar: "أُمِّي فِي الْمَطْبَخِ، هِيَ تُعِدُّ الشَّايَ وَالْحَلْوَى لَنَا.", indo: "Ibuku di dapur, beliau menyiapkan teh dan kue untuk kita." },
-                    { speaker: "طَارِق", ar: "جَزَاهَا اللَّهُ خَيْرًا!", indo: "Semoga Allah membalas kebaikan beliau!" }
+                    { speaker: "طَارِق", ar: "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ يَا خَالِدُ!", indo: "Assalamu'alaikum warahmatullahi wabarakatuh wahai Khalid!" },
+                    { speaker: "خَالِد", ar: "وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ يَا طَارِقُ! أَهْلًا وَسَهْلًا فِي بَيْتِي!", indo: "Wa'alaikumussalam warahmatullahi wabarakatuh wahai Tariq! Selamat datang di rumahku!" },
+                    { speaker: "طَارِق", ar: "أَهْلًا بِكَ يَا خَالِدُ. بَيْتُكَ جَمِيلٌ، وَاسِعٌ، وَمُنَظَّمٌ جِدًّا!", indo: "Selamat datang juga wahai Khalid. Rumahmu sangat indah, luas, dan rapi!" },
+                    { speaker: "خَالِد", ar: "شُكْرًا جَزِيلًا لَكَ. هٰذِهِ غُرْفَةُ الْجُلُوسِ، تَقَضَّلْ وَاجْلِسْ عَلَى الأَرِيكَةِ!", indo: "Terima kasih banyak. Ini adalah ruang tamu, silakan duduk di atas sofa!" },
+                    { speaker: "طَارِق", ar: "شُكْرًا. مَا هٰذَا التِّلْفَازُ الْكَبِيرُ وَالسِّجَّادَةُ الْجَمِيلَةُ عَلَى الأَرْضِ؟", indo: "Terima kasih. Apa TV besar dan karpet indah di lantai ini?" },
+                    { speaker: "خَالِد", ar: "نُشَاهِدُ التِّلْفَازَ مَعَ الأُسْرَةِ هُنَا، وَنَبْسُطُ السِّجَّادَةَ لِلرَّاحَةِ.", indo: "Kami menonton TV bersama keluarga di sini, dan membentangkan karpet untuk bersantai." },
+                    { speaker: "طَارِق", ar: "وَأَيْنَ غُرْفَةُ مُذَاكَرَتِكَ وَدِرَاسَتِكَ؟", indo: "Dan di mana ruang belajar dan tempat belajarmu?" },
+                    { speaker: "خَالِد", ar: "غُرْفَةُ الْمُذَاكَرَةِ بِجَانِبِ غُرْفَةِ النَّوْمِ. فِيهَا مَكْتَبِي، وَكُرْسِيِّي، وَخَزَانَةُ كُتُبِي.", indo: "Ruang belajar di samping kamar tidur. Di sana ada mejaku, kursiku, dan lemari bukuku." },
+                    { speaker: "طَارِق", ar: "وَمَاذَا تُوجَدُ فِي غُرْفَةِ النَّوْمِ؟", indo: "Dan apa yang terdapat di dalam kamar tidur?" },
+                    { speaker: "خَالِد", ar: "فِي غُرْفَةِ النَّوْمِ سَرِيرٌ مَرِيحٌ، وَوِسَادَةٌ نَاعِمَةٌ، وَمُكَيِّفُ هَوَاءِ.", indo: "Di kamar tidur ada ranjang yang nyaman, bantal yang empuk, dan AC." },
+                    { speaker: "طَارِق", ar: "مَا أَرْوَعَ هٰذَا! وَمَنْ فِي الْمَطْبَخِ الآنَ؟", indo: "Betapa cantiknya ini! Dan siapa yang ada di dapur sekarang?" },
+                    { speaker: "خَالِد", ar: "أُمِّي فِي الْمَطْبَخِ، هِيَ تُعِدُّ الشَّايَ السَّاخِنَ وَالْحَلْوَى اللَّذِيذَةَ لَنَا.", indo: "Ibuku di dapur, beliau menyiapkan teh panas dan kue yang lezat untuk kita." },
+                    { speaker: "طَارِق", ar: "جَزَاهَا اللَّهُ خَيْرًا! وَأَيْنَ غُرْفَةُ الأَكْلِ؟", indo: "Semoga Allah membalas kebaikan beliau! Dan di mana ruang makan?" },
+                    { speaker: "خَالِد", ar: "غُرْفَةُ الأَكْلِ أَمَامَ الْمَطْبَخِ، فِيهَا طَاوِلَةٌ كَبِيرَةٌ وَأَطْبَاقٌ وَأَكْوَابٌ.", indo: "Ruang makan ada di depan dapur, di sana ada meja besar, piring-piring, dan gelas-gelas." },
+                    { speaker: "طَارِق", ar: "وَهَلْ عِنْدَكُمْ حَدِيقَةٌ خَالْفَ الْبَيْتِ؟", indo: "Dan apakah kalian punya taman di belakang rumah?" },
+                    { speaker: "خَالِد", ar: "نَعَمْ، عِنْدَنَا حَدِيقَةٌ صَغِيرَةٌ فِيهَا أَزْهَارٌ مُلَوَّنَةٌ وَأَشْجَارٌ جَمِيلَةٌ.", indo: "Ya, kami punya taman kecil yang di dalamnya ada bunga berwarna-warni dan pohon-pohon indah." },
+                    { speaker: "طَارِق", ar: "بَيْتُكَ بَيْتٌ مُبَارَكٌ وَمُرِيحٌ جِدًّا يَا خَالِدُ!", indo: "Rumahmu adalah rumah yang diberkahi dan sangat nyaman wahai Khalid!" },
+                    { speaker: "خَالِد", ar: "شُكْرًا لَكَ يَا طَارِقُ، هَيَّا نَتَنَاوَلُ الشَّايَ وَالْحَلْوَى مَعًا!", indo: "Terima kasih wahai Tariq, ayo kita nikmati teh dan kue bersama-sama!" }
                 ]
             },
             qiraah: {
@@ -662,18 +690,30 @@ const arabicData = {
                 { id: 630, ar: "أُمَارِسُ الرِّيَاضَةَ", latin: "Umarisur riyadan", indo: "Saya berolahraga", exAr: "أُمَارِسُ الرِّيَاضَةَ فِي مَسَاءِ يَوْمِ الأَحَدِ.", exIndo: "Saya berolahraga pada sore hari Minggu." }
             ],
             hiwar: {
-                title: "الْحِوَارُ: الأَنْشِطَةُ الْيَوْمِيَّةُ فِي الْبَيْتِ",
-                titleIndo: "Percakapan: Aktivitas Harian di Rumah",
+                title: "الْحِوَارُ: الأَنْشِطَةُ الْيَوْمِيَّةُ الشَّامِلَةُ لِلأُسْرَةِ",
+                titleIndo: "Percakapan Lengkap: Aktivitas Sehari-hari Keluarga di Rumah",
                 lines: [
-                    { speaker: "حَسَن", ar: "مَاذَا تَفْعَلُ بَعْدَ صَلاَةِ الصُّبْحِ يَا حُسَيْنُ؟", indo: "Apa yang kamu lakukan setelah shalat Subuh wahai Husain?" },
-                    { speaker: "حُسَيْن", ar: "أَقْرَأُ الْقُرْآنَ الْكَرِيمَ، ثُمَّ أُرَتِّبُ سَرِيرِي فِي الْغُرْفَةِ.", indo: "Saya membaca Al-Qur'an, kemudian saya merapikan tempat tidurku di kamar." },
-                    { speaker: "حَسَن", ar: "وَمَاذَا تَفْعَلُ أُمُّكَ فِي هٰذَا الْوَقْتِ؟", indo: "Dan apa yang dilakukan ibumu pada waktu ini?" },
-                    { speaker: "حُسَيْن", ar: "أُمِّي تَطْبُخُ الْفَطُورَ فِي الْمَطْبَخِ، وَأُخْتِي تُسَاعِدُهَا.", indo: "Ibuku memasak sarapan di dapur, dan adikku membantunya." },
-                    { speaker: "حَسَن", ar: "وَأَبُوكَ، مَاذَا يَعْمَلُ؟", indo: "Dan ayahmu, apa yang beliau kerjakan?" },
-                    { speaker: "حُسَيْن", ar: "أَبِي يَقْرَأُ الْجَرِيدَةَ وَيَشْرَبُ الْقَهْوَةَ فِي الشُّرْفَةِ.", indo: "Ayahku membaca koran dan minum kopi di teras." },
-                    { speaker: "حَسَن", ar: "مَتَى تَتَنَاوَلُونَ الْفَطُورَ مَعًا؟", indo: "Kapan kalian makan sarapan bersama?" },
-                    { speaker: "حُسَيْن", ar: "نَتَنَاوَلُ الْفَطُورَ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا.", indo: "Kami sarapan pagi pada pukul 06.00 pagi." },
-                    { speaker: "حَسَن", ar: "مَاشَاءَ اللَّهُ! أُسْرَةٌ مُنَظَّمَةٌ وَمُبَارَكَةٌ!", indo: "Masya Allah! Keluarga yang teratur dan diberkahi!" }
+                    { speaker: "حَسَن", ar: "السَّلاَمُ عَلَيْكُمْ يَا حُسَيْنُ، مَتَى تَسْتَيْقِظُ مِنَ النَّوْمِ كُلَّ صَبَاحٍ؟", indo: "Assalamu'alaikum wahai Husain, kapan kamu bangun tidur setiap pagi?" },
+                    { speaker: "حُسَيْن", ar: "وَعَلَيْكُمُ السَّلاَمُ يَا حَسَنُ! أَسْتَيْقِظُ مُبَكِّرًا فِي السَّاعَةِ الرَّابِعَةِ صَبَاحًا.", indo: "Wa'alaikumussalam wahai Hasan! Saya bangun lebih awal pada pukul 04.00 pagi." },
+                    { speaker: "حَسَن", ar: "مَاذَا تَفْعَلُ بَعْدَ الإِسْتِيقَاظِ مُمَاشَرَةً؟", indo: "Apa yang kamu lakukan langsung setelah bangun tidur?" },
+                    { speaker: "حُسَيْن", ar: "أُرَتِّبُ سَرِيرِي، ثُمَّ أَتَوَضَّأُ وَأَغْتَسِلُ فِي الْحَمَّامِ.", indo: "Saya merapikan ranjangku, kemudian berwudhu dan mandi di kamar mandi." },
+                    { speaker: "حَسَن", ar: "وَأَيْنَ تُصَلِّي صَلاَةَ الصُّبْحِ؟", indo: "Dan di mana kamu shalat Subuh?" },
+                    { speaker: "حُسَيْن", ar: "أُصَلِّي الصُّبْحَ جَمَاعَةً مَعَ أَبِي فِي الْمَسْجِدِ الْقَرِيبِ مِنَ الْبَيْتِ.", indo: "Saya shalat Subuh berjamaah bersama ayahku di masjid dekat rumah." },
+                    { speaker: "حَسَن", ar: "مَا أَعْظَمَ ذٰلِكَ! وَمَاذَا تَفْعَلُ بَعْدَ الصَّلاَةِ؟", indo: "Betapa agungnya hal itu! Dan apa yang kamu lakukan setelah shalat?" },
+                    { speaker: "حُسَيْن", ar: "أَقْرَأُ الْقُرْآنَ الْكَرِيمَ وَأُذَاكِرُ دُرُوسِي لِمُدَّةِ سَاعَةٍ.", indo: "Saya membaca Al-Qur'an dan mengulang pelajaran-pelajaranku selama satu jam." },
+                    { speaker: "حَسَن", ar: "وَمَاذَا تَفْعَلُ أُمُّكَ وَأُخْتُكَ فِي هٰذَا الْوَقْتِ؟", indo: "Dan apa yang dilakukan ibu dan adikmu pada waktu ini?" },
+                    { speaker: "حُسَيْن", ar: "أُمِّي تَطْبُخُ الْفَطُورَ فِي الْمَطْبَخِ، وَأُخْتِي تُسَاعِدُهَا فِي تَنْظِيفِ الطَّاوِلَةِ.", indo: "Ibuku memasak sarapan di dapur, dan adik perempuanku membantunya merapikan meja." },
+                    { speaker: "حَسَن", ar: "وَأَبُوكَ، مَاذَا يَعْمَلُ قَبْلَ الذَّهَابِ إِلَى الْعَمَلِ؟", indo: "Dan ayahmu, apa yang beliau kerjakan sebelum berangkat kerja?" },
+                    { speaker: "حُسَيْن", ar: "أَبِي يَقْرَأُ الْجَرِيدَةَ الْيَوْمِيَّةَ وَيَشْرَبُ الْقَهْوَةَ السَّاخِنَةَ فِي الشُّرْفَةِ.", indo: "Ayahku membaca koran harian dan minum kopi panas di teras." },
+                    { speaker: "حَسَن", ar: "مَتَى تَتَنَاوَلُونَ طَعَامَ الْفَطُورِ مَعًا؟", indo: "Kapan kalian makan sarapan bersama-sama?" },
+                    { speaker: "حُسَيْن", ar: "نَتَنَاوَلُ الْفَطُورَ مَعًا فِي غُرْفَةِ الأَكْلِ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا.", indo: "Kami sarapan bersama di ruang makan pada pukul 06.00 pagi." },
+                    { speaker: "حَسَن", ar: "وَمَتَى تَذْهَبُ إِلَى الْمَدْرَسَةِ؟", indo: "Dan kapan kamu pergi ke sekolah?" },
+                    { speaker: "حُسَيْن", ar: "أَرْتَدِي الزِّيَّ الْمَدْرَسِيَّ وَأَذْهَبُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّادِسَةِ وَالنِّصْفِ.", indo: "Saya memakai seragam sekolah dan berangkat ke sekolah pada pukul 06.30." },
+                    { speaker: "حَسَن", ar: "وَمَتَى تَرْجِعُ مِنَ الْمَدْرَسَةِ ظُهْرًا؟", indo: "Dan kapan kamu pulang dari sekolah saat siang?" },
+                    { speaker: "حُسَيْن", ar: "أَرْجِعُ فِي السَّاعَةِ الْوَاحِدَةِ ظُهْرًا، أَتَنَاوَلُ الْغَدَاءَ وَأَسْتَرِيحُ قَلِيلاً.", indo: "Saya pulang pada pukul 13.00 siang, makan siang dan beristirahat sejenak." },
+                    { speaker: "حَسَن", ar: "وَكَيْفَ تَقْضِي مَسَاءَكَ مَعَ الأُسْرَةِ؟", indo: "Dan bagaimana kamu menghabiskan waktu sore/malam bersama keluarga?" },
+                    { speaker: "حُسَيْن", ar: "أَكْتُبُ الْوَاجِبَاتِ الْمَنـْزِلِيَّةَ، ثُمَّ نُشَاهِدُ التِّلْفَازَ، وَأَنَامُ مُبَكِّرًا فِي السَّاعَةِ التَّاسِعَةِ لَيْلًا.", indo: "Saya mengerjakan PR, lalu kami menonton TV bersama, dan saya tidur lebih awal jam 21.00 malam." },
+                    { speaker: "حَسَن", ar: "مَا شَاءَ اللَّهُ! أُسْرَةٌ مُنَظَّمَةٌ، سَعِيدَةٌ، وَمُبَارَكَةٌ!", indo: "Masya Allah! Keluarga yang teratur, bahagia, dan diberkahi!" }
                 ]
             },
             qiraah: {
