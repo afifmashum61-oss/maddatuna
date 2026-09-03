@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const drawerOverlay = document.getElementById('drawerOverlay');
     const drawerMenu = document.getElementById('drawerMenu');
     const drawerChapterList = document.getElementById('drawerChapterList');
-    const chapterNavBtns = document.getElementById('chapterNavBtns');
     const currentChapterName = document.getElementById('currentChapterName');
 
     const tabBtns = document.querySelectorAll('.nav-tab-btn');
@@ -83,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderChapterSelectors() {
         renderDrawerChapters();
-        renderHeaderPills();
+        updateActiveChapterBadge();
     }
 
     function renderDrawerChapters() {
@@ -127,27 +126,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function renderHeaderPills() {
-        if (!chapterNavBtns) return;
-        chapterNavBtns.innerHTML = '';
-
+    function updateActiveChapterBadge() {
         const activeChap = getActiveChapter();
         if (currentChapterName) {
             currentChapterName.textContent = `Bab ${activeChap.id} - ${activeChap.titleIndo}`;
         }
-
-        arabicData.chapters.forEach((chap) => {
-            const isActive = chap.id === state.activeChapterId;
-            const btn = document.createElement('button');
-            btn.className = `px-3.5 py-2 rounded-xl font-bold text-xs transition-all flex items-center gap-2 whitespace-nowrap ${
-                isActive
-                    ? 'bg-gold text-bottle-green-dark shadow-md border-2 border-white'
-                    : 'bg-white/10 text-white hover:bg-white/20 border border-white/10'
-            }`;
-            btn.innerHTML = `<i class="fa-solid ${chap.icon}"></i> <span>Bab ${chap.id}</span>`;
-            btn.addEventListener('click', () => switchChapter(chap.id));
-            chapterNavBtns.appendChild(btn);
-        });
     }
 
     function switchChapter(chapId) {
