@@ -1168,28 +1168,111 @@ const arabicData = {
 
             ],
             hiwar: {
-                title: "الْحِوَارُ: جَوْلَةٌ شَامِلَةٌ فِي الْمَرَافِقِ الْمَدْرَسِيَّةِ",
-                titleIndo: "Percakapan Lengkap: Keliling Fasilitas Sekolah",
-                lines: [
-                    { speaker: "إِلْيَاس", ar: "السَّلاَمُ عَلَيْكُمْ يَا فِرْسَانُ، هَلْ هٰذِهِ مَدْرَسَتُكَ الْجَدِيدَةُ؟", indo: "Assalamu'alaikum wahai Firsan, apakah ini sekolah barumu?" },
-                    { speaker: "فِرْسَان", ar: "وَعَلَيْكُمُ السَّلاَمُ يَا إِلْيَاسُ! نَعَمْ، هٰذِهِ مَدْرَسَتِي الثَّانَوِيَّةُ الإِسْلاَمِيَّةُ الْحُكُومِيَّةُ.", indo: "Wa'alaikumussalam wahai Ilyas! Ya, ini sekolah Madrasah Tsanawiyah Negeri saya." },
-                    { speaker: "إِلْيَاس", ar: "مَاشَاءَ اللَّهُ! مَدْرَسَتُكَ كَبِيرَةٌ وَجَمِيلَةٌ جِدًّا. أَيْن يَقَعُ فَصْلُكَ؟", indo: "Masya Allah! Sekolahmu sangat besar dan indah. Di mana letak kelasmu?" },
-                    { speaker: "فِرْسَان", ar: "فَصْلِي فِي الطَّابَقِ الثَّانِي، نَصْعَدُ إِلَيْهِ عَبْرَ السُّلَّمِ بِجَانِبِ مَعْمَلِ الْعُلُومِ.", indo: "Kelasku di lantai dua, kita naik lewat tangga di samping laboratorium IPA." },
-                    { speaker: "إِلْيَاس", ar: "وَيْن تَقَعُ الْمَكْتَبَةُ الْمَدْرَسِيَّةُ الْكَبِيرَةُ؟", indo: "Dan di mana letak perpustakaan sekolah yang besar itu?" },
-                    { speaker: "فِرْسَان", ar: "الْمَكْتَبَةُ أَمَامَ غُرْفَةِ الْمُدَرِّسِينَ، وَهِيَ وَاسِعَةٌ، مَالِئَةٌ بِآلاَفِ الْكُتُبِ وَالْمَجَلاَّتِ.", indo: "Perpustakaan di depan ruang guru, perpustakaannya luas, penuh dengan ribuan buku dan majalah." },
-                    { speaker: "إِلْيَاس", ar: "هَلْ يُوجَدُ مَعْمَلٌ لِلْحَاسُوبِ فِي الْمَدْرَسَةِ؟", indo: "Apakah terdapat laboratorium komputer di sekolah?" },
-                    { speaker: "فِرْسَان", ar: "نَعَمْ، مَعْمَلُ الْحَاسُوبِ بِجَانِبِ غُرْفَةِ الإِدَارَةِ، فِيهِ أَجْهِزَةٌ حَدِيثَةٌ لِلطُّلاَّبِ.", indo: "Ya, laboratorium komputer di samping ruang kantor/TU, di dalamnya ada perangkat modern untuk siswa." },
-                    { speaker: "إِلْيَاس", ar: "وَهَلْ تُوجَدُ حَدِيقَةٌ أَوْ بُسْتَانٌ جَمِيلٌ فِي هٰذِهِ الْمَدْرَسَةِ؟", indo: "Dan apakah ada kebun atau taman yang indah di sekolah ini?" },
-                    { speaker: "فِرْسَان", ar: "نَعَمْ، اُِنْظُرْ هُنَاكَ! الْبُسْتَانُ وَرَاءَ الْمَسْجِدِ، فِيهِ أَزْهَارٌ مُلَوَّنَةٌ وَأَشْجَارٌ ظَلِيلَةٌ.", indo: "Ya, lihatlah di sana! Taman ada di belakang masjid, di dalamnya ada bunga berwarna-warni dan pohon rindang." },
-                    { speaker: "إِلْيَاس", ar: "أَيْنَ يُصَلِّي الطُّلاَّبُ وَالْمُدَرِّسُونَ صَلاَةَ الظُّهْرِ؟", indo: "Di mana para siswa dan guru shalat Zuhur?" },
-                    { speaker: "فِرْسَان", ar: "نُصَلِّي جَمِيعًا فِي الْمَسْجِدِ الْكَبِيرِ فِي وَسَطِ الْمَدْرَسَةِ.", indo: "Kami semua shalat di masjid besar di tengah-tengah sekolah." },
-                    { speaker: "إِلْيَاس", ar: "وَأَيْنَ يَأْكُلُ الطُّلاَّبُ فِي وَقْتِ الرَّاحَةِ وَالإِفْطَارِ؟", indo: "Dan di mana para siswa makan pada waktu istirahat?" },
-                    { speaker: "فِرْسَان", ar: "يَأْكُلُونَ فِي الْمَقْصَفِ، الْمَقْصَفُ نَظِيفٌ وَبِجَانِبِ الْمَلْعَبِ الْكَبِيرِ.", indo: "Mereka makan di kantin, kantinnya bersih dan ada di samping lapangan besar." },
-                    { speaker: "إِلْيَاس", ar: "وَمَاذَا يَلْعَبُونَ فِي الْمَلْعَبِ؟", indo: "Dan apa yang mereka mainkan di lapangan?" },
-                    { speaker: "فِرْسَان", ar: "يَلْعَبُونَ كُرَةَ الْقَدَمِ وَكُرَةَ السَّلَّةِ بِشَغَفٍ وَنَشَاطٍ.", indo: "Mereka bermain sepak bola dan bola basket dengan antusias dan aktif." },
-                    { speaker: "إِلْيَاس", ar: "حَسَنًا يَا فِرْسَانُ، هَيَّا نَذْهَبُ إِلَى الْمَقْصَفِ لِنَشْتَرِيَ الْعَصِيرَ وَالْمَأْكُولاَتِ!", indo: "Baiklah wahai Firsan, ayo kita pergi ke kantin untuk membeli jus dan makanan!" },
-                    { speaker: "فِرْسَان", ar: "فِكْرَةٌ مُمْتَازَةٌ وَرَائِعَةٌ، هَيَّا بِنَا صَدِيقِي!", indo: "Ide yang sangat bagus dan hebat, ayo berangkat temanku!" }
-                ]
+
+          "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: الْمَرَافِقُ الْمَدْرَسِيَّةُ (١ وَ ٢)",
+          "titleIndo": "Percakapan Bahasa Arab Bab 2: Terdiri dari 2 Percakapan (Buku Kemenag 2025)",
+          "dialogues": [
+                    {
+                              "id": 1,
+                              "title": "الْمَرَافِقُ فِي مَدْرَسَةِ نَادِينِي",
+                              "titleIndo": "Percakapan 1: Fasilitas di Sekolah Nadine (Hilya & Nadine)",
+                              "lines": [
+                                        {
+                                                  "speaker": "حِلْيَة",
+                                                  "ar": "السَّلاَمُ عَلَيْكُمْ.",
+                                                  "indo": "Assalamu 'alaikum."
+                                        },
+                                        {
+                                                  "speaker": "نَادِينِي",
+                                                  "ar": "وَعَلَيْكُمُ السَّلاَمُ.",
+                                                  "indo": "Wa 'alaikumus salam."
+                                        },
+                                        {
+                                                  "speaker": "حِلْيَة",
+                                                  "ar": "يَا نَادِينِي، أَيْنَ مَدْرَسَتُكِ؟",
+                                                  "indo": "Wahai Nadine, di mana sekolahmu?"
+                                        },
+                                        {
+                                                  "speaker": "نَادِينِي",
+                                                  "ar": "مَدْرَسَتِي فِي مَالَانْج، فِي شَارِعِ بَانْدُونْج رَقْم ٧ مَدِينَةِ مَالَانْج.",
+                                                  "indo": "Sekolahku di Malang, di Jalan Bandung Nomor 7 kota Malang."
+                                        },
+                                        {
+                                                  "speaker": "حِلْيَة",
+                                                  "ar": "مَا اسْمُهَا؟",
+                                                  "indo": "Apa namanya?"
+                                        },
+                                        {
+                                                  "speaker": "نَادِينِي",
+                                                  "ar": "إِسْمُهَا: الْمَدْرَسَةُ الثَّانَوِيَّةُ الْحُكُومِيَّةُ ١ بِمَدِينَةِ مَالَانْج.",
+                                                  "indo": "Namanya: Madrasah Tsanawiyah Negeri 1 Kota Malang."
+                                        },
+                                        {
+                                                  "speaker": "حِلْيَة",
+                                                  "ar": "هَلْ الْمَرَافِقُ الْمَدْرَسِيَّةُ فِي مَدْرَسَتِكِ كَثِيرَةٌ؟",
+                                                  "indo": "Apakah fasilitas sekolah di sekolahmu banyak?"
+                                        },
+                                        {
+                                                  "speaker": "نَادِينِي",
+                                                  "ar": "نَعَمْ يَا حِلْيَةُ، الْمَرَافِقُ الْمَدْرَسِيَّةُ فِي مَدْرَسَتِي كَثِيرَةٌ. مِنْهَا إِدَارَةٌ وَبُسْتَانٌ وَحَدِيقَةٌ وَحَمَّامَاتٌ وَسَاحَةٌ وَسُلَّمٌ وَغُرْفَةُ الإِشْرَافِ وَغُرْفَةُ الْحَارِسِ وَغُرْفَةُ الصِّحَّةِ وَغُرْفَةُ رَئِيسِ الْمَدْرَسَةِ وَغُرْفَةُ الْمُدَرِّسِينَ وَغُرْفَةُ الشُّؤُونِ الإِدَارِيَّةِ وَفُصُولٌ دِرَاسِيَّةٌ وَقَاعَةٌ كُبْرَى وَمَخْزَنٌ وَمَكْتَبٌ لِلأَمْنِ وَمَسْجِدٌ وَمَعْمَلٌ وَمَعْهَدٌ وَمَقْصَفٌ وَمَكْتَبَةٌ وَمَلْعَبٌ وَمَيْدَانٌ وَمِصْعَدٌ.",
+                                                  "indo": "Ya wahai Hilya, fasilitas sekolah di sekolahku banyak. Di antaranya ada kantor, taman, kebun, kamar mandi, halaman, tangga, ruang BK, ruang piket, UKS, ruang kepala sekolah, ruang guru, ruang TU, kelas-kelas, aula besar, gudang, pos keamanan, masjid, laboratorium, pesantren, kantin, perpustakaan, tempat bermain, lapangan, dan lift."
+                                        },
+                                        {
+                                                  "speaker": "حِلْيَة",
+                                                  "ar": "مَا شَاءَ اللَّهُ، مَرَافِقُ كَثِيرَةٌ جِدًّا. مَدْرَسَتُكِ مَدْرَسَةٌ كَبِيرَةٌ وَجَمِيلَةٌ.",
+                                                  "indo": "Masya Allah, fasilitasnya sangat banyak. Sekolahmu adalah sekolah yang besar dan indah."
+                                        }
+                              ]
+                    },
+                    {
+                              "id": 2,
+                              "title": "أَيْنَ الْمَسْجِدُ؟",
+                              "titleIndo": "Percakapan 2: Di Mana Masjid? (Najma & Salma)",
+                              "lines": [
+                                        {
+                                                  "speaker": "نَجْمَى",
+                                                  "ar": "السَّلاَمُ عَلَيْكُمْ.",
+                                                  "indo": "Assalamu 'alaikum."
+                                        },
+                                        {
+                                                  "speaker": "سَلْمَى",
+                                                  "ar": "وَعَلَيْكُمُ السَّلاَمُ.",
+                                                  "indo": "Wa 'alaikumus salam."
+                                        },
+                                        {
+                                                  "speaker": "نَجْمَى",
+                                                  "ar": "أَيْنَ الْمَعْهَدُ وَأَيْنَ الْمَسْجِدُ يَا سَلْمَى؟",
+                                                  "indo": "Di mana pesantren dan di mana masjid wahai Salma?"
+                                        },
+                                        {
+                                                  "speaker": "سَلْمَى",
+                                                  "ar": "الْمَعْهَدُ أَمَامَ الْمَدْرَسَةِ. وَالْمَسْجِدُ أَمَامَ الْمَدْرَسَةِ أَيْضًا.",
+                                                  "indo": "Pesantren ada di depan sekolah. Dan masjid ada di depan sekolah juga."
+                                        },
+                                        {
+                                                  "speaker": "نَجْمَى",
+                                                  "ar": "يَا سَلاَم. إِذًا، الْمَعْهَدُ وَالْمَسْجِدُ مُتَجَاوِرَانِ؟",
+                                                  "indo": "Wah luar biasa. Jadi, pesantren dan masjid itu berdampingan?"
+                                        },
+                                        {
+                                                  "speaker": "سَلْمَى",
+                                                  "ar": "نَعَمْ يَا أُخْتِي.",
+                                                  "indo": "Ya wahai saudariku."
+                                        },
+                                        {
+                                                  "speaker": "نَجْمَى",
+                                                  "ar": "حَسَنًا، شُكْرًا يَا أُخْتِي.",
+                                                  "indo": "Baiklah, terima kasih wahai saudariku."
+                                        },
+                                        {
+                                                  "speaker": "سَلْمَى",
+                                                  "ar": "عَفْوًا.",
+                                                  "indo": "Sama-sama."
+                                        }
+                              ]
+                    }
+          ]
+
             },
             qiraah: {
                 title: "قِرَاءَةٌ: مَدْرَسَتِي الْحَبِيبَةُ",
