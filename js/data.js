@@ -924,36 +924,248 @@ const arabicData = {
             icon: "fa-school",
             desc: "Mengenal nama-nama ruangan, fasilitas sekolah, serta kata sifat lokasi (Makan & Na'at Man'ut).",
             mufrodat: [
-                { id: 201, ar: "مَدْرَسَةٌ", latin: "Madrasah", indo: "Sekolah", exAr: "مَدْرَسَتِي كَبِيرَةٌ وَنَظِيفَةٌ.", exIndo: "Sekolahku besar dan bersih." },
-                { id: 202, ar: "فَصْلٌ", latin: "Fasl", indo: "Kelas", exAr: "أَدْخُلُ الْفَصْلَ فِي الصَّبَاحِ.", exIndo: "Saya masuk kelas di pagi hari." },
-                { id: 203, ar: "مَكْتَبَةٌ", latin: "Maktabah", indo: "Perpustakaan", exAr: "أَقْرَأُ الْكُتُبَ فِي الْمَكْتَبَةِ.", exIndo: "Saya membaca buku-buku di perpustakaan." },
-                { id: 204, ar: "مَعْمَلٌ", latin: "Ma'mal", indo: "Laboratorium", exAr: "مَعْمَلُ الْعُلُومِ وَاسِعٌ.", exIndo: "Laboratorium IPA itu luas." },
-                { id: 205, ar: "مَقْصَفٌ", latin: "Maqsaf", indo: "Kantin", exAr: "أَشْتَرِي الطَّعَامَ فِي الْمَقْصَفِ.", exIndo: "Saya membeli makanan di kantin." },
-                { id: 206, ar: "مَسْجِدٌ", latin: "Masjid", indo: "Masjid", exAr: "نُصَلِّي الظُّهْرَ فِي مَسْجِدِ الْمَدْرَسَةِ.", exIndo: "Kami shalat Zuhur di masjid sekolah." },
-                { id: 207, ar: "مَلْعَبٌ", latin: "Mal'ab", indo: "Lapangan Olahraga", exAr: "يَلْعَبُ الطُّلاَّبُ كُرَةَ الْقَدَمِ فِي الْمَلْعَبِ.", exIndo: "Para siswa bermain sepak bola di lapangan." },
-                { id: 208, ar: "إِدَارَةٌ", latin: "Idarah", indo: "Kantor / Tata Usaha", exAr: "غُرْفَةُ الإِدَارَةِ بَجَانِبِ الْمَكْتَبَةِ.", exIndo: "Ruang kantor ada di samping perpustakaan." },
-                { id: 209, ar: "غُرْفَةُ الْمُدَرِّسِينَ", latin: "Ghurfatul Mudarrisin", indo: "Ruang Guru", exAr: "الْمُدَرِّسُونَ يَجْلِسُونَ فِي غُرْفَةِ الْمُدَرِّسِينَ.", exIndo: "Para guru duduk di ruang guru." },
-                { id: 210, ar: "غُرْفَةُ النَّاظِرِ", latin: "Ghurfatun Nazir", indo: "Ruang Kepala Sekolah", exAr: "غُرْفَةُ النَّاظِرِ مُنَظَّمَةٌ جِدًّا.", exIndo: "Ruang kepala sekolah sangat rapi." },
-                { id: 211, ar: "حَمَّامٌ", latin: "Hammam", indo: "Kamar Mandi / Toilet", exAr: "الْحَمَّامُ نَظِيفٌ وَمُعَطَّرٌ.", exIndo: "Toilet itu bersih dan harum." },
-                { id: 212, ar: "سَاحَةٌ", latin: "Sahah", indo: "Halaman Sekolah", exAr: "نَقِفُ فِي السَّاحَةِ لِلإِشْتِرَاكِ فِي الإِذَاعَةِ.", exIndo: "Kami berdiri di halaman untuk upacara." },
-                { id: 213, ar: "بُسْتَانٌ", latin: "Bustan", indo: "Taman", exAr: "فِي الْبُسْتَانِ أَزْهَارٌ جَمِيلَةٌ.", exIndo: "Di taman ada bunga-bunga yang indah." },
-                { id: 214, ar: "قَاعَةٌ", latin: "Qa'ah", indo: "Aula / Gedung Pertemuan", exAr: "نَجْتَمِعُ فِي الْقَاعَةِ الْكَبِيرَةِ.", exIndo: "Kami berkumpul di aula yang besar." },
-                { id: 215, ar: "مُصَلَّى", latin: "Musalla", indo: "Musholla", exAr: "نُصَلِّي الضُّحَى فِي الْمُصَلَّى.", exIndo: "Kami shalat Duha di musholla." },
-                { id: 216, ar: "أَمَامَ", latin: "Amama", indo: "Di depan", exAr: "الْمَسْجِدُ أَمَامَ الْفَصْلِ.", exIndo: "Masjid ada di depan kelas." },
-                { id: 217, ar: "وَرَاءَ / خَلْفَ", latin: "Wara'a / Khalfa", indo: "Di belakang", exAr: "الْمَلْعَبُ وَرَاءَ الْمَدْرَسَةِ.", exIndo: "Lapangan ada di belakang sekolah." },
-                { id: 218, ar: "بِجَانِبِ", latin: "Bijanibi", indo: "Di samping", exAr: "الْمَقْصَفُ بِجَانِبِ الْمَعْمَلِ.", exIndo: "Kantin ada di samping laboratorium." },
-                { id: 219, ar: "فَوْقَ", latin: "Fauqa", indo: "Di atas (menempel/melayang)", exAr: "الْمِصْبَاحُ فَوْقَ الْمَكْتَبِ.", exIndo: "Lampu ada di atas meja." },
-                { id: 220, ar: "تَحْتَ", latin: "Tahta", indo: "Di bawah", exAr: "الْقِطُّ تَحْتَ الْكُرْسِيِّ.", exIndo: "Kucing ada di bawah kursi." },
-                { id: 221, ar: "كَبِيرٌ / كَبِيرَةٌ", latin: "Kabir / Kabirah", indo: "Besar", exAr: "الْمَكْتَبَةُ كَبِيرَةٌ جِدًّا.", exIndo: "Perpustakaan itu sangat besar." },
-                { id: 222, ar: "صَغِيرٌ / صَغِيرَةٌ", latin: "Saghir / Saghirah", indo: "Kecil", exAr: "الْمَقْصَفُ صَغِيرٌ وَلٰكِنَّهُ نَظِيفٌ.", exIndo: "Kantin itu kecil tetapi bersih." },
-                { id: 223, ar: "نَظِيفٌ / نَظِيفَةٌ", latin: "Nazif / Nazifah", indo: "Bersih", exAr: "فَصْلُنَا نَظِيفٌ وَمُرَتَّبٌ.", exIndo: "Kelas kami bersih dan teratur." },
-                { id: 224, ar: "وَاسِعٌ / وَاسِعَةٌ", latin: "Wasi' / Wasi'ah", indo: "Luas", exAr: "سَاحَةُ الْمَدْرَسَةِ وَاسِعَةٌ.", exIndo: "Halaman sekolah sangat luas." },
-                { id: 225, ar: "جَمِيلٌ / جَمِيلَةٌ", latin: "Jamil / Jamilah", indo: "Indah / Bagus", exAr: "الْبُسْتَانُ جَمِيلٌ جِدًّا.", exIndo: "Taman itu sangat indah." },
-                { id: 226, ar: "سُلَّمٌ", latin: "Sullam", indo: "Tangga", exAr: "أَصْعَدُ السُّلَّمَ إِلَى الطَّابَقِ الثَّانِي.", exIndo: "Saya naik tangga ke lantai dua." },
-                { id: 227, ar: "طَابَقٌ", latin: "Tabaq", indo: "Lantai (Tingkat)", exAr: "فَصْلِي فِي الطَّابَقِ الأَوَّلِ.", exIndo: "Kelasku berada di lantai pertama." },
-                { id: 228, ar: "حَارِسٌ", latin: "Haris", indo: "Satpam / Penjaga Sekolah", exAr: "الْحَارِسُ يَقِفُ عِنْدَ بَابِ الْمَدْرَسَةِ.", exIndo: "Satpam berdiri di pintu gerbang sekolah." },
-                { id: 229, ar: "عِيَادَةٌ مَدْرَسِيَّةٌ", latin: "Iyadah madrasiyyah", indo: "UKS / Poliklinik Sekolah", exAr: "الطَالِبُ الْمَرِيضُ فِي الْعِيَادَةِ.", exIndo: "Siswa yang sakit ada di UKS." },
-                { id: 230, ar: "مَوْقِفُ الدَّرَّاجَاتِ", latin: "Mauqifud darrajat", indo: "Parkiran Sepeda", exAr: "أَضَعُ دَرَّاجَتِي فِي الْمَوْقِفِ.", exIndo: "Saya menaruh sepedaku di tempat parkir." }
+
+          {
+                    "id": 201,
+                    "ar": "مَدْرَسَةٌ (حُكُومِيَّةٌ / أَهْلِيَّةٌ)",
+                    "latin": "",
+                    "indo": "Sekolah (Negeri / Swasta)",
+                    "exAr": "مَدْرَسَتِي مَدْرَسَةٌ حُكُومِيَّةٌ كَبِيرَةٌ.",
+                    "exIndo": "Sekolahku adalah sekolah negeri yang besar."
+          },
+          {
+                    "id": 202,
+                    "ar": "إِبْتِدَائِيَّةٌ / ثَانَوِيَّةٌ / عَالِيَةٌ",
+                    "latin": "",
+                    "indo": "Ibtida'iyah / Tsanawiyah / Aliyah",
+                    "exAr": "أَنَا طَالِبٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ.",
+                    "exIndo": "Saya siswa di Madrasah Tsanawiyah."
+          },
+          {
+                    "id": 203,
+                    "ar": "غُرْفَةُ رَئِيسِ الْمَدْرَسَةِ",
+                    "latin": "",
+                    "indo": "Ruang Kepala Sekolah",
+                    "exAr": "غُرْفَةُ رَئِيسِ الْمَدْرَسَةِ نَظِيفَةٌ وَمُرَتَّبَةٌ.",
+                    "exIndo": "Ruang Kepala Sekolah bersih dan rapi."
+          },
+          {
+                    "id": 204,
+                    "ar": "غُرْفَةُ الشُّؤُونِ الإِدَارِيَّةِ (إِدَارَةٌ)",
+                    "latin": "",
+                    "indo": "Ruang Tata Usaha (TU) / Kantor",
+                    "exAr": "مَحْمُودٌ يَذْهَبُ إِلَى الإِدَارَةِ.",
+                    "exIndo": "Mahmud pergi ke kantor TU."
+          },
+          {
+                    "id": 205,
+                    "ar": "غُرْفَةُ الْمُدَرِّسِ",
+                    "latin": "",
+                    "indo": "Ruang Guru",
+                    "exAr": "الْمُدَرِّسُونَ فِي غُرْفَةِ الْمُدَرِّسِينَ.",
+                    "exIndo": "Para guru berada di ruang guru."
+          },
+          {
+                    "id": 206,
+                    "ar": "غُرْفَةُ الصِّحَّةِ (عِيَادَةٌ)",
+                    "latin": "",
+                    "indo": "Ruang Kesehatan / UKS",
+                    "exAr": "الْمَرِيضُ فِي غُرْفَةِ الصِّحَّةِ.",
+                    "exIndo": "Pasien yang sakit ada di UKS."
+          },
+          {
+                    "id": 207,
+                    "ar": "فَصْلٌ",
+                    "latin": "",
+                    "indo": "Ruang Kelas",
+                    "exAr": "أَدْخُلُ الْفَصْلَ فِي الصَّبَاحِ.",
+                    "exIndo": "Saya masuk kelas di pagi hari."
+          },
+          {
+                    "id": 208,
+                    "ar": "مَكْتَبَةٌ",
+                    "latin": "",
+                    "indo": "Perpustakaan",
+                    "exAr": "أَقْرَأُ الْكُتُبَ فِي الْمَكْتَبَةِ.",
+                    "exIndo": "Saya membaca buku-buku di perpustakaan."
+          },
+          {
+                    "id": 209,
+                    "ar": "مَعْمَلٌ",
+                    "latin": "",
+                    "indo": "Laboratorium",
+                    "exAr": "مَعْمَلُ الْعُلُومِ وَاسِعٌ.",
+                    "exIndo": "Laboratorium IPA itu luas."
+          },
+          {
+                    "id": 210,
+                    "ar": "مَقْصَفٌ",
+                    "latin": "",
+                    "indo": "Kantin Sekolah",
+                    "exAr": "أَشْتَرِي الطَّعَامَ فِي الْمَقْصَفِ.",
+                    "exIndo": "Saya membeli makanan di kantin."
+          },
+          {
+                    "id": 211,
+                    "ar": "مَسْجِدٌ / مُصَلَّى",
+                    "latin": "",
+                    "indo": "Masjid / Musholla",
+                    "exAr": "نُصَلِّي الظُّهْرَ فِي الْمَسْجِدِ.",
+                    "exIndo": "Kami shalat Zuhur di masjid."
+          },
+          {
+                    "id": 212,
+                    "ar": "مَلْعَبٌ / مَيْدَانٌ",
+                    "latin": "",
+                    "indo": "Lapangan / Tempat Bermain",
+                    "exAr": "الْمَيْدَانُ أَمَامَ الْمَعْهَدِ.",
+                    "exIndo": "Lapangan itu di depan pesantren."
+          },
+          {
+                    "id": 213,
+                    "ar": "مَبْنَى",
+                    "latin": "",
+                    "indo": "Gedung Sekolah",
+                    "exAr": "مَبْنَى الْمَدْرَسَةِ جَدِيدٌ وَعَالٍ.",
+                    "exIndo": "Gedung sekolah itu baru dan tinggi."
+          },
+          {
+                    "id": 214,
+                    "ar": "سَاحَةٌ",
+                    "latin": "",
+                    "indo": "Halaman Sekolah",
+                    "exAr": "نَقِفُ فِي السَّاحَةِ لِلإِشْتِرَاكِ فِي الإِذَاعَةِ.",
+                    "exIndo": "Kami berdiri di halaman untuk upacara."
+          },
+          {
+                    "id": 215,
+                    "ar": "بُسْتَانٌ / حَدِيقَةٌ",
+                    "latin": "",
+                    "indo": "Taman / Kebun",
+                    "exAr": "الْبُسْتَانُ تَحْتَ الْمَعْمَلِ.",
+                    "exIndo": "Taman itu di bawah laboratorium."
+          },
+          {
+                    "id": 216,
+                    "ar": "سُلَّمٌ",
+                    "latin": "",
+                    "indo": "Tangga",
+                    "exAr": "السُّلَّمُ هُنَاكَ بِجَانِبِ الْفَصْلِ.",
+                    "exIndo": "Tangga ada di sana di samping kelas."
+          },
+          {
+                    "id": 217,
+                    "ar": "مِصْعَدٌ",
+                    "latin": "",
+                    "indo": "Lift / Elevator",
+                    "exAr": "نَصْعَدُ إِلَى الطَّابَقِ الْعُلْوِيِّ بِالْمِصْعَدِ.",
+                    "exIndo": "Kami naik ke tingkat atas menggunakan lift."
+          },
+          {
+                    "id": 218,
+                    "ar": "مِرْحَاضٌ / حَمَّامٌ",
+                    "latin": "",
+                    "indo": "Toilet / WC / Kamar Mandi",
+                    "exAr": "الْمِرْحَاضُ نَظِيفٌ هُنَا.",
+                    "exIndo": "Toilet itu bersih di sini."
+          },
+          {
+                    "id": 219,
+                    "ar": "مَعْهَدٌ",
+                    "latin": "",
+                    "indo": "Ma'had / Pesantren",
+                    "exAr": "الْقَاعَةُ كَبِيرَةٌ فِي الْمَعْهَدِ.",
+                    "exIndo": "Aula itu besar di pesantren."
+          },
+          {
+                    "id": 220,
+                    "ar": "طَابَقٌ سُفْلِيٌّ / طَابَقٌ عُلْوِيٌّ",
+                    "latin": "",
+                    "indo": "Lantai Bawah / Lantai Atas",
+                    "exAr": "فَصْلِي فِي الطَّابَقِ الْعُلْوِيِّ.",
+                    "exIndo": "Kelasku ada di lantai atas."
+          },
+          {
+                    "id": 221,
+                    "ar": "كَبِيرٌ X صَغِيرٌ",
+                    "latin": "",
+                    "indo": "Besar X Kecil",
+                    "exAr": "الْمَسْجِدُ كَبِيرٌ وَالْمَقْصَفُ صَغِيرٌ.",
+                    "exIndo": "Masjid itu besar dan kantin itu kecil."
+          },
+          {
+                    "id": 222,
+                    "ar": "قَرِيبٌ X بَعِيدٌ",
+                    "latin": "",
+                    "indo": "Dekat X Jauh",
+                    "exAr": "الْمَكْتَبَةُ قَرِيبَةٌ مِنَ الْفَصْلِ.",
+                    "exIndo": "Perpustakaan itu dekat dari kelas."
+          },
+          {
+                    "id": 223,
+                    "ar": "وَاسِعٌ X ضَيِّقٌ",
+                    "latin": "",
+                    "indo": "Luas X Sempit",
+                    "exAr": "سَاحَةُ الْمَدْرَسَةِ وَاسِعَةٌ.",
+                    "exIndo": "Halaman sekolah sangat luas."
+          },
+          {
+                    "id": 224,
+                    "ar": "نَظِيفٌ X مُتَّسِخٌ",
+                    "latin": "",
+                    "indo": "Bersih X Kotor",
+                    "exAr": "فَصْلُنَا نَظِيفٌ وَجَمِيلٌ.",
+                    "exIndo": "Kelas kami bersih dan indah."
+          },
+          {
+                    "id": 225,
+                    "ar": "نَشِيطٌ X كَسْلاَنُ",
+                    "latin": "",
+                    "indo": "Rajin X Malas",
+                    "exAr": "عَزَّامٌ طَالِبٌ نَشِيطٌ فِي الدِّرَاسَةِ.",
+                    "exIndo": "Azzam adalah siswa yang rajin dalam belajar."
+          },
+          {
+                    "id": 226,
+                    "ar": "أَمَامَ",
+                    "latin": "",
+                    "indo": "Di depan (Keterangan Tempat)",
+                    "exAr": "الْمَيْدَانُ أَمَامَ الْمَعْهَدِ.",
+                    "exIndo": "Lapangan itu di depan ma'had."
+          },
+          {
+                    "id": 227,
+                    "ar": "وَرَاءَ / خَلْفَ",
+                    "latin": "",
+                    "indo": "Di belakang",
+                    "exAr": "الْمَسْجِدُ وَرَاءَ غُرْفَةِ الصِّحَّةِ.",
+                    "exIndo": "Masjid itu di belakang ruang kesehatan."
+          },
+          {
+                    "id": 228,
+                    "ar": "تَحْتَ",
+                    "latin": "",
+                    "indo": "Di bawah",
+                    "exAr": "الْبُسْتَانُ تَحْتَ الْمَعْمَلِ.",
+                    "exIndo": "Taman itu di bawah laboratorium."
+          },
+          {
+                    "id": 229,
+                    "ar": "جَانِبَ",
+                    "latin": "",
+                    "indo": "Di samping",
+                    "exAr": "الْمَقْصَفُ جَانِبَ الْمَلْعَبِ.",
+                    "exIndo": "Kantin itu di samping tempat bermain."
+          },
+          {
+                    "id": 230,
+                    "ar": "بَيْنَ / وَسَطَ",
+                    "latin": "",
+                    "indo": "Di antara / Di tengah",
+                    "exAr": "الْقَاعَةُ بَيْنَ الْحَمَّامِ وَالسَّاحَةِ.",
+                    "exIndo": "Aula itu di antara kamar mandi dan halaman."
+          }
+
             ],
             hiwar: {
                 title: "الْحِوَارُ: جَوْلَةٌ شَامِلَةٌ فِي الْمَرَافِقِ الْمَدْرَسِيَّةِ",
