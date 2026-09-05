@@ -12,36 +12,248 @@ const arabicData = {
             icon: "fa-users",
             desc: "Mempelajari ungkapan salam, perkenalan diri, kata ganti (Dhamir), dan kata tunjuk (Isim Isyarah).",
             mufrodat: [
-                { id: 101, ar: "أَنَا", latin: "Ana", indo: "Saya", exAr: "أَنَا طَالِبٌ جَدِيدٌ فِي الْمَدْرَسَةِ.", exIndo: "Saya adalah siswa baru di sekolah." },
-                { id: 102, ar: "أَنْتَ", latin: "Anta", indo: "Kamu (Laki-laki)", exAr: "أَنْتَ صَدِيقِي الْعَزِيزُ.", exIndo: "Kamu adalah teman baikku." },
-                { id: 103, ar: "أَنْتِ", latin: "Anti", indo: "Kamu (Perempuan)", exAr: "أَنْتِ طَالِبَةٌ نَشِيطَةٌ.", exIndo: "Kamu adalah siswi yang rajin." },
-                { id: 104, ar: "هُوَ", latin: "Huwa", indo: "Dia (Laki-laki)", exAr: "هُوَ مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ.", exIndo: "Dia adalah guru bahasa Arab." },
-                { id: 105, ar: "هِيَ", latin: "Hiya", indo: "Dia (Perempuan)", exAr: "هِيَ طَبِيبَةٌ مَاهِرَةٌ.", exIndo: "Dia adalah seorang dokter yang ahli." },
-                { id: 106, ar: "هٰذَا", latin: "Haza", indo: "Ini (Laki-laki)", exAr: "هٰذَا أَخِي، اسْمُهُ عُثْمَانُ.", exIndo: "Ini saudaraku, namanya Utsman." },
-                { id: 107, ar: "هٰذِهِ", latin: "Hazihi", indo: "Ini (Perempuan)", exAr: "هٰذِهِ أُخْتِي، اسْمُهَا فَاطِمَةُ.", exIndo: "Ini saudariku, namanya Fatimah." },
-                { id: 108, ar: "ذٰلِكَ", latin: "Zalika", indo: "Itu (Laki-laki)", exAr: "ذٰلِكَ طَالِبٌ مَاهِرٌ.", exIndo: "Itu adalah siswa yang pintar." },
-                { id: 109, ar: "تِلْكَ", latin: "Tilka", indo: "Itu (Perempuan)", exAr: "تِلْكَ مَدْرَسَتِي الْجَمِيلَةُ.", exIndo: "Itu adalah sekolahku yang indah." },
-                { id: 110, ar: "مَا اسْمُكَ؟", latin: "Masmuka?", indo: "Siapa namamu? (L-L)", exAr: "مَا اسْمُكَ يَا أَخِي؟ اسْمِي عَزَّامُ.", exIndo: "Siapa namamu wahai saudaraku? Namaku Azzam." },
-                { id: 111, ar: "مَا اسْمُكِ؟", latin: "Masmuki?", indo: "Siapa namamu? (P-P)", exAr: "مَا اسْمُكِ يَا أُخْتِي؟ اسْمِي حِلْيَةُ.", exIndo: "Siapa namamu wahai saudariku? Namaku Hilya." },
-                { id: 112, ar: "مَنْ أَنْتَ؟", latin: "Man anta?", indo: "Siapa kamu? (L-L)", exAr: "مَنْ أَنْتَ؟ أَنَا طَالِبٌ فِي الصَّفِّ السَّابِعِ.", exIndo: "Siapa kamu? Saya siswa di kelas 7." },
-                { id: 113, ar: "مِنْ أَيْن أنتَ؟", latin: "Min aina anta?", indo: "Dari mana kamu?", exAr: "مِنْ أَيْن أَنْتَ؟ أَنَا مِنْ سُورَابَايَا.", exIndo: "Dari mana kamu? Saya dari Surabaya." },
-                { id: 114, ar: "أَهْلًا وَسَهْلًا", latin: "Ahlan wa sahlan", indo: "Selamat datang", exAr: "أَهْلًا وَسَهْلًا بِكُمْ فِي مَدْرَسَتِنَا.", exIndo: "Selamat datang di sekolah kami." },
-                { id: 115, ar: "أَهْلًا بِكَ", latin: "Ahlan bika", indo: "Selamat datang juga", exAr: "أَهْلًا بِكَ يَا صَدِيقِي.", exIndo: "Selamat datang juga wahai temanku." },
-                { id: 116, ar: "صَبَاحُ الْخَيْرِ", latin: "Sabahul khair", indo: "Selamat pagi", exAr: "صَبَاحُ الْخَيْرِ يَا أُسْتَاذُ.", exIndo: "Selamat pagi wahai Pak Guru." },
-                { id: 117, ar: "صَبَاحُ النُّورِ", latin: "Sabahun nur", indo: "Selamat pagi juga", exAr: "صَبَاحُ النُّورِ يَا طُلَّابِي.", exIndo: "Selamat pagi juga murid-muridku." },
-                { id: 118, ar: "مَسَاءُ الْخَيْرِ", latin: "Masa-ul khair", indo: "Selamat sore", exAr: "مَسَاءُ الْخَيْرِ يَا أُمِّي.", exIndo: "Selamat sore wahai ibuku." },
-                { id: 119, ar: "كَيْفَ حَالُكَ؟", latin: "Kaifa haluka?", indo: "Bagaimana kabarmu?", exAr: "كَيْفَ حَالُكَ الْيَوْمَ؟ أَنَا بِخَيْرٍ، شُكْرًا.", exIndo: "Bagaimana kabarmu hari ini? Saya baik, terima kasih." },
-                { id: 120, ar: "الْحَمْدُ لِلَّهِ", latin: "Alhamdulillah", indo: "Segala puji bagi Allah", exAr: "أَنَا بِخَيْرٍ، وَالْحَمْدُ لِلَّهِ.", exIndo: "Saya baik-baik saja, alhamdulillah." },
-                { id: 121, ar: "شُكْرًا جَزِيلًا", latin: "Syukran jazilan", indo: "Terima kasih banyak", exAr: "شُكْرًا جَزِيلًا عَلَى مُسَاعَدَتِكَ.", exIndo: "Terima kasih banyak atas bantuanmu." },
-                { id: 122, ar: "عَفْوًا", latin: "Afwan", indo: "Sama-sama / Maaf", exAr: "عَفْوًا يَا صَدِيقِي، لاَ شُكْرَ عَلَى وَاجِبٍ.", exIndo: "Sama-sama wahai temanku, tidak perlu terima kasih." },
-                { id: 123, ar: "إِلَى اللِّقَاءِ", latin: "Ilal liqa'", indo: "Sampai jumpa", exAr: "إِلَى اللِّقَاءِ فِي الْغَدِ.", exIndo: "Sampai jumpa besok." },
-                { id: 124, ar: "مَعَ السَّلاَمَةِ", latin: "Ma'as salamah", indo: "Semoga selamat / Dadaa", exAr: "مَعَ السَّلاَمَةِ، حَفِظَكَ اللَّهُ.", exIndo: "Semoga selamat, semoga Allah menjagamu." },
-                { id: 125, ar: "طَالِبٌ / طَالِبَةٌ", latin: "Talib / Talibah", indo: "Siswa / Siswi", exAr: "أَحْمَدُ طَالِبٌ، وَفَاطِمَةُ طَالِبَةٌ.", exIndo: "Ahmad adalah siswa, dan Fatimah adalah siswi." },
-                { id: 126, ar: "أُسْتَاذٌ / أُسْتَاذَةٌ", latin: "Ustaz / Ustazah", indo: "Guru Laki-laki / Perempuan", exAr: "الأُسْتَاذُ حَسَنٌ يُمَلِّمُنَا اللُّغَةَ الْعَرَبِيَّةَ.", exIndo: "Pak Guru Hasan mengajar kami bahasa Arab." },
-                { id: 127, ar: "صَدِيقٌ / صَدِيقَةٌ", latin: "Sadiq / Sadiqah", indo: "Teman Laki-laki / Perempuan", exAr: "عُمَرُ صَدِيقِي الْمُخْلِصُ.", exIndo: "Umar adalah temanku yang setia." },
-                { id: 128, ar: "نَحْنُ", latin: "Nahnu", indo: "Kami / Kita", exAr: "نَحْنُ طُلَّابٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ.", exIndo: "Kami adalah siswa di Madrasah Tsanawiyah." },
-                { id: 129, ar: "سَعِيدٌ بِلِقَائِكَ", latin: "Sa'idun biliqa'ik", indo: "Senang bertemu denganmu", exAr: "أَنَا سَعِيدٌ بِلِقَائِكَ يَا أَخِي.", exIndo: "Saya senang bertemu denganmu wahai saudaraku." },
-                { id: 130, ar: "مَعْذِرَةً", latin: "Ma'ziratan", indo: "Permisi / Maaf", exAr: "مَعْذِرَةً يَا أُسْتَاذُ، أَيْنَ الْمَكْتَبَةُ؟", exIndo: "Permisi wahai Pak Guru, di mana perpustakaan?" }
+
+          {
+                    "id": 101,
+                    "ar": "هُوَ",
+                    "latin": "",
+                    "indo": "Dia (Laki-laki)",
+                    "exAr": "هُوَ طَالِبٌ نَشِيطٌ فِي الْمَدْرَسَةِ.",
+                    "exIndo": "Dia adalah siswa yang rajin di sekolah."
+          },
+          {
+                    "id": 102,
+                    "ar": "هِيَ",
+                    "latin": "",
+                    "indo": "Dia (Perempuan)",
+                    "exAr": "هِيَ طَالِبَةٌ مَاهِرَةٌ فِي الْفَصْلِ.",
+                    "exIndo": "Dia adalah siswi yang pintar di kelas."
+          },
+          {
+                    "id": 103,
+                    "ar": "أَنْتَ",
+                    "latin": "",
+                    "indo": "Kamu (Laki-laki)",
+                    "exAr": "أَنْتَ صَدِيقِي الْعَزِيزُ.",
+                    "exIndo": "Kamu adalah teman baikku."
+          },
+          {
+                    "id": 104,
+                    "ar": "أَنْتِ",
+                    "latin": "",
+                    "indo": "Kamu (Perempuan)",
+                    "exAr": "أَنْتِ صَدِيقَتِي الْعَزِيزَةُ.",
+                    "exIndo": "Kamu adalah temanku yang baik."
+          },
+          {
+                    "id": 105,
+                    "ar": "أَنَا",
+                    "latin": "",
+                    "indo": "Saya",
+                    "exAr": "أَنَا تِلْمِيذٌ فِي الصَّفِّ السَّابِعِ.",
+                    "exIndo": "Saya adalah siswa di kelas 7."
+          },
+          {
+                    "id": 106,
+                    "ar": "نَحْنُ",
+                    "latin": "",
+                    "indo": "Kami / Kita",
+                    "exAr": "نَحْنُ طُلَّابٌ فِي هٰذِهِ الْمَدْرَسَةِ.",
+                    "exIndo": "Kami adalah siswa-siswa di sekolah ini."
+          },
+          {
+                    "id": 107,
+                    "ar": "هٰذَا",
+                    "latin": "",
+                    "indo": "Ini (Laki-laki)",
+                    "exAr": "هٰذَا أَخِي، إِسْمُهُ صَالِحٌ.",
+                    "exIndo": "Ini saudaraku, namanya Salih."
+          },
+          {
+                    "id": 108,
+                    "ar": "هٰذِهِ",
+                    "latin": "",
+                    "indo": "Ini (Perempuan)",
+                    "exAr": "هٰذِهِ أُخْتِي، إِسْمُهَا فَاطِمَةُ.",
+                    "exIndo": "Ini saudariku, namanya Fatimah."
+          },
+          {
+                    "id": 109,
+                    "ar": "ذٰلِكَ",
+                    "latin": "",
+                    "indo": "Itu (Laki-laki)",
+                    "exAr": "ذٰلِكَ الأُسْتَاذُ مَنْصُورٌ، هُوَ مَدِيرُ الْمَدْرَسَةِ.",
+                    "exIndo": "Itu Pak Mansur, dia kepala sekolah."
+          },
+          {
+                    "id": 110,
+                    "ar": "تِلْكَ",
+                    "latin": "",
+                    "indo": "Itu (Perempuan)",
+                    "exAr": "تِلْكَ الأُسْتَاذَةُ نَفِيسَةُ، هِيَ مُدَرِّسَةٌ.",
+                    "exIndo": "Itu Bu Nafisah, dia seorang guru."
+          },
+          {
+                    "id": 111,
+                    "ar": "طَالِبٌ / تِلْمِيذٌ",
+                    "latin": "",
+                    "indo": "Siswa (Laki-laki)",
+                    "exAr": "عَزَّامٌ تِلْمِيذٌ جَدِيدٌ فِي الْمَدْرَسَةِ.",
+                    "exIndo": "Azzam adalah siswa baru di sekolah."
+          },
+          {
+                    "id": 112,
+                    "ar": "طَالِبَةٌ / تِلْمِيذَةٌ",
+                    "latin": "",
+                    "indo": "Siswi (Perempuan)",
+                    "exAr": "فِطْرِيَّةُ تِلْمِيذَةٌ فِي الصَّفِّ السَّابِعِ.",
+                    "exIndo": "Fitriyah adalah siswi di kelas 7."
+          },
+          {
+                    "id": 113,
+                    "ar": "صَدِيقِي",
+                    "latin": "",
+                    "indo": "Temanku (Laki-laki)",
+                    "exAr": "صَالِحٌ صَدِيقِي الْمُخْلِصُ.",
+                    "exIndo": "Salih adalah temanku yang setia."
+          },
+          {
+                    "id": 114,
+                    "ar": "صَدِيقَتِي",
+                    "latin": "",
+                    "indo": "Temanku (Perempuan)",
+                    "exAr": "فِطْرِيَّةُ صَدِيقَتِي فِي الْفَصْلِ.",
+                    "exIndo": "Fitriyah adalah temanku di kelas."
+          },
+          {
+                    "id": 115,
+                    "ar": "إِسْمِي",
+                    "latin": "",
+                    "indo": "Namaku",
+                    "exAr": "إِسْمِي فَارُوقٌ، أَنَا طَالِبٌ.",
+                    "exIndo": "Namaku Faruq, saya seorang siswa."
+          },
+          {
+                    "id": 116,
+                    "ar": "إِسْمُكَ / إِسْمُكِ",
+                    "latin": "",
+                    "indo": "Namamu (Lk / Pr)",
+                    "exAr": "مَا إِسْمُكَ يَا أَخِي؟ - إِسْمِي عَزَّامٌ.",
+                    "exIndo": "Siapa namamu wahai saudaraku? - Namaku Azzam."
+          },
+          {
+                    "id": 117,
+                    "ar": "مُدَرِّسٌ / مُدَرِّسَةٌ",
+                    "latin": "",
+                    "indo": "Guru (Lk / Pr)",
+                    "exAr": "الأُسْتَاذَةُ نَفِيسَةُ مُدَرِّسَةُ اللُّغَةِ الْعَرَبِيَّةِ.",
+                    "exIndo": "Ustadzah Nafisah adalah guru Bahasa Arab."
+          },
+          {
+                    "id": 118,
+                    "ar": "مُدِيرٌ / مُدِيرَةٌ",
+                    "latin": "",
+                    "indo": "Kepala Sekolah (Lk / Pr)",
+                    "exAr": "الأُسْتَاذُ مَنْصُورٌ مُدِيرُ الْمَدْرَسَةِ.",
+                    "exIndo": "Ustadz Mansur adalah kepala sekolah."
+          },
+          {
+                    "id": 119,
+                    "ar": "مُوَظَّفٌ / مُوَظَّفَةٌ",
+                    "latin": "",
+                    "indo": "Pegawai (Lk / Pr)",
+                    "exAr": "السَّيِّدَةُ حَفْصَةُ مُوَظَّفَةٌ فِي الْمَكْتَبَةِ.",
+                    "exIndo": "Bu Hafsah adalah pegawai di perpustakaan."
+          },
+          {
+                    "id": 120,
+                    "ar": "خَادِمٌ / خَادِمَةٌ",
+                    "latin": "",
+                    "indo": "Staf Kebersihan (Lk / Pr)",
+                    "exAr": "نَبِيلَةُ خَادِمَةٌ نَشِيطَةٌ فِي الْمَدْرَسَةِ.",
+                    "exIndo": "Nabilah adalah staf kebersihan yang rajin di sekolah."
+          },
+          {
+                    "id": 121,
+                    "ar": "تَاجِرٌ / تَاجِرَةٌ (بَائِعٌ/بَائِعَةٌ)",
+                    "latin": "",
+                    "indo": "Penjual / Pedagang (Lk / Pr)",
+                    "exAr": "السَّيِّدُ خَالِصٌ تَاجِرٌ فِي الْمَقْصَفِ.",
+                    "exIndo": "Pak Khalis adalah penjual di kantin."
+          },
+          {
+                    "id": 122,
+                    "ar": "بَوَّابٌ / بَوَّابَةٌ",
+                    "latin": "",
+                    "indo": "Satpam / Penjaga Gerbang (Lk / Pr)",
+                    "exAr": "السَّيِّدُ مَسْعُودٌ بَوَّابٌ مِنْ سُورَابَايَا.",
+                    "exIndo": "Pak Mas'ud adalah satpam dari Surabaya."
+          },
+          {
+                    "id": 123,
+                    "ar": "مَا",
+                    "latin": "",
+                    "indo": "Apa / Siapa (untuk nama)",
+                    "exAr": "مَا إِسْمُكَ يَا صَدِيقِي؟",
+                    "exIndo": "Siapa namamu wahai temanku?"
+          },
+          {
+                    "id": 124,
+                    "ar": "مَنْ",
+                    "latin": "",
+                    "indo": "Siapa (untuk orang)",
+                    "exAr": "مَنْ أَنْتَ؟ أَنَا تِلْمِيذٌ فِي هٰذِهِ الْمَدْرَسَةِ.",
+                    "exIndo": "Siapa kamu? Saya siswa di sekolah ini."
+          },
+          {
+                    "id": 125,
+                    "ar": "هَلْ",
+                    "latin": "",
+                    "indo": "Apakah",
+                    "exAr": "هَلْ أَنْتَ طَالِبٌ جَدِيدٌ؟ نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ.",
+                    "exIndo": "Apakah kamu siswa baru? Ya, saya siswa baru."
+          },
+          {
+                    "id": 126,
+                    "ar": "كَيْفَ",
+                    "latin": "",
+                    "indo": "Bagaimana",
+                    "exAr": "كَيْفَ حَالُكَ؟ أَنَا بِخَيْرٍ، وَالْحَمْدُ لِلَّهِ.",
+                    "exIndo": "Bagaimana kabarmu? Saya baik alhamdulillah."
+          },
+          {
+                    "id": 127,
+                    "ar": "مِنْ أَيْن",
+                    "latin": "",
+                    "indo": "Dari mana",
+                    "exAr": "مِنْ أَيْن أَنْتَ؟ أَنَا مِنْ مَالَانْج.",
+                    "exIndo": "Dari mana kamu? Saya dari Malang."
+          },
+          {
+                    "id": 128,
+                    "ar": "السَّلاَمُ عَلَيْكُمْ / وَعَلَيْكُمُ السَّلاَمُ",
+                    "latin": "",
+                    "indo": "Assalamu 'Alaikum / Wa 'Alaikum Salam",
+                    "exAr": "السَّلاَمُ عَلَيْكُمْ! - وَعَلَيْكُمُ السَّلاَمُ.",
+                    "exIndo": "Assalamu 'Alaikum! - Wa 'Alaikum Salam."
+          },
+          {
+                    "id": 129,
+                    "ar": "صَبَاحُ الْخَيْرِ / صَبَاحُ النُّورِ",
+                    "latin": "",
+                    "indo": "Selamat Pagi / Selamat Pagi juga",
+                    "exAr": "صَبَاحُ الْخَيْرِ يَا أُسْتَاذُ! - صَبَاحُ النُّورِ!",
+                    "exIndo": "Selamat pagi wahai Pak Guru! - Selamat pagi juga!"
+          },
+          {
+                    "id": 130,
+                    "ar": "نَهَارُكَ سَعِيدٌ / لَيْلَتُكَ سَعِيدَةٌ",
+                    "latin": "",
+                    "indo": "Selamat Siang / Selamat Malam",
+                    "exAr": "نَهَارُكَ سَعِيدٌ! - سَعِيدٌ مُبَارَكٌ!",
+                    "exIndo": "Selamat Siang! - Selamat Siang juga!"
+          }
+
             ],
             hiwar: {
                 title: "الْحِوَارُ: التَّعَارُفُ الْكَاَمِلُ بَيْنَ عَزَّامَ وَنَوْفَلٍ",
