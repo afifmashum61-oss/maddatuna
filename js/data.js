@@ -3227,78 +3227,96 @@ const arabicData = {
                 }
             ],
             "hiwar": {
-                "title": "الْحِوَارُ: السُّؤَالُ وَالإِجَابَةُ عَنِ الْعُنْوَانِ",
-                "titleIndo": "Percakapan Lengkap: Menanyakan dan Menjawab Alamat",
-                "lines": [
+                "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: اَلْعُنْوَانُ (الْحِوَارُ 1)",
+                "titleIndo": "Maharah Istima' & Hiwar Bab 4: Percakapan Resmi (Buku Kemenag 2025)",
+                "dialogues": [
                     {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "السَّلاَمُ عَلَيْكُمْ يَا إِسْمَاعِيلُ، أَيْنَ تَسْكُنُ الآنَ؟",
-                        "indo": "Assalamu'alaikum wahai Ismail, di mana kamu tinggal sekarang?"
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "وَعَلَيْكُمُ السَّلاَمُ يَا إِبْرَاهِيمُ! أَسْكُنُ مَعَ أُسْرَتِي فِي شَارِعِ أَحْمَد يَانِي رَقْم ٧ (سَبْعَة)، مَدِينَةِ سُورَابَايَا.",
-                        "indo": "Wa'alaikumussalam wahai Ibrahim! Saya tinggal bersama keluargaku di Jalan Ahmad Yani nomor 7, kota Surabaya."
-                    },
-                    {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "وَفِي أَيِّ حَيٍّ يَقَعُ بَيْتُكَ؟",
-                        "indo": "Dan di kawasan/kompleks mana letak rumahmu?"
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "يَقَعُ بَيْتِي فِي حَيِّ الزُّهُورِ، وَهُوَ حَيٌّ هَادِئٌ وَنَظِيفٌ.",
-                        "indo": "Rumahku terletak di Kompleks Bunga, kompleks yang tenang dan bersih."
-                    },
-                    {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "هَلْ بَيْتُكَ قَرِيبٌ مِنَ الْمَدْرَسَةِ أَمْ بَعِيدٌ عَنْهَا؟",
-                        "indo": "Apakah rumahmu dekat dari sekolah atau jauh dari sekolah?"
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "بَيْتِي قَرِيبٌ جِدًّا مِنَ الْمَدْرَسَةِ، الْمَسَافَةُ قَصِيرَةٌ، أَمْشِي إِلَيْهَا أَقْدَامًا فِي خَمْسِ دَقَائِقَ.",
-                        "indo": "Rumahku sangat dekat dari sekolah, jaraknya pendek, saya jalan kaki ke sana dalam lima menit."
-                    },
-                    {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "مَا شَاءَ اللَّهُ! وَمَا رَقْمُ هَاتِفِكَ الْمَحْمُولِ (الْجَوَّالِ)؟",
-                        "indo": "Masya Allah! Dan berapa nomor telepon seluler (HP) mu?"
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "رَقْمُ جَوَّالِي هُوَ: ٠٨١٢٣٤٥٦٧٨٩ (صِفْر - ثَمَانِيَة - وَاحِد - إِثْنَان - ثَلاَثَة - أَرْبَعَة - خَمْسَة - سِتَّة - سَبْعَة - ثَمَانِيَة - تِسْعَة).",
-                        "indo": "Nomor HP-ku adalah: 08123456789."
-                    },
-                    {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "وَهَلْ لَدَيْكُمْ كُودٌ بَرِيدِيٌّ لِلْمَنـْزِلِ؟",
-                        "indo": "Dan apakah kalian punya kode pos untuk rumah?"
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "نَعَمْ، كُودُ الْبَرِيدِ لِحَيِّنَا هُوَ: ٦٠١١١ (سِتَّة - صِفْر - وَاحِد - وَاحِد - وَاحِد).",
-                        "indo": "Ya, kode pos kompleks kami adalah: 60111."
-                    },
-                    {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "مَا عُنْوَانُ الْبَرِيدِ الإِلِكْتُرُونِيِّ لَكَ؟",
-                        "indo": "Apa alamat email milikmu?"
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "عُنْوَانُ بَرِيدِي الإِلِكْتُرُونِيِّ هُوَ: ismail@gmail.com",
-                        "indo": "Alamat email saya adalah: ismail@gmail.com"
-                    },
-                    {
-                        "speaker": "إِبْرَاهِيم",
-                        "ar": "شُكْرًا جَزِيلًا يَا إِسْمَاعِيلُ! سَأَزُورُ بَيْتَكَ الكَرِيمَ فِي يَوْمِ الأَحَدِ إنْ شَاءَ اللَّهُ.",
-                        "indo": "Terima kasih banyak wahai Ismail! Saya akan mengunjungi rumahmu yang mulia pada hari Minggu insya Allah."
-                    },
-                    {
-                        "speaker": "إِسْمَاعِيل",
-                        "ar": "أَهْلًا وَسَهْلًا بِكَ فِي أَيِّ وَقْتٍ، بَيْتِي بَيْتُكَ صَدِيقِي!",
-                        "indo": "Selamat datang kapan saja, rumahku adalah rumahmu temanku!"
+                        "id": 1,
+                        "badge": "الْحِوَارُ 1",
+                        "title": "الْحِوَارُ بَيْنَ نَجْوَى وَسَلْمَى: الْعُنْوَانُ",
+                        "titleIndo": "Percakapan: Menanyakan Alamat dan Nomor Telepon (Najwa & Salma)",
+                        "lines": [
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "السَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "مَا اسْمُكِ يَا أُخْتِي؟",
+                                "indo": "Siapa namamu wahai saudariku?"
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "إِسْمِي سَلْمَى. وَأَنْتِ، مَا اسْمُكِ؟",
+                                "indo": "Namaku Salma. Dan kamu, siapa namamu?"
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "إِسْمِي نَجْوَى. مِنْ أَيْن أَنْتِ؟",
+                                "indo": "Namaku Najwa. Dari mana kamu?"
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "أَنَا مِنْ فَاسُورُووَان. بَيْتِي فِي شَارِعِ عَبْدِ الرَّحْمَنِ وَاحِد رَقْم ١٢ فَاسُورُووَان. وَمِنْ أَيْن أَنْتِ؟ وَمَا عُنْوَانُكِ؟",
+                                "indo": "Saya dari Pasuruan. Rumahku di Jalan Abdurrahman Wahid No. 12 Pasuruan. Dan dari mana kamu? Apa alamatmu?"
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "أَنَا مِنْ مَدِينَةِ مَالَانْج. عُنْوَانُ بَيْتِي شَارِعُ صَلَاحِ الدِّينِ رَقْم ٨ مَدِينَةِ مَالَانْج. هَلْ أَنْتِ طَالِبَةٌ؟",
+                                "indo": "Saya dari kota Malang. Alamat rumahku Jalan Salahuddin No. 8 Kota Malang. Apakah kamu seorang siswi?"
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "نَعَمْ، أَنَا طَالِبَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٢ فَاسُورُووَان. وَعُنْوَانُ مَدْرَسَتِي شَارِعُ كَبُون سَارِي ٢ فَاسُورُووَان. وَهَلْ أَنْتِ طَالِبَةٌ أَيْضًا؟",
+                                "indo": "Ya, saya siswi di MTs Negeri 2 Pasuruan. Dan alamat sekolahku Jalan Kebonsari 2 Pasuruan. Dan apakah kamu seorang siswi juga?"
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "نَعَمْ، أَنَا طَالِبَةٌ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ١ مَدِينَةِ مَالَانْج. عُنْوَانُ مَدْرَسَتِي شَارِعُ بَانْدُونْج رَقْم ٧ مَدِينَةِ مَالَانْج.",
+                                "indo": "Ya, saya siswi di MTs Negeri 1 Kota Malang. Alamat sekolahku Jalan Bandung No. 7 Kota Malang."
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "هَلْ عِنْدَكِ هَاتِفٌ ثَابِتٌ أَوْ جَوَّالٌ، يَا نَجْوَى؟ وَمَا رَقْمُهُ؟",
+                                "indo": "Apakah kamu punya telepon rumah atau HP, wahai Najwa? Berapa nomornya?"
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "نَعَمْ، عِنْدِي جَوَّالٌ فَقَطْ. رَقْمُهُ ٠٨١٢٣٤٥٦٧٨٩١. وَمَا رَقْمُ جَوَّالِكِ يَا سَلْمَى؟",
+                                "indo": "Ya, saya punya HP saja. Nomornya 081234567891. Dan berapa nomor HP-mu wahai Salma?"
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "رَقْمُ جَوَّالِي ٠٨١٩٨٧٦٥٤٣٢١.",
+                                "indo": "Nomor HP-ku 081987654321."
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "طَيِّبٌ. شُكْرًا. إِلَى اللِّقَاءِ.",
+                                "indo": "Baiklah. Terima kasih. Sampai jumpa."
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "مَعَ السَّلَامَةِ.",
+                                "indo": "Semoga keselamatan bersamamu."
+                            },
+                            {
+                                "speaker": "نَجْوَى",
+                                "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Wassalamu'alaikum."
+                            },
+                            {
+                                "speaker": "سَلْمَى",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            }
+                        ]
                     }
                 ]
             },
