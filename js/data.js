@@ -3858,10 +3858,10 @@ const arabicData = {
         },
         {
             "id": 5,
-            "title": "الْبَيْتُ",
-            "titleIndo": "Rumah (Al-Bait)",
+            "title": "اَلْأَعْمَالُ الْيَوْمِيَّةُ",
+            "titleIndo": "Kegiatan Sehari-hari (Al-A'maalul Yaumiyyah)",
             "icon": "fa-house",
-            "desc": "Mengenal ruangan-ruangan di rumah, perabotan rumah tangga, dan kepemilikan (Idhafah).",
+            "desc": "Mempelajari kata kerja sehari-hari (Fi'il Mudhari'), rutinitas harian, dan pembagian waktu kegiatan.",
             "mufrodat": [
                 {
                     "id": 501,
@@ -4586,10 +4586,10 @@ const arabicData = {
         },
         {
             "id": 6,
-            "title": "مِنْ يَوْمِيَّاتِ الأُسْرَةِ",
-            "titleIndo": "Kegiatan Sehari-hari Keluarga (Min Yaumiyyatil Usrah)",
+            "title": "اَلْبَيْتُ",
+            "titleIndo": "Rumah (Al-Bait)",
             "icon": "fa-clock-rotate-left",
-            "desc": "Mempelajari kata kerja sehari-hari (Fi'il Mudhari'), anggota keluarga, dan rutinitas harian.",
+            "desc": "Mengenal ruangan-ruangan di rumah, perabotan rumah tangga, dan aktivitas di dalam rumah.",
             "mufrodat": [
                 {
                     "id": 601,
