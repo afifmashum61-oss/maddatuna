@@ -256,29 +256,137 @@ const arabicData = {
 
             ],
             hiwar: {
-                title: "الْحِوَارُ: التَّعَارُفُ الْكَاَمِلُ بَيْنَ عَزَّامَ وَنَوْفَلٍ",
-                titleIndo: "Percakapan Lengkap: Perkenalan Antara Azzam dan Naufal",
-                lines: [
-                    { speaker: "عَزَّام", ar: "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.", indo: "Assalamu'alaikum warahmatullahi wabarakatuh." },
-                    { speaker: "نَوْفَل", ar: "وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ.", indo: "Wa'alaikumussalam warahmatullahi wabarakatuh." },
-                    { speaker: "عَزَّام", ar: "صَبَاحُ الْخَيْرِ يَا أَخِي، كَيْفَ حَالُكَ الْيَوْمَ؟", indo: "Selamat pagi wahai saudaraku, bagaimana kabarmu hari ini?" },
-                    { speaker: "نَوْفَل", ar: "صَبَاحُ النُّورِ وَالسُّرُورِ! أَنَا بِخَيْرٍ وَالْحَمْدُ لِلَّهِ. وَكَيْفَ حَالُكَ أَنْتَ؟", indo: "Selamat pagi juga! Saya baik alhamdulillah. Bagaimana kabarmu sendiri?" },
-                    { speaker: "عَزَّام", ar: "الْحَمْدُ لِلَّهِ، أَنَا بِخَيْرٍ أَيْضًا. اسْمِي عَزَّامٌ، وَمَا اسْمُكَ الْكَرِيمُ؟", indo: "Alhamdulillah, saya juga baik. Namaku Azzam, dan siapa namamu yang mulia?" },
-                    { speaker: "نَوْفَل", ar: "اسْمِي نَوْفَلٌ. أَهْلًا وَسَهْلًا بِكَ يَا عَزَّامُ فِي هٰذِهِ الْمَدْرَسَةِ!", indo: "Namaku Naufal. Selamat datang wahai Azzam di sekolah ini!" },
-                    { speaker: "عَزَّام", ar: "أَهْلًا بِكَ يَا نَوْفَلُ. مِنْ أَيْن أَنْتَ قَادِمٌ؟", indo: "Selamat datang juga wahai Naufal. Dari mana kamu berasal?" },
-                    { speaker: "نَوْفَل", ar: "أَنَا قَادِمٌ مِنْ مَدِينَةِ جَاكَرْتَا، وَهَلْ أَنْتَ مِنْ جَاكَرْتَا أَيْضًا؟", indo: "Saya berasal dari kota Jakarta, dan apakah kamu dari Jakarta juga?" },
-                    { speaker: "عَزَّام", ar: "لاَ، أَنَا لَسْتُ مِنْ جَاكَرْتَا. أَنَا مِنْ مَدِينَةِ سُورَابَايَا، ثَانِي أَكْبَرِ مَدِينَةٍ فِي إِنْدُونِيسِيَا.", indo: "Tidak, saya bukan dari Jakarta. Saya dari kota Surabaya, kota terbesar kedua di Indonesia." },
-                    { speaker: "نَوْفَل", ar: "مَا أَرْوَعَ ذٰلِكَ! هَلْ أَنْتَ طَالِبٌ جَدِيدٌ فِي هٰذِهِ الْمَدْرَسَةِ الثَّانَوِيَّةِ الإِسْلاَمِيَّةِ؟", indo: "Sungguh luar biasa! Apakah kamu siswa baru di Madrasah Tsanawiyah ini?" },
-                    { speaker: "عَزَّام", ar: "نَعَمْ، أَنَا طَالِبٌ جَدِيدٌ فِي الصَّفِّ السَّابِعِ (٧-أَ). وَفِي أَيِّ صَفٍّ أَنْتَ؟", indo: "Ya, saya siswa baru di kelas 7-A. Dan di kelas mana kamu?" },
-                    { speaker: "نَوْفَل", ar: "مَاشَاءَ اللَّهُ! أَنَا فِي الصَّفِّ السَّابِعِ (٧-أَ) أَيْضًا! نَحْنُ زُمَلاَءُ فِي نَفْسِ الْفَصْلِ!", indo: "Masya Allah! Saya di kelas 7-A juga! Kita adalah teman sekelas!" },
-                    { speaker: "عَزَّام", ar: "الْحَمْدُ لِلَّهِ! أَنَا سَعِيدٌ جِدًّا بِلِقَائِكَ وَبِهٰذِهِ الصَّدَاقَةِ الْجَدِيدَةِ.", indo: "Alhamdulillah! Saya sangat senang bertemu denganmu dan dengan pertemanan baru ini." },
-                    { speaker: "نَوْفَل", ar: "وَأَنَا أَيْضًا سَعِيدٌ بِلِقَائِكَ يَا صَدِيقِي. مَن هٰذَا الأُسْتَاذُ الَّذِي يَمْشِي هُنَاكَ؟", indo: "Dan saya juga senang bertemu denganmu temanku. Siapa pak guru yang berjalan di sana?" },
-                    { speaker: "عَزَّام", ar: "ذٰلِكَ الأُسْتَاذُ عُثْمَانُ، هُوَ مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي مَدْرَسَتِنَا.", indo: "Itu Pak Guru Utsman, beliau adalah guru Bahasa Arab di sekolah kita." },
-                    { speaker: "نَوْفَل", ar: "مُمْتَازٌ! هَيَّا نَدْخُلُ الْفَصْلَ لِنَسْتَعِدَّ لِلدَّرْسِ الأَوَّلِ!", indo: "Bagus sekali! Ayo kita masuk kelas untuk bersiap mengikuti pelajaran pertama!" },
-                    { speaker: "عَزَّام", ar: "فِكْرَةٌ سَدِيدَةٌ، هَيَّا بِنَا! شُكْرًا جَزِيلًا يَا نَوْفَلُ.", indo: "Ide yang sangat tepat, ayo berangkat! Terima kasih banyak wahai Naufal." },
-                    { speaker: "نَوْفَل", ar: "عَفْوًا يَا عَزَّامُ، لاَ شُكْرَ عَلَى وَاجِبٍ. إِلَى اللِّقَاءِ فِي الْفَصْلِ!", indo: "Sama-sama wahai Azzam. Sampai jumpa di kelas!" },
-                    { speaker: "عَزَّام", ar: "مَعَ السَّلاَمَةِ، حَفِظَكَ اللَّهُ!", indo: "Semoga selamat, semoga Allah menjagamu!" }
-                ]
+
+          "title": "الْحِوَارُ 1 وَ 2: التَّعَارُفُ (عَزَّام وَنَوْفَل / عَارِف وَعَارِس)",
+          "titleIndo": "Percakapan Resmi Bab 1: Perkenalan (Buku Kemenag 2025)",
+          "lines": [
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "السَّلاَمُ عَلَيْكُمْ",
+                              "indo": "Assalamu 'alaikum"
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "وَعَلَيْكُمُ السَّلاَمُ",
+                              "indo": "Wa 'alaikumus salam"
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "أَهْلًا وَسَهْلًا",
+                              "indo": "Selamat datang"
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "أَهْلًا بِكَ",
+                              "indo": "Selamat datang juga"
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "إِسْمِي عَزَّامٌ. مَا اسْمُكَ؟",
+                              "indo": "Namaku Azzam. Siapa namamu?"
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "إِسْمِي نَوْفَلٌ",
+                              "indo": "Namaku Naufal."
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "كَيْفَ حَالُكَ؟",
+                              "indo": "Bagaimana kabarmu?"
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "بِخَيْرٍ، الْحَمْدُ لِلَّهِ. وَأَنْتَ؟",
+                              "indo": "Baik, alhamdulillah. Dan kamu?"
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "بِخَيْرٍ، الْحَمْدُ لِلَّهِ.",
+                              "indo": "Baik, alhamdulillah."
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "شُكْرًا",
+                              "indo": "Terima kasih"
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "عَفْوًا",
+                              "indo": "Sama-sama"
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "إِلَى اللِّقَاءِ",
+                              "indo": "Sampai jumpa"
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "مَعَ السَّلاَمَةِ",
+                              "indo": "Semoga selamat"
+                    },
+                    {
+                              "speaker": "نَوْفَل",
+                              "ar": "السَّلاَمُ عَلَيْكُمْ",
+                              "indo": "Assalamu 'alaikum"
+                    },
+                    {
+                              "speaker": "عَزَّام",
+                              "ar": "وَعَلَيْكُمُ السَّلاَمُ",
+                              "indo": "Wa 'alaikumus salam"
+                    },
+                    {
+                              "speaker": "عَارِف",
+                              "ar": "السَّلاَمُ عَلَيْكُمْ",
+                              "indo": "Assalamu 'alaikum"
+                    },
+                    {
+                              "speaker": "عَارِس",
+                              "ar": "وَعَلَيْكُمُ السَّلاَمُ",
+                              "indo": "Wa 'alaikumus salam"
+                    },
+                    {
+                              "speaker": "عَارِف",
+                              "ar": "مِنْ أَيْن أَنْتَ يَا عَارِسُ؟",
+                              "indo": "Dari mana kamu wahai Aris?"
+                    },
+                    {
+                              "speaker": "عَارِس",
+                              "ar": "أَنَا مِنْ مَالَانْج جَاوَا الشَّرْقِيَّةِ.",
+                              "indo": "Saya dari Malang, Jawa Timur."
+                    },
+                    {
+                              "speaker": "عَارِف",
+                              "ar": "هَلْ أَنْتَ مَالَانْجِيٌّ؟",
+                              "indo": "Apakah kamu orang Malang?"
+                    },
+                    {
+                              "speaker": "عَارِس",
+                              "ar": "نَعَمْ، أَنَا مَالَانْجِيٌّ. وَمِنْ أَيْن أَنْتَ يَا عَارِفُ؟",
+                              "indo": "Ya, saya orang Malang. Dan dari mana kamu wahai Arif?"
+                    },
+                    {
+                              "speaker": "عَارِف",
+                              "ar": "أَنَا بُوغُورِيٌّ. أَنَا مِنْ بُوغُور جَاوَا الْغَرْبِيَّةِ. هٰذَا أَخِي. إِسْمُهُ مَحْمُودٌ. هُوَ مُدَرِّسٌ. هُوَ مِنْ سَامَارِينْدَا.",
+                              "indo": "Saya orang Bogor. Saya dari Bogor Jawa Barat. Ini saudaraku. Namanya Mahmud. Dia seorang guru. Dia dari Samarinda."
+                    },
+                    {
+                              "speaker": "عَارِس",
+                              "ar": "أَهْلًا وَسَهْلًا يَا مَحْمُودُ. وَمَنْ هٰذَا يَا عَارِفُ؟",
+                              "indo": "Selamat datang wahai Mahmud. Dan siapa ini wahai Arif?"
+                    },
+                    {
+                              "speaker": "عَارِف",
+                              "ar": "هٰذَا صَدِيقِي. إِسْمُهُ أَحْمَدُ. هُوَ طَبِيبٌ. هُوَ مِنْ جَاكَرْتَا.",
+                              "indo": "Ini temanku. Namanya Ahmad. Dia seorang dokter. Dia dari Jakarta."
+                    },
+                    {
+                              "speaker": "عَارِس",
+                              "ar": "أَهْلًا وَسَهْلًا يَا أَحْمَدُ.",
+                              "indo": "Selamat datang wahai Ahmad."
+                    }
+          ]
+
             },
             qiraah: {
                 title: "التَّعْرِيفُ بِالْعَامِلِينَ فِي الْمَدْرَسَةِ",
