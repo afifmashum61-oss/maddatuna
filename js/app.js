@@ -413,52 +413,76 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderQiraahTab(chapter) {
         const qiraah = chapter.qiraah;
 
+        const articlesList = qiraah.articles || [{
+            id: 1,
+            title: qiraah.title,
+            titleIndo: qiraah.titleIndo,
+            textAr: qiraah.textAr || '',
+            textIndo: qiraah.textIndo || '',
+            questions: qiraah.questions || []
+        }];
+
         mainContentArea.innerHTML = `
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100">
-                <div class="flex items-center justify-between pb-4 border-b border-gray-100 mb-6">
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100 flex items-center justify-between">
                     <div>
                         <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">مَهَارَةُ الْقِرَاءَةِ</span>
                         <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${qiraah.title}</h2>
                         <p class="text-sm font-semibold text-gray-600">${qiraah.titleIndo}</p>
                     </div>
-                    <button onclick="speakArabic('${qiraah.textAr.replace(/\n/g, ' ')}')" 
-                        class="px-4 py-2 bg-emerald-100 hover:bg-bottle-green hover:text-white text-bottle-green font-bold text-xs rounded-xl transition-all flex items-center gap-2">
-                        <i class="fa-solid fa-volume-high text-sm"></i> Baca Seluruh Teks
-                    </button>
                 </div>
 
-                <div class="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100 mb-6">
-                    <p class="font-arabic text-2xl font-bold text-gray-800 text-right leading-loose whitespace-pre-line">${qiraah.textAr}</p>
-                </div>
-
-                <div class="mb-8 p-4 bg-gray-50 rounded-xl border border-gray-200">
-                    <h4 class="font-bold text-xs uppercase tracking-wider text-gray-500 mb-2"><i class="fa-solid fa-earth-asia"></i> Terjemahan Teks Bacaan:</h4>
-                    <p class="text-sm text-gray-700 leading-relaxed whitespace-pre-line">${qiraah.textIndo}</p>
-                </div>
-
-                <!-- COMPREHENSION QUESTIONS -->
-                ${qiraah.questions ? `
-                    <div class="border-t border-gray-100 pt-6">
-                        <h3 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
-                            <i class="fa-solid fa-clipboard-question text-gold"></i> Pertanyaan Pemahaman Teks (فَهْمُ الْمَقْرُوءِ)
-                        </h3>
-                        <div class="space-y-4">
-                            ${qiraah.questions.map((q, idx) => `
-                                <div class="bg-gray-50 p-4 rounded-xl border border-gray-200">
-                                    <p class="font-arabic text-lg font-bold text-gray-800 text-right mb-3">${idx + 1}. ${q.q}</p>
-                                    <div class="grid grid-cols-2 gap-2">
-                                        ${q.options.map((opt, optIdx) => `
-                                            <button onclick="checkQiraahAnswer(this, ${optIdx === q.answer})" 
-                                                class="font-arabic text-base p-2 bg-white border border-gray-300 rounded-lg hover:border-bottle-green text-center font-bold">
-                                                ${opt}
-                                            </button>
-                                        `).join('')}
-                                    </div>
+                ${articlesList.map((art, aIdx) => `
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100">
+                        <div class="flex items-center justify-between pb-4 border-b border-gray-100 mb-6">
+                            <div class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-full bg-gold text-bottle-green-dark font-extrabold flex items-center justify-center text-sm shadow">
+                                    ${aIdx + 1}
+                                </span>
+                                <div>
+                                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark">${art.title}</h3>
+                                    <p class="text-xs text-gray-500 font-semibold">${art.titleIndo}</p>
                                 </div>
-                            `).join('')}
+                            </div>
+                            <button onclick="speakArabic('${art.textAr.replace(/\n/g, ' ')}')" 
+                                class="px-4 py-2 bg-emerald-100 hover:bg-bottle-green hover:text-white text-bottle-green font-bold text-xs rounded-xl transition-all flex items-center gap-2">
+                                <i class="fa-solid fa-volume-high text-sm"></i> Baca Teks ${aIdx + 1}
+                            </button>
                         </div>
+
+                        <div class="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100 mb-6">
+                            <p class="font-arabic text-2xl font-bold text-gray-800 text-right leading-loose whitespace-pre-line">${art.textAr}</p>
+                        </div>
+
+                        <div class="mb-8 p-4 bg-gray-50 rounded-xl border border-gray-200">
+                            <h4 class="font-bold text-xs uppercase tracking-wider text-gray-500 mb-2"><i class="fa-solid fa-earth-asia"></i> Terjemahan Teks Bacaan ${aIdx + 1}:</h4>
+                            <p class="text-sm text-gray-700 leading-relaxed whitespace-pre-line">${art.textIndo}</p>
+                        </div>
+
+                        ${art.questions && art.questions.length > 0 ? `
+                            <div class="border-t border-gray-100 pt-6">
+                                <h4 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
+                                    <i class="fa-solid fa-clipboard-question text-gold"></i> Pertanyaan Pemahaman Bacaan ${aIdx + 1} (فَهْمُ الْمَقْرُوءِ)
+                                </h4>
+                                <div class="space-y-4">
+                                    ${art.questions.map((q, idx) => `
+                                        <div class="bg-gray-50 p-4 rounded-xl border border-gray-200">
+                                            <p class="font-arabic text-lg font-bold text-gray-800 text-right mb-3">${idx + 1}. ${q.q}</p>
+                                            <div class="grid grid-cols-2 gap-2">
+                                                ${q.options.map((opt, optIdx) => `
+                                                    <button onclick="checkQiraahAnswer(this, ${optIdx === q.answer})" 
+                                                        class="font-arabic text-base p-2 bg-white border border-gray-300 rounded-lg hover:border-bottle-green text-center font-bold">
+                                                        ${opt}
+                                                    </button>
+                                                `).join('')}
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
                     </div>
-                ` : ''}
+                `).join('')}
             </div>
         `;
     }
