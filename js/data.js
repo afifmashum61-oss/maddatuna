@@ -3227,14 +3227,14 @@ const arabicData = {
                 }
             ],
             "hiwar": {
-                "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: اَلْعُنْوَانُ (الْحِوَارُ 1)",
-                "titleIndo": "Maharah Istima' & Hiwar Bab 4: Percakapan Resmi (Buku Kemenag 2025)",
+                "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: اَلْعُنْوَانُ وَالسَّاعَةُ (الْحِوَارُ ١ وَ ٢)",
+                "titleIndo": "Maharah Istima' & Hiwar Bab 4: Terdiri dari 2 Percakapan (Buku Kemenag 2025)",
                 "dialogues": [
                     {
                         "id": 1,
                         "badge": "الْحِوَارُ 1",
                         "title": "الْحِوَارُ بَيْنَ نَجْوَى وَسَلْمَى: الْعُنْوَانُ",
-                        "titleIndo": "Percakapan: Menanyakan Alamat dan Nomor Telepon (Najwa & Salma)",
+                        "titleIndo": "Percakapan 1: Menanyakan Alamat dan Nomor Telepon (Najwa & Salma)",
                         "lines": [
                             {
                                 "speaker": "نَجْوَى",
@@ -3315,6 +3315,104 @@ const arabicData = {
                                 "speaker": "سَلْمَى",
                                 "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
                                 "indo": "Wa'alaikumussalam warahmatullah."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "badge": "الْحِوَارُ 2",
+                        "title": "الْحِوَارُ بَيْنَ مُحَمَّد وَخَالِد: السَّاعَةُ",
+                        "titleIndo": "Percakapan 2: Menanyakan Waktu & Jam (Muhammad & Khalid)",
+                        "lines": [
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "السَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ.",
+                                "indo": "Wa'alaikumussalam."
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "أَهْلًا وَسَهْلًا.",
+                                "indo": "Selamat datang."
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "أَهْلًا بِكَ.",
+                                "indo": "Selamat datang juga kepadamu."
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "يَا خَالِد، أُنْظُرْ . عِنْدِي سَاعَةٌ جَدِيدَةٌ. هِيَ جَمِيلَةٌ. وَمَارِكَتُهَا أَلْبَا. وَأَنْتَ، هَلْ عِنْدَكَ سَاعَةُ الْيَدِ؟",
+                                "indo": "Wahai Khalid, lihatlah! Saya punya jam tangan baru. Jam ini indah, dan merknya Alba. Dan kamu, apakah kamu punya jam tangan?"
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "لَا، مَا عِنْدِي سَاعَةُ الْيَدِ. كَمِ السَّاعَةُ الآَنَ؟",
+                                "indo": "Tidak, saya tidak punya jam tangan. Jam berapa sekarang?"
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "السَّاعَةُ الآَنَ السَّادِسَةُ وَالنِّصْفُ صَبَاحًا. هَلْ بَيْتُكَ بَعِيدٌ عَنِ الْمَدْرَسَةِ؟",
+                                "indo": "Sekarang jam 06.30 (enam setengah) pagi. Apakah rumahmu jauh dari sekolah?"
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "نَعَمْ، بَيْتِي بَعِيدٌ عَنْهَا.",
+                                "indo": "Ya, rumahku jauh dari sekolah."
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "فِي أَيِّ سَاعَةٍ تَذْهَبُ إِلَى الْمَدْرَسَةِ؟",
+                                "indo": "Jam berapa kamu berangkat ke sekolah?"
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "أَذْهَبُ إِلَيْهَا فِي السَّاعَةِ السَّادِسَةِ تَمَامًا، وَأَذْهَبُ إِلَيْهَا بِالْجَوَّالَةِ.",
+                                "indo": "Saya berangkat ke sekolah pada jam 06.00 tepat, dan saya pergi ke sana naik sepeda motor."
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "وَمَتَى تَرْجِعُ مِنَ الْمَدْرَسَةِ؟",
+                                "indo": "Dan kapan kamu pulang dari sekolah?"
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "نَرْجِعُ مِنْهَا فِي السَّاعَةِ الثَّالِثَةِ وَالرُّبْعِ مَسَاءً.",
+                                "indo": "Kami pulang dari sekolah pada jam 03.15 (tiga lewat seperempat) sore."
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "يَا خَالِد، هَلْ تَعْرِفُ، كَمْ سَاعَةً فِي الْيَوْمِ؟",
+                                "indo": "Wahai Khalid, apakah kamu tahu, ada berapa jam dalam sehari?"
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "فِي الْيَوْمِ أَرْبَعٌ وَعِشْرُونَ سَاعَةً. وَكَمْ دَقِيقَةً فِي السَّاعَةِ؟",
+                                "indo": "Dalam sehari ada 24 jam. Dan berapa menit dalam satu jam?"
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "فِي السَّاعَةِ سِتُّونَ دَقِيقَةً.",
+                                "indo": "Dalam satu jam ada 60 menit."
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "جَوَابُكَ صَحِيحٌ. أَنْتَ تِلْمِيذٌ مَاهِرٌ.",
+                                "indo": "Jawabanmu benar. Kamu adalah siswa yang pintar."
+                            },
+                            {
+                                "speaker": "مُحَمَّد",
+                                "ar": "شُكْرًا.",
+                                "indo": "Terima kasih."
+                            },
+                            {
+                                "speaker": "خَالِد",
+                                "ar": "عَفْوًا .",
+                                "indo": "Sama-sama."
                             }
                         ]
                     }
