@@ -4418,34 +4418,67 @@ const arabicData = {
                     ]
                 }
             ],
-            "qiraah": {
-                "title": "قِرَاءَةٌ: بَيْتِي المُرِيحُ",
-                "titleIndo": "Teks Bacaan: Rumahku yang Nyaman",
-                "textAr": "هٰذَا بَيْتِي. بَيْتِي نَظِيفٌ وَمُرَتَّبٌ. فِي الْبَيْتِ غُرَفٌ كَثِيرَةٌ: غُرْفَةُ الْجُلُوسِ، وَغُرْفَةُ النَّوْمِ، وَغُرْفَةُ الْمُذَاكَرَةِ، وَغُرْفَةُ الأَكْلِ، وَمَطْبَخٌ، وَحَمَّامٌ.\n\nفِي غُرْفَةِ الْجُلُوسِ أَرِيكَةٌ جَمِيلَةٌ وَتِلْفَازٌ كَبِيرٌ. وَفِي غُرْفَةِ النَّوْمِ سَرِيرٌ وَوِسَادَةٌ نَاعِمَةٌ. أَمَّا فِي الْمَطْبَخِ فَتُوجَدُ ثَلاَّجَةٌ وَمَوْقِدٌ.\n\nأَكْتُبُ وَاجِبَاتِي فِي غُرْفَةِ الْمُذَاكَرَةِ كُلَّ مَسَاءٍ. أَنَا وَأُسْرَتِي نَعِيشُ فِي هٰذَا الْبَيْتِ بِسَعَادَةٍ.",
-                "textIndo": "Ini rumahku. Rumahku bersih dan teratur. Di dalam rumah ada banyak ruangan: ruang tamu, kamar tidur, ruang belajar, ruang makan, dapur, dan kamar mandi.\n\nDi ruang tamu ada sofa yang indah dan TV besar. Di kamar tidur ada ranjang dan bantal empuk. Sedangkan di dapur terdapat kulkas dan kompor.\n\nSaya menulis PR di ruang belajar setiap sore. Saya dan keluargaku hidup di rumah ini dengan bahagia.",
-                "questions": [
-                    {
-                        "q": "أَيْنَ يَكْتُبُ الطَّالِبُ وَاجِبَاتِهِ؟",
-                        "options": [
-                            "في غُرْفَةِ الْمُذَاكَرَةِ",
-                            "في المطبخ",
-                            "في الحمام",
-                            "في الموقف"
-                        ],
-                        "answer": 0
-                    },
-                    {
-                        "q": "مَاذَا يُوجَدُ فِي الْمَطْبَخِ؟",
-                        "options": [
-                            "سرير ووسادة",
-                            "ثلاجة وموقد",
-                            "أريكة وتلفاز",
-                            "خارطة وصورة"
-                        ],
-                        "answer": 1
-                    }
-                ]
-            },
+            "qiraah": [
+                {
+                    "id": 1,
+                    "title": "النَّصُّ الأَوَّلُ: أَعْضَاءُ أُسْرَتِي وَأَعْمَالُهُمْ",
+                    "titleIndo": "Bacaan: Anggota Keluargaku & Aktivitas Harian Mereka (Faruq)",
+                    "textAr": "هٰذِهِ صُورَةُ أُسْرَتِي. أُسْرَتِي كَبِيرَةٌ. هٰذَا أَنَا. وَهٰذَا أَبِي. وَهٰذِهِ أُمِّي. وَذٰلِكَ أَخِي. وَتِلْكَ أُخْتِي. وَهٰذَا جَدِّي. وَهٰذِهِ جَدَّتِي.\n\nإِسْمِي فَارُوق. أَنَا أَسْكُنُ فِي شَارِعِ بَاتُوبَارَا ٤٥ مَالَانْج. وَأَنَا أَدْرُسُ فِي الْفَصْلِ السَّابِعِ مِنَ الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ١ مَالَانْج. وَأَبِي إِسْمُهُ تَوْفِيق هِدَايَة. هُوَ مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٣ مَالَانْج. وَأُمِّي إِسْمُهَا سِيتِي سَارَة. هِيَ رَبَّةُ الْبَيْتِ. وَأَخِي الْكَبِيرُ إِسْمُهُ حُسَيْن. هُوَ يَدْرُسُ فِي الْفَصْلِ الثَّامِنِ مِنَ الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٣ مَالَانْج. وَأُخْتِي الصَّغِيرَةُ إِسْمُهَا نَجْمَة. هِيَ تَدْرُسُ فِي الْفَصْلِ السَّادِسِ مِنَ الْمَدْرَسَةِ الْإِبْتِدَائِيَّةِ الْحُكُومِيَّةِ ١ مَالَانْج. وَأَمَّا جَدِّي فَهُوَ طَبِيبٌ فِي مُسْتَشْفَى \"سَيْفُ الأَنْوَار\" فِي مَدِينَةِ مَالَانْج. وَإِسْمُهُ تَوْفِيق حُسَيْن. وَجَدَّتِي رَبَّةُ الْبَيْتِ كَذٰلِك.\n\nكُلَّ يَوْمٍ، نَحْنُ نَجْلِسُ فِي غُرْفَةِ الْجُلُوسِ وَنَأْكُلُ فِي غُرْفَةِ الأَكْلِ. وَأُمِّي تَطْبُخُ الطَّعَامَ فِي الْمَطْبَخِ. وَعِنْدَنَا خَادِمَةٌ تُسَاعِدُ أُمِّي عَلَى الطَّبْخِ وَإِعْدَادِ الطَّعَامِ. وَبَعْدَ صَلَاةِ الْمَغْرِبِ، نَحْنُ نَقْرَأُ الْقُرْآنَ الْكَرِيمَ. وَأَنَا وَإِخْوَتِي نَعْمَلُ الْوَاجِبَ الْمَنْزِلِيَّ بَعْدَ صَلَاةِ الْعِشَاءِ فِي غُرْفَةِ الْمُذَاكَرَةِ. وَأَبِي يَقْرَأُ الْجَرِيدَةَ.",
+                    "textIndo": "Ini adalah foto keluargaku. Keluargaku besar. Ini aku, dan ini ayahku, dan ini ibuku, dan itu saudara laki-lakiku, dan itu saudara perempuanku, dan ini kakekku, dan ini nenekku.\n\nNamaku Faruq. Saya tinggal di Jalan Batubara No. 45 Malang. Dan saya belajar di kelas 7 MTs Negeri 1 Malang. Ayahku namanya Taufiq Hidayah, dia adalah guru Bahasa Arab di MTs Negeri 3 Malang. Ibuku namanya Siti Sarah, dia adalah ibu rumah tangga. Kakak laki-lakiku namanya Husain, dia belajar di kelas 8 MTs Negeri 3 Malang. Adik perempuanku namanya Najmah, dia belajar di kelas 6 MIN 1 Malang. Adapun kakekku, beliau seorang dokter di Rumah Sakit \"Saiful Anwar\" di Kota Malang, dan namanya Taufiq Husain. Nenekku juga seorang ibu rumah tangga.\n\nSetiap hari, kami duduk di ruang tamu dan makan di ruang makan. Ibuku memasak makanan di dapur. Dan kami memiliki seorang asisten rumah tangga yang membantu ibuku memasak dan menyiapkan makanan. Setelah shalat Maghrib, kami membaca Al-Qur'anul Karim. Dan saya bersama saudara-saudaraku mengerjakan PR setelah shalat Isya di ruang belajar, sedangkan ayahku membaca koran.",
+                    "questions": [
+                        {
+                            "q": "مَا عُنْوَانُ بَيْتِ فَارُوقٍ؟",
+                            "options": [
+                                "شَارِعُ بَاتُوبَارَا رَقْم ٤٥ مَالَانْج",
+                                "شَارِعُ بَانْدُونْج رَقْم ٧ مَالَانْج",
+                                "شَارِعُ صَلَاحِ الدِّينِ رَقْم ٨",
+                                "شَارِعُ سُورَابَايَا رَقْم ٣"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "مَا وَظِيفَةُ أَبِي فَارُوقٍ (السَّيِّد تَوْفِيق هِدَايَة)؟",
+                            "options": [
+                                "مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ ٣",
+                                "طَبِيبٌ فِي الْمُسْتَشْفَى",
+                                "مُوَظَّفٌ فِي الْبَنْكِ",
+                                "فَلَّاحٌ فِي الْقَرْيَةِ"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "أَيْنَ يَعْمَلُ جَدُّ فَارُوقٍ؟",
+                            "options": [
+                                "فِي مُسْتَشْفَى \"سَيْفُ الأَنْوَار\" فِي مَالَانْج",
+                                "فِي الْمَدْرَسَةِ الإِبْتِدَائِيَّةِ",
+                                "فِي الْمَطْبَخِ",
+                                "فِي الشَّرِكَةِ"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "مَاذَا يَقْرَأُ الْأَبُ بَعْدَ صَلَاةِ الْعِشَاءِ؟",
+                            "options": [
+                                "يَقْرَأُ الْجَرِيدَةَ",
+                                "يَقْرَأُ الْقُرْآنَ الْكَرِيمَ",
+                                "يَقْرَأُ الْكِتَابَ",
+                                "يَكْتُبُ الدَّرْسَ"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "أَيْنَ يَعْمَلُ فَارُوقُ وَإِخْوَتُهُ الْوَاجِبَ الْمَنْزِلِيَّ؟",
+                            "options": [
+                                "فِي غُرْفَةِ الْمُذَاكَرَةِ",
+                                "فِي غُرْفَةِ الْجُلُوسِ",
+                                "فِي غُرْفَةِ الأَكْلِ",
+                                "فِي الْمَطْبَخِ"
+                            ],
+                            "answer": 0
+                        }
+                    ]
+                }
+            ],
             "qawaid": {
                 "title": "الْقَوَاعِدُ: الإِضَافَةُ (Kepemilikan & Gabungan Kata)",
                 "titleIndo": "Tata Bahasa: Idhafah (Kata Majemuk Kepemilikan)",
