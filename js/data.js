@@ -1732,242 +1732,458 @@ const arabicData = {
                 {
                     "id": 301,
                     "ar": "قَلَمٌ",
-                    "latin": "Qalam",
+                    "latin": "",
                     "indo": "Pulpen / Pena",
-                    "exAr": "أَكْتُبُ الدَّرْسَ بِالْقَلَمِ.",
-                    "exIndo": "Saya menulis pelajaran dengan pulpen."
+                    "exAr": "هٰذَا قَلَمٌ جَدِيدٌ.",
+                    "exIndo": "Ini pulpen baru."
                 },
                 {
                     "id": 302,
-                    "ar": "قَلَمُ الرَّصَاصِ",
-                    "latin": "Qalamur rasas",
-                    "indo": "Pensil",
-                    "exAr": "أَرْسُمُ الصُّورَةَ بِقَلَمِ الرَّصَاصِ.",
-                    "exIndo": "Saya menggambar menggunakan pensil."
+                    "ar": "مِقْلَمَةٌ",
+                    "latin": "",
+                    "indo": "Kotak Pensil",
+                    "exAr": "هٰذِهِ مِقْلَمَةٌ جَمِيلَةٌ.",
+                    "exIndo": "Ini tempat pensil yang indah."
                 },
                 {
                     "id": 303,
-                    "ar": "كِتَابٌ",
-                    "latin": "Kitab",
-                    "indo": "Buku Paket / Kitab",
-                    "exAr": "هٰذَا كِتَابُ اللُّغَةِ الْعَرَبِيَّةِ.",
-                    "exIndo": "Ini adalah buku paket bahasa Arab."
+                    "ar": "حَقِيبَةٌ",
+                    "latin": "",
+                    "indo": "Tas Sekolah",
+                    "exAr": "تِلْكَ حَقِيبَةٌ كَبِيرَةٌ.",
+                    "exIndo": "Itu tas yang besar."
                 },
                 {
                     "id": 304,
-                    "ar": "دَفْتَرٌ / كُرَّاسَةٌ",
-                    "latin": "Daftar / Kurrasah",
-                    "indo": "Buku Tulis",
-                    "exAr": "أَكْتُبُ الْوَاجِبَ فِي الدَّفْتَرِ.",
-                    "exIndo": "Saya menulis PR di buku tulis."
+                    "ar": "مِرْسَمٌ",
+                    "latin": "",
+                    "indo": "Pensil",
+                    "exAr": "هٰذَا مِرْسَمٌ قَصِيرٌ.",
+                    "exIndo": "Ini pensil pendek."
                 },
                 {
                     "id": 305,
-                    "ar": "مِسْطَرَةٌ",
-                    "latin": "Mistarah",
-                    "indo": "Penggaris",
-                    "exAr": "أَقِيسُ الْخَطَّ بِالْمِسْطَرَةِ.",
-                    "exIndo": "Saya mengukur garis dengan penggaris."
+                    "ar": "مِبْرَاةٌ",
+                    "latin": "",
+                    "indo": "Rautan Pensil",
+                    "exAr": "تِلْكَ مِبْرَاةٌ صَغِيرَةٌ.",
+                    "exIndo": "Itu rautan pensil kecil."
                 },
                 {
                     "id": 306,
-                    "ar": "مِمْحَاةٌ",
-                    "latin": "Mimhah",
-                    "indo": "Penghapus Pensil",
-                    "exAr": "أَمْحُو الْخَطَأَ بِالْمِمْحَاةِ.",
-                    "exIndo": "Saya menghapus kesalahan dengan penghapus."
+                    "ar": "قَلَمُ رَصَاصٍ",
+                    "latin": "",
+                    "indo": "Pensil Warna / Pensil",
+                    "exAr": "هٰذَا قَلَمُ رَصَاصٍ.",
+                    "exIndo": "Ini pensil."
                 },
                 {
                     "id": 307,
-                    "ar": "مِطْلَسَةٌ / مِمْسَحَةٌ",
-                    "latin": "Mitlasah / Mimsahah",
-                    "indo": "Penghapus Papan Tulis",
-                    "exAr": "الْمُدَرِّسُ يَمْسَحُ السَّبُّورَةَ بِالْمِمْسَحَةِ.",
-                    "exIndo": "Pak guru menghapus papan tulis dengan penghapus papan."
+                    "ar": "مِسْطَرَةٌ",
+                    "latin": "",
+                    "indo": "Penggaris",
+                    "exAr": "هٰذِهِ مِسْطَرَةٌ طَوِيلَةٌ.",
+                    "exIndo": "Ini penggaris panjang."
                 },
                 {
                     "id": 308,
-                    "ar": "حقِيبَةٌ",
-                    "latin": "Haqibah",
-                    "indo": "Tas Sekolah",
-                    "exAr": "أَضَعُ الْكُتُبَ فِي الْحَقِيبَةِ.",
-                    "exIndo": "Saya menaruh buku-buku di dalam tas."
+                    "ar": "فِرْجَارٌ",
+                    "latin": "",
+                    "indo": "Jangka",
+                    "exAr": "هٰذَا فِرْجَارٌ لِلرَّسْمِ.",
+                    "exIndo": "Ini jangka untuk menggambar."
                 },
                 {
                     "id": 309,
-                    "ar": "مِقْلَمَةٌ",
-                    "latin": "Miqlamah",
-                    "indo": "Kotak Pensil",
-                    "exAr": "أَقْلاَمِي فِي الْمِقْلَمَةِ.",
-                    "exIndo": "Pulpen-pulpenku ada di kotak pensil."
+                    "ar": "مِقَصٌّ",
+                    "latin": "",
+                    "indo": "Gunting",
+                    "exAr": "هٰذَا مِقَصٌّ حَادٌّ.",
+                    "exIndo": "Ini gunting tajam."
                 },
                 {
                     "id": 310,
-                    "ar": "مِبْرَاةٌ",
-                    "latin": "Mibrah",
-                    "indo": "Rautan Pensil",
-                    "exAr": "أَبْرِي الْقَلَمَ بِالْمِبْرَاةِ.",
-                    "exIndo": "Saya meraut pensil dengan rautan."
+                    "ar": "مِمْسَحَةٌ",
+                    "latin": "",
+                    "indo": "Penghapus Pensil",
+                    "exAr": "هٰذِهِ مِمْسَحَةٌ نَظِيفَةٌ.",
+                    "exIndo": "Ini penghapus bersih."
                 },
                 {
                     "id": 311,
-                    "ar": "سَبُّورَةٌ",
-                    "latin": "Sabburah",
-                    "indo": "Papan Tulis",
-                    "exAr": "يَكْتُبُ الأُسْتَاذُ عَلَى السَّبُّورَةِ.",
-                    "exIndo": "Pak guru menulis di atas papan tulis."
+                    "ar": "قِرْطَاسٌ",
+                    "latin": "",
+                    "indo": "Kertas",
+                    "exAr": "ذٰلِكَ قِرْطَاسٌ أَبْيَضُ.",
+                    "exIndo": "Itu kertas putih."
                 },
                 {
                     "id": 312,
-                    "ar": "مَكْتَبٌ",
-                    "latin": "Maktab",
-                    "indo": "Meja Tulis",
-                    "exAr": "الْكِتَابُ عَلَى الْمَكْتَبِ.",
-                    "exIndo": "Buku ada di atas meja."
+                    "ar": "حِبْرٌ",
+                    "latin": "",
+                    "indo": "Tinta",
+                    "exAr": "هٰذَا حِبْرٌ أَسْوَدُ.",
+                    "exIndo": "Ini tinta hitam."
                 },
                 {
                     "id": 313,
-                    "ar": "كُرْسِيٌّ",
-                    "latin": "Kursiy",
-                    "indo": "Kursi",
-                    "exAr": "أَجْلِسُ عَلَى الْكُرْسِيِّ.",
-                    "exIndo": "Saya duduk di atas kursi."
+                    "ar": "كِتَابٌ",
+                    "latin": "",
+                    "indo": "Buku Paket / Pelajaran",
+                    "exAr": "هٰذَا كِتَابُ اللُّغَةِ الْعَرَبِيَّةِ.",
+                    "exIndo": "Ini buku Bahasa Arab."
                 },
                 {
                     "id": 314,
-                    "ar": "خَزَانَةٌ",
-                    "latin": "Khazanah",
-                    "indo": "Lemari",
-                    "exAr": "الْكُتُبُ فِي الْخَزَانَةِ.",
-                    "exIndo": "Buku-buku ada di dalam lemari."
+                    "ar": "دَفْتَرٌ",
+                    "latin": "",
+                    "indo": "Buku Tulis",
+                    "exAr": "هٰذَا دَفْتَرٌ جَدِيدٌ.",
+                    "exIndo": "Ini buku tulis baru."
                 },
                 {
                     "id": 315,
-                    "ar": "رَفٌّ",
-                    "latin": "Raff",
-                    "indo": "Rak Buku",
-                    "exAr": "أُرَتِّبُ الْمَجَلاَّتِ عَلَى الرَّفِّ.",
-                    "exIndo": "Saya merapikan majalah di atas rak."
+                    "ar": "غِلَافٌ",
+                    "latin": "",
+                    "indo": "Sampul Buku",
+                    "exAr": "هٰذَا غِلَافٌ جَمِيلٌ.",
+                    "exIndo": "Ini sampul yang indah."
                 },
                 {
                     "id": 316,
-                    "ar": "صُورَةٌ",
-                    "latin": "Surah",
-                    "indo": "Gambar / Foto",
-                    "exAr": "الصُّورَةُ مُعَلَّقَةٌ عَلَى الْجِدَارِ.",
-                    "exIndo": "Gambar itu tergantung di dinding."
+                    "ar": "جِدَارٌ",
+                    "latin": "",
+                    "indo": "Tembok / Dinding",
+                    "exAr": "هٰذَا جِدَارٌ قَوِيٌّ.",
+                    "exIndo": "Ini dinding yang kokoh."
                 },
                 {
                     "id": 317,
-                    "ar": "خَرِيطَةٌ",
-                    "latin": "Kharitah",
-                    "indo": "Peta",
-                    "exAr": "خَرِيطَةُ إِنْدُونِيسِيَا جَمِيلَةٌ.",
-                    "exIndo": "Peta Indonesia sangat indah."
+                    "ar": "فَصْلٌ",
+                    "latin": "",
+                    "indo": "Ruang Kelas",
+                    "exAr": "هٰذَا فَصْلٌ وَاسِعٌ.",
+                    "exIndo": "Ini ruang kelas yang luas."
                 },
                 {
                     "id": 318,
-                    "ar": "سَاعَةٌ حَائِطِيَّةٌ",
-                    "latin": "Sa'ah ha'itiyyah",
-                    "indo": "Jam Dinding",
-                    "exAr": "السَّاعَةُ الْحَائِطِيَّةُ تُشِيرُ إِلَى السَّابِعَةِ.",
-                    "exIndo": "Jam dinding menunjukkan pukul tujuh."
+                    "ar": "جَرَسٌ",
+                    "latin": "",
+                    "indo": "Bel Sekolah",
+                    "exAr": "هٰذَا جَرَسُ الْمَدْرَسَةِ.",
+                    "exIndo": "Ini bel sekolah."
                 },
                 {
                     "id": 319,
-                    "ar": "كَرَّاسَةُ الرَّسْمِ",
-                    "latin": "Karrasatur rasm",
-                    "indo": "Buku Gambar",
-                    "exAr": "أَرْسُمُ الْمَنَظِرَ فِي كَرَّاسَةِ الرَّسْمِ.",
-                    "exIndo": "Saya menggambar pemandangan di buku gambar."
+                    "ar": "بُرُوجِكْتُرْ",
+                    "latin": "",
+                    "indo": "Proyektor / LCD",
+                    "exAr": "هٰذَا بُرُوجِكْتُرْ فِي الْفَصْلِ.",
+                    "exIndo": "Ini proyektor di kelas."
                 },
                 {
                     "id": 320,
-                    "ar": "وَرَقَةٌ",
-                    "latin": "Waraqah",
-                    "indo": "Kertas",
-                    "exAr": "أَكْتُبُ الرِّسَالَةَ عَلَى الْوَرَقَةِ.",
-                    "exIndo": "Saya menulis surat di atas kertas."
+                    "ar": "مُكَيِّفٌ",
+                    "latin": "",
+                    "indo": "Pendingin Ruangan (AC)",
+                    "exAr": "هٰذَا مُكَيِّفٌ بَارِدٌ.",
+                    "exIndo": "Ini AC yang dingin."
                 },
                 {
                     "id": 321,
-                    "ar": "أَحْمَرُ / حَمْرَاءُ",
-                    "latin": "Ahmar / Hamra'",
-                    "indo": "Merah",
-                    "exAr": "الْقَلَمُ أَحْمَرُ، وَالْحَقِيبَةُ حَمْرَاءُ.",
-                    "exIndo": "Pulpen itu merah, dan tas itu berwarna merah."
+                    "ar": "مِصْبَاحٌ",
+                    "latin": "",
+                    "indo": "Lampu",
+                    "exAr": "هٰذَا مِصْبَاحٌ مُنِيرٌ.",
+                    "exIndo": "Ini lampu yang terang."
                 },
                 {
                     "id": 322,
-                    "ar": "أَزْرَقُ / زَرْقَاءُ",
-                    "latin": "Azraq / Zarqa'",
-                    "indo": "Biru",
-                    "exAr": "الْكِتَابُ أَزْرَقُ.",
-                    "exIndo": "Buku itu berwarna biru."
+                    "ar": "مَكْتَبٌ",
+                    "latin": "",
+                    "indo": "Meja",
+                    "exAr": "هٰذَا مَكْتَبٌ جَدِيدٌ.",
+                    "exIndo": "Ini meja baru."
                 },
                 {
                     "id": 323,
-                    "ar": "أَخْضَرُ / خَضْرَاءُ",
-                    "latin": "Akhdar / Khadra'",
-                    "indo": "Hijau",
-                    "exAr": "السَّبُّورَةُ خَضْرَاءُ.",
-                    "exIndo": "Papan tulis itu berwarna hijau."
+                    "ar": "طَبْشُورَةٌ",
+                    "latin": "",
+                    "indo": "Kapur Tulis",
+                    "exAr": "هٰذِهِ طَبْشُورَةٌ بَيْضَاءُ.",
+                    "exIndo": "Ini kapur tulis putih."
                 },
                 {
                     "id": 324,
-                    "ar": "أَسْوَدُ / سَوْدَاءُ",
-                    "latin": "Aswad / Sauda'",
-                    "indo": "Hitam",
-                    "exAr": "الْقَلَمُ أَسْوَدُ.",
-                    "exIndo": "Pulpen itu berwarna hitam."
+                    "ar": "مِسَّاحَةٌ",
+                    "latin": "",
+                    "indo": "Penghapus Papan Tulis",
+                    "exAr": "هٰذِهِ مِسَّاحَةُ السَّبُّورَةِ.",
+                    "exIndo": "Ini penghapus papan tulis."
                 },
                 {
                     "id": 325,
-                    "ar": "أَبْيَضُ / بَيْضَاءُ",
-                    "latin": "Abyad / Baida'",
-                    "indo": "Putih",
-                    "exAr": "الْوَرَقَةُ بَيْضَاءُ.",
-                    "exIndo": "Kertas itu berwarna putih."
+                    "ar": "سَبُّورَةٌ",
+                    "latin": "",
+                    "indo": "Papan Tulis",
+                    "exAr": "تِلْكَ سَبُّورَةٌ كَبِيرَةٌ.",
+                    "exIndo": "Itu papan tulis besar."
                 },
                 {
                     "id": 326,
-                    "ar": "مِقَصٌّ",
-                    "latin": "Miqas",
-                    "indo": "Gunting",
-                    "exAr": "أَقُصُّ الْوَرَقَةَ بِالْمِقَصِّ.",
-                    "exIndo": "Saya menggunting kertas dengan gunting."
+                    "ar": "مَعْرَضٌ",
+                    "latin": "",
+                    "indo": "Lemari Kaca / Etalase Display",
+                    "exAr": "هٰذَا مَعْرَضٌ فِي الْفَصْلِ.",
+                    "exIndo": "Ini etalase pajangan."
                 },
                 {
                     "id": 327,
-                    "ar": "شَرِيطٌ لاَصِقٌ",
-                    "latin": "Sarit lasiq",
-                    "indo": "Isolasi / Solasi Tape",
-                    "exAr": "أَلْصِقُ الصُّورَةَ بِالشَّرِيطِ اللاَّصِقِ.",
-                    "exIndo": "Saya menempelkan gambar dengan isolasi."
+                    "ar": "رَفٌّ",
+                    "latin": "",
+                    "indo": "Rak Buku",
+                    "exAr": "هٰذَا رَفُّ الْكُتُبِ.",
+                    "exIndo": "Ini rak buku."
                 },
                 {
                     "id": 328,
-                    "ar": "مِلَفٌّ",
-                    "latin": "Milaf",
-                    "indo": "Stopmap / Folder Berkas",
-                    "exAr": "أَضَعُ الأَوْرَاقَ فِي الْمِلَفِّ.",
-                    "exIndo": "Saya menaruh lembaran kertas di dalam stopmap."
+                    "ar": "كُرْسِيٌّ",
+                    "latin": "",
+                    "indo": "Kursi",
+                    "exAr": "هٰذَا كُرْسِيٌّ مَرِيحٌ.",
+                    "exIndo": "Ini kursi yang nyaman."
                 },
                 {
                     "id": 329,
-                    "ar": "حِبْرٌ",
-                    "latin": "Hibr",
-                    "indo": "Tinta Pulpen",
-                    "exAr": "حِبْرُ الْقَلَمِ أَسْوَدُ.",
-                    "exIndo": "Tinta pulpen ini berwarna hitam."
+                    "ar": "سَاعَةٌ يَدَوِيَّةٌ",
+                    "latin": "",
+                    "indo": "Jam Tangan",
+                    "exAr": "هٰذِهِ سَاعَةٌ يَدَوِيَّةٌ.",
+                    "exIndo": "Ini jam tangan."
                 },
                 {
                     "id": 330,
-                    "ar": "طَبَاشِيرُ",
-                    "latin": "Tabasir",
-                    "indo": "Kapur Tulis",
-                    "exAr": "نَكْتُبُ عَلَى السَّبُّورَةِ بِالطَّبَاشِيرِ.",
-                    "exIndo": "Kami menulis di papan tulis dengan kapur tulis."
+                    "ar": "مَوْسُوعَةٌ",
+                    "latin": "",
+                    "indo": "Ensiklopedi",
+                    "exAr": "هٰذِهِ مَوْسُوعَةٌ كَبِيرَةٌ.",
+                    "exIndo": "Ini ensiklopedi besar."
+                },
+                {
+                    "id": 331,
+                    "ar": "مُعْجَمٌ",
+                    "latin": "",
+                    "indo": "Kamus Bahasa",
+                    "exAr": "هٰذَا مُعْجَمُ اللُّغَةِ الْعَرَبِيَّةِ.",
+                    "exIndo": "Ini kamus Bahasa Arab."
+                },
+                {
+                    "id": 332,
+                    "ar": "خَرِيطَةٌ",
+                    "latin": "",
+                    "indo": "Peta",
+                    "exAr": "تِلْكَ خَرِيطَةُ إِندُونِيسِيَا.",
+                    "exIndo": "Itu peta Indonesia."
+                },
+                {
+                    "id": 333,
+                    "ar": "بِطَاقَةٌ",
+                    "latin": "",
+                    "indo": "Kartu Pelajar / ID Card",
+                    "exAr": "هٰذِهِ بِطَاقَةُ الطَّالِبِ.",
+                    "exIndo": "Ini kartu pelajar."
+                },
+                {
+                    "id": 334,
+                    "ar": "بِسَاطٌ",
+                    "latin": "",
+                    "indo": "Karpet / Tikar",
+                    "exAr": "هٰذَا بِسَاطٌ نَظِيفٌ.",
+                    "exIndo": "Ini karpet bersih."
+                },
+                {
+                    "id": 335,
+                    "ar": "تَقْوِيمٌ",
+                    "latin": "",
+                    "indo": "Kalender",
+                    "exAr": "هٰذَا تَقْوِيمٌ جَدِيدٌ.",
+                    "exIndo": "Ini kalender baru."
+                },
+                {
+                    "id": 336,
+                    "ar": "مُلْصَقٌ",
+                    "latin": "",
+                    "indo": "Stiker / Poster",
+                    "exAr": "هٰذَا مُلْصَقٌ جَمِيلٌ.",
+                    "exIndo": "Ini stiker/poster indah."
+                },
+                {
+                    "id": 337,
+                    "ar": "صُورَةٌ",
+                    "latin": "",
+                    "indo": "Foto / Gambar / Lukisan",
+                    "exAr": "تِلْكَ صُورَةٌ جَمِيلَةٌ.",
+                    "exIndo": "Itu foto yang indah."
+                },
+                {
+                    "id": 338,
+                    "ar": "كُرَةٌ أَرْضِيَّةٌ",
+                    "latin": "",
+                    "indo": "Globe / Bola Dunia",
+                    "exAr": "هٰذِهِ كُرَةٌ أَرْضِيَّةٌ.",
+                    "exIndo": "Ini globe bola dunia."
+                },
+                {
+                    "id": 339,
+                    "ar": "جَدْوَلُ الدُّرُوسِ",
+                    "latin": "",
+                    "indo": "Jadwal Pelajaran",
+                    "exAr": "هٰذَا جَدْوَلُ الدُّرُوسِ.",
+                    "exIndo": "Ini jadwal pelajaran."
+                },
+                {
+                    "id": 340,
+                    "ar": "مَجَلَّةٌ حَائِطِيَّةٌ",
+                    "latin": "",
+                    "indo": "Majalah Dinding (Mading)",
+                    "exAr": "تِلْكَ مَجَلَّةٌ حَائِطِيَّةٌ.",
+                    "exIndo": "Itu majalah dinding."
+                },
+                {
+                    "id": 341,
+                    "ar": "كَشْفُ الْحُضُورِ",
+                    "latin": "",
+                    "indo": "Buku Presensi / Absensi",
+                    "exAr": "هٰذَا كَشْفُ الْحُضُورِ.",
+                    "exIndo": "Ini daftar presensi."
+                },
+                {
+                    "id": 342,
+                    "ar": "مِفْتَاحٌ",
+                    "latin": "",
+                    "indo": "Kunci",
+                    "exAr": "هٰذَا مِفْتَاحُ الْفَصْلِ.",
+                    "exIndo": "Ini kunci kelas."
+                },
+                {
+                    "id": 343,
+                    "ar": "بَابٌ",
+                    "latin": "",
+                    "indo": "Pintu",
+                    "exAr": "ذٰلِكَ بَابٌ كَبِيرٌ.",
+                    "exIndo": "Itu pintu besar."
+                },
+                {
+                    "id": 344,
+                    "ar": "سَاعَةٌ حَائِطِيَّةٌ",
+                    "latin": "",
+                    "indo": "Jam Dinding",
+                    "exAr": "تِلْكَ سَاعَةٌ حَائِطِيَّةٌ.",
+                    "exIndo": "Itu jam dinding."
+                },
+                {
+                    "id": 345,
+                    "ar": "نَافِذَةٌ",
+                    "latin": "",
+                    "indo": "Jendela",
+                    "exAr": "هٰذِهِ نَافِذَةٌ نَظِيفَةٌ.",
+                    "exIndo": "Ini jendela bersih."
+                },
+                {
+                    "id": 346,
+                    "ar": "أَحْمَرُ / حَمْرَاءُ",
+                    "latin": "",
+                    "indo": "Merah (Lk / Pr)",
+                    "exAr": "جِدَارٌ أَحْمَرُ / سَاعَةٌ حَمْرَاءُ.",
+                    "exIndo": "Dinding merah / Jam merah."
+                },
+                {
+                    "id": 347,
+                    "ar": "أَبْيَضُ / بَيْضَاءُ",
+                    "latin": "",
+                    "indo": "Putih (Lk / Pr)",
+                    "exAr": "رَفٌّ أَبْيَضُ / طَبْشُورَةٌ بَيْضَاءُ.",
+                    "exIndo": "Rak putih / Kapur putih."
+                },
+                {
+                    "id": 348,
+                    "ar": "أَزْرَقُ / زَرْقَاءُ",
+                    "latin": "",
+                    "indo": "Biru (Lk / Pr)",
+                    "exAr": "قِرْطَاسٌ أَزْرَقُ / صُورَةٌ زَرْقَاءُ.",
+                    "exIndo": "Kertas biru / Foto biru."
+                },
+                {
+                    "id": 349,
+                    "ar": "أَصْفَرُ / صَفْرَاءُ",
+                    "latin": "",
+                    "indo": "Kuning (Lk / Pr)",
+                    "exAr": "بِسَاطٌ أَصْفَرُ / خَرِيطَةٌ صَفْرَاءُ.",
+                    "exIndo": "Tikar kuning / Peta kuning."
+                },
+                {
+                    "id": 350,
+                    "ar": "أَخْضَرُ / خَضْرَاءُ",
+                    "latin": "",
+                    "indo": "Hijau (Lk / Pr)",
+                    "exAr": "مَعْرَضٌ أَخْضَرُ / مَوْسُوعَةٌ خَضْرَاءُ.",
+                    "exIndo": "Etalase hijau / Ensiklopedi hijau."
+                },
+                {
+                    "id": 351,
+                    "ar": "أَسْوَدُ / سَوْدَاءُ",
+                    "latin": "",
+                    "indo": "Hitam (Lk / Pr)",
+                    "exAr": "مُعْجَمٌ أَسْوَدُ / سَبُّورَةٌ سَوْدَاءُ.",
+                    "exIndo": "Kamus hitam / Papan tulis hitam."
+                },
+                {
+                    "id": 352,
+                    "ar": "بُرْتُقَالِيٌّ / بُرْتُقَالِيَّةٌ",
+                    "latin": "",
+                    "indo": "Jingga / Oranye (Lk / Pr)",
+                    "exAr": "مِرْسَمٌ بُرْتُقَالِيٌّ / مِسَّاحَةٌ بُرْتُقَالِيَّةٌ.",
+                    "exIndo": "Pensil oranye / Penghapus oranye."
+                },
+                {
+                    "id": 353,
+                    "ar": "كَرِيمِيٌّ / كَرِيمِيَّةٌ",
+                    "latin": "",
+                    "indo": "Krem (Lk / Pr)",
+                    "exAr": "جَرَسٌ كَرِيمِيٌّ / بِطَاقَةٌ كَرِيمِيَّةٌ.",
+                    "exIndo": "Bel krem / Kartu krem."
+                },
+                {
+                    "id": 354,
+                    "ar": "رَمَادِيٌّ / رَمَادِيَّةٌ",
+                    "latin": "",
+                    "indo": "Abu-abu (Lk / Pr)",
+                    "exAr": "مَكْتَبٌ رَمَادِيٌّ / مِقْلَمَةٌ رَمَادِيَّةٌ.",
+                    "exIndo": "Meja abu-abu / Kotak pensil abu-abu."
+                },
+                {
+                    "id": 355,
+                    "ar": "بُنِّيٌّ / بُنِّيَّةٌ",
+                    "latin": "",
+                    "indo": "Cokelat (Lk / Pr)",
+                    "exAr": "مِصْبَاحٌ بُنِّيٌّ / مِمْسَحَةٌ بُنِّيَّةٌ.",
+                    "exIndo": "Lampu cokelat / Penghapus cokelat."
+                },
+                {
+                    "id": 356,
+                    "ar": "وَرْدِيٌّ / وَرْدِيَّةٌ",
+                    "latin": "",
+                    "indo": "Merah Muda / Pink (Lk / Pr)",
+                    "exAr": "قَلَمٌ وَرْدِيٌّ / حَقِيبَةٌ وَرْدِيَّةٌ.",
+                    "exIndo": "Pulpen pink / Tas pink."
+                },
+                {
+                    "id": 357,
+                    "ar": "بَنَفْسَجِيٌّ / بَنَفْسَجِيَّةٌ",
+                    "latin": "",
+                    "indo": "Ungu (Lk / Pr)",
+                    "exAr": "حِبْرٌ بَنَفْسَجِيٌّ / مِسْطَرَةٌ بَنَفْسَجِيَّةٌ.",
+                    "exIndo": "Tinta ungu / Penggaris ungu."
                 }
             ],
             "hiwar": {
