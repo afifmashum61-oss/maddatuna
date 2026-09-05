@@ -403,15 +403,94 @@ const arabicData = {
 
             },
             qiraah: {
-                title: "التَّعْرِيفُ بِالْعَامِلِينَ فِي الْمَدْرَسَةِ",
-                titleIndo: "Teks Bacaan: Mengenal Warga & Staf di Sekolah",
-                textAr: "إِسْمِي فَارُوْقُ، أَنَا طَالِبٌ فِي هٰذِهِ الْمَدْرَسَةِ. وَهٰذَا أَخِي، اِسْمُهُ صَالِحٌ، هُوَ طَالِبٌ. وَهٰذِهِ صَدِيْقَتِي، اِسْمُهَا فِطْرِيَّةُ، هِيَ طَالِبَةٌ. تِلْكَ مُدَرِّسَتِي، اِسْمُهَا الأُسْتَاذَةُ نَفِيْسَةُ، هِيَ مُدَرِّسَةُ اللُّغَةِ الْعَرَبِيَّةِ. وَذٰلِكَ الأُسْتَاذُ مَنْصُوْرُ، هُوَ نَاظِرُ الْمَدْرَسَةِ.\n\nأُنْظُرْ إِلىٰ هٰذِهِ الصُّوْرَةِ! ذٰلِكَ السَّيِّدُ عُمَرُ، هُوَ أَمِيْنُ الْمَكْتَبَةِ فِي هٰذِهِ الْمَدْرَسَةِ. وَتِلْكَ السَّيِّدَةُ حَفْصَةُ، هِيَ مُوَظَّفَةٌ فِي الْمَكْتَبَةِ. وَهٰذَا بَائِعٌ، اِسْمُهُ السَّيِّدُ خَالِصٌ. وَهٰذِهِ بَائِعَةٌ، اِسْمُهَا السَّيِّدَةُ فَاطِمَةُ. وَذٰلِكَ سَائِقٌ، السَّائِقُ اِسْمُهُ السَّيِّدُ حَفِيْظٌ. أُنْظُرْ أَيْضًا! ذٰلِكَ بَوَّابٌ، اِسْمُهُ السَّيِّدُ مَسْعُوْدٌ، هُوَ مِنْ سُوْرَابَايَا. وَتِلْكَ خَادِمَةٌ، اِسْمُهَا نَبِيْلَةُ، هِيَ مِنْ بَانْدُوْنْج.",
-                textIndo: "Namaku Faruq, saya adalah siswa di sekolah ini. Dan ini saudaraku, namanya Salih, dia seorang siswa. Dan ini temanku, namanya Fitriyah, dia seorang siswi. Itu guruku, namanya Ustazah Nafisah, dia adalah guru Bahasa Arab. Dan itu Pak Mansur, dia adalah kepala sekolah.\n\nLihatlah gambar ini! Itu Pak Umar, dia adalah kepala perpustakaan di sekolah ini. Dan itu Bu Hafsah, dia adalah pegawai perpustakaan. Dan ini penjual (pedagang), namanya Pak Khalis. Dan ini penjual wanita, namanya Bu Fatimah. Dan itu seorang sopir, sopir itu namanya Pak Hafiz. Lihatlah juga! Itu penjaga gerbang (satpam), namanya Pak Mas'ud, dia berasal dari Surabaya. Dan itu seorang pembantu (staf kebersihan), namanya Nabilah, dia berasal dari Bandung.",
-                questions: [
-                    { q: "مَنْ هُوَ نَاظِرُ الْمَدْرَسَةِ؟", options: ["الأستاذ منصور", "السيد عمر", "فاروق", "صالح"], answer: 0 },
-                    { q: "مِنْ أَيْن السَّيِّدُ مَسْعُوْدٌ (الْبَوَّابُ)؟", options: ["من سورابايا", "من باندونج", "من جاكرتا", "من سمارانج"], answer: 0 },
-                    { q: "مَا وَظِيفَةُ الأُسْتَاذَةِ نَفِيسَةَ؟", options: ["مدرسة اللغة العربية", "أمينة المكتبة", "طالبة", "خادمة"], answer: 0 }
-                ]
+
+          "title": "التَّعْرِيفُ بِالنَّفْسِ",
+          "titleIndo": "Teks Membaca 1: Perkenalan Diri (التَّنَصُّ الأَوَّلُ)",
+          "textAr": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ\nأَنَا طَالِبٌ، إِسْمِي عَزَّامٌ. وَهٰذَا مَحْمُودٌ، هُوَ طَالِبٌ، هُوَ صَدِيقِي. أَنَا طَالِبَةٌ، إِسْمِي حِلْيَةُ. وَهٰذِهِ رَفِيدَةُ، هِيَ طَالِبَةٌ، هِيَ صَدِيقَتِي. مَنْ هٰذَا؟ هٰذَا طَالِبٌ، هُوَ فَوْزَانُ، هُوَ صَدِيقِي. مَنْ هٰذِهِ؟ هٰذِهِ طَالِبَةٌ، هِيَ فَائِزَةُ، هِيَ صَدِيقَتِي.\n\nأَنْتَ صَدِيقِي يَا مَحْمُودُ! وَأَنْتَ صَدِيقِي يَا فَوْزَانُ. أَنْتِ صَدِيقَتِي يَا رَفِيدَةُ! وَأَنْتِ صَدِيقَتِي يَا فَائِزَةُ.",
+          "textIndo": "Assalamu'alaikum warahmatullahi.\nSaya seorang siswa, namaku Azzam. Dan ini Mahmud, dia seorang siswa, dia temanku. Saya seorang siswi, namaku Hilya. Dan ini Rafidah, dia seorang siswi, dia temanku. Siapa ini? Ini seorang siswa, dia Fauzan, dia temanku. Siapa ini? Ini seorang siswi, dia Fa'izah, dia temanku.\n\nKamu temanku wahai Mahmud! Dan kamu temanku wahai Fauzan. Kamu temanku wahai Rafidah! Dan kamu temanku wahai Fa'izah.",
+          "questions": [
+                    {
+                              "q": "إِسْمِي ... ، أَنَا طَالِبٌ",
+                              "options": [
+                                        "عَزَّامٌ",
+                                        "مَحْمُودٌ",
+                                        "فَوْزَانُ",
+                                        "صَدِيقِي"
+                              ],
+                              "answer": 0
+                    },
+                    {
+                              "q": "إِسْمِي حِلْيَةُ ، أَنَا ...",
+                              "options": [
+                                        "طَالِبَةٌ",
+                                        "رَفِيدَةُ",
+                                        "فَائِزَةُ",
+                                        "صَدِيقَتِي"
+                              ],
+                              "answer": 0
+                    },
+                    {
+                              "q": "مَنْ هٰذَا ؟",
+                              "options": [
+                                        "إِسْمِي",
+                                        "هٰذَا صَدِيقِي",
+                                        "هُوَ فَوْزَانُ",
+                                        "عَزَّامٌ"
+                              ],
+                              "answer": 2
+                    },
+                    {
+                              "q": "... ؟ هِيَ طَالِبَةٌ",
+                              "options": [
+                                        "مَنْ هِيَ",
+                                        "مَنْ هٰذَا",
+                                        "مَنْ أَنْتَ",
+                                        "مَنْ أَنَا"
+                              ],
+                              "answer": 0
+                    },
+                    {
+                              "q": "... ؟ أَنَا طَالِبَةٌ",
+                              "options": [
+                                        "مَنْ هٰذِهِ",
+                                        "مَنْ هٰذَا",
+                                        "مَنْ أَنْتِ",
+                                        "مَنْ أَنَا"
+                              ],
+                              "answer": 2
+                    },
+                    {
+                              "q": "أَنَا مَحْمُودٌ . ...",
+                              "options": [
+                                        "إِسْمِي أَحْمَدُ",
+                                        "هٰذَا مَحْمُودٌ",
+                                        "أَنَا طَالِبٌ",
+                                        "هِيَ صَدِيقَتِي"
+                              ],
+                              "answer": 2
+                    },
+                    {
+                              "q": "يَا رَفِيدَةُ ! ...",
+                              "options": [
+                                        "أَنَا صَدِيقَتِي",
+                                        "أَنْتِ صَدِيقَتِي",
+                                        "هِيَ صَدِيقَتِي",
+                                        "أَنْتَ صَدِيقِي"
+                              ],
+                              "answer": 1
+                    },
+                    {
+                              "q": "يَا فَوْزَانُ ! ...",
+                              "options": [
+                                        "أَنْتِ صَدِيقَتِي",
+                                        "أَنْتَ صَدِيقِي",
+                                        "هُوَ صَدِيقِي",
+                                        "أَنَا صَدِيقِي"
+                              ],
+                              "answer": 1
+                    }
+          ]
+
             },
             qawaid: {
                 title: "الْقَوَاعِدُ: الضَّمَائِرُ وَأَسْمَاءُ الإِشَارَةِ",
