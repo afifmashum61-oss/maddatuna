@@ -2187,78 +2187,104 @@ const arabicData = {
                 }
             ],
             "hiwar": {
-                "title": "الْحِوَارُ: الأَدَوَاتُ الْمَدْرَسِيَّةُ فِي الْحَقِيبَةِ",
-                "titleIndo": "Percakapan Lengkap: Peralatan Sekolah di Dalam Tas",
-                "lines": [
+                "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: اَلْأَدَوَاتُ الْمَدْرَسِيَّةُ وَالْأَلْوَانُ (الْحِوَارُ ١ وَ ٢)",
+                "titleIndo": "Maharah Istima' & Hiwar Bab 3: Terdiri dari 2 Percakapan (Buku Kemenag 2025)",
+                "dialogues": [
                     {
-                        "speaker": "سَلْمَان",
-                        "ar": "السَّلاَمُ عَلَيْكُمْ يَا يُوسُفُ، مَاذَا تَحْمِلُ فِي حَقِيبَتِكَ؟",
-                        "indo": "Assalamu'alaikum wahai Yusuf, apa yang kamu bawa di dalam tasmu?"
+                        "id": 1,
+                        "badge": "الْحِوَارُ 1",
+                        "title": "الْحِوَارُ بَيْنَ فَائِقَة وَهِمَّة: فَصْلِي",
+                        "titleIndo": "Percakapan 1: Kelas Saya (Faiqah & Himmah)",
+                        "lines": [
+                            {
+                                "speaker": "فَائِقَة",
+                                "ar": "السَّلَامُ عَلَيْكُمْ",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "هِمَّة",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ",
+                                "indo": "Wa'alaikumussalam."
+                            },
+                            {
+                                "speaker": "فَائِقَة",
+                                "ar": "يَا هِمَّة، أُنْظُرِي إِلَى هٰذِهِ الصُّورَةِ؟",
+                                "indo": "Wahai Himmah, lihatlah foto ini!"
+                            },
+                            {
+                                "speaker": "هِمَّة",
+                                "ar": "مَاذَا يَا فَائِقَة؟",
+                                "indo": "Ada apa wahai Faiqah?"
+                            },
+                            {
+                                "speaker": "فَائِقَة",
+                                "ar": "هٰذَا فَصْلِي",
+                                "indo": "Ini adalah kelasku."
+                            },
+                            {
+                                "speaker": "هِمَّة",
+                                "ar": "هَلْ هٰذَا فَصْلُكِ يَا فَائِقَة؟ سُبْحَانَ الله... فَصْلُكِ وَاسِعٌ وَجَمِيلٌ.",
+                                "indo": "Apakah ini kelasmu wahai Faiqah? Subhanallah... kelasmu luas dan indah."
+                            },
+                            {
+                                "speaker": "فَائِقَة",
+                                "ar": "نَعَمْ يَا هِمَّة، هٰذَا فَصْلِي. فَصْلِي وَاسِعٌ وَجَمِيلٌ وَمِثَالِيٌّ لِلْتَّدْرِيسِ.",
+                                "indo": "Ya wahai Himmah, ini kelasku. Kelasku luas, indah, dan ideal untuk pembelajaran."
+                            },
+                            {
+                                "speaker": "هِمَّة",
+                                "ar": "شُكْرًا يَا فَائِقَة",
+                                "indo": "Terima kasih wahai Faiqah."
+                            }
+                        ]
                     },
                     {
-                        "speaker": "يُوسُف",
-                        "ar": "وَعَلَيْكُمُ السَّلاَمُ يَا سَلْمَانُ! أَنَا أَحْمِلُ أَدَوَاتِي الْمَدْرَسِيَّةَ الْكَامِلَةَ.",
-                        "indo": "Wa'alaikumussalam wahai Salman! Saya membawa peralatan sekolahku yang lengkap."
-                    },
-                    {
-                        "speaker": "سَلْمَان",
-                        "ar": "مَاشَاءَ اللَّهُ! حَقِيبَتُكَ جَمِيلَةٌ وَلَوْنُهَا أَخْضَرُ. هَلْ فِيهَا كُتُبٌ وَدَفَاتِرُ؟",
-                        "indo": "Masya Allah! Tasmu indah berwarna hijau. Apakah di dalamnya ada buku paket dan buku tulis?"
-                    },
-                    {
-                        "speaker": "يُوسُف",
-                        "ar": "نَعَمْ، فِيهَا كِتَابُ اللُّغَةِ الْعَرَبِيَّةِ، وَكِتَابُ الرِّيَاضِيَّاتِ، وَدَفَاتِرُ مُرَتَّبَةٌ لِلْكِتَابَةِ.",
-                        "indo": "Ya, di dalamnya ada buku paket Bahasa Arab, buku Matematika, dan buku tulis teratur untuk mencatat."
-                    },
-                    {
-                        "speaker": "سَلْمَان",
-                        "ar": "وَمَا هٰذِهِ الْمِقْلَمَةُ الأَنِيقَةُ؟",
-                        "indo": "Dan apa kotak pensil yang anggun ini?"
-                    },
-                    {
-                        "speaker": "يُوسُف",
-                        "ar": "هٰذِهِ مِقْلَمَتِي الْجَدِيدَةُ، لَوْنُهَا أَزْرَقُ زَاهٍ.",
-                        "indo": "Ini kotak pensil baru saya, warnanya biru cerah."
-                    },
-                    {
-                        "speaker": "سَلْمَان",
-                        "ar": "مَاذَا تَضَعُ دَاخِلَ هٰذِهِ الْمِقْلَمَةِ؟",
-                        "indo": "Apa saja yang kamu taruh di dalam kotak pensil ini?"
-                    },
-                    {
-                        "speaker": "يُوسُف",
-                        "ar": "أَضَعُ فِيهَا قَلَمَ حِبْرٍ أَسْوَدَ، وَقَلَمَ رَصَاصٍ، وَقَلَمًا أَحْمَرَ، وَمِمْحَاةً، وَمِبْرَاةً، وَمِسْطَرَةً طَوِيلَةً.",
-                        "indo": "Saya menaruh di dalamnya pulpen tinta hitam, pensil, pulpen merah, penghapus, rautan, dan penggaris panjang."
-                    },
-                    {
-                        "speaker": "سَلْمَان",
-                        "ar": "وَهَلْ عِنْدَكَ مِقَصٌّ وَشَرِيطٌ لاَصِقٌ لِدَرْسِ الْفُنُونِ؟",
-                        "indo": "Dan apakah kamu punya gunting dan isolasi untuk pelajaran seni?"
-                    },
-                    {
-                        "speaker": "يُوسُف",
-                        "ar": "نَعَمْ، عِنْدِي مِقَصٌّ صَغِيرٌ وَشَرِيطٌ لاَصِقٌ فِي الْمِلَفِّ.",
-                        "indo": "Ya, saya punya gunting kecil dan isolasi di dalam folder stopmap."
-                    },
-                    {
-                        "speaker": "سَلْمَان",
-                        "ar": "وَمَا هٰذِهِ الْكُرَّاسَةُ الْكَبِيرَةُ ذَاتُ الغِلاَفِ الأَصْفَرِ؟",
-                        "indo": "Dan apa buku besar bersampul kuning ini?"
-                    },
-                    {
-                        "speaker": "يُوسُف",
-                        "ar": "هٰذِهِ كَرَّاسَةُ الرَّسْمِ، أَرْسُمُ فِيهَا الْمَنَاظِرَ الطَّبِيعِيَّةَ الْجَمِيلَةَ.",
-                        "indo": "Ini adalah buku gambar, saya menggambar pemandangan alam yang indah di dalamnya."
-                    },
-                    {
-                        "speaker": "سَلْمَان",
-                        "ar": "أَنْتَ طَالِبٌ مُنَظَّمٌ وَمُسْتَعِدٌّ جِدًّا لِلدِّرَاسَةِ يَا يُوسُفُ!",
-                        "indo": "Kamu adalah siswa yang sangat teratur dan siap untuk belajar wahai Yusuf!"
-                    },
-                    {
-                        "speaker": "يُوسُف",
-                        "ar": "شُكْرًا جَزِيلًا يَا سَلْمَانُ، وَالنَّظَافَةُ وَالتَّنْظِيمُ يُمَكِّنَانِنَا مِنَ النَّجَاحِ!",
-                        "indo": "Terima kasih banyak wahai Salman, kebersihan dan keteraturan membuat kita sukses!"
+                        "id": 2,
+                        "badge": "الْحِوَارُ 2",
+                        "title": "الْحِوَارُ بَيْنَ فَائِزَة وَعِزَّة: الأَدَوَاتُ فِي فَصْلِي",
+                        "titleIndo": "Percakapan 2: Peralatan di Kelasku (Fa'izah & 'Izzah)",
+                        "lines": [
+                            {
+                                "speaker": "فَائِزَة",
+                                "ar": "السَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "عِزَّة",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ.",
+                                "indo": "Wa'alaikumussalam."
+                            },
+                            {
+                                "speaker": "فَائِزَة",
+                                "ar": "يَا عِزَّة ، هٰذَا فَصْلِي. فَصْلِي وَاسِعٌ وَجَمِيلٌ وَمِثَالِيٌّ لِلْتَّدْرِيسِ.",
+                                "indo": "Wahai 'Izzah, ini kelasku. Kelasku luas, indah, dan ideal untuk pembelajaran."
+                            },
+                            {
+                                "speaker": "عِزَّة",
+                                "ar": "مَا شَاءَ اللهُ، فَصْلُكِ مِثَالِيٌّ لِلْتَّدْرِيسِ؟",
+                                "indo": "Masya Allah, apakah kelasmu ideal untuk pembelajaran?"
+                            },
+                            {
+                                "speaker": "فَائِزَة",
+                                "ar": "طَبْعًا يَا عِزَّة.",
+                                "indo": "Tentu saja wahai 'Izzah."
+                            },
+                            {
+                                "speaker": "عِزَّة",
+                                "ar": "كَيْفَ صَارَ فَصْلُكِ مِثَالِيًّا؟",
+                                "indo": "Bagaimana kelasmu bisa menjadi ideal?"
+                            },
+                            {
+                                "speaker": "فَائِزَة",
+                                "ar": "لَهُ بَابٌ وَاسِعٌ، وَهُوَ مَفْرُوشٌ بِبِسَاطٍ. وَلَهُ أَيْضًا بِطَاقَةٌ وَمُكَيِّفٌ وَتَقْوِيمٌ وَجَرَسٌ. وَفِي حَائِطِهِ خَرِيطَةٌ لِلْعَالَمِ وَصُوَرٌ تَعْلِيمِيَّةٌ وَرَفٌّ وَجَدْوَلُ الدُّرُوسِ وَسَاعَةٌ حَائِطِيَّةٌ. وَفِيهِ سَبُّورَةٌ كَبِيرَةٌ وَطَبَاشِيرُ مُلَوَّنَةٌ وَمِسَّاحَةٌ لِلسَّبُّورَةِ وَخِزَانَةٌ لِلْكُتُبِ وَمُعْجَمٌ وَمَوْسُوعَةٌ وَكَرَاسِيُّ مَرِيحَةٌ لِلطُّلَّابِ وَمَكْتَبٌ لِلْمُعَلِّمِ وَكَشْفُ الْحُضُورِ وَمَجَلَّةٌ حَائِطِيَّةٌ وَمُجَسَّمٌ لِلْكُرَةِ الأَرْضِيَّةِ وَبُرُوجِكْتُرْ وَمَصَابِيحُ وَنَافِذَتَانِ.",
+                                "indo": "Kelas itu punya pintu luas, dan terhampar karpet. Dan padanya ada juga kartu/papan nama, AC, kalender, dan bel. Di dindingnya terdapat peta dunia, gambar-gambar edukatif, rak, jadwal pelajaran, dan jam dinding. Di dalamnya ada papan tulis besar, kapur berwarna, penghapus papan tulis, lemari buku, kamus, ensiklopedi, kursi-kursi nyaman untuk siswa, meja guru, buku presensi, mading, globe bola dunia, proyektor, lampu-lampu, dan dua jendela."
+                            },
+                            {
+                                "speaker": "عِزَّة",
+                                "ar": "كَثِيرَةٌ جِدًّا يَا فَائِزَة. فَصْلُكِ جَيِّدٌ جِدًّا.",
+                                "indo": "Sangat banyak sekali wahai Fa'izah. Kelasmu sangat bagus sekali."
+                            }
+                        ]
                     }
                 ]
             },
