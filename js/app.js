@@ -306,9 +306,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const hiwar = chapter.hiwar;
         let showTranslation = true;
 
+        const dialoguesList = hiwar.dialogues || [{
+            id: 1,
+            title: hiwar.title,
+            titleIndo: hiwar.titleIndo,
+            lines: hiwar.lines || []
+        }];
+
+        const allLines = dialoguesList.flatMap(d => d.lines);
+
         mainContentArea.innerHTML = `
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100 mb-6">
-                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-gray-100">
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100 flex flex-col md:flex-row md:items-center justify-between gap-4">
                     <div>
                         <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ</span>
                         <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${hiwar.title}</h2>
@@ -325,29 +334,49 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
 
-                <div id="dialogueContainer" class="mt-6 space-y-4">
-                    ${hiwar.lines.map((line, index) => {
-                        const isEven = index % 2 === 0;
-                        return `
-                            <div class="flex gap-3 ${isEven ? 'flex-row-reverse' : 'flex-row'} items-start">
-                                <div class="w-10 h-10 rounded-full ${isEven ? 'bg-bottle-green text-gold' : 'bg-gold text-bottle-green-dark'} font-bold flex items-center justify-center text-sm shadow-sm flex-shrink-0">
-                                    ${line.speaker.charAt(0)}
-                                </div>
-
-                                <div class="max-w-[85%] sm:max-w-[75%] p-4 ${isEven ? 'dialogue-bubble-right' : 'dialogue-bubble-left'}">
-                                    <div class="flex items-center justify-between gap-4 mb-1">
-                                        <span class="text-xs font-bold ${isEven ? 'text-bottle-green' : 'text-emerald-700'}">${line.speaker}</span>
-                                        <button onclick="speakArabic('${line.ar}')" class="text-xs text-gray-400 hover:text-bottle-green" title="Putar suara">
-                                            <i class="fa-solid fa-volume-high"></i>
-                                        </button>
-                                    </div>
-                                    <p class="font-arabic text-xl font-bold text-gray-800 text-right leading-relaxed">${line.ar}</p>
-                                    <p class="hiwar-translation text-xs text-gray-600 mt-2 pt-2 border-t border-gray-100">${line.indo}</p>
+                ${dialoguesList.map((dialogue, dIdx) => `
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100">
+                        <div class="flex items-center justify-between pb-3 mb-5 border-b border-emerald-100">
+                            <div class="flex items-center gap-3">
+                                <span class="w-8 h-8 rounded-full bg-gold text-bottle-green-dark font-extrabold flex items-center justify-center text-sm shadow">
+                                    ${dIdx + 1}
+                                </span>
+                                <div>
+                                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark">${dialogue.title}</h3>
+                                    <p class="text-xs text-gray-500 font-semibold">${dialogue.titleIndo}</p>
                                 </div>
                             </div>
-                        `;
-                    }).join('')}
-                </div>
+                            <button onclick="playDialogueSequence(arabicData.chapters[${chapter.id - 1}].hiwar.dialogues[${dIdx}].lines)" 
+                                class="px-3 py-1.5 bg-emerald-50 hover:bg-emerald-100 text-bottle-green font-bold text-xs rounded-xl transition-all flex items-center gap-1.5 border border-emerald-200">
+                                <i class="fa-solid fa-play text-xs text-gold"></i> Putar Percakapan ${dIdx + 1}
+                            </button>
+                        </div>
+
+                        <div class="space-y-4">
+                            ${dialogue.lines.map((line, index) => {
+                                const isEven = index % 2 === 0;
+                                return `
+                                    <div class="flex gap-3 ${isEven ? 'flex-row-reverse' : 'flex-row'} items-start">
+                                        <div class="w-10 h-10 rounded-full ${isEven ? 'bg-bottle-green text-gold' : 'bg-gold text-bottle-green-dark'} font-bold flex items-center justify-center text-sm shadow-sm flex-shrink-0">
+                                            ${line.speaker.charAt(0)}
+                                        </div>
+
+                                        <div class="max-w-[85%] sm:max-w-[75%] p-4 ${isEven ? 'dialogue-bubble-right' : 'dialogue-bubble-left'}">
+                                            <div class="flex items-center justify-between gap-4 mb-1">
+                                                <span class="text-xs font-bold ${isEven ? 'text-bottle-green' : 'text-emerald-700'}">${line.speaker}</span>
+                                                <button onclick="speakArabic('${line.ar}')" class="text-xs text-gray-400 hover:text-bottle-green" title="Putar suara">
+                                                    <i class="fa-solid fa-volume-high"></i>
+                                                </button>
+                                            </div>
+                                            <p class="font-arabic text-xl font-bold text-gray-800 text-right leading-relaxed">${line.ar}</p>
+                                            <p class="hiwar-translation text-xs text-gray-600 mt-2 pt-2 border-t border-gray-100">${line.indo}</p>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `).join('')}
             </div>
         `;
 
@@ -367,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Play all lines logic
         const playAllBtn = document.getElementById('playAllHiwarBtn');
         playAllBtn.addEventListener('click', () => {
-            playDialogueSequence(hiwar.lines);
+            playDialogueSequence(allLines);
         });
     }
 
