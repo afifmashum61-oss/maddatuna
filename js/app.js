@@ -669,7 +669,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${quiz.map((item, qIdx) => `
                         <div class="p-5 rounded-2xl bg-gray-50 border border-gray-200">
                             <p class="font-bold text-gray-800 text-base mb-3">
-                                ${qIdx + 1}. ${item.q}
+                                ${qIdx + 1}. ${item.q || item.question || ''}
                             </p>
                             <div class="space-y-2">
                                 ${item.options.map((opt, optIdx) => `
