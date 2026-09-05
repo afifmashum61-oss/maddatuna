@@ -539,15 +539,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. QAWAID TAB (GRAMMAR & KITABAH DRILL)
     // ==========================================
     function renderQawaidTab(chapter) {
-        const qawaidData = chapter.qawaid || {};
+        const qawaid = chapter.qawaid || {};
         state.qawaidSelectedWords = [];
 
-        const mainTitle = qawaidData.title || chapter.title || "اَلْقَوَاعِدُ وَالتَّرَاكِيبُ";
-        const mainTitleIndo = qawaidData.titleIndo || chapter.titleIndo || "Kaidah Tata Bahasa & Menulis";
+        const mainTitle = qawaid.title || chapter.title || "اَلْقَوَاعِدُ وَالتَّرَاكِيبُ";
+        const mainTitleIndo = qawaid.titleIndo || chapter.titleIndo || "Kaidah Tata Bahasa & Menulis";
 
-        let contentHtml = qawaidData.content || "";
-        if (!contentHtml && qawaidData.rules && Array.isArray(qawaidData.rules)) {
-            contentHtml = qawaidData.rules.map(r => `
+        let contentHtml = qawaid.content || "";
+        if (!contentHtml && qawaid.rules && Array.isArray(qawaid.rules)) {
+            contentHtml = qawaid.rules.map(r => `
                 <div class="mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm">
                     <h3 class="font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100">${r.title}</h3>
                     <div>${r.content}</div>
