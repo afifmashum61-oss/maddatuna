@@ -231,11 +231,11 @@ const arabicData = {
           },
           {
                     "id": 128,
-                    "ar": "السَّلاَمُ عَلَيْكُمْ / وَعَلَيْكُمُ السَّلاَمُ",
+                    "ar": "نَهَارُكَ سَعِيدٌ / سَعِيدٌ مُبَارَكٌ",
                     "latin": "",
-                    "indo": "Assalamu 'Alaikum / Wa 'Alaikum Salam",
-                    "exAr": "السَّلاَمُ عَلَيْكُمْ! - وَعَلَيْكُمُ السَّلاَمُ.",
-                    "exIndo": "Assalamu 'Alaikum! - Wa 'Alaikum Salam."
+                    "indo": "Selamat Siang / Selamat Siang juga",
+                    "exAr": "نَهَارُكَ سَعِيدٌ يَا صَدِيقِي! - سَعِيدٌ مُبَارَكٌ!",
+                    "exIndo": "Selamat siang wahai temanku! - Selamat siang juga!"
           },
           {
                     "id": 129,
@@ -247,11 +247,11 @@ const arabicData = {
           },
           {
                     "id": 130,
-                    "ar": "نَهَارُكَ سَعِيدٌ / لَيْلَتُكَ سَعِيدَةٌ",
+                    "ar": "لَيْلَتُكَ سَعِيدَةٌ / سَعِيدَةٌ مُبَارَكَةٌ",
                     "latin": "",
-                    "indo": "Selamat Siang / Selamat Malam",
-                    "exAr": "نَهَارُكَ سَعِيدٌ! - سَعِيدٌ مُبَارَكٌ!",
-                    "exIndo": "Selamat Siang! - Selamat Siang juga!"
+                    "indo": "Selamat Malam / Selamat Malam juga",
+                    "exAr": "لَيْلَتُكَ سَعِيدَةٌ! - سَعِيدَةٌ مُبَارَكَةٌ!",
+                    "exIndo": "Selamat malam! - Selamat malam juga!"
           }
 
             ],
