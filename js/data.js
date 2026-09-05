@@ -5379,34 +5379,76 @@ const arabicData = {
                     ]
                 }
             ],
-            "qiraah": {
-                "title": "قِرَاءَةٌ: يَوْمِيَّاتُ طَالِبٍ نَشِيطٍ",
-                "titleIndo": "Teks Bacaan: Hari-hari Siswa yang Rajin",
-                "textAr": "أَنَا اسْمِي عَبْدُ اللَّهِ. أَنَا طَالِبٌ نَشِيطٌ. أَسْتَيْقِظُ كُلَّ صَبَاحٍ فِي السَّاعَةِ الرَّابِعَةِ. أَغْتَسِلُ ثُمَّ أُصَلِّي الصُّبْحَ فِي الْمَسْجِدِ.\n\nبَعْدَ الصَّلاَةِ، أَقْرَأُ الْقُرْآنَ وَأُذَاكِرُ الدُّرُوسَ. فِي السَّاعَةِ السَّادِسَةِ وَالنِّصْفِ، أَتَنَاوَلُ الْفَطُورَ مَعَ أُسْرَتِي ثُمَّ أَذْهَبُ إِلَى الْمَدْرَسَةِ.\n\nأَرْجِعُ مِنَ الْمَدْرَسَةِ فِي السَّاعَةِ الْوَاحِدَةِ ظُهْرًا. أَتَنَاوَلُ الْغَدَاءَ وَأَسْتَرِيحُ قَلِيلاً. فِي اللَّيْلِ، أَكْتُبُ الْوَاجِبَاتِ الْمَنـْزِلِيَّةَ ثُمَّ أَنَامُ مُبَكِّرًا.",
-                "textIndo": "Nama saya Abdullah. Saya siswa yang rajin. Saya bangun setiap pagi pukul 04.00. Saya mandi kemudian shalat Subuh di masjid.\n\nSetelah shalat, saya membaca Al-Qur'an dan mengulang pelajaran. Pada pukul 06.30, saya sarapan bersama keluarga lalu pergi ke sekolah.\n\nSaya pulang dari sekolah pada pukul 13.00 siang. Saya makan siang dan beristirahat sejenak. Di malam hari, saya menulis PR kemudian tidur lebih awal.",
-                "questions": [
-                    {
-                        "q": "مَتَى يَسْتَيْقِظُ عَبْدُ اللَّهِ؟",
-                        "options": [
-                            "في الساعة الرابعة",
-                            "في الساعة السادسة",
-                            "في الساعة الثامنة",
-                            "في الساعة الثانية"
-                        ],
-                        "answer": 0
-                    },
-                    {
-                        "q": "أَيْنَ يُصَلِّي عَبْدُ اللَّهِ الصُّبْحَ؟",
-                        "options": [
-                            "في المدرسة",
-                            "في المسجد",
-                            "في الفصل",
-                            "في السوق"
-                        ],
-                        "answer": 1
-                    }
-                ]
-            },
+            "qiraah": [
+                {
+                    "id": 1,
+                    "title": "النَّصُّ الأَوَّلُ: أَعْمَالُ أُسْرَتِي فِي الْبَيْتِ",
+                    "titleIndo": "Bacaan 1: Aktivitas Keluargaku di Rumah (Banjarmasin)",
+                    "textAr": "هٰذِهِ صُورَةُ أُسْرَتِي. أُسْرَتِي كَبِيرَةٌ. هٰذَا أَنَا. وَهٰذَا أَبِي. وَهٰذِهِ أُمِّي. وَذٰلِكَ أَخِي. وَتِلْكَ أُخْتِي. وَهٰذَا جَدِّي. وَهٰذِهِ جَدَّتِي. بَيْتِي بَيْتٌ كَبِيرٌ وَوَاسِعٌ وَنَظِيفٌ. هُوَ جَانِبَ الْمَسْجِدِ الْكَبِيرِ فِي مَدِينَةِ بَانْجَارْمَاسِينْ.\n\nأَنَا سَكَنْتُ فِي الْبَيْتِ مَعَهُمْ جَمِيعًا. وَكُلَّ يَوْمٍ حَفِظْنَا نَظَافَةَ هٰذَا الْبَيْتِ. وَأُمِّي أَعْدَدَتِ الطَّعَامَ اللَّذِيذَ لِلْأُسْرَةِ. وَفِي غُرْفَةِ الأَكْلِ، أُخْتِي جَلَسَتْ عَلَى الْكُرْسِيِّ لِلأَكْلِ. وَأَخِي سَاعَدَهَا غَسْلَ الصُّحُونِ بَعْدَ الأَكْلِ. وَدَرَسَ أَخِي الصَّغِيرُ فِي غُرْفَتِهِ وَقَرَأَ كِتَابَ الْحَدِيثِ فِيهَا أَيْضًا. وَقَرَأَ أَبِي الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ.",
+                    "textIndo": "Ini adalah foto keluargaku. Keluargaku besar. Ini aku, dan ini ayahku, dan ini ibuku, dan itu saudara laki-lakiku, dan itu saudara perempuanku, dan ini kakekku, dan ini nenekku. Rumahku adalah rumah yang besar, luas, dan bersih. Rumah itu berada di samping masjid besar di Kota Banjarmasin.\n\nSaya tinggal di rumah bersama mereka semua. Setiap hari kami menjaga kebersihan rumah ini. Ibuku menyiapkan makanan yang lezat untuk keluarga. Di ruang makan, kakak perempuanku duduk di atas kursi untuk makan. Dan saudaraku membantunya mencuci piring setelah makan. Adik laki-lakiku belajar di kamarnya dan membaca buku Hadits di sana juga. Dan ayahku membaca majalah serta minum kopi.",
+                    "questions": [
+                        {
+                            "q": "أَيْنَ بَيْتُ أُسْرَةِ الرَّاوِي فِي النَّصِّ الأَوَّلِ؟",
+                            "options": [
+                                "جَانِبَ الْمَسْجِدِ الْكَبِيرِ فِي بَانْجَارْمَاسِينْ",
+                                "فِي شَارِعِ كَالِيمَانْتَان ٧٨ سَاهَارِينْدَا",
+                                "فِي مَدِينَةِ مَالَانْج",
+                                "فِي مَدِينَةِ سُورَابَايَا"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "مَاذَا قَرَأَ الْأَبُ فِي النَّصِّ الأَوَّلِ؟",
+                            "options": [
+                                "قَرَأَ الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ",
+                                "قَرَأَ الْقُرْآنَ",
+                                "قَرَأَ كِتَابَ الْحَدِيثِ",
+                                "كَتَبَ الدَّرْسَ"
+                            ],
+                            "answer": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "النَّصُّ الثَّانِي: بَيْتُ عَمِّي",
+                    "titleIndo": "Bacaan 2: Rumah Pamanku (Pak Taufiq - Samarinda)",
+                    "textAr": "إِسْمِي رَشَاد. عِنْدِي عَمٌّ إِسْمُهُ السَّيِّد تَوْفِيق. وَهُوَ الأَخُ الْكَبِيرُ لأَبِي. لِلسَّيِّدِ تَوْفِيق بَيْتٌ كَبِيرٌ وَجَمِيلٌ. وَهُوَ فِي شَارِعِ كَالِيمَانْتَان رَقْم ٧٨ سَاهَارِينْدَا. وَفِي الْبَيْتِ طَابَقٌ سُفْلِيٌّ وَطَابَقٌ عُلْوِيٌّ. أَمَامَ الْبَيْتِ شَجَرَةٌ كَبِيرَةٌ. وَهِيَ شَجَرَةُ مَنْجَا. وَوَرَاءَ الْبَيْتِ حَدِيقَةٌ وَاسِعَةٌ.\n\nفِي غُرْفَةِ الْجُلُوسِ مُنَضَّدَةٌ وَاحِدَةٌ وَخَمْسَةُ كَرَاسِيَّ مُنَظَّمَةٌ. وَعَلَى الْمُنَضَّدَةِ زَهْرِيَّةٌ. وَفِي الزَّهْرِيَّةِ أَزْهَارٌ جَمِيلَةٌ، مِثْلُ زَهْرَةِ الْوَرْدَةِ وَالْيَاسَمِينِ. وَفَوْقَ الْمُنَضَّدَةِ مِصْبَاحٌ.\n\nوَهٰذِهِ غُرْفَةُ الْمُذَاكَرَةِ. هِيَ وَرَاءَ غُرْفَةِ الْجُلُوسِ. وَهِيَ لِيُوسُف اِبْنِ عَمِّي الصَّغِيرِ. فِيهَا مِرْسَمَةٌ وَكِتَابٌ وَمِقْلَمَةٌ وَقَلَمٌ وَمَكْتَبٌ وَرَفٌّ. وَهٰذِهِ غُرْفَةُ الأَكْلِ. وَهِيَ جَانِبَ الْمَطْبَخِ. فِيهَا مَائِدَةٌ كَبِيرَةٌ. وَعَلَى الْمَائِدَةِ رُزٌّ وَمِلْعَقَةٌ وَصَحْنٌ وَشَايٌ وَقَهْوَةٌ.\n\nوَهٰذِهِ غُرْفَةُ الْمَكْتَبِ. وَهِيَ لِعَمِّي. عَمِّي تَاجِرٌ نَاجِحٌ مَعْرُوفٌ فِي الْمَدِينَةِ. فِي غُرْفَةِ الْمَكْتَبِ هَاتِفٌ وَفَاكْسٌ وَتَقْوِيمٌ وَصُورَةٌ وَسَاعَةٌ. الْهَاتِفُ وَالْفَاكْسُ عَلَى مَكْتَبِهِ. وَالتَّقْوِيمُ وَالصُّورَةُ وَالسَّاعَةُ عَلَى الْجِدَارِ. وَجَانِبَ الْمَطْبَخِ حَمَّامٌ وَمُصَلَّى. فِي الْحَمَّامِ بِرْكَةٌ وَمِرْحَاضٌ وَمَاءٌ وَمِغْرَفَةٌ وَصَابُونٌ.\n\nفِي الطَّابَقِ الْعُلْوِيِّ شُرْفَةٌ وَغُرَفُ النَّوْمِ. وَهٰذِهِ الْغُرَفُ لِإِسْمَاعِيل وَيُوسُف وَإِبْرَاهِيم أَبْنَاءِ عَمِّي. هٰذِهِ غُرْفَةُ النَّوْمِ لِإِسْمَاعِيل، اِبْنِ عَمِّي الْكَبِيرِ. وَهِيَ غُرْفَةٌ نَظِيفَةٌ وَمُنَظَّمَةٌ. فِيهَا خِزَانَةٌ وَمَلَابِسُ وَسَرِيرٌ وَوِسَادَةٌ. وَفِي الطَّابَقِ السُّفْلِيِّ غُرَفٌ كَثِيرَةٌ أَيْضًا. مِنْهَا غُرْفَةُ الْجُلُوسِ وَغُرْفَةُ الْمَكْتَبِ وَغُرْفَةُ الْمُذَاكَرَةِ وَغُرْفَةُ الأَكْلِ وَالْمَطْبَخُ وَالْمُصَلَّى وَالْحَمَّامُ.",
+                    "textIndo": "Namaku Rashad. Saya punya paman bernama Pak Taufiq. Beliau adalah kakak tertua ayahku. Pak Taufiq memiliki rumah yang besar dan indah di Jalan Kalimantan No. 78 Samarinda. Di rumah tersebut ada lantai bawah dan lantai atas. Di depan rumah ada pohon besar, yaitu pohon mangga. Dan di belakang rumah ada taman yang luas.\n\nDi ruang tamu ada satu meja tamu dan lima kursi yang tertata rapi. Di atas meja tamu ada vas bunga. Di dalam vas bunga ada bunga-bunga yang indah, seperti bunga mawar dan melati. Dan di atas meja tamu ada lampu.\n\nDan ini ruang belajar yang berada di belakang ruang tamu, milik Yusuf anak paman saya yang kecil. Di dalamnya ada pensil, buku, kotak pensil, pena, meja, dan rak. Dan ini ruang makan yang berada di samping dapur. Di dalamnya ada meja makan besar, dan di atas meja makan ada nasi, sendok, piring, teh, dan kopi.\n\nDan ini ruang kerja/kantor milik pamanku. Pamanku adalah seorang pedagang sukses yang terkenal di kota. Di ruang kerja ada telepon, mesin fax, kalender, foto, dan jam. Telepon dan fax ada di atas mejanya. Kalender, foto, dan jam ada di dinding. Di samping dapur ada kamar mandi dan mushalla. Di kamar mandi ada kolam, toilet, air, gayung, dan sabun.\n\nDi lantai atas terdapat balkon dan kamar-kamar tidur milik Ismail, Yusuf, dan Ibrahim anak-anak paman saya. Ini kamar tidur Ismail, anak paman yang paling besar. Kamarnya bersih dan rapi, di dalamnya ada lemari, pakaian, tempat tidur, dan bantal. Dan di lantai bawah terdapat banyak ruangan juga, di antaranya ruang tamu, ruang kerja, ruang belajar, ruang makan, dapur, mushalla, dan kamar mandi.",
+                    "questions": [
+                        {
+                            "q": "أَيْنَ بَيْتُ السَّيِّدِ تَوْفِيق (عَمِّ رَشَادٍ)؟",
+                            "options": [
+                                "فِي شَارِعِ كَالِيمَانْتَان رَقْم ٧٨ سَاهَارِينْدَا",
+                                "فِي بَانْجَارْمَاسِينْ",
+                                "فِي شَارِعِ بَاتُوبَارَا",
+                                "فِي شَارِعِ بَانْدُونْج"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "مَاذَا أَمَامَ بَيْتِ السَّيِّدِ تَوْفِيق؟",
+                            "options": [
+                                "شَجَرَةُ مَنْجَا كَبِيرَةٌ",
+                                "حَدِيقَةٌ وَاسِعَةٌ",
+                                "بِرْكَةٌ كَبِيرَةٌ",
+                                "مُصَلَّى"
+                            ],
+                            "answer": 0
+                        },
+                        {
+                            "q": "مَا مِهْنَةُ السَّيِّدِ تَوْفِيق (عَمِّ رَشَادٍ)؟",
+                            "options": [
+                                "تَاجِرٌ نَاجِحٌ مَعْرُوفٌ",
+                                "مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ",
+                                "طَبِيبٌ فِي الْمُسْتَشْفَى",
+                                "مُوَظَّفٌ فِي الْبَنْكِ"
+                            ],
+                            "answer": 0
+                        }
+                    ]
+                }
+            ],
             "qawaid": {
                 "title": "الْقَوَاعِدُ: الْفِعْلُ الْمُضَارِعُ لِلْمُتَكَلِّمِ وَالْمُخَاطَبِ",
                 "titleIndo": "Tata Bahasa: Kata Kerja Sekarang/Akan Datang (Fi'il Mudhari')",
