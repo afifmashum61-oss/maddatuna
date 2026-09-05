@@ -2289,30 +2289,106 @@ const arabicData = {
                 ]
             },
             "qiraah": {
-                "title": "قِرَاءَةٌ: أَدَوَاتِي الْمَدْرَسِيَّةُ",
-                "titleIndo": "Teks Bacaan: Peralatan Sekolahku",
-                "textAr": "أَنَا طَالِبٌ فِي الصَّفِّ السَّابِعِ. عِنْدِي حَقِيبَةٌ جَمِيلَةٌ لَوْنُهَا أَخْضَرُ. أَحْمِلُ الْحَقِيبَةَ إِلَى الْمَدْرَسَةِ كُلَّ صَبَاحٍ.\n\nفِي الْحَقِيبَةِ كُتُبٌ دِرَاسِيَّةٌ وَدَفَاتِرُ مُرَتَّبَةٌ. وَعِنْدِي أَيْضًا مِقْلَمَةٌ صَغِيرَةٌ. فِي الْمِقْلَمَةِ قَلَمُ حِبْرٍ أَسْوَدُ، وَقَلَمُ رَصَاصٍ، وَمِسْطَرَةٌ طَوِيلَةٌ.\n\nعَلَى الْمَكْتَبِ فِي الْفَصْلِ، أَضَعُ كِتَابَ اللُّغَةِ الْعَرَبِيَّةِ وَأَقْرَأُ فِيهِ الدُّرُوسَ. الأَدَوَاتُ الْمَدْرَسِيَّةُ مُهِمَّةٌ جِدًّا لِلتَّعَلُّمِ.",
-                "textIndo": "Saya adalah siswa di kelas 7. Saya memiliki tas indah berwarna hijau. Saya membawa tas ke sekolah setiap pagi.\n\nDi dalam tas ada buku-buku pelajaran dan buku tulis yang rapi. Saya juga punya kotak pensil kecil. Di dalam kotak pensil ada pulpen tinta hitam, pensil, dan penggaris panjang.\n\nDi atas meja di kelas, saya menaruh buku paket bahasa Arab dan membaca pelajaran di dalamnya. Peralatan sekolah sangat penting untuk belajar.",
-                "questions": [
+                "title": "مَهَارَةُ الْقِرَاءَةِ: اَلْأَدَوَاتُ الْمَدْرَسِيَّةُ وَالْأَلْوَانُ (النَّصُّ ١ وَ ٢)",
+                "titleIndo": "Maharah Qira'ah Bab 3: Terdiri dari 2 Bacaan (Buku Kemenag 2025)",
+                "articles": [
                     {
-                        "q": "مَا لَوْنُ حَقِيبَةِ الطَّالِبِ؟",
-                        "options": [
-                            "أحمر",
-                            "أزرق",
-                            "أخضر",
-                            "أصفر"
-                        ],
-                        "answer": 2
+                        "id": 1,
+                        "title": "النَّصُّ الأَوَّلُ: أَدَوَاتِي الْمَدْرَسِيَّةُ",
+                        "titleIndo": "Bacaan 1: Peralatan Sekolahku",
+                        "textAr": "إِسْمِي فَارُوقٌ. أَنَا تِلْمِيذٌ فِي الْفَصْلِ السَّابِعِ بِالْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ١ بِمَدِينَةِ مَالَانْج. لِي أَصْدِقَاءُ فِي الْفَصْلِ. مِنْهُمْ: مَحْمُودٌ وَمَحْبُوبٌ وَمَحْفُوظٌ وَمَسْعُودَةُ وَمَرْفُوعَةُ.\n\nحَقِيبَتِي لَوْنُهَا أَخْضَرُ. وَحَقِيبَةُ مَحْمُودٍ لَوْنُهَا أَسْوَدُ. فِيهَا مِقْلَمَةٌ وَفِرْجَارٌ وَمِبْرَاةٌ وَمِمْسَحَةٌ. وَحَقِيبَةُ مَحْبُوبٍ لَوْنُهَا أَزْرَقُ. فِيهَا قَلَمٌ وَمِرْسَمٌ وَحِبْرٌ وَقَلَمُ رَصَاصٍ وَمِسْطَرَةٌ. وَحَقِيبَةُ مَحْفُوظٍ لَوْنُهَا أَحْمَرُ. فِيهَا دَفْتَرٌ وَقِرْطَاسٌ وَمِقَصٌّ وَغِلَافٌ وَكِتَابٌ. وَحَقِيبَةُ مَسْعُودَةَ لَوْنُهَا بَنَفْسَجِيٌّ. وَحَقِيبَةُ مَرْفُوعَةَ لَوْنُهَا كَرِيمِيٌّ.",
+                        "textIndo": "Namaku Faruq. Saya seorang siswa di kelas tujuh MTs Negeri 1 Kota Malang. Saya mempunyai teman-teman di kelas. Di antaranya: Mahmud, Mahbub, Mahfuz, Mas'udah, dan Marfu'ah.\n\nTas sekolahku berwarna hijau. Dan tas Mahmud berwarna hitam. Di dalamnya ada tempat pensil, jangka, rautan, dan penghapus. Tas Mahbub berwarna biru. Di dalamnya ada pulpen, pensil, tinta, pensil warna, dan penggaris. Tas Mahfuz berwarna merah. Di dalamnya ada buku tulis, kertas, gunting, sampul, dan buku paket. Tas Mas'udah berwarna ungu. Dan tas Marfu'ah berwarna krem.",
+                        "questions": [
+                            {
+                                "q": "مَا لَوْنُ حَقِيبَةِ فَارُوقٍ؟",
+                                "options": [
+                                    "أَخْضَرُ",
+                                    "أَسْوَدُ",
+                                    "أَزْرَقُ",
+                                    "أَحْمَرُ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَا لَوْنُ حَقِيبَةِ مَحْمُودٍ؟",
+                                "options": [
+                                    "أَسْوَدُ",
+                                    "أَخْضَرُ",
+                                    "أَزْرَقُ",
+                                    "بَنَفْسَجِيٌّ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَاذَا فِي حَقِيبَةِ مَحْبُوبٍ؟",
+                                "options": [
+                                    "قَلَمٌ وَمِرْسَمٌ وَحِبْرٌ وَقَلَمُ رَصَاصٍ وَمِسْطَرَةٌ",
+                                    "مِقْلَمَةٌ وَفِرْجَارٌ",
+                                    "دَفْتَرٌ وَقِرْطَاسٌ",
+                                    "كِتَابٌ وَغِلَافٌ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَا لَوْنُ حَقِيبَةِ مَسْعُودَةَ؟",
+                                "options": [
+                                    "بَنَفْسَجِيٌّ",
+                                    "كَرِيمِيٌّ",
+                                    "أَحْمَرُ",
+                                    "أَخْضَرُ"
+                                ],
+                                "answer": 0
+                            }
+                        ]
                     },
                     {
-                        "q": "أَيْن يَضَعُ الطَّالِبُ كِتَابَ اللُّغَةِ الْعَرَبِيَّةِ؟",
-                        "options": [
-                            "على المكتب",
-                            "تحت الكرسي",
-                            "في الحمام",
-                            "في البستان"
-                        ],
-                        "answer": 0
+                        "id": 2,
+                        "title": "النَّصُّ الثَّانِي: الأَدَوَاتُ الْمَدْرَسِيَّةُ فِي فَصْلِي",
+                        "titleIndo": "Bacaan 2: Peralatan Sekolah di Kelasku",
+                        "textAr": "هٰذَا فَصْلِي. الْفَصْلُ وَاسِعٌ وَجَمِيلٌ وَمُنَظَّمٌ. فِيهِ أَدَوَاتٌ كَثِيرَةٌ. مِنْهَا: بَابٌ وَبِسَاطٌ وَبِطَاقَةٌ وَمُكَيِّفٌ وَتَقْوِيمٌ وَجَرَسٌ وَجِدَارٌ وَخَرِيطَةٌ.\n\nوَذٰلِكَ فَصْلُ صَدِيقَتِي فَاطِمَةَ. فَصْلُهَا وَاسِعٌ وَجَمِيلٌ وَمُنَظَّمٌ أَيْضًا. فِيهِ أَدَوَاتٌ كَثِيرَةٌ. مِنْهَا: رَفٌّ وَسَاعَةٌ وَسَبُّورَةٌ وَصُورَةٌ وَطَبْشُورَةٌ وَمِسَّاحَةٌ وَمُعْجَمٌ وَكُرْسِيٌّ وَمَعْرَضٌ وَمَكْتَبٌ وَمَوْسُوعَةٌ وَجَدْوَلُ الدُّرُوسِ.\n\nوَتِلْكَ غُرْفَةُ الْمُدَرِّسِ وَهِيَ لِلأُسْتَاذِ أَحْسَنَ. وَهِيَ غُرْفَةٌ ضَيِّقَةٌ لَكِنَّهَا جَمِيلَةٌ أَيْضًا. فِيهِ أَدَوَاتٌ كَثِيرَةٌ. مِنْهَا: سَاعَةٌ حَائِطِيَّةٌ وَكَشْفُ الْحُضُورِ وَمَجَلَّةٌ جِدَارِيَّةٌ وَكُرَةٌ أَرْضِيَّةٌ وَبُرُوجِكْتُرْ وَمُلْصَقٌ وَمِصْبَاحٌ وَمِفْتَاحٌ وَنَافِذَةٌ.",
+                        "textIndo": "Ini kelasku. Kelas ini luas, indah, dan teratur. Di dalamnya ada banyak peralatan. Di antaranya: pintu, karpet, kartu/papan nama, AC, kalender, bel, dinding, dan peta.\n\nDan itu kelas temanku Fatimah. Kelasnya luas, indah, dan teratur juga. Di dalamnya ada banyak peralatan. Di antaranya: rak, jam, papan tulis, foto/gambar, kapur tulis, penghapus, kamus, kursi, etalase, meja, ensiklopedi, dan jadwal pelajaran.\n\nDan itu ruang guru untuk Ustadz Ahsan. Ruangan tersebut sempit tetapi indah juga. Di dalamnya ada banyak peralatan. Di antaranya: jam dinding, buku presensi, majalah dinding, globe bola dunia, proyektor, stiker/poster, lampu, kunci, dan jendela.",
+                        "questions": [
+                            {
+                                "q": "كَيْفَ فَصْلِي؟",
+                                "options": [
+                                    "وَاسِعٌ وَجَمِيلٌ وَمُنَظَّمٌ",
+                                    "صَغِيرٌ وَضَيِّقٌ",
+                                    "مُتَّسِخٌ وَقَدِيمٌ",
+                                    "مَكْسُورٌ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَاذَا فِي فَصْلِ فَاطِمَةَ؟",
+                                "options": [
+                                    "رَفٌّ وَسَاعَةٌ وَسَبُّورَةٌ وَصُورَةٌ وَطَبْشُورَةٌ وَمِسَّاحَةٌ وَمُعْجَمٌ...",
+                                    "سَرِيرٌ وَوِسَادَةٌ",
+                                    "حَمَّامٌ وَمَطْبَخٌ",
+                                    "سَيَّارَةٌ وَدَرَّاجَةٌ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "لِمَنْ غُرْفَةُ الْمُدَرِّسِ؟",
+                                "options": [
+                                    "لِلأُسْتَاذِ أَحْسَنَ",
+                                    "لِفَاطِمَةَ",
+                                    "لِفَارُوقٍ",
+                                    "لِمَحْمُودٍ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "كَيْفَ غُرْفَةُ الأُسْتَاذِ أَحْسَنَ؟",
+                                "options": [
+                                    "غُرْفَةٌ ضَيِّقَةٌ لَكِنَّهَا جَمِيلَةٌ",
+                                    "غُرْفَةٌ كَبِيرَةٌ جِدًّا",
+                                    "مُتَّسِخَةٌ",
+                                    "وَاسِعَةٌ جِدًّا"
+                                ],
+                                "answer": 0
+                            }
+                        ]
                     }
                 ]
             },
