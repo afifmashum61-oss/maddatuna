@@ -2772,10 +2772,10 @@ const arabicData = {
         },
         {
             "id": 4,
-            "title": "الْعُنْوَانُ",
-            "titleIndo": "Alamat (Al-'Unwan)",
+            "title": "اَلْعُنْوَانُ وَالسَّاعَةُ",
+            "titleIndo": "Alamat dan Jam (Al-'Unwan was-Sa'ah)",
             "icon": "fa-map-location-dot",
-            "desc": "Menyebutkan nomor rumah, jalan, nomor telepon, dan angka (Al-Adad 1-10).",
+            "desc": "Mempelajari nomor telepon, penyebutan alamat tempat tinggal, serta pembacaan waktu dan jam dalam Bahasa Arab.",
             "mufrodat": [
                 {
                     "id": 401,
