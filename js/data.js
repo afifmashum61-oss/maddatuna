@@ -5271,117 +5271,114 @@ const arabicData = {
                     "exIndo": "Kami telah memasak nasi."
                 }
             ],
-            "hiwar": {
-                "title": "الْحِوَارُ: الأَنْشِطَةُ الْيَوْمِيَّةُ الشَّامِلَةُ لِلأُسْرَةِ",
-                "titleIndo": "Percakapan Lengkap: Aktivitas Sehari-hari Keluarga di Rumah",
-                "lines": [
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "السَّلاَمُ عَلَيْكُمْ يَا حُسَيْنُ، مَتَى تَسْتَيْقِظُ مِنَ النَّوْمِ كُلَّ صَبَاحٍ؟",
-                        "indo": "Assalamu'alaikum wahai Husain, kapan kamu bangun tidur setiap pagi?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "وَعَلَيْكُمُ السَّلاَمُ يَا حَسَنُ! أَسْتَيْقِظُ مُبَكِّرًا فِي السَّاعَةِ الرَّابِعَةِ صَبَاحًا.",
-                        "indo": "Wa'alaikumussalam wahai Hasan! Saya bangun lebih awal pada pukul 04.00 pagi."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "مَاذَا تَفْعَلُ بَعْدَ الإِسْتِيقَاظِ مُمَاشَرَةً؟",
-                        "indo": "Apa yang kamu lakukan langsung setelah bangun tidur?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أُرَتِّبُ سَرِيرِي، ثُمَّ أَتَوَضَّأُ وَأَغْتَسِلُ فِي الْحَمَّامِ.",
-                        "indo": "Saya merapikan ranjangku, kemudian berwudhu dan mandi di kamar mandi."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "وَأَيْنَ تُصَلِّي صَلاَةَ الصُّبْحِ؟",
-                        "indo": "Dan di mana kamu shalat Subuh?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أُصَلِّي الصُّبْحَ جَمَاعَةً مَعَ أَبِي فِي الْمَسْجِدِ الْقَرِيبِ مِنَ الْبَيْتِ.",
-                        "indo": "Saya shalat Subuh berjamaah bersama ayahku di masjid dekat rumah."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "مَا أَعْظَمَ ذٰلِكَ! وَمَاذَا تَفْعَلُ بَعْدَ الصَّلاَةِ؟",
-                        "indo": "Betapa agungnya hal itu! Dan apa yang kamu lakukan setelah shalat?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أَقْرَأُ الْقُرْآنَ الْكَرِيمَ وَأُذَاكِرُ دُرُوسِي لِمُدَّةِ سَاعَةٍ.",
-                        "indo": "Saya membaca Al-Qur'an dan mengulang pelajaran-pelajaranku selama satu jam."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "وَمَاذَا تَفْعَلُ أُمُّكَ وَأُخْتُكَ فِي هٰذَا الْوَقْتِ؟",
-                        "indo": "Dan apa yang dilakukan ibu dan adikmu pada waktu ini?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أُمِّي تَطْبُخُ الْفَطُورَ فِي الْمَطْبَخِ، وَأُخْتِي تُسَاعِدُهَا فِي تَنْظِيفِ الطَّاوِلَةِ.",
-                        "indo": "Ibuku memasak sarapan di dapur, dan adik perempuanku membantunya merapikan meja."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "وَأَبُوكَ، مَاذَا يَعْمَلُ قَبْلَ الذَّهَابِ إِلَى الْعَمَلِ؟",
-                        "indo": "Dan ayahmu, apa yang beliau kerjakan sebelum berangkat kerja?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أَبِي يَقْرَأُ الْجَرِيدَةَ الْيَوْمِيَّةَ وَيَشْرَبُ الْقَهْوَةَ السَّاخِنَةَ فِي الشُّرْفَةِ.",
-                        "indo": "Ayahku membaca koran harian dan minum kopi panas di teras."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "مَتَى تَتَنَاوَلُونَ طَعَامَ الْفَطُورِ مَعًا؟",
-                        "indo": "Kapan kalian makan sarapan bersama-sama?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "نَتَنَاوَلُ الْفَطُورَ مَعًا فِي غُرْفَةِ الأَكْلِ فِي السَّاعَةِ السَّادِسَةِ صَبَاحًا.",
-                        "indo": "Kami sarapan bersama di ruang makan pada pukul 06.00 pagi."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "وَمَتَى تَذْهَبُ إِلَى الْمَدْرَسَةِ؟",
-                        "indo": "Dan kapan kamu pergi ke sekolah?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أَرْتَدِي الزِّيَّ الْمَدْرَسِيَّ وَأَذْهَبُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّادِسَةِ وَالنِّصْفِ.",
-                        "indo": "Saya memakai seragam sekolah dan berangkat ke sekolah pada pukul 06.30."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "وَمَتَى تَرْجِعُ مِنَ الْمَدْرَسَةِ ظُهْرًا؟",
-                        "indo": "Dan kapan kamu pulang dari sekolah saat siang?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أَرْجِعُ فِي السَّاعَةِ الْوَاحِدَةِ ظُهْرًا، أَتَنَاوَلُ الْغَدَاءَ وَأَسْتَرِيحُ قَلِيلاً.",
-                        "indo": "Saya pulang pada pukul 13.00 siang, makan siang dan beristirahat sejenak."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "وَكَيْفَ تَقْضِي مَسَاءَكَ مَعَ الأُسْرَةِ؟",
-                        "indo": "Dan bagaimana kamu menghabiskan waktu sore/malam bersama keluarga?"
-                    },
-                    {
-                        "speaker": "حُسَيْن",
-                        "ar": "أَكْتُبُ الْوَاجِبَاتِ الْمَنـْزِلِيَّةَ، ثُمَّ نُشَاهِدُ التِّلْفَازَ، وَأَنَامُ مُبَكِّرًا فِي السَّاعَةِ التَّاسِعَةِ لَيْلًا.",
-                        "indo": "Saya mengerjakan PR, lalu kami menonton TV bersama, dan saya tidur lebih awal jam 21.00 malam."
-                    },
-                    {
-                        "speaker": "حَسَن",
-                        "ar": "مَا شَاءَ اللَّهُ! أُسْرَةٌ مُنَظَّمَةٌ، سَعِيدَةٌ، وَمُبَارَكَةٌ!",
-                        "indo": "Masya Allah! Keluarga yang teratur, bahagia, dan diberkahi!"
-                    }
-                ]
-            },
+            "hiwar": [
+                {
+                    "id": 1,
+                    "badge": "الْحِوَارُ 1",
+                    "title": "بَيْتِي وَمَا فِيهِ",
+                    "titleIndo": "Percakapan 1: Rumahku & Anggota/Ruangan di Dalamnya (Salih & Luqman)",
+                    "lines": [
+                        {
+                            "speaker": "صَالِح",
+                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Assalamu'alaikum."
+                        },
+                        {
+                            "speaker": "لُقْمَان",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        },
+                        {
+                            "speaker": "صَالِح",
+                            "ar": "يَا لُقْمَانُ، الْآنَ أَيْنَ أَنْتَ؟",
+                            "indo": "Wahai Luqman, di mana kamu sekarang?"
+                        },
+                        {
+                            "speaker": "لُقْمَان",
+                            "ar": "أَنَا فِي الْبَيْتِ يَا صَالِحُ. مَاذَا سَأَلْتَ؟",
+                            "indo": "Saya di rumah, wahai Salih. Ada apa kamu bertanya?"
+                        },
+                        {
+                            "speaker": "صَالِح",
+                            "ar": "مَنْ فِي بَيْتِكَ؟",
+                            "indo": "Siapa saja yang ada di rumahmu?"
+                        },
+                        {
+                            "speaker": "لُقْمَان",
+                            "ar": "كَثِيرٌ يَا أَخِي. مِنْهُمْ أَنَا وَأَخِي الصَّغِيرُ وَأُخْتِي الْكَبِيرَةُ وَأَبِي وَأُمِّي وَجَدِّي وَجَدَّتِي. بَيْتِي كَبِيرٌ وَوَاسِعٌ وَنَظِيفٌ.",
+                            "indo": "Banyak wahai saudaraku. Di antaranya saya, adik laki-lakiku, kakak perempuanku, ayahku, ibuku, kakekku, dan nenekku. Rumahku besar, luas, dan bersih."
+                        },
+                        {
+                            "speaker": "صَالِح",
+                            "ar": "مَا شَاءَ اللهُ... كَذٰلِكَ. مَاذَا فِي بَيْتِكَ؟",
+                            "indo": "Masya Allah... demikian juga. Apa saja yang ada di rumahmu?"
+                        },
+                        {
+                            "speaker": "لُقْمَان",
+                            "ar": "كَثِيرَةٌ أَيْضًا يَا صَالِحُ. مِنْهَا غُرْفَةُ الْجُلُوسِ وَغُرْفَةُ الْمَكْتَبِ وَغُرْفَةُ الْمُذَاكَرَةِ وَغُرْفَةُ الأَكْلِ وَغُرْفَةُ النَّوْمِ وَمُصَلَّى وَمَطْبَخٌ وَحَمَّامٌ وَحَدِيقَةٌ.",
+                            "indo": "Banyak juga wahai Salih. Di antaranya ruang tamu, ruang kerja, ruang belajar, ruang makan, kamar tidur, mushalla, dapur, kamar mandi, dan taman."
+                        },
+                        {
+                            "speaker": "صَالِح",
+                            "ar": "طَيِّبٌ يَا لُقْمَانُ. شُكْرًا. وَالسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Baik wahai Luqman. Terima kasih. Wassalamu'alaikum."
+                        },
+                        {
+                            "speaker": "لُقْمَان",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "badge": "الْحِوَارُ 2",
+                    "title": "أَعْمَالُ أُسْرَتِي فِي الْبَيْتِ",
+                    "titleIndo": "Percakapan 2: Aktivitas Harian Keluargaku di Rumah (Sabir & Utsman)",
+                    "lines": [
+                        {
+                            "speaker": "صَابِر",
+                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Assalamu'alaikum."
+                        },
+                        {
+                            "speaker": "عُثْمَان",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        },
+                        {
+                            "speaker": "صَابِر",
+                            "ar": "يَا عُثْمَانُ، هَلْ كُلَّ يَوْمٍ حَفِظْتَ نَظَافَةَ ذٰلِكَ الْبَيْتِ؟",
+                            "indo": "Wahai Utsman, apakah setiap hari kamu menjaga kebersihan rumah itu?"
+                        },
+                        {
+                            "speaker": "عُثْمَان",
+                            "ar": "نَعَمْ يَا صَابِرُ. كُلَّ يَوْمٍ حَفِظْنَا نَظَافَتَهُ.",
+                            "indo": "Ya wahai Sabir. Setiap hari kami menjaga kebersihannya."
+                        },
+                        {
+                            "speaker": "صَابِر",
+                            "ar": "وَأَنْتَ؟ مَاذَا عَمِلْتَ كُلَّ يَوْمٍ؟ وَأَخُوكَ الصَّغِيرُ؟ وَأُخْتُكَ الْكَبِيرَةُ؟ وَأَبُوكَ؟ وَأُمُّكَ؟",
+                            "indo": "Dan kamu? Apa yang kamu kerjakan setiap hari? Dan adik laki-lakimu? Dan kakak perempuanmu? Dan ayahmu? Dan ibumu?"
+                        },
+                        {
+                            "speaker": "عُثْمَان",
+                            "ar": "أَبِي قَرَأَ الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ. وَأُمِّي أَعْدَدَتِ الطَّعَامَ اللَّذِيذَ لِلْأُسْرَةِ. وَأَخِي الصَّغِيرُ سَاعَدَ أُمِّي غَسْلَ الصُّحُونِ. وَأُخْتِي الْكَبِيرَةُ فِي غُرْفَةِ الأَكْلِ جَلَسَتْ عَلَى الْكُرْسِيِّ. وَأَنَا دَرَسْتُ وَقَرَأْتُ كِتَابَ الْحَدِيثِ.",
+                            "indo": "Ayahku membaca majalah dan minum kopi. Ibuku menyiapkan makanan yang lezat untuk keluarga. Adik laki-lakiku membantu ibu mencuci piring. Kakak perempuanku duduk di atas kursi di ruang makan. Dan saya belajar serta membaca buku Hadits."
+                        },
+                        {
+                            "speaker": "صَابِر",
+                            "ar": "مَا شَاءَ اللهُ... أُسْرَتُكَ نَشِيطَةٌ. طَيِّبٌ يَا عُثْمَانُ. شُكْرًا. وَالسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Masya Allah... keluargamu rajin. Baik wahai Utsman. Terima kasih. Wassalamu'alaikum."
+                        },
+                        {
+                            "speaker": "عُثْمَان",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        }
+                    ]
+                }
+            ],
             "qiraah": {
                 "title": "قِرَاءَةٌ: يَوْمِيَّاتُ طَالِبٍ نَشِيطٍ",
                 "titleIndo": "Teks Bacaan: Hari-hari Siswa yang Rajin",
