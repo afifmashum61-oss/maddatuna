@@ -4840,243 +4840,435 @@ const arabicData = {
             "mufrodat": [
                 {
                     "id": 601,
-                    "ar": "أَسْتَيْقِظُ",
-                    "latin": "Astayqizu",
-                    "indo": "Saya bangun tidur",
-                    "exAr": "أَسْتَيْقِظُ مِنَ النَّوْمِ فِي السَّاعَةِ الرَّابِعَةِ صَبَاحًا.",
-                    "exIndo": "Saya bangun tidur pada pukul 04.00 pagi."
+                    "ar": "غُرْفَةُ الْجُلُوسِ",
+                    "latin": "Ghurfatul julus",
+                    "indo": "Ruang Tamu",
+                    "exAr": "نَسْتَقْبِلُ الضُّيُوفَ فِي غُرْفَةِ الْجُلُوسِ.",
+                    "exIndo": "Kami menyambut tamu di ruang tamu."
                 },
                 {
                     "id": 602,
-                    "ar": "أَغْتَسِلُ",
-                    "latin": "Agtasilu",
-                    "indo": "Saya mandi",
-                    "exAr": "أَغْتَسِلُ فِي الْحَمَّامِ بِالْمَاءِ وَالصَّابُونِ.",
-                    "exIndo": "Saya mandi di kamar mandi dengan air dan sabun."
+                    "ar": "غُرْفَةُ النَّوْمِ",
+                    "latin": "Ghurfatun naum",
+                    "indo": "Kamar Tidur",
+                    "exAr": "أَنَامُ فِي غُرْفَةِ النَّوْمِ لَيْلًا.",
+                    "exIndo": "Saya tidur di kamar tidur di malam hari."
                 },
                 {
                     "id": 603,
-                    "ar": "أُصَلِّي",
-                    "latin": "Usalli",
-                    "indo": "Saya shalat",
-                    "exAr": "أُصَلِّي الصُّبْحَ جَمَاعَةً فِي الْمَسْجِدِ.",
-                    "exIndo": "Saya shalat Subuh berjamaah di masjid."
+                    "ar": "غُرْفَةُ الْمُذَاكَرَةِ",
+                    "latin": "Ghurfatul muzakarah",
+                    "indo": "Ruang Belajar",
+                    "exAr": "أُذَاكِرُ الدُّرُوسَ فِي غُرْفَةِ الْمُذَاكَرَةِ.",
+                    "exIndo": "Saya mengulang pelajaran di ruang belajar."
                 },
                 {
                     "id": 604,
-                    "ar": "أَتَنَاوَلُ الْفَطُورَ",
-                    "latin": "Atanawalul fatur",
-                    "indo": "Saya sarapan pagi",
-                    "exAr": "أَتَنَاوَلُ الْفَطُورَ مَعَ أُسْرَتِي فِي السَّادِسَةِ.",
-                    "exIndo": "Saya sarapan bersama keluarga pada pukul 06.00."
+                    "ar": "غُرْفَةُ الأَكْلِ",
+                    "latin": "Ghurfatul akl",
+                    "indo": "Ruang Makan",
+                    "exAr": "نَأْكُلُ مَعًا فِي غُرْفَةِ الأَكْلِ.",
+                    "exIndo": "Kami makan bersama di ruang makan."
                 },
                 {
                     "id": 605,
-                    "ar": "أَذْهَبُ",
-                    "latin": "Azhabu",
-                    "indo": "Saya pergi",
-                    "exAr": "أَذْهَبُ إِلَى الْمَدْرَسَةِ فِي السَّاعَةِ السَّادِسَةِ وَالنِّصْفِ.",
-                    "exIndo": "Saya pergi ke sekolah pada pukul 06.30."
+                    "ar": "الْمَطْبَخُ",
+                    "latin": "Al-Matbakh",
+                    "indo": "Dapur",
+                    "exAr": "أُمِّي تَطْبُخُ الطَّعَامَ فِي الْمَطْبَخِ.",
+                    "exIndo": "Ibuku memasak makanan di dapur."
                 },
                 {
                     "id": 606,
-                    "ar": "أَرْجِعُ / أَعُودُ",
-                    "latin": "Arji'u / A'udu",
-                    "indo": "Saya pulang / kembali",
-                    "exAr": "أَرْجِعُ مِنَ الْمَدْرَسَةِ ظُهْرًا.",
-                    "exIndo": "Saya pulang dari sekolah pada waktu zuhur."
+                    "ar": "الْحَمَّامُ",
+                    "latin": "Al-Hammam",
+                    "indo": "Kamar Mandi",
+                    "exAr": "أَغْسِلُ وَجْهِي فِي الْحَمَّامِ.",
+                    "exIndo": "Saya membasuh wajahku di kamar mandi."
                 },
                 {
                     "id": 607,
-                    "ar": "أُذَاكِرُ",
-                    "latin": "Uzakiru",
-                    "indo": "Saya belajar / mengulang",
-                    "exAr": "أُذَاكِرُ دُرُوسِي بَعْدَ صَلاَةِ الْعِشَاءِ.",
-                    "exIndo": "Saya mengulang pelajarkanku setelah shalat Isya."
+                    "ar": "الْحَدِيقَةُ",
+                    "latin": "Al-Hadiqah",
+                    "indo": "Taman / Kebun",
+                    "exAr": "الأَزْهَارُ جَمِيلَةٌ فِي الْحَدِيقَةِ.",
+                    "exIndo": "Bunga-bunga indah di taman."
                 },
                 {
                     "id": 608,
-                    "ar": "أَكْتُبُ",
-                    "latin": "Aktubu",
-                    "indo": "Saya menulis",
-                    "exAr": "أَكْتُبُ الْوَاجِبَ الْمَنـْزِلِيَّ.",
-                    "exIndo": "Saya menulis pekerjaan rumah (PR)."
+                    "ar": "غُرْفَةُ الْمَكْتَبِ",
+                    "latin": "Ghurfatul maktab",
+                    "indo": "Ruang Kerja / Kantor",
+                    "exAr": "أَبِي يَعْمَلُ فِي غُرْفَةِ الْمَكْتَبِ.",
+                    "exIndo": "Ayahku bekerja di ruang kerja."
                 },
                 {
                     "id": 609,
-                    "ar": "أَقْرَأُ",
-                    "latin": "Aqra'u",
-                    "indo": "Saya membaca",
-                    "exAr": "أَقْرَأُ الْقُرْآنَ بَعْدَ صَلاَةِ الْمَغْرِبِ.",
-                    "exIndo": "Saya membaca Al-Qur'an setelah shalat Maghrib."
+                    "ar": "مَكْتَبٌ",
+                    "latin": "Maktabun",
+                    "indo": "Meja",
+                    "exAr": "عَلَى الْمَكْتَبِ كِتَابٌ.",
+                    "exIndo": "Di atas meja ada buku."
                 },
                 {
                     "id": 610,
-                    "ar": "أُشَاهِدُ",
-                    "latin": "Usyahidu",
-                    "indo": "Saya menonton",
-                    "exAr": "أُشَاهِدُ الأَخْبَارَ فِي التِّلْفَازِ.",
-                    "exIndo": "Saya menonton berita di TV."
+                    "ar": "مَلْبَسٌ",
+                    "latin": "Malbasun",
+                    "indo": "Baju / Pakaian",
+                    "exAr": "الْمَلْبَسُ فِي الْخِزَانَةِ.",
+                    "exIndo": "Baju ada di lemari."
                 },
                 {
                     "id": 611,
-                    "ar": "أَنَامُ",
-                    "latin": "Anamu",
-                    "indo": "Saya tidur",
-                    "exAr": "أَنَامُ مُبَكِّرًا فِي السَّاعَةِ التَّاسِعَةِ لَيْلًا.",
-                    "exIndo": "Saya tidur lebih awal pada pukul 09.00 malam."
+                    "ar": "مِرْحَاضٌ",
+                    "latin": "Mirhaadun",
+                    "indo": "Toilet / WC",
+                    "exAr": "الْمِرْحَاضُ نَظِيفٌ.",
+                    "exIndo": "Toilet itu bersih."
                 },
                 {
                     "id": 612,
-                    "ar": "أَبٌ / وَالِدٌ",
-                    "latin": "Ab / Walid",
-                    "indo": "Ayah",
-                    "exAr": "أَبِي يَقْرَأُ الْجَرِيدَةَ فِي الصَّبَاحِ.",
-                    "exIndo": "Ayahku membaca koran di pagi hari."
+                    "ar": "مِرْسَمَةٌ",
+                    "latin": "Mirsamatun",
+                    "indo": "Pensil",
+                    "exAr": "هٰذِهِ مِرْسَمَةٌ جَدِيدَةٌ.",
+                    "exIndo": "Ini adalah pensil baru."
                 },
                 {
                     "id": 613,
-                    "ar": "أُمٌّ / وَالِدَةٌ",
-                    "latin": "Umm / Walidah",
-                    "indo": "Ibu",
-                    "exAr": "أُمِّي تُعِدُّ طَعَامَ الْغَدَاءِ.",
-                    "exIndo": "Ibuku menyiapkan makan siang."
+                    "ar": "مِصْبَاحٌ",
+                    "latin": "Misbaahun",
+                    "indo": "Lampu",
+                    "exAr": "الْمِصْبَاحُ مُنِيرٌ فِي الغُرْفَةِ.",
+                    "exIndo": "Lampu itu terang di kamar."
                 },
                 {
                     "id": 614,
-                    "ar": "أَخٌ كَبِيرٌ",
-                    "latin": "Akh kabir",
-                    "indo": "Kakak Laki-laki",
-                    "exAr": "أَخِي الْكَبِيرُ يَلْعَبُ كُرَةَ السَّلَّةِ.",
-                    "exIndo": "Kakak laki-lakiku bermain bola basket."
+                    "ar": "مِغْرَفَةٌ",
+                    "latin": "Mighrafatun",
+                    "indo": "Gayung",
+                    "exAr": "الْمِغْرَفَةُ فِي الْحَمَّامِ.",
+                    "exIndo": "Gayung ada di kamar mandi."
                 },
                 {
                     "id": 615,
-                    "ar": "أُخْتٌ صَغِيرَةٌ",
-                    "latin": "Ukht saghirah",
-                    "indo": "Adik Perempuan",
-                    "exAr": "أُخْتِي الصَّغِيرَةُ تَلْعَبُ بِاللُّعْبَةِ.",
-                    "exIndo": "Adik perempuanku bermain boneka."
+                    "ar": "مِلْعَقَةٌ",
+                    "latin": "Mil'aqatun",
+                    "indo": "Sendok",
+                    "exAr": "آكُلُ الرُّزَّ بِالْمِلْعَقَةِ.",
+                    "exIndo": "Saya makan nasi dengan sendok."
                 },
                 {
                     "id": 616,
-                    "ar": "جَدٌّ",
-                    "latin": "Jadd",
-                    "indo": "Kakek",
-                    "exAr": "جَدِّي يَمْشِي فِي الْحَدِيقَةِ.",
-                    "exIndo": "Kakekku berjalan di taman."
+                    "ar": "مُنَضَّدَةٌ",
+                    "latin": "Munaddadatun",
+                    "indo": "Meja Tamu / Meja Kecil",
+                    "exAr": "فَوْقَ الْمُنَضَّدَةِ زَهْرِيَّةٌ.",
+                    "exIndo": "Di atas meja tamu ada vas bunga."
                 },
                 {
                     "id": 617,
-                    "ar": "جَدَّةٌ",
-                    "latin": "Jaddah",
-                    "indo": "Nenek",
-                    "exAr": "جَدَّتِي تَحْكِي قِصَّةً جَمِيلَةً.",
-                    "exIndo": "Nenekku menceritakan kisah yang indah."
+                    "ar": "هَاتِفٌ",
+                    "latin": "Haatifun",
+                    "indo": "Telepon",
+                    "exAr": "الْهَاتِفُ عَلَى الْمَكْتَبِ.",
+                    "exIndo": "Telepon ada di atas meja."
                 },
                 {
                     "id": 618,
-                    "ar": "صَبَاحًا",
-                    "latin": "Sabahan",
-                    "indo": "Pagi hari",
-                    "exAr": "أَذْهَبُ إِلَى الْمَدْرَسَةِ صَبَاحًا.",
-                    "exIndo": "Saya pergi ke sekolah di pagi hari."
+                    "ar": "وِسَادَةٌ",
+                    "latin": "Wisaadatun",
+                    "indo": "Bantal",
+                    "exAr": "الْوِسَادَةُ عَلَى السَّرِيرِ.",
+                    "exIndo": "Bantal ada di atas tempat tidur."
                 },
                 {
                     "id": 619,
-                    "ar": "نَهَارًا / ظُهْرًا",
-                    "latin": "Naharan / Zuhran",
-                    "indo": "Siang hari",
-                    "exAr": "أَنَامُ قَلِيلاً نَهَارًا.",
-                    "exIndo": "Saya tidur sebentar di siang hari."
+                    "ar": "شَجَرَةٌ",
+                    "latin": "Shajaratun",
+                    "indo": "Pohon",
+                    "exAr": "الشَّجَرَةُ كَبِيرَةٌ فِي الْحَدِيقَةِ.",
+                    "exIndo": "Pohon itu besar di taman."
                 },
                 {
                     "id": 620,
-                    "ar": "مَسَاءً",
-                    "latin": "Masa-an",
-                    "indo": "Sore / Malam hari",
-                    "exAr": "أَلْعَبُ مَعَ أِصْدِقَائِي مَسَاءً.",
-                    "exIndo": "Saya bermain bersama teman-temanku di sore hari."
+                    "ar": "شُرْفَةٌ",
+                    "latin": "Shurfatun",
+                    "indo": "Balkon / Teras",
+                    "exAr": "أَجْلِسُ فِي الشُّرْفَةِ.",
+                    "exIndo": "Saya duduk di teras."
                 },
                 {
                     "id": 621,
-                    "ar": "لَيْلًا",
-                    "latin": "Lailan",
-                    "indo": "Malam hari",
-                    "exAr": "السَّمَاءُ مُظْلِمَةٌ لَيْلًا.",
-                    "exIndo": "Langit gelap di malam hari."
+                    "ar": "صَابُونٌ",
+                    "latin": "Saabuunun",
+                    "indo": "Sabun",
+                    "exAr": "أَغْسِلُ يَدَيَّ بِالصَّابُونِ.",
+                    "exIndo": "Saya mencuci kedua tanganku dengan sabun."
                 },
                 {
                     "id": 622,
-                    "ar": "فَطُورٌ",
-                    "latin": "Fatur",
-                    "indo": "Sarapan Pagi",
-                    "exAr": "الْفَطُورُ لَذِيذٌ وَمُفِيدٌ.",
-                    "exIndo": "Sarapan pagi itu lezat dan bermanfaat."
+                    "ar": "صَحْنٌ",
+                    "latin": "Sahnun",
+                    "indo": "Piring",
+                    "exAr": "الطَّعَامُ فِي الصَّحْنِ.",
+                    "exIndo": "Makanan ada di piring."
                 },
                 {
                     "id": 623,
-                    "ar": "غَدَاءٌ",
-                    "latin": "Gada'",
-                    "indo": "Makan Siang",
-                    "exAr": "نَتَنَاوَلُ الْغَدَاءَ فِي السَّاعَةِ الْوَاحِدَةِ.",
-                    "exIndo": "Kami makan siang pada pukul 13.00."
+                    "ar": "صُورَةٌ",
+                    "latin": "Suuratun",
+                    "indo": "Gambar / Foto",
+                    "exAr": "الصُّورَةُ عَلَى الْجِدَارِ.",
+                    "exIndo": "Foto itu ada di dinding."
                 },
                 {
                     "id": 624,
-                    "ar": "عَشَاءٌ",
-                    "latin": "Asya'",
-                    "indo": "Makan Malam",
-                    "exAr": "نَتَنَاوَلُ الْعَشَاءَ بَعْدَ صَلاَةِ الْمَغْرِبِ.",
-                    "exIndo": "Kami makan malam setelah shalat Maghrib."
+                    "ar": "فَاكْسٌ",
+                    "latin": "Faaksun",
+                    "indo": "Mesin Fax",
+                    "exAr": "الْفَاكْسُ فِي الْمَكْتَبِ.",
+                    "exIndo": "Mesin fax ada di kantor."
                 },
                 {
                     "id": 625,
-                    "ar": "يَوْمِيَّاتٌ",
-                    "latin": "Yaumiyyat",
-                    "indo": "Kegiatan Rutin Harian",
-                    "exAr": "هٰذِهِ يَوْمِيَّاتِي الْيَوْمِيَّةُ.",
-                    "exIndo": "Ini adalah kegiatan rutin harianku."
+                    "ar": "قَلَمٌ",
+                    "latin": "Qalamun",
+                    "indo": "Pena / Pulpen",
+                    "exAr": "أَكْتُبُ بِالْقَلَمِ.",
+                    "exIndo": "Saya menulis dengan pena."
                 },
                 {
                     "id": 626,
-                    "ar": "أَتَوَضَّأُ",
-                    "latin": "Atawadda'u",
-                    "indo": "Saya berwudhu",
-                    "exAr": "أَتَوَضَّأُ قَبْلَ صَلاَةِ الصُّبْحِ.",
-                    "exIndo": "Saya berwudhu sebelum shalat Subuh."
+                    "ar": "قَهْوَةٌ",
+                    "latin": "Qahwatun",
+                    "indo": "Kopi",
+                    "exAr": "أَبِي يَشْرَبُ الْقَهْوَةَ.",
+                    "exIndo": "Ayahku minum kopi."
                 },
                 {
                     "id": 627,
-                    "ar": "أُنَظِّفُ",
-                    "latin": "Unazzifu",
-                    "indo": "Saya membersihkan",
-                    "exAr": "أُنَظِّفُ غُرْفَتِي كُلَّ صَبَاحٍ.",
-                    "exIndo": "Saya membersihkan kamarku setiap pagi."
+                    "ar": "كُرْسِيٌّ",
+                    "latin": "Kursiyyun",
+                    "indo": "Kursi",
+                    "exAr": "أَجْلِسُ عَلَى الْكُرْسِيِّ.",
+                    "exIndo": "Saya duduk di atas kursi."
                 },
                 {
                     "id": 628,
-                    "ar": "أَشْرَبُ",
-                    "latin": "Asyrabu",
-                    "indo": "Saya minum",
-                    "exAr": "أَشْرَبُ الْحَلِيبَ الطَّازَجَ صَبَاحًا.",
-                    "exIndo": "Saya minum susu segar di pagi hari."
+                    "ar": "كِتَابٌ",
+                    "latin": "Kitaabun",
+                    "indo": "Buku",
+                    "exAr": "أَقْرَأُ الْكِتَابَ.",
+                    "exIndo": "Saya membaca buku."
                 },
                 {
                     "id": 629,
-                    "ar": "آكُلُ",
-                    "latin": "Aakulu",
-                    "indo": "Saya makan",
-                    "exAr": "آكُلُ الْفَواكِهَ اللَّذِيذَةَ.",
-                    "exIndo": "Saya makan buah-buahan yang lezat."
+                    "ar": "مَاءٌ",
+                    "latin": "Maa'un",
+                    "indo": "Air",
+                    "exAr": "الْمَاءُ صَافٍ.",
+                    "exIndo": "Air itu jernih."
                 },
                 {
                     "id": 630,
-                    "ar": "أُمَارِسُ الرِّيَاضَةَ",
-                    "latin": "Umarisur riyadan",
-                    "indo": "Saya berolahraga",
-                    "exAr": "أُمَارِسُ الرِّيَاضَةَ فِي مَسَاءِ يَوْمِ الأَحَدِ.",
-                    "exIndo": "Saya berolahraga pada sore hari Minggu."
+                    "ar": "مَائِدَةٌ",
+                    "latin": "Maa'idatun",
+                    "indo": "Meja Makan",
+                    "exAr": "نَأْكُلُ حَوْلَ الْمَائِدَةِ.",
+                    "exIndo": "Kami makan di sekeliling meja makan."
+                },
+                {
+                    "id": 631,
+                    "ar": "مِقْلَمَةٌ",
+                    "latin": "Miqlamatun",
+                    "indo": "Tempat Pena / Kotak Pensil",
+                    "exAr": "الْقَلَمُ فِي الْمِقْلَمَةِ.",
+                    "exIndo": "Pena ada di kotak pensil."
+                },
+                {
+                    "id": 632,
+                    "ar": "بِرْكَةٌ",
+                    "latin": "Birkatun",
+                    "indo": "Kolam",
+                    "exAr": "السَّمَكُ فِي الْبِرْكَةِ.",
+                    "exIndo": "Ikan ada di kolam."
+                },
+                {
+                    "id": 633,
+                    "ar": "تَقْوِيمٌ",
+                    "latin": "Taqwiimun",
+                    "indo": "Kalender",
+                    "exAr": "التَّقْوِيمُ عَلَى الْجِدَارِ.",
+                    "exIndo": "Kalender ada di dinding."
+                },
+                {
+                    "id": 634,
+                    "ar": "تِلْفَازٌ",
+                    "latin": "Tilfaazun",
+                    "indo": "Televisi / TV",
+                    "exAr": "أُشَاهِدُ التِّلْفَازَ.",
+                    "exIndo": "Saya menonton TV."
+                },
+                {
+                    "id": 635,
+                    "ar": "خِزَانَةٌ",
+                    "latin": "Khizaanatun",
+                    "indo": "Almari / Lemari",
+                    "exAr": "الْكُتُبُ فِي الْخِزَانَةِ.",
+                    "exIndo": "Buku-buku ada di lemari."
+                },
+                {
+                    "id": 636,
+                    "ar": "رَفٌّ",
+                    "latin": "Raffun",
+                    "indo": "Rak",
+                    "exAr": "الْمَجَلَّةُ عَلَى الرَّفِّ.",
+                    "exIndo": "Majalah ada di atas rak."
+                },
+                {
+                    "id": 637,
+                    "ar": "رُزٌّ",
+                    "latin": "Ruzzun",
+                    "indo": "Nasi",
+                    "exAr": "آكُلُ الرُّزَّ.",
+                    "exIndo": "Saya makan nasi."
+                },
+                {
+                    "id": 638,
+                    "ar": "زَهْرَةٌ",
+                    "latin": "Zahratun",
+                    "indo": "Bunga",
+                    "exAr": "الزَّهْرَةُ جَمِيلَةٌ.",
+                    "exIndo": "Bunga itu indah."
+                },
+                {
+                    "id": 639,
+                    "ar": "زَهْرِيَّةٌ",
+                    "latin": "Zahriyyatun",
+                    "indo": "Vas / Vas Bunga",
+                    "exAr": "الزَّهْرَةُ فِي الزَّهْرِيَّةِ.",
+                    "exIndo": "Bunga ada di dalam vas."
+                },
+                {
+                    "id": 640,
+                    "ar": "سَاعَةٌ",
+                    "latin": "Saa'atun",
+                    "indo": "Jam",
+                    "exAr": "السَّاعَةُ حَائِطِيَّةٌ.",
+                    "exIndo": "Jam dinding."
+                },
+                {
+                    "id": 641,
+                    "ar": "سُورٌ",
+                    "latin": "Suurun",
+                    "indo": "Pagar",
+                    "exAr": "السُّورُ عَالٍ حَوْلَ الْبَيْتِ.",
+                    "exIndo": "Pagar itu tinggi di sekeliling rumah."
+                },
+                {
+                    "id": 642,
+                    "ar": "سِرْوَالٌ",
+                    "latin": "Sirwaalun",
+                    "indo": "Celana",
+                    "exAr": "أَلْبَسُ السِّرْوَالَ.",
+                    "exIndo": "Saya memakai celana."
+                },
+                {
+                    "id": 643,
+                    "ar": "سَرِيرٌ",
+                    "latin": "Sariirun",
+                    "indo": "Ranjang / Tempat Tidur",
+                    "exAr": "أَنَامُ عَلَى السَّرِيرِ.",
+                    "exIndo": "Saya tidur di atas tempat tidur."
+                },
+                {
+                    "id": 644,
+                    "ar": "شَايٌ",
+                    "latin": "Shaayun",
+                    "indo": "Teh",
+                    "exAr": "أَشْرَبُ الشَّايَ الدَّافِئَ.",
+                    "exIndo": "Saya minum teh hangat."
+                },
+                {
+                    "id": 645,
+                    "ar": "جَلَسَ - يَجْلِسُ",
+                    "latin": "Jalasa",
+                    "indo": "Telah Duduk",
+                    "exAr": "هُوَ جَلَسَ عَلَى الْكُرْسِيِّ.",
+                    "exIndo": "Dia (lk) telah duduk di kursi."
+                },
+                {
+                    "id": 646,
+                    "ar": "سَكَنَ - يَسْكُنُ",
+                    "latin": "Sakana",
+                    "indo": "Telah Tinggal",
+                    "exAr": "هُوَ سَكَنَ فِي الْبَيْتِ.",
+                    "exIndo": "Dia (lk) telah tinggal di rumah."
+                },
+                {
+                    "id": 647,
+                    "ar": "شَرِبَ - يَشْرَبُ",
+                    "latin": "Shariba",
+                    "indo": "Telah Minum",
+                    "exAr": "هِيَ شَرِبَتْ الْحَلِيبَ.",
+                    "exIndo": "Dia (pr) telah minum susu."
+                },
+                {
+                    "id": 648,
+                    "ar": "أَكَلَ - يَأْكُلُ",
+                    "latin": "Akala",
+                    "indo": "Telah Makan",
+                    "exAr": "هِيَ أَكَلَتْ الْمَوْزَ.",
+                    "exIndo": "Dia (pr) telah makan pisang."
+                },
+                {
+                    "id": 649,
+                    "ar": "سَاعَدَ - يُسَاعِدُ",
+                    "latin": "Sa'ada",
+                    "indo": "Telah Membantu",
+                    "exAr": "أَنْتَ سَاعَدْتَ الأُمَّ.",
+                    "exIndo": "Kamu (lk) telah membantu ibu."
+                },
+                {
+                    "id": 650,
+                    "ar": "قَرَأَ - يَقْرَأُ",
+                    "latin": "Qara'a",
+                    "indo": "Telah Membaca",
+                    "exAr": "أَنْتَ قَرَأْتَ الْمَجَلَّةَ.",
+                    "exIndo": "Kamu (lk) telah membaca majalah."
+                },
+                {
+                    "id": 651,
+                    "ar": "غَسَلَ - يَغْسِلُ",
+                    "latin": "Ghasala",
+                    "indo": "Telah Mencuci",
+                    "exAr": "أَنْتِ غَسَلْتِ السِّرْوَالَ.",
+                    "exIndo": "Kamu (pr) telah mencuci celana."
+                },
+                {
+                    "id": 652,
+                    "ar": "أَعَدَّ - يُعِدُّ",
+                    "latin": "A'adda",
+                    "indo": "Telah Menyiapkan",
+                    "exAr": "أَنْتِ أَعْدَدْتِ الطَّعَامَ.",
+                    "exIndo": "Kamu (pr) telah menyiapkan makanan."
+                },
+                {
+                    "id": 653,
+                    "ar": "كَتَبَ - يَكْتُبُ",
+                    "latin": "Kataba",
+                    "indo": "Telah Menulis",
+                    "exAr": "أَنَا كَتَبْتُ الدَّرْسَ.",
+                    "exIndo": "Saya telah menulis pelajaran."
+                },
+                {
+                    "id": 654,
+                    "ar": "طَبَخَ - يَطْبُخُ",
+                    "latin": "Tabakha",
+                    "indo": "Telah Memasak",
+                    "exAr": "نَحْنُ طَبَخْنَا الرُّزَّ.",
+                    "exIndo": "Kami telah memasak nasi."
                 }
             ],
             "hiwar": {
