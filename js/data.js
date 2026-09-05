@@ -1724,8 +1724,8 @@ const arabicData = {
         },
         {
             "id": 3,
-            "title": "الأَدَوَاتُ الْمَدْرَسِيَّةُ",
-            "titleIndo": "Peralatan Sekolah (Al-Adawat Al-Madrasiyyah)",
+            "title": "اَلْأَدَوَاتُ الْمَدْرَسِيَّةُ وَالْأَلْوَانُ",
+            "titleIndo": "Peralatan Sekolah dan Warna (Al-Adawatul Madrasiyyah wal Alwan)",
             "icon": "fa-pen-ruler",
             "desc": "Mempelajari nama-nama alat tulis, perlengkapan kelas, serta penggunaan kata sifat warna.",
             "mufrodat": [
