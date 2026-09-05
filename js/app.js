@@ -303,25 +303,35 @@ document.addEventListener('DOMContentLoaded', () => {
     // 2. HIWAR TAB (EXTENSIVE DIALOGUE)
     // ==========================================
     function renderHiwarTab(chapter) {
-        const hiwar = chapter.hiwar;
+        const hiwarData = chapter.hiwar || {};
         let showTranslation = true;
 
-        const dialoguesList = hiwar.dialogues || [{
-            id: 1,
-            title: hiwar.title,
-            titleIndo: hiwar.titleIndo,
-            lines: hiwar.lines || []
-        }];
+        const mainTitle = hiwarData.title || chapter.title || "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ";
+        const mainTitleIndo = hiwarData.titleIndo || chapter.titleIndo || "Percakapan & Membaca Nyaring";
 
-        const allLines = dialoguesList.flatMap(d => d.lines);
+        let dialoguesList = [];
+        if (Array.isArray(hiwarData)) {
+            dialoguesList = hiwarData;
+        } else if (Array.isArray(hiwarData.dialogues)) {
+            dialoguesList = hiwarData.dialogues;
+        } else if (hiwarData.lines) {
+            dialoguesList = [{
+                id: 1,
+                title: hiwarData.title || "الْحِوَارُ",
+                titleIndo: hiwarData.titleIndo || "Percakapan",
+                lines: hiwarData.lines || []
+            }];
+        }
+
+        const allLines = dialoguesList.flatMap(d => d.lines || []);
 
         mainContentArea.innerHTML = `
             <div class="space-y-6">
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100 flex flex-col md:flex-row md:items-center justify-between gap-4">
                     <div>
                         <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ</span>
-                        <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${hiwar.title}</h2>
-                        <p class="text-sm font-semibold text-gray-600">${hiwar.titleIndo}</p>
+                        <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${mainTitle}</h2>
+                        <p class="text-sm font-semibold text-gray-600">${mainTitleIndo}</p>
                     </div>
 
                     <div class="flex flex-wrap items-center gap-2">
@@ -342,34 +352,34 @@ document.addEventListener('DOMContentLoaded', () => {
                                     ${dIdx + 1}
                                 </span>
                                 <div>
-                                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark">${dialogue.title}</h3>
-                                    <p class="text-xs text-gray-500 font-semibold">${dialogue.titleIndo}</p>
+                                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark">${dialogue.title || 'Percakapan ' + (dIdx + 1)}</h3>
+                                    <p class="text-xs text-gray-500 font-semibold">${dialogue.titleIndo || ''}</p>
                                 </div>
                             </div>
-                            <button onclick="playDialogueSequence(arabicData.chapters[${chapter.id - 1}].hiwar.dialogues[${dIdx}].lines)" 
+                            <button onclick="playDialogueByIdx(${chapter.id}, ${dIdx})" 
                                 class="px-3 py-1.5 bg-emerald-50 hover:bg-emerald-100 text-bottle-green font-bold text-xs rounded-xl transition-all flex items-center gap-1.5 border border-emerald-200">
                                 <i class="fa-solid fa-play text-xs text-gold"></i> Putar Percakapan ${dIdx + 1}
                             </button>
                         </div>
 
                         <div class="space-y-4">
-                            ${dialogue.lines.map((line, index) => {
+                            ${(dialogue.lines || []).map((line, index) => {
                                 const isEven = index % 2 === 0;
                                 return `
                                     <div class="flex gap-3 ${isEven ? 'flex-row-reverse' : 'flex-row'} items-start">
                                         <div class="w-10 h-10 rounded-full ${isEven ? 'bg-bottle-green text-gold' : 'bg-gold text-bottle-green-dark'} font-bold flex items-center justify-center text-sm shadow-sm flex-shrink-0">
-                                            ${line.speaker.charAt(0)}
+                                            ${line.speaker ? line.speaker.charAt(0) : '?'}
                                         </div>
 
                                         <div class="max-w-[85%] sm:max-w-[75%] p-4 ${isEven ? 'dialogue-bubble-right' : 'dialogue-bubble-left'}">
                                             <div class="flex items-center justify-between gap-4 mb-1">
-                                                <span class="text-xs font-bold ${isEven ? 'text-bottle-green' : 'text-emerald-700'}">${line.speaker}</span>
-                                                <button onclick="speakArabic('${line.ar}')" class="text-xs text-gray-400 hover:text-bottle-green" title="Putar suara">
+                                                <span class="text-xs font-bold ${isEven ? 'text-bottle-green' : 'text-emerald-700'}">${line.speaker || ''}</span>
+                                                <button onclick="speakArabic('${(line.ar || '').replace(/'/g, "\\'")}')" class="text-xs text-gray-400 hover:text-bottle-green" title="Putar suara">
                                                     <i class="fa-solid fa-volume-high"></i>
                                                 </button>
                                             </div>
-                                            <p class="font-arabic text-xl font-bold text-gray-800 text-right leading-relaxed">${line.ar}</p>
-                                            <p class="hiwar-translation text-xs text-gray-600 mt-2 pt-2 border-t border-gray-100">${line.indo}</p>
+                                            <p class="font-arabic text-xl font-bold text-gray-800 text-right leading-relaxed">${line.ar || ''}</p>
+                                            <p class="hiwar-translation text-xs text-gray-600 mt-2 pt-2 border-t border-gray-100">${line.indo || ''}</p>
                                         </div>
                                     </div>
                                 `;
@@ -382,26 +392,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Translation toggle logic
         const toggleBtn = document.getElementById('toggleTranslationBtn');
-        toggleBtn.addEventListener('click', () => {
-            showTranslation = !showTranslation;
-            const translations = document.querySelectorAll('.hiwar-translation');
-            translations.forEach(el => {
-                el.style.display = showTranslation ? 'block' : 'none';
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', () => {
+                showTranslation = !showTranslation;
+                const translations = document.querySelectorAll('.hiwar-translation');
+                translations.forEach(el => {
+                    el.style.display = showTranslation ? 'block' : 'none';
+                });
+                toggleBtn.innerHTML = showTranslation 
+                    ? '<i class="fa-solid fa-language"></i> Sembunyikan Terjemahan'
+                    : '<i class="fa-solid fa-language"></i> Tampilkan Terjemahan';
             });
-            toggleBtn.innerHTML = showTranslation 
-                ? '<i class="fa-solid fa-language"></i> Sembunyikan Terjemahan'
-                : '<i class="fa-solid fa-language"></i> Tampilkan Terjemahan';
-        });
+        }
 
         // Play all lines logic
         const playAllBtn = document.getElementById('playAllHiwarBtn');
-        playAllBtn.addEventListener('click', () => {
-            playDialogueSequence(allLines);
-        });
+        if (playAllBtn) {
+            playAllBtn.addEventListener('click', () => {
+                playDialogueSequence(allLines);
+            });
+        }
     }
 
+    window.playDialogueByIdx = function(chapId, dIdx) {
+        const chap = arabicData.chapters.find(c => c.id === chapId);
+        if (!chap || !chap.hiwar) return;
+        let lines = [];
+        if (Array.isArray(chap.hiwar)) {
+            lines = chap.hiwar[dIdx] ? chap.hiwar[dIdx].lines : [];
+        } else if (chap.hiwar.dialogues) {
+            lines = chap.hiwar.dialogues[dIdx] ? chap.hiwar.dialogues[dIdx].lines : [];
+        } else if (chap.hiwar.lines) {
+            lines = chap.hiwar.lines;
+        }
+        playDialogueSequence(lines);
+    };
+
     function playDialogueSequence(lines, index = 0) {
-        if (index >= lines.length) return;
+        if (!lines || index >= lines.length) return;
         speakArabic(lines[index].ar, () => {
             setTimeout(() => playDialogueSequence(lines, index + 1), 700);
         });
@@ -411,24 +439,34 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. QIRAAH TAB (READING COMPREHENSION)
     // ==========================================
     function renderQiraahTab(chapter) {
-        const qiraah = chapter.qiraah;
+        const qiraahData = chapter.qiraah || {};
 
-        const articlesList = qiraah.articles || [{
-            id: 1,
-            title: qiraah.title,
-            titleIndo: qiraah.titleIndo,
-            textAr: qiraah.textAr || '',
-            textIndo: qiraah.textIndo || '',
-            questions: qiraah.questions || []
-        }];
+        const mainTitle = qiraahData.title || chapter.title || "مَهَارَةُ الْقِرَاءَةِ";
+        const mainTitleIndo = qiraahData.titleIndo || chapter.titleIndo || "Kemampuan Membaca Teks Bahasa Arab";
+
+        let articlesList = [];
+        if (Array.isArray(qiraahData)) {
+            articlesList = qiraahData;
+        } else if (Array.isArray(qiraahData.articles)) {
+            articlesList = qiraahData.articles;
+        } else if (qiraahData.textAr) {
+            articlesList = [{
+                id: 1,
+                title: qiraahData.title || "Teks Bacaan",
+                titleIndo: qiraahData.titleIndo || "",
+                textAr: qiraahData.textAr || '',
+                textIndo: qiraahData.textIndo || '',
+                questions: qiraahData.questions || []
+            }];
+        }
 
         mainContentArea.innerHTML = `
             <div class="space-y-6">
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100 flex items-center justify-between">
                     <div>
                         <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">مَهَارَةُ الْقِرَاءَةِ</span>
-                        <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${qiraah.title}</h2>
-                        <p class="text-sm font-semibold text-gray-600">${qiraah.titleIndo}</p>
+                        <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${mainTitle}</h2>
+                        <p class="text-sm font-semibold text-gray-600">${mainTitleIndo}</p>
                     </div>
                 </div>
 
@@ -440,23 +478,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                     ${aIdx + 1}
                                 </span>
                                 <div>
-                                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark">${art.title}</h3>
-                                    <p class="text-xs text-gray-500 font-semibold">${art.titleIndo}</p>
+                                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark">${art.title || 'Teks ' + (aIdx + 1)}</h3>
+                                    <p class="text-xs text-gray-500 font-semibold">${art.titleIndo || ''}</p>
                                 </div>
                             </div>
-                            <button onclick="speakArabic('${art.textAr.replace(/\n/g, ' ')}')" 
+                            <button onclick="speakArabic('${(art.textAr || '').replace(/\n/g, ' ').replace(/'/g, "\\'")}')" 
                                 class="px-4 py-2 bg-emerald-100 hover:bg-bottle-green hover:text-white text-bottle-green font-bold text-xs rounded-xl transition-all flex items-center gap-2">
                                 <i class="fa-solid fa-volume-high text-sm"></i> Baca Teks ${aIdx + 1}
                             </button>
                         </div>
 
                         <div class="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100 mb-6">
-                            <p class="font-arabic text-2xl font-bold text-gray-800 text-right leading-loose whitespace-pre-line">${art.textAr}</p>
+                            <p class="font-arabic text-2xl font-bold text-gray-800 text-right leading-loose whitespace-pre-line">${art.textAr || ''}</p>
                         </div>
 
                         <div class="mb-8 p-4 bg-gray-50 rounded-xl border border-gray-200">
                             <h4 class="font-bold text-xs uppercase tracking-wider text-gray-500 mb-2"><i class="fa-solid fa-earth-asia"></i> Terjemahan Teks Bacaan ${aIdx + 1}:</h4>
-                            <p class="text-sm text-gray-700 leading-relaxed whitespace-pre-line">${art.textIndo}</p>
+                            <p class="text-sm text-gray-700 leading-relaxed whitespace-pre-line">${art.textIndo || ''}</p>
                         </div>
 
                         ${art.questions && art.questions.length > 0 ? `
@@ -468,7 +506,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                     ${art.questions.map((q, idx) => `
                                         <div class="bg-gray-50 p-4 rounded-xl border border-gray-200">
                                             <p class="font-arabic text-lg font-bold text-gray-800 text-right mb-3">${idx + 1}. ${q.q}</p>
-                                            <div class="grid grid-cols-2 gap-2">
+                                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
                                                 ${q.options.map((opt, optIdx) => `
                                                     <button onclick="checkQiraahAnswer(this, ${optIdx === q.answer})" 
                                                         class="font-arabic text-base p-2 bg-white border border-gray-300 rounded-lg hover:border-bottle-green text-center font-bold">
@@ -501,19 +539,32 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. QAWAID TAB (GRAMMAR & KITABAH DRILL)
     // ==========================================
     function renderQawaidTab(chapter) {
-        const qawaid = chapter.qawaid;
+        const qawaidData = chapter.qawaid || {};
         state.qawaidSelectedWords = [];
+
+        const mainTitle = qawaidData.title || chapter.title || "اَلْقَوَاعِدُ وَالتَّرَاكِيبُ";
+        const mainTitleIndo = qawaidData.titleIndo || chapter.titleIndo || "Kaidah Tata Bahasa & Menulis";
+
+        let contentHtml = qawaidData.content || "";
+        if (!contentHtml && qawaidData.rules && Array.isArray(qawaidData.rules)) {
+            contentHtml = qawaidData.rules.map(r => `
+                <div class="mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm">
+                    <h3 class="font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100">${r.title}</h3>
+                    <div>${r.content}</div>
+                </div>
+            `).join('');
+        }
 
         mainContentArea.innerHTML = `
             <div class="bg-white p-6 rounded-2xl shadow-sm border border-emerald-100">
                 <div class="pb-4 border-b border-gray-100 mb-6">
                     <span class="text-xs font-bold uppercase text-gold bg-bottle-green px-3 py-1 rounded-full">مَهَارَةُ الْكِتَابَةِ وَالْقَوَاعِدُ</span>
-                    <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${qawaid.title}</h2>
-                    <p class="text-sm font-semibold text-gray-600">${qawaid.titleIndo}</p>
+                    <h2 class="font-arabic text-2xl font-bold text-bottle-green-dark mt-2">${mainTitle}</h2>
+                    <p class="text-sm font-semibold text-gray-600">${mainTitleIndo}</p>
                 </div>
 
                 <div class="prose max-w-none text-gray-700 text-sm leading-relaxed mb-8">
-                    ${qawaid.content}
+                    ${contentHtml}
                 </div>
 
                 <!-- INTERACTIVE SENTENCE BUILDER (TARKIB) -->

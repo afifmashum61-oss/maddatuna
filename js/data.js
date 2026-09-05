@@ -4280,205 +4280,213 @@ const arabicData = {
                     "exIndo": "Saya belajar fiqih di sekolah."
                 }
             ],
-            "hiwar": [
-                {
-                    "id": 1,
-                    "badge": "الْحِوَارُ 1",
-                    "title": "أُسْرَتِي وَأَعْمَالُهَا الْيَوْمِيَّةُ (١)",
-                    "titleIndo": "Percakapan 1: Mengenalkan Anggota Keluarga & Sekolahnya (Shadiq & Ali)",
-                    "lines": [
-                        {
-                            "speaker": "صَادِق",
-                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Assalamu'alaikum."
-                        },
-                        {
-                            "speaker": "عَلِيّ",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        },
-                        {
-                            "speaker": "صَادِق",
-                            "ar": "أَهْلًا وَسَهْلًا.",
-                            "indo": "Selamat datang."
-                        },
-                        {
-                            "speaker": "عَلِيّ",
-                            "ar": "أَهْلًا بِكَ.",
-                            "indo": "Selamat datang juga untukmu."
-                        },
-                        {
-                            "speaker": "صَادِق",
-                            "ar": "هَلْ هٰذِهِ صُورَةُ أُسْرَتِكَ يَا أَخِي؟",
-                            "indo": "Apakah ini foto keluargamu, wahai saudaraku?"
-                        },
-                        {
-                            "speaker": "عَلِيّ",
-                            "ar": "نَعَمْ، هٰذِهِ صُورَةُ أُسْرَتِي. هٰذَا أَبِي إِسْمُهُ عَبْدُ الْكَرِيمِ. وَهٰذِهِ أُمِّي إِسْمُهَا نَجْوَى.",
-                            "indo": "Ya, ini foto keluargaku. Ini ayahku namanya Abdul Karim, dan ini ibuku namanya Najwa."
-                        },
-                        {
-                            "speaker": "صَادِق",
-                            "ar": "وَمَنْ هٰذَا وَهٰذِهِ، يَا عَلِيُّ؟",
-                            "indo": "Dan siapa ini (lk) dan ini (pr), wahai Ali?"
-                        },
-                        {
-                            "speaker": "عَلِيّ",
-                            "ar": "هٰذَا أَخِي الْكَبِيرُ. إِسْمُهُ حُسَيْنٌ. هُوَ يَدْرُسُ فِي الْفَصْلِ الثَّانِي مِنَ الْمَدْرَسَةِ الْعَالِيَةِ الْحُكُومِيَّةِ سَمَارَانْج.",
-                            "indo": "Ini kakak laki-lakiku, namanya Husain. Dia belajar di kelas 11 (kelas 2) MAN Semarang."
-                        },
-                        {
-                            "speaker": "صَادِق",
-                            "ar": "وَهٰذِهِ؟",
-                            "indo": "Dan siapa ini (pr)?"
-                        },
-                        {
-                            "speaker": "عَلِيّ",
-                            "ar": "وَهٰذِهِ أُخْتِي الصَّغِيرَةُ. إِسْمُهَا نَجْمَةُ. هِيَ تَدْرُسُ فِي الْفَصْلِ السَّادِسِ مِنَ الْمَدْرَسَةِ الْإِبْتِدَائِيَّةِ الْحُكُومِيَّةِ سَمَارَانْج.",
-                            "indo": "Dan ini adik perempuanku, namanya Najmah. Dia belajar di kelas 6 MIN Semarang."
-                        },
-                        {
-                            "speaker": "صَادِق",
-                            "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Wassalamu'alaikum."
-                        },
-                        {
-                            "speaker": "عَلِيّ",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "badge": "الْحِوَارُ 2",
-                    "title": "أُسْرَتِي وَأَعْمَالُهَا الْيَوْمِيَّةُ (٢)",
-                    "titleIndo": "Percakapan 2: Aktivitas Harian Anggota Keluarga (Nazhim & Nur)",
-                    "lines": [
-                        {
-                            "speaker": "نَظِيم",
-                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Assalamu'alaikum."
-                        },
-                        {
-                            "speaker": "نُور",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        },
-                        {
-                            "speaker": "نَظِيم",
-                            "ar": "أَهْلًا وَسَهْلًا.",
-                            "indo": "Selamat datang."
-                        },
-                        {
-                            "speaker": "نُور",
-                            "ar": "أَهْلًا بِكَ.",
-                            "indo": "Selamat datang juga untukmu."
-                        },
-                        {
-                            "speaker": "نَظِيم",
-                            "ar": "عَلَى فِكْرَةٍ، أَيْنَ أَبُوكَ وَأُمُّكَ يَا نُورُ؟",
-                            "indo": "Ngomong-ngomong, di mana ayahmu dan ibumu, wahai Nur?"
-                        },
-                        {
-                            "speaker": "نُور",
-                            "ar": "أَبِي فِي غُرْفَةِ الْجُلُوسِ. هُوَ يَقْرَأُ الْجَرِيدَةَ. وَأُمِّي تَطْبُخُ الرُّزَّ فِي الْمَطْبَخِ.",
-                            "indo": "Ayahku ada di ruang tamu, dia sedang membaca koran. Dan ibuku sedang memasak nasi di dapur."
-                        },
-                        {
-                            "speaker": "نَظِيم",
-                            "ar": "وَأَخُوكَ وَأُخْتُكَ؟ أَيْنَ هُمَا؟",
-                            "indo": "Dan saudara laki-lakimu dan saudara perempuannmu? Di mana mereka berdua?"
-                        },
-                        {
-                            "speaker": "نُور",
-                            "ar": "أَخِي يَعْمَلُ الْوَاجِبَ الْمَنْزِلِيَّ فِي غُرْفَتِهِ. وَأُخْتِي تُسَاعِدُ أُمِّي فِي الْمَطْبَخِ.",
-                            "indo": "Saudara laki-lakiku sedang mengerjakan PR di kamarnya. Dan saudara perempuanku sedang membantu ibuku di dapur."
-                        },
-                        {
-                            "speaker": "نَظِيم",
-                            "ar": "أُسْرَتُكَ سَعِيدَةٌ يَا نُورُ.",
-                            "indo": "Keluargamu bahagia, wahai Nur."
-                        },
-                        {
-                            "speaker": "نُور",
-                            "ar": "اَلْحَمْدُ لِلَّهِ يَا نَظِيمُ، شُكْرًا.",
-                            "indo": "Alhamdulillah wahai Nazhim, terima kasih."
-                        },
-                        {
-                            "speaker": "نَظِيم",
-                            "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Wassalamu'alaikum."
-                        },
-                        {
-                            "speaker": "نُور",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        }
-                    ]
-                }
-            ],
-            "qiraah": [
-                {
-                    "id": 1,
-                    "title": "النَّصُّ الأَوَّلُ: أَعْضَاءُ أُسْرَتِي وَأَعْمَالُهُمْ",
-                    "titleIndo": "Bacaan: Anggota Keluargaku & Aktivitas Harian Mereka (Faruq)",
-                    "textAr": "هٰذِهِ صُورَةُ أُسْرَتِي. أُسْرَتِي كَبِيرَةٌ. هٰذَا أَنَا. وَهٰذَا أَبِي. وَهٰذِهِ أُمِّي. وَذٰلِكَ أَخِي. وَتِلْكَ أُخْتِي. وَهٰذَا جَدِّي. وَهٰذِهِ جَدَّتِي.\n\nإِسْمِي فَارُوق. أَنَا أَسْكُنُ فِي شَارِعِ بَاتُوبَارَا ٤٥ مَالَانْج. وَأَنَا أَدْرُسُ فِي الْفَصْلِ السَّابِعِ مِنَ الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ١ مَالَانْج. وَأَبِي إِسْمُهُ تَوْفِيق هِدَايَة. هُوَ مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٣ مَالَانْج. وَأُمِّي إِسْمُهَا سِيتِي سَارَة. هِيَ رَبَّةُ الْبَيْتِ. وَأَخِي الْكَبِيرُ إِسْمُهُ حُسَيْن. هُوَ يَدْرُسُ فِي الْفَصْلِ الثَّامِنِ مِنَ الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٣ مَالَانْج. وَأُخْتِي الصَّغِيرَةُ إِسْمُهَا نَجْمَة. هِيَ تَدْرُسُ فِي الْفَصْلِ السَّادِسِ مِنَ الْمَدْرَسَةِ الْإِبْتِدَائِيَّةِ الْحُكُومِيَّةِ ١ مَالَانْج. وَأَمَّا جَدِّي فَهُوَ طَبِيبٌ فِي مُسْتَشْفَى \"سَيْفُ الأَنْوَار\" فِي مَدِينَةِ مَالَانْج. وَإِسْمُهُ تَوْفِيق حُسَيْن. وَجَدَّتِي رَبَّةُ الْبَيْتِ كَذٰلِك.\n\nكُلَّ يَوْمٍ، نَحْنُ نَجْلِسُ فِي غُرْفَةِ الْجُلُوسِ وَنَأْكُلُ فِي غُرْفَةِ الأَكْلِ. وَأُمِّي تَطْبُخُ الطَّعَامَ فِي الْمَطْبَخِ. وَعِنْدَنَا خَادِمَةٌ تُسَاعِدُ أُمِّي عَلَى الطَّبْخِ وَإِعْدَادِ الطَّعَامِ. وَبَعْدَ صَلَاةِ الْمَغْرِبِ، نَحْنُ نَقْرَأُ الْقُرْآنَ الْكَرِيمَ. وَأَنَا وَإِخْوَتِي نَعْمَلُ الْوَاجِبَ الْمَنْزِلِيَّ بَعْدَ صَلَاةِ الْعِشَاءِ فِي غُرْفَةِ الْمُذَاكَرَةِ. وَأَبِي يَقْرَأُ الْجَرِيدَةَ.",
-                    "textIndo": "Ini adalah foto keluargaku. Keluargaku besar. Ini aku, dan ini ayahku, dan ini ibuku, dan itu saudara laki-lakiku, dan itu saudara perempuanku, dan ini kakekku, dan ini nenekku.\n\nNamaku Faruq. Saya tinggal di Jalan Batubara No. 45 Malang. Dan saya belajar di kelas 7 MTs Negeri 1 Malang. Ayahku namanya Taufiq Hidayah, dia adalah guru Bahasa Arab di MTs Negeri 3 Malang. Ibuku namanya Siti Sarah, dia adalah ibu rumah tangga. Kakak laki-lakiku namanya Husain, dia belajar di kelas 8 MTs Negeri 3 Malang. Adik perempuanku namanya Najmah, dia belajar di kelas 6 MIN 1 Malang. Adapun kakekku, beliau seorang dokter di Rumah Sakit \"Saiful Anwar\" di Kota Malang, dan namanya Taufiq Husain. Nenekku juga seorang ibu rumah tangga.\n\nSetiap hari, kami duduk di ruang tamu dan makan di ruang makan. Ibuku memasak makanan di dapur. Dan kami memiliki seorang asisten rumah tangga yang membantu ibuku memasak dan menyiapkan makanan. Setelah shalat Maghrib, kami membaca Al-Qur'anul Karim. Dan saya bersama saudara-saudaraku mengerjakan PR setelah shalat Isya di ruang belajar, sedangkan ayahku membaca koran.",
-                    "questions": [
-                        {
-                            "q": "مَا عُنْوَانُ بَيْتِ فَارُوقٍ؟",
-                            "options": [
-                                "شَارِعُ بَاتُوبَارَا رَقْم ٤٥ مَالَانْج",
-                                "شَارِعُ بَانْدُونْج رَقْم ٧ مَالَانْج",
-                                "شَارِعُ صَلَاحِ الدِّينِ رَقْم ٨",
-                                "شَارِعُ سُورَابَايَا رَقْم ٣"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "مَا وَظِيفَةُ أَبِي فَارُوقٍ (السَّيِّد تَوْفِيق هِدَايَة)؟",
-                            "options": [
-                                "مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ ٣",
-                                "طَبِيبٌ فِي الْمُسْتَشْفَى",
-                                "مُوَظَّفٌ فِي الْبَنْكِ",
-                                "فَلَّاحٌ فِي الْقَرْيَةِ"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "أَيْنَ يَعْمَلُ جَدُّ فَارُوقٍ؟",
-                            "options": [
-                                "فِي مُسْتَشْفَى \"سَيْفُ الأَنْوَار\" فِي مَالَانْج",
-                                "فِي الْمَدْرَسَةِ الإِبْتِدَائِيَّةِ",
-                                "فِي الْمَطْبَخِ",
-                                "فِي الشَّرِكَةِ"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "مَاذَا يَقْرَأُ الْأَبُ بَعْدَ صَلَاةِ الْعِشَاءِ؟",
-                            "options": [
-                                "يَقْرَأُ الْجَرِيدَةَ",
-                                "يَقْرَأُ الْقُرْآنَ الْكَرِيمَ",
-                                "يَقْرَأُ الْكِتَابَ",
-                                "يَكْتُبُ الدَّرْسَ"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "أَيْنَ يَعْمَلُ فَارُوقُ وَإِخْوَتُهُ الْوَاجِبَ الْمَنْزِلِيَّ؟",
-                            "options": [
-                                "فِي غُرْفَةِ الْمُذَاكَرَةِ",
-                                "فِي غُرْفَةِ الْجُلُوسِ",
-                                "فِي غُرْفَةِ الأَكْلِ",
-                                "فِي الْمَطْبَخِ"
-                            ],
-                            "answer": 0
-                        }
-                    ]
-                }
-            ],
+            "hiwar": {
+                "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: اَلْأَعْمَالُ الْيَوْمِيَّةُ (١ وَ ٢)",
+                "titleIndo": "Percakapan Bahasa Arab: Kegiatan Sehari-hari (Shadiq & Ali / Nazhim & Nur)",
+                "dialogues": [
+                    {
+                        "id": 1,
+                        "badge": "الْحِوَارُ 1",
+                        "title": "أُسْرَتِي وَأَعْمَالُهَا الْيَوْمِيَّةُ (١)",
+                        "titleIndo": "Percakapan 1: Mengenalkan Anggota Keluarga & Sekolahnya (Shadiq & Ali)",
+                        "lines": [
+                            {
+                                "speaker": "صَادِق",
+                                "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "عَلِيّ",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            },
+                            {
+                                "speaker": "صَادِق",
+                                "ar": "أَهْلًا وَسَهْلًا.",
+                                "indo": "Selamat datang."
+                            },
+                            {
+                                "speaker": "عَلِيّ",
+                                "ar": "أَهْلًا بِكَ.",
+                                "indo": "Selamat datang juga untukmu."
+                            },
+                            {
+                                "speaker": "صَادِق",
+                                "ar": "هَلْ هٰذِهِ صُورَةُ أُسْرَتِكَ يَا أَخِي؟",
+                                "indo": "Apakah ini foto keluargamu, wahai saudaraku?"
+                            },
+                            {
+                                "speaker": "عَلِيّ",
+                                "ar": "نَعَمْ، هٰذِهِ صُورَةُ أُسْرَتِي. هٰذَا أَبِي إِسْمُهُ عَبْدُ الْكَرِيمِ. وَهٰذِهِ أُمِّي إِسْمُهَا نَجْوَى.",
+                                "indo": "Ya, ini foto keluargaku. Ini ayahku namanya Abdul Karim, dan ini ibuku namanya Najwa."
+                            },
+                            {
+                                "speaker": "صَادِق",
+                                "ar": "وَمَنْ هٰذَا وَهٰذِهِ، يَا عَلِيُّ؟",
+                                "indo": "Dan siapa ini (lk) dan ini (pr), wahai Ali?"
+                            },
+                            {
+                                "speaker": "عَلِيّ",
+                                "ar": "هٰذَا أَخِي الْكَبِيرُ. إِسْمُهُ حُسَيْنٌ. هُوَ يَدْرُسُ فِي الْفَصْلِ الثَّانِي مِنَ الْمَدْرَسَةِ الْعَالِيَةِ الْحُكُومِيَّةِ سَمَارَانْج.",
+                                "indo": "Ini kakak laki-lakiku, namanya Husain. Dia belajar di kelas 11 (kelas 2) MAN Semarang."
+                            },
+                            {
+                                "speaker": "صَادِق",
+                                "ar": "وَهٰذِهِ؟",
+                                "indo": "Dan siapa ini (pr)?"
+                            },
+                            {
+                                "speaker": "عَلِيّ",
+                                "ar": "وَهٰذِهِ أُخْتِي الصَّغِيرَةُ. إِسْمُهَا نَجْمَةُ. هِيَ تَدْرُسُ فِي الْفَصْلِ السَّادِسِ مِنَ الْمَدْرَسَةِ الْإِبْتِدَائِيَّةِ الْحُكُومِيَّةِ سَمَارَانْج.",
+                                "indo": "Dan ini adik perempuanku, namanya Najmah. Dia belajar di kelas 6 MIN Semarang."
+                            },
+                            {
+                                "speaker": "صَادِق",
+                                "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Wassalamu'alaikum."
+                            },
+                            {
+                                "speaker": "عَلِيّ",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "badge": "الْحِوَارُ 2",
+                        "title": "أُسْرَتِي وَأَعْمَالُهَا الْيَوْمِيَّةُ (٢)",
+                        "titleIndo": "Percakapan 2: Aktivitas Harian Anggota Keluarga (Nazhim & Nur)",
+                        "lines": [
+                            {
+                                "speaker": "نَظِيم",
+                                "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "نُور",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            },
+                            {
+                                "speaker": "نَظِيم",
+                                "ar": "أَهْلًا وَسَهْلًا.",
+                                "indo": "Selamat datang."
+                            },
+                            {
+                                "speaker": "نُور",
+                                "ar": "أَهْلًا بِكَ.",
+                                "indo": "Selamat datang juga untukmu."
+                            },
+                            {
+                                "speaker": "نَظِيم",
+                                "ar": "عَلَى فِكْرَةٍ، أَيْنَ أَبُوكَ وَأُمُّكَ يَا نُورُ؟",
+                                "indo": "Ngomong-ngomong, di mana ayahmu dan ibumu, wahai Nur?"
+                            },
+                            {
+                                "speaker": "نُور",
+                                "ar": "أَبِي فِي غُرْفَةِ الْجُلُوسِ. هُوَ يَقْرَأُ الْجَرِيدَةَ. وَأُمِّي تَطْبُخُ الرُّزَّ فِي الْمَطْبَخِ.",
+                                "indo": "Ayahku ada di ruang tamu, dia sedang membaca koran. Dan ibuku sedang memasak nasi di dapur."
+                            },
+                            {
+                                "speaker": "نَظِيم",
+                                "ar": "وَأَخُوكَ وَأُخْتُكَ؟ أَيْنَ هُمَا؟",
+                                "indo": "Dan saudara laki-lakimu dan saudara perempuannmu? Di mana mereka berdua?"
+                            },
+                            {
+                                "speaker": "نُور",
+                                "ar": "أَخِي يَعْمَلُ الْوَاجِبَ الْمَنْزِلِيَّ فِي غُرْفَتِهِ. وَأُخْتِي تُسَاعِدُ أُمِّي فِي الْمَطْبَخِ.",
+                                "indo": "Saudara laki-lakiku sedang mengerjakan PR di kamarnya. Dan saudara perempuanku sedang membantu ibuku di dapur."
+                            },
+                            {
+                                "speaker": "نَظِيم",
+                                "ar": "أُسْرَتُكَ سَعِيدَةٌ يَا نُورُ.",
+                                "indo": "Keluargamu bahagia, wahai Nur."
+                            },
+                            {
+                                "speaker": "نُور",
+                                "ar": "اَلْحَمْدُ لِلَّهِ يَا نَظِيمُ، شُكْرًا.",
+                                "indo": "Alhamdulillah wahai Nazhim, terima kasih."
+                            },
+                            {
+                                "speaker": "نَظِيم",
+                                "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Wassalamu'alaikum."
+                            },
+                            {
+                                "speaker": "نُور",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qiraah": {
+                "title": "مَهَارَةُ الْقِرَاءَةِ: أَعْضَاءُ أُسْرَتِي وَأَعْمَالُهُمْ",
+                "titleIndo": "Maharah Qira'ah: Anggota Keluargaku & Rutinitas Harian",
+                "articles": [
+                    {
+                        "id": 1,
+                        "title": "النَّصُّ الأَوَّلُ: أَعْضَاءُ أُسْرَتِي وَأَعْمَالُهُمْ",
+                        "titleIndo": "Bacaan: Anggota Keluargaku & Aktivitas Harian Mereka (Faruq)",
+                        "textAr": "هٰذِهِ صُورَةُ أُسْرَتِي. أُسْرَتِي كَبِيرَةٌ. هٰذَا أَنَا. وَهٰذَا أَبِي. وَهٰذِهِ أُمِّي. وَذٰلِكَ أَخِي. وَتِلْكَ أُخْتِي. وَهٰذَا جَدِّي. وَهٰذِهِ جَدَّتِي.\n\nإِسْمِي فَارُوق. أَنَا أَسْكُنُ فِي شَارِعِ بَاتُوبَارَا ٤٥ مَالَانْج. وَأَنَا أَدْرُسُ فِي الْفَصْلِ السَّابِعِ مِنَ الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ١ مَالَانْج. وَأَبِي إِسْمُهُ تَوْفِيق هِدَايَة. هُوَ مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٣ مَالَانْج. وَأُمِّي إِسْمُهَا سِيتِي سَارَة. هِيَ رَبَّةُ الْبَيْتِ. وَأَخِي الْكَبِيرُ إِسْمُهُ حُسَيْن. هُوَ يَدْرُسُ فِي الْفَصْلِ الثَّامِنِ مِنَ الْمَدْرَسَةِ الثَّانَوِيَّةِ الْحُكُومِيَّةِ ٣ مَالَانْج. وَأُخْتِي الصَّغِيرَةُ إِسْمُهَا نَجْمَة. هِيَ تَدْرُسُ فِي الْفَصْلِ السَّادِسِ مِنَ الْمَدْرَسَةِ الْإِبْتِدَائِيَّةِ الْحُكُومِيَّةِ ١ مَالَانْج. وَأَمَّا جَدِّي فَهُوَ طَبِيبٌ فِي مُسْتَشْفَى \"سَيْفُ الأَنْوَار\" فِي مَدِينَةِ مَالَانْج. وَإِسْمُهُ تَوْفِيق حُسَيْن. وَجَدَّتِي رَبَّةُ الْبَيْتِ كَذٰلِك.\n\nكُلَّ يَوْمٍ، نَحْنُ نَجْلِسُ فِي غُرْفَةِ الْجُلُوسِ وَنَأْكُلُ فِي غُرْفَةِ الأَكْلِ. وَأُمِّي تَطْبُخُ الطَّعَامَ فِي الْمَطْبَخِ. وَعِنْدَنَا خَادِمَةٌ تُسَاعِدُ أُمِّي عَلَى الطَّبْخِ وَإِعْدَادِ الطَّعَامِ. وَبَعْدَ صَلَاةِ الْمَغْرِبِ، نَحْنُ نَقْرَأُ الْقُرْآنَ الْكَرِيمَ. وَأَنَا وَإِخْوَتِي نَعْمَلُ الْوَاجِبَ الْمَنْزِلِيَّ بَعْدَ صَلَاةِ الْعِشَاءِ فِي غُرْفَةِ الْمُذَاكَرَةِ. وَأَبِي يَقْرَأُ الْجَرِيدَةَ.",
+                        "textIndo": "Ini adalah foto keluargaku. Keluargaku besar. Ini aku, dan ini ayahku, dan ini ibuku, dan itu saudara laki-lakiku, dan itu saudara perempuanku, dan ini kakekku, dan ini nenekku.\n\nNamaku Faruq. Saya tinggal di Jalan Batubara No. 45 Malang. Dan saya belajar di kelas 7 MTs Negeri 1 Malang. Ayahku namanya Taufiq Hidayah, dia adalah guru Bahasa Arab di MTs Negeri 3 Malang. Ibuku namanya Siti Sarah, dia adalah ibu rumah tangga. Kakak laki-lakiku namanya Husain, dia belajar di kelas 8 MTs Negeri 3 Malang. Adik perempuanku namanya Najmah, dia belajar di kelas 6 MIN 1 Malang. Adapun kakekku, beliau seorang dokter di Rumah Sakit \"Saiful Anwar\" di Kota Malang, dan namanya Taufiq Husain. Nenekku juga seorang ibu rumah tangga.\n\nSetiap hari, kami duduk di ruang tamu dan makan di ruang makan. Ibuku memasak makanan di dapur. Dan kami memiliki seorang asisten rumah tangga yang membantu ibuku memasak dan menyiapkan makanan. Setelah shalat Maghrib, kami membaca Al-Qur'anul Karim. Dan saya bersama saudara-saudaraku mengerjakan PR setelah shalat Isya di ruang belajar, sedangkan ayahku membaca koran.",
+                        "questions": [
+                            {
+                                "q": "مَا عُنْوَانُ بَيْتِ فَارُوقٍ؟",
+                                "options": [
+                                    "شَارِعُ بَاتُوبَارَا رَقْم ٤٥ مَالَانْج",
+                                    "شَارِعُ بَانْدُونْج رَقْم ٧ مَالَانْج",
+                                    "شَارِعُ صَلَاحِ الدِّينِ رَقْم ٨",
+                                    "شَارِعُ سُورَابَايَا رَقْم ٣"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَا وَظِيفَةُ أَبِي فَارُوقٍ (السَّيِّد تَوْفِيق هِدَايَة)؟",
+                                "options": [
+                                    "مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ فِي الْمَدْرَسَةِ الثَّانَوِيَّةِ ٣",
+                                    "طَبِيبٌ فِي الْمُسْتَشْفَى",
+                                    "مُوَظَّفٌ فِي الْبَنْكِ",
+                                    "فَلَّاحٌ فِي الْقَرْيَةِ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "أَيْنَ يَعْمَلُ جَدُّ فَارُوقٍ؟",
+                                "options": [
+                                    "فِي مُسْتَشْفَى \"سَيْفُ الأَنْوَار\" فِي مَالَانْج",
+                                    "فِي الْمَدْرَسَةِ الإِبْتِدَائِيَّةِ",
+                                    "فِي الْمَطْبَخِ",
+                                    "فِي الشَّرِكَةِ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَاذَا يَقْرَأُ الْأَبُ بَعْدَ صَلَاةِ الْعِشَاءِ؟",
+                                "options": [
+                                    "يَقْرَأُ الْجَرِيدَةَ",
+                                    "يَقْرَأُ الْقُرْآنَ الْكَرِيمَ",
+                                    "يَقْرَأُ الْكِتَابَ",
+                                    "يَكْتُبُ الدَّرْسَ"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "أَيْنَ يَعْمَلُ فَارُوقُ وَإِخْوَتُهُ الْوَاجِبَ الْمَنْزِلِيَّ؟",
+                                "options": [
+                                    "فِي غُرْفَةِ الْمُذَاكَرَةِ",
+                                    "فِي غُرْفَةِ الْجُلُوسِ",
+                                    "فِي غُرْفَةِ الأَكْلِ",
+                                    "فِي الْمَطْبَخِ"
+                                ],
+                                "answer": 0
+                            }
+                        ]
+                    }
+                ]
+            },
             "qawaid": {
                 "title": "اَلْقَوَاعِدُ وَالتَّرَاكِيبُ: الفِعْلُ الْمُضَارِعُ وَمَاذَا",
                 "titleIndo": "Kaidah Tata Bahasa: Fi'il Mudhari' & Kata Tanya 'Madha'",
@@ -4518,7 +4526,8 @@ const arabicData = {
                         "الْجُلُوسِ"
                     ],
                     "meaning": "Saya minum teh di ruang tamu."
-                }
+                },
+                "content": "\n            <div class=\"mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm\">\n                <h3 class=\"font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100\">١. الفِعْلُ الْمُضَارِعُ (Kata Kerja Masa Sekarang & Yang Akan Datang)</h3>\n                <div>\n                <div class=\"space-y-4 text-gray-700 leading-relaxed\">\n                    <p class=\"font-medium text-gray-800\">\n                        <strong>a. Pengertian:</strong> Kata kerja yang digunakan untuk mengungkapkan pekerjaan yang <strong>sedang dikerjakan</strong> (masa sekarang / <em>al-hal</em>) atau <strong>yang akan dikerjakan</strong> (masa yang akan datang / <em>al-istiqbal</em>).\n                    </p>\n                    <p class=\"font-medium text-gray-800\">\n                        <strong>b. Huruf Mudhara'ah (Awalan Tanda Pelaku):</strong> Selalu dimulai dengan salah satu huruf tambahan, berupa <strong>ya' (يـ)</strong>, <strong>ta' (تـ)</strong>, <strong>hamzah/alif (أَ)</strong>, atau <strong>nun (نَـ)</strong> (disingkat <em>أَنَيْتَ / أَنَيْتُ</em>) sebagai tanda pelakunya.\n                    </p>\n                    <div class=\"bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg\">\n                        <h4 class=\"font-bold text-blue-900 mb-2\">Perincian Konjugasi Fi'il Mudhari' (6 Kata Ganti / Dhamir):</h4>\n                        <div class=\"overflow-x-auto\">\n                            <table class=\"w-full text-center border-collapse bg-white rounded shadow-sm text-sm\">\n                                <thead>\n                                    <tr class=\"bg-blue-600 text-white font-bold\">\n                                        <th class=\"p-2 border\">No</th>\n                                        <th class=\"p-2 border\">Kata Ganti (Dhamir)</th>\n                                        <th class=\"p-2 border\">Fi'il Mudhari'</th>\n                                        <th class=\"p-2 border\">Huruf Tanda</th>\n                                        <th class=\"p-2 border\">Arti & Keterangan</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr class=\"hover:bg-blue-50\">\n                                        <td class=\"p-2 border font-bold\">1</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">هُوَ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">يَفْعَلُ / يَكْتُبُ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">يـ ...</td>\n                                        <td class=\"p-2 border text-left\">Dia (1 Lk) sedang/akan bekerja</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-blue-50\">\n                                        <td class=\"p-2 border font-bold\">2</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">هِيَ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">تَفْعَلُ / تَكْتُبُ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">تـ ...</td>\n                                        <td class=\"p-2 border text-left\">Dia (1 Pr) sedang/akan bekerja</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-blue-50\">\n                                        <td class=\"p-2 border font-bold\">3</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">أَنْتَ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">تَفْعَلُ / تَكْتُبُ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">تـ ...</td>\n                                        <td class=\"p-2 border text-left\">Kamu (1 Lk) sedang/akan bekerja</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-blue-50\">\n                                        <td class=\"p-2 border font-bold\">4</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">أَنْتِ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">تَفْعَلِينَ / تَكْتُبِينَ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">تـ ...ِ يْنَ</td>\n                                        <td class=\"p-2 border text-left\">Kamu (1 Pr) sedang/akan bekerja</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-blue-50\">\n                                        <td class=\"p-2 border font-bold\">5</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">أَنَا</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">أَفْعَلُ / أَكْتُبُ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">أَ ...</td>\n                                        <td class=\"p-2 border text-left\">Saya sedang/akan bekerja</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-blue-50\">\n                                        <td class=\"p-2 border font-bold\">6</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">نَحْنُ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">نَفْعَلُ / نَكْتُبُ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">نَ ...</td>\n                                        <td class=\"p-2 border text-left\">Kita / Kami sedang/akan bekerja</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            </div>\n        \n            <div class=\"mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm\">\n                <h3 class=\"font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100\">٢. تَحْلِيلُ الأَخْطَاءِ (Analisis Penggunaan Kata Kerja Benar & Salah)</h3>\n                <div>\n                <div class=\"space-y-4 text-gray-700 leading-relaxed\">\n                    <p class=\"font-medium text-gray-800\">\n                        Bentuk <strong>Fi'il Mudhari'</strong> harus selalu disesuaikan dengan pelakunya (subjek/dhamir). Tanda pelaku terletak di awal dan/atau di akhir kata kerja.\n                    </p>\n                    <div class=\"overflow-x-auto\">\n                        <table class=\"w-full text-center border-collapse bg-white rounded shadow-sm text-sm\">\n                            <thead>\n                                <tr class=\"bg-gray-800 text-white font-bold\">\n                                    <th class=\"p-2 border bg-red-600\">Salah ❌</th>\n                                    <th class=\"p-2 border bg-emerald-600\">Benar ✅</th>\n                                    <th class=\"p-2 border text-left\">Keterangan / Alasan</th>\n                                </tr>\n                            </thead>\n                            <tbody>\n                                <tr class=\"hover:bg-gray-50\">\n                                    <td class=\"p-2 border font-arabic text-lg text-red-600 font-bold\">أَنَا تَذْهَبُ</td>\n                                    <td class=\"p-2 border font-arabic text-lg text-emerald-600 font-bold\">أَنَا أَذْهَبُ</td>\n                                    <td class=\"p-2 border text-left\">Kata kerja harus diawali huruf <strong>hamzah (أَ)</strong> karena subjeknya adalah <em>Saya (أَنَا)</em>.</td>\n                                </tr>\n                                <tr class=\"hover:bg-gray-50\">\n                                    <td class=\"p-2 border font-arabic text-lg text-red-600 font-bold\">أَنْتَ أَذْهَبُ</td>\n                                    <td class=\"p-2 border font-arabic text-lg text-emerald-600 font-bold\">أَنْتَ تَذْهَبُ</td>\n                                    <td class=\"p-2 border text-left\">Kata kerja harus diawali huruf <strong>ta' (تَ)</strong> karena subjeknya adalah <em>Kamu Laki-laki (أَنْتَ)</em>.</td>\n                                </tr>\n                                <tr class=\"hover:bg-gray-50\">\n                                    <td class=\"p-2 border font-arabic text-lg text-red-600 font-bold\">أَنْتِ تَذْهَبُ</td>\n                                    <td class=\"p-2 border font-arabic text-lg text-emerald-600 font-bold\">أَنْتِ تَذْهَبِينَ</td>\n                                    <td class=\"p-2 border text-left\">Kata kerja harus diawali huruf <strong>ta' (تَ)</strong> dan diakhiri <strong>ya' & nun (ـِينَ)</strong> karena subjeknya adalah <em>Kamu Perempuan (أَنْتِ)</em>.</td>\n                                </tr>\n                                <tr class=\"hover:bg-gray-50\">\n                                    <td class=\"p-2 border font-arabic text-lg text-red-600 font-bold\">نَحْنُ تَذْهَبُ</td>\n                                    <td class=\"p-2 border font-arabic text-lg text-emerald-600 font-bold\">نَحْنُ نَذْهَبُ</td>\n                                    <td class=\"p-2 border text-left\">Kata kerja harus diawali huruf <strong>nun (نَ)</strong> karena subjeknya adalah <em>Kami / Kita (نَحْنُ)</em>.</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>\n                </div>\n            </div>\n            </div>\n        \n            <div class=\"mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm\">\n                <h3 class=\"font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100\">٣. إِسْمُ الإِسْتِفْهَامِ \"مَاذَا\" (Kata Tanya \"Apa / Apa yang\")</h3>\n                <div>\n                <div class=\"space-y-4 text-gray-700 leading-relaxed\">\n                    <p class=\"font-medium text-gray-800\">\n                        Kata tanya <strong>مَاذَا (Maadha)</strong> digunakan untuk menanyakan <strong>pekerjaan yang dilakukan</strong> atau <strong>objek (mula'im) yang dikerjakan</strong>.\n                    </p>\n                    <div class=\"bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-lg\">\n                        <div class=\"overflow-x-auto\">\n                            <table class=\"w-full text-center border-collapse bg-white rounded shadow-sm text-sm\">\n                                <thead>\n                                    <tr class=\"bg-amber-600 text-white font-bold\">\n                                        <th class=\"p-2 border\">Tujuan Menanyakan</th>\n                                        <th class=\"p-2 border\">Pertanyaan (السُّؤَالُ)</th>\n                                        <th class=\"p-2 border\">Jawaban (الْجَوَابُ)</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr class=\"hover:bg-amber-50\">\n                                        <td class=\"p-2 border font-bold text-gray-700\">Pekerjaan yang dilakukan</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-amber-900\">مَاذَا تَعْمَلُ؟ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Apa yang kamu kerjakan?)</span></td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-700\">أَنَا أَقْرَأُ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Saya sedang membaca)</span></td>\n                                    </tr>\n                                    <tr class=\"hover:bg-amber-50\">\n                                        <td class=\"p-2 border font-bold text-gray-700\">Objek yang dikerjakan</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-amber-900\">مَاذَا تَقْرَأُ؟ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Apa yang kamu baca?)</span></td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-700\">أَنَا أَقْرَأُ الْجَرِيدَةَ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Saya sedang membaca koran)</span></td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            </div>\n        "
             },
             "quiz": [
                 {
@@ -5271,184 +5280,192 @@ const arabicData = {
                     "exIndo": "Kami telah memasak nasi."
                 }
             ],
-            "hiwar": [
-                {
-                    "id": 1,
-                    "badge": "الْحِوَارُ 1",
-                    "title": "بَيْتِي وَمَا فِيهِ",
-                    "titleIndo": "Percakapan 1: Rumahku & Anggota/Ruangan di Dalamnya (Salih & Luqman)",
-                    "lines": [
-                        {
-                            "speaker": "صَالِح",
-                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Assalamu'alaikum."
-                        },
-                        {
-                            "speaker": "لُقْمَان",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        },
-                        {
-                            "speaker": "صَالِح",
-                            "ar": "يَا لُقْمَانُ، الْآنَ أَيْنَ أَنْتَ؟",
-                            "indo": "Wahai Luqman, di mana kamu sekarang?"
-                        },
-                        {
-                            "speaker": "لُقْمَان",
-                            "ar": "أَنَا فِي الْبَيْتِ يَا صَالِحُ. مَاذَا سَأَلْتَ؟",
-                            "indo": "Saya di rumah, wahai Salih. Ada apa kamu bertanya?"
-                        },
-                        {
-                            "speaker": "صَالِح",
-                            "ar": "مَنْ فِي بَيْتِكَ؟",
-                            "indo": "Siapa saja yang ada di rumahmu?"
-                        },
-                        {
-                            "speaker": "لُقْمَان",
-                            "ar": "كَثِيرٌ يَا أَخِي. مِنْهُمْ أَنَا وَأَخِي الصَّغِيرُ وَأُخْتِي الْكَبِيرَةُ وَأَبِي وَأُمِّي وَجَدِّي وَجَدَّتِي. بَيْتِي كَبِيرٌ وَوَاسِعٌ وَنَظِيفٌ.",
-                            "indo": "Banyak wahai saudaraku. Di antaranya saya, adik laki-lakiku, kakak perempuanku, ayahku, ibuku, kakekku, dan nenekku. Rumahku besar, luas, dan bersih."
-                        },
-                        {
-                            "speaker": "صَالِح",
-                            "ar": "مَا شَاءَ اللهُ... كَذٰلِكَ. مَاذَا فِي بَيْتِكَ؟",
-                            "indo": "Masya Allah... demikian juga. Apa saja yang ada di rumahmu?"
-                        },
-                        {
-                            "speaker": "لُقْمَان",
-                            "ar": "كَثِيرَةٌ أَيْضًا يَا صَالِحُ. مِنْهَا غُرْفَةُ الْجُلُوسِ وَغُرْفَةُ الْمَكْتَبِ وَغُرْفَةُ الْمُذَاكَرَةِ وَغُرْفَةُ الأَكْلِ وَغُرْفَةُ النَّوْمِ وَمُصَلَّى وَمَطْبَخٌ وَحَمَّامٌ وَحَدِيقَةٌ.",
-                            "indo": "Banyak juga wahai Salih. Di antaranya ruang tamu, ruang kerja, ruang belajar, ruang makan, kamar tidur, mushalla, dapur, kamar mandi, dan taman."
-                        },
-                        {
-                            "speaker": "صَالِح",
-                            "ar": "طَيِّبٌ يَا لُقْمَانُ. شُكْرًا. وَالسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Baik wahai Luqman. Terima kasih. Wassalamu'alaikum."
-                        },
-                        {
-                            "speaker": "لُقْمَان",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "badge": "الْحِوَارُ 2",
-                    "title": "أَعْمَالُ أُسْرَتِي فِي الْبَيْتِ",
-                    "titleIndo": "Percakapan 2: Aktivitas Harian Keluargaku di Rumah (Sabir & Utsman)",
-                    "lines": [
-                        {
-                            "speaker": "صَابِر",
-                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Assalamu'alaikum."
-                        },
-                        {
-                            "speaker": "عُثْمَان",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        },
-                        {
-                            "speaker": "صَابِر",
-                            "ar": "يَا عُثْمَانُ، هَلْ كُلَّ يَوْمٍ حَفِظْتَ نَظَافَةَ ذٰلِكَ الْبَيْتِ؟",
-                            "indo": "Wahai Utsman, apakah setiap hari kamu menjaga kebersihan rumah itu?"
-                        },
-                        {
-                            "speaker": "عُثْمَان",
-                            "ar": "نَعَمْ يَا صَابِرُ. كُلَّ يَوْمٍ حَفِظْنَا نَظَافَتَهُ.",
-                            "indo": "Ya wahai Sabir. Setiap hari kami menjaga kebersihannya."
-                        },
-                        {
-                            "speaker": "صَابِر",
-                            "ar": "وَأَنْتَ؟ مَاذَا عَمِلْتَ كُلَّ يَوْمٍ؟ وَأَخُوكَ الصَّغِيرُ؟ وَأُخْتُكَ الْكَبِيرَةُ؟ وَأَبُوكَ؟ وَأُمُّكَ؟",
-                            "indo": "Dan kamu? Apa yang kamu kerjakan setiap hari? Dan adik laki-lakimu? Dan kakak perempuanmu? Dan ayahmu? Dan ibumu?"
-                        },
-                        {
-                            "speaker": "عُثْمَان",
-                            "ar": "أَبِي قَرَأَ الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ. وَأُمِّي أَعْدَدَتِ الطَّعَامَ اللَّذِيذَ لِلْأُسْرَةِ. وَأَخِي الصَّغِيرُ سَاعَدَ أُمِّي غَسْلَ الصُّحُونِ. وَأُخْتِي الْكَبِيرَةُ فِي غُرْفَةِ الأَكْلِ جَلَسَتْ عَلَى الْكُرْسِيِّ. وَأَنَا دَرَسْتُ وَقَرَأْتُ كِتَابَ الْحَدِيثِ.",
-                            "indo": "Ayahku membaca majalah dan minum kopi. Ibuku menyiapkan makanan yang lezat untuk keluarga. Adik laki-lakiku membantu ibu mencuci piring. Kakak perempuanku duduk di atas kursi di ruang makan. Dan saya belajar serta membaca buku Hadits."
-                        },
-                        {
-                            "speaker": "صَابِر",
-                            "ar": "مَا شَاءَ اللهُ... أُسْرَتُكَ نَشِيطَةٌ. طَيِّبٌ يَا عُثْمَانُ. شُكْرًا. وَالسَّلَامُ عَلَيْكُمْ.",
-                            "indo": "Masya Allah... keluargamu rajin. Baik wahai Utsman. Terima kasih. Wassalamu'alaikum."
-                        },
-                        {
-                            "speaker": "عُثْمَان",
-                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
-                            "indo": "Wa'alaikumussalam warahmatullah."
-                        }
-                    ]
-                }
-            ],
-            "qiraah": [
-                {
-                    "id": 1,
-                    "title": "النَّصُّ الأَوَّلُ: أَعْمَالُ أُسْرَتِي فِي الْبَيْتِ",
-                    "titleIndo": "Bacaan 1: Aktivitas Keluargaku di Rumah (Banjarmasin)",
-                    "textAr": "هٰذِهِ صُورَةُ أُسْرَتِي. أُسْرَتِي كَبِيرَةٌ. هٰذَا أَنَا. وَهٰذَا أَبِي. وَهٰذِهِ أُمِّي. وَذٰلِكَ أَخِي. وَتِلْكَ أُخْتِي. وَهٰذَا جَدِّي. وَهٰذِهِ جَدَّتِي. بَيْتِي بَيْتٌ كَبِيرٌ وَوَاسِعٌ وَنَظِيفٌ. هُوَ جَانِبَ الْمَسْجِدِ الْكَبِيرِ فِي مَدِينَةِ بَانْجَارْمَاسِينْ.\n\nأَنَا سَكَنْتُ فِي الْبَيْتِ مَعَهُمْ جَمِيعًا. وَكُلَّ يَوْمٍ حَفِظْنَا نَظَافَةَ هٰذَا الْبَيْتِ. وَأُمِّي أَعْدَدَتِ الطَّعَامَ اللَّذِيذَ لِلْأُسْرَةِ. وَفِي غُرْفَةِ الأَكْلِ، أُخْتِي جَلَسَتْ عَلَى الْكُرْسِيِّ لِلأَكْلِ. وَأَخِي سَاعَدَهَا غَسْلَ الصُّحُونِ بَعْدَ الأَكْلِ. وَدَرَسَ أَخِي الصَّغِيرُ فِي غُرْفَتِهِ وَقَرَأَ كِتَابَ الْحَدِيثِ فِيهَا أَيْضًا. وَقَرَأَ أَبِي الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ.",
-                    "textIndo": "Ini adalah foto keluargaku. Keluargaku besar. Ini aku, dan ini ayahku, dan ini ibuku, dan itu saudara laki-lakiku, dan itu saudara perempuanku, dan ini kakekku, dan ini nenekku. Rumahku adalah rumah yang besar, luas, dan bersih. Rumah itu berada di samping masjid besar di Kota Banjarmasin.\n\nSaya tinggal di rumah bersama mereka semua. Setiap hari kami menjaga kebersihan rumah ini. Ibuku menyiapkan makanan yang lezat untuk keluarga. Di ruang makan, kakak perempuanku duduk di atas kursi untuk makan. Dan saudaraku membantunya mencuci piring setelah makan. Adik laki-lakiku belajar di kamarnya dan membaca buku Hadits di sana juga. Dan ayahku membaca majalah serta minum kopi.",
-                    "questions": [
-                        {
-                            "q": "أَيْنَ بَيْتُ أُسْرَةِ الرَّاوِي فِي النَّصِّ الأَوَّلِ؟",
-                            "options": [
-                                "جَانِبَ الْمَسْجِدِ الْكَبِيرِ فِي بَانْجَارْمَاسِينْ",
-                                "فِي شَارِعِ كَالِيمَانْتَان ٧٨ سَاهَارِينْدَا",
-                                "فِي مَدِينَةِ مَالَانْج",
-                                "فِي مَدِينَةِ سُورَابَايَا"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "مَاذَا قَرَأَ الْأَبُ فِي النَّصِّ الأَوَّلِ؟",
-                            "options": [
-                                "قَرَأَ الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ",
-                                "قَرَأَ الْقُرْآنَ",
-                                "قَرَأَ كِتَابَ الْحَدِيثِ",
-                                "كَتَبَ الدَّرْسَ"
-                            ],
-                            "answer": 0
-                        }
-                    ]
-                },
-                {
-                    "id": 2,
-                    "title": "النَّصُّ الثَّانِي: بَيْتُ عَمِّي",
-                    "titleIndo": "Bacaan 2: Rumah Pamanku (Pak Taufiq - Samarinda)",
-                    "textAr": "إِسْمِي رَشَاد. عِنْدِي عَمٌّ إِسْمُهُ السَّيِّد تَوْفِيق. وَهُوَ الأَخُ الْكَبِيرُ لأَبِي. لِلسَّيِّدِ تَوْفِيق بَيْتٌ كَبِيرٌ وَجَمِيلٌ. وَهُوَ فِي شَارِعِ كَالِيمَانْتَان رَقْم ٧٨ سَاهَارِينْدَا. وَفِي الْبَيْتِ طَابَقٌ سُفْلِيٌّ وَطَابَقٌ عُلْوِيٌّ. أَمَامَ الْبَيْتِ شَجَرَةٌ كَبِيرَةٌ. وَهِيَ شَجَرَةُ مَنْجَا. وَوَرَاءَ الْبَيْتِ حَدِيقَةٌ وَاسِعَةٌ.\n\nفِي غُرْفَةِ الْجُلُوسِ مُنَضَّدَةٌ وَاحِدَةٌ وَخَمْسَةُ كَرَاسِيَّ مُنَظَّمَةٌ. وَعَلَى الْمُنَضَّدَةِ زَهْرِيَّةٌ. وَفِي الزَّهْرِيَّةِ أَزْهَارٌ جَمِيلَةٌ، مِثْلُ زَهْرَةِ الْوَرْدَةِ وَالْيَاسَمِينِ. وَفَوْقَ الْمُنَضَّدَةِ مِصْبَاحٌ.\n\nوَهٰذِهِ غُرْفَةُ الْمُذَاكَرَةِ. هِيَ وَرَاءَ غُرْفَةِ الْجُلُوسِ. وَهِيَ لِيُوسُف اِبْنِ عَمِّي الصَّغِيرِ. فِيهَا مِرْسَمَةٌ وَكِتَابٌ وَمِقْلَمَةٌ وَقَلَمٌ وَمَكْتَبٌ وَرَفٌّ. وَهٰذِهِ غُرْفَةُ الأَكْلِ. وَهِيَ جَانِبَ الْمَطْبَخِ. فِيهَا مَائِدَةٌ كَبِيرَةٌ. وَعَلَى الْمَائِدَةِ رُزٌّ وَمِلْعَقَةٌ وَصَحْنٌ وَشَايٌ وَقَهْوَةٌ.\n\nوَهٰذِهِ غُرْفَةُ الْمَكْتَبِ. وَهِيَ لِعَمِّي. عَمِّي تَاجِرٌ نَاجِحٌ مَعْرُوفٌ فِي الْمَدِينَةِ. فِي غُرْفَةِ الْمَكْتَبِ هَاتِفٌ وَفَاكْسٌ وَتَقْوِيمٌ وَصُورَةٌ وَسَاعَةٌ. الْهَاتِفُ وَالْفَاكْسُ عَلَى مَكْتَبِهِ. وَالتَّقْوِيمُ وَالصُّورَةُ وَالسَّاعَةُ عَلَى الْجِدَارِ. وَجَانِبَ الْمَطْبَخِ حَمَّامٌ وَمُصَلَّى. فِي الْحَمَّامِ بِرْكَةٌ وَمِرْحَاضٌ وَمَاءٌ وَمِغْرَفَةٌ وَصَابُونٌ.\n\nفِي الطَّابَقِ الْعُلْوِيِّ شُرْفَةٌ وَغُرَفُ النَّوْمِ. وَهٰذِهِ الْغُرَفُ لِإِسْمَاعِيل وَيُوسُف وَإِبْرَاهِيم أَبْنَاءِ عَمِّي. هٰذِهِ غُرْفَةُ النَّوْمِ لِإِسْمَاعِيل، اِبْنِ عَمِّي الْكَبِيرِ. وَهِيَ غُرْفَةٌ نَظِيفَةٌ وَمُنَظَّمَةٌ. فِيهَا خِزَانَةٌ وَمَلَابِسُ وَسَرِيرٌ وَوِسَادَةٌ. وَفِي الطَّابَقِ السُّفْلِيِّ غُرَفٌ كَثِيرَةٌ أَيْضًا. مِنْهَا غُرْفَةُ الْجُلُوسِ وَغُرْفَةُ الْمَكْتَبِ وَغُرْفَةُ الْمُذَاكَرَةِ وَغُرْفَةُ الأَكْلِ وَالْمَطْبَخُ وَالْمُصَلَّى وَالْحَمَّامُ.",
-                    "textIndo": "Namaku Rashad. Saya punya paman bernama Pak Taufiq. Beliau adalah kakak tertua ayahku. Pak Taufiq memiliki rumah yang besar dan indah di Jalan Kalimantan No. 78 Samarinda. Di rumah tersebut ada lantai bawah dan lantai atas. Di depan rumah ada pohon besar, yaitu pohon mangga. Dan di belakang rumah ada taman yang luas.\n\nDi ruang tamu ada satu meja tamu dan lima kursi yang tertata rapi. Di atas meja tamu ada vas bunga. Di dalam vas bunga ada bunga-bunga yang indah, seperti bunga mawar dan melati. Dan di atas meja tamu ada lampu.\n\nDan ini ruang belajar yang berada di belakang ruang tamu, milik Yusuf anak paman saya yang kecil. Di dalamnya ada pensil, buku, kotak pensil, pena, meja, dan rak. Dan ini ruang makan yang berada di samping dapur. Di dalamnya ada meja makan besar, dan di atas meja makan ada nasi, sendok, piring, teh, dan kopi.\n\nDan ini ruang kerja/kantor milik pamanku. Pamanku adalah seorang pedagang sukses yang terkenal di kota. Di ruang kerja ada telepon, mesin fax, kalender, foto, dan jam. Telepon dan fax ada di atas mejanya. Kalender, foto, dan jam ada di dinding. Di samping dapur ada kamar mandi dan mushalla. Di kamar mandi ada kolam, toilet, air, gayung, dan sabun.\n\nDi lantai atas terdapat balkon dan kamar-kamar tidur milik Ismail, Yusuf, dan Ibrahim anak-anak paman saya. Ini kamar tidur Ismail, anak paman yang paling besar. Kamarnya bersih dan rapi, di dalamnya ada lemari, pakaian, tempat tidur, dan bantal. Dan di lantai bawah terdapat banyak ruangan juga, di antaranya ruang tamu, ruang kerja, ruang belajar, ruang makan, dapur, mushalla, dan kamar mandi.",
-                    "questions": [
-                        {
-                            "q": "أَيْنَ بَيْتُ السَّيِّدِ تَوْفِيق (عَمِّ رَشَادٍ)؟",
-                            "options": [
-                                "فِي شَارِعِ كَالِيمَانْتَان رَقْم ٧٨ سَاهَارِينْدَا",
-                                "فِي بَانْجَارْمَاسِينْ",
-                                "فِي شَارِعِ بَاتُوبَارَا",
-                                "فِي شَارِعِ بَانْدُونْج"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "مَاذَا أَمَامَ بَيْتِ السَّيِّدِ تَوْفِيق؟",
-                            "options": [
-                                "شَجَرَةُ مَنْجَا كَبِيرَةٌ",
-                                "حَدِيقَةٌ وَاسِعَةٌ",
-                                "بِرْكَةٌ كَبِيرَةٌ",
-                                "مُصَلَّى"
-                            ],
-                            "answer": 0
-                        },
-                        {
-                            "q": "مَا مِهْنَةُ السَّيِّدِ تَوْفِيق (عَمِّ رَشَادٍ)؟",
-                            "options": [
-                                "تَاجِرٌ نَاجِحٌ مَعْرُوفٌ",
-                                "مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ",
-                                "طَبِيبٌ فِي الْمُسْتَشْفَى",
-                                "مُوَظَّفٌ فِي الْبَنْكِ"
-                            ],
-                            "answer": 0
-                        }
-                    ]
-                }
-            ],
+            "hiwar": {
+                "title": "مَهَارَةُ الإِسْتِمَاعِ وَالْحِوَارِ: اَلْبَيْتُ (١ وَ ٢)",
+                "titleIndo": "Percakapan Bahasa Arab: Rumah & Aktivitasnya (Salih & Luqman / Sabir & Utsman)",
+                "dialogues": [
+                    {
+                        "id": 1,
+                        "badge": "الْحِوَارُ 1",
+                        "title": "بَيْتِي وَمَا فِيهِ",
+                        "titleIndo": "Percakapan 1: Rumahku & Anggota/Ruangan di Dalamnya (Salih & Luqman)",
+                        "lines": [
+                            {
+                                "speaker": "صَالِح",
+                                "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "لُقْمَان",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            },
+                            {
+                                "speaker": "صَالِح",
+                                "ar": "يَا لُقْمَانُ، الْآنَ أَيْنَ أَنْتَ؟",
+                                "indo": "Wahai Luqman, di mana kamu sekarang?"
+                            },
+                            {
+                                "speaker": "لُقْمَان",
+                                "ar": "أَنَا فِي الْبَيْتِ يَا صَالِحُ. مَاذَا سَأَلْتَ؟",
+                                "indo": "Saya di rumah, wahai Salih. Ada apa kamu bertanya?"
+                            },
+                            {
+                                "speaker": "صَالِح",
+                                "ar": "مَنْ فِي بَيْتِكَ؟",
+                                "indo": "Siapa saja yang ada di rumahmu?"
+                            },
+                            {
+                                "speaker": "لُقْمَان",
+                                "ar": "كَثِيرٌ يَا أَخِي. مِنْهُمْ أَنَا وَأَخِي الصَّغِيرُ وَأُخْتِي الْكَبِيرَةُ وَأَبِي وَأُمِّي وَجَدِّي وَجَدَّتِي. بَيْتِي كَبِيرٌ وَوَاسِعٌ وَنَظِيفٌ.",
+                                "indo": "Banyak wahai saudaraku. Di antaranya saya, adik laki-lakiku, kakak perempuanku, ayahku, ibuku, kakekku, dan nenekku. Rumahku besar, luas, dan bersih."
+                            },
+                            {
+                                "speaker": "صَالِح",
+                                "ar": "مَا شَاءَ اللهُ... كَذٰلِكَ. مَاذَا فِي بَيْتِكَ؟",
+                                "indo": "Masya Allah... demikian juga. Apa saja yang ada di rumahmu?"
+                            },
+                            {
+                                "speaker": "لُقْمَان",
+                                "ar": "كَثِيرَةٌ أَيْضًا يَا صَالِحُ. مِنْهَا غُرْفَةُ الْجُلُوسِ وَغُرْفَةُ الْمَكْتَبِ وَغُرْفَةُ الْمُذَاكَرَةِ وَغُرْفَةُ الأَكْلِ وَغُرْفَةُ النَّوْمِ وَمُصَلَّى وَمَطْبَخٌ وَحَمَّامٌ وَحَدِيقَةٌ.",
+                                "indo": "Banyak juga wahai Salih. Di antaranya ruang tamu, ruang kerja, ruang belajar, ruang makan, kamar tidur, mushalla, dapur, kamar mandi, dan taman."
+                            },
+                            {
+                                "speaker": "صَالِح",
+                                "ar": "طَيِّبٌ يَا لُقْمَانُ. شُكْرًا. وَالسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Baik wahai Luqman. Terima kasih. Wassalamu'alaikum."
+                            },
+                            {
+                                "speaker": "لُقْمَان",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "badge": "الْحِوَارُ 2",
+                        "title": "أَعْمَالُ أُسْرَتِي فِي الْبَيْتِ",
+                        "titleIndo": "Percakapan 2: Aktivitas Harian Keluargaku di Rumah (Sabir & Utsman)",
+                        "lines": [
+                            {
+                                "speaker": "صَابِر",
+                                "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Assalamu'alaikum."
+                            },
+                            {
+                                "speaker": "عُثْمَان",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            },
+                            {
+                                "speaker": "صَابِر",
+                                "ar": "يَا عُثْمَانُ، هَلْ كُلَّ يَوْمٍ حَفِظْتَ نَظَافَةَ ذٰلِكَ الْبَيْتِ؟",
+                                "indo": "Wahai Utsman, apakah setiap hari kamu menjaga kebersihan rumah itu?"
+                            },
+                            {
+                                "speaker": "عُثْمَان",
+                                "ar": "نَعَمْ يَا صَابِرُ. كُلَّ يَوْمٍ حَفِظْنَا نَظَافَتَهُ.",
+                                "indo": "Ya wahai Sabir. Setiap hari kami menjaga kebersihannya."
+                            },
+                            {
+                                "speaker": "صَابِر",
+                                "ar": "وَأَنْتَ؟ مَاذَا عَمِلْتَ كُلَّ يَوْمٍ؟ وَأَخُوكَ الصَّغِيرُ؟ وَأُخْتُكَ الْكَبِيرَةُ؟ وَأَبُوكَ؟ وَأُمُّكَ؟",
+                                "indo": "Dan kamu? Apa yang kamu kerjakan setiap hari? Dan adik laki-lakimu? Dan kakak perempuanmu? Dan ayahmu? Dan ibumu?"
+                            },
+                            {
+                                "speaker": "عُثْمَان",
+                                "ar": "أَبِي قَرَأَ الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ. وَأُمِّي أَعْدَدَتِ الطَّعَامَ اللَّذِيذَ لِلْأُسْرَةِ. وَأَخِي الصَّغِيرُ سَاعَدَ أُمِّي غَسْلَ الصُّحُونِ. وَأُخْتِي الْكَبِيرَةُ فِي غُرْفَةِ الأَكْلِ جَلَسَتْ عَلَى الْكُرْسِيِّ. وَأَنَا دَرَسْتُ وَقَرَأْتُ كِتَابَ الْحَدِيثِ.",
+                                "indo": "Ayahku membaca majalah dan minum kopi. Ibuku menyiapkan makanan yang lezat untuk keluarga. Adik laki-lakiku membantu ibu mencuci piring. Kakak perempuanku duduk di atas kursi di ruang makan. Dan saya belajar serta membaca buku Hadits."
+                            },
+                            {
+                                "speaker": "صَابِر",
+                                "ar": "مَا شَاءَ اللهُ... أُسْرَتُكَ نَشِيطَةٌ. طَيِّبٌ يَا عُثْمَانُ. شُكْرًا. وَالسَّلَامُ عَلَيْكُمْ.",
+                                "indo": "Masya Allah... keluargamu rajin. Baik wahai Utsman. Terima kasih. Wassalamu'alaikum."
+                            },
+                            {
+                                "speaker": "عُثْمَان",
+                                "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                                "indo": "Wa'alaikumussalam warahmatullah."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "qiraah": {
+                "title": "مَهَارَةُ الْقِرَاءَةِ: اَلْبَيْتُ وَمَا فِيهِ (النَّصُّ ١ وَ ٢)",
+                "titleIndo": "Maharah Qira'ah: Aktivitas Rumah & Rumah Pamanku",
+                "articles": [
+                    {
+                        "id": 1,
+                        "title": "النَّصُّ الأَوَّلُ: أَعْمَالُ أُسْرَتِي فِي الْبَيْتِ",
+                        "titleIndo": "Bacaan 1: Aktivitas Keluargaku di Rumah (Banjarmasin)",
+                        "textAr": "هٰذِهِ صُورَةُ أُسْرَتِي. أُسْرَتِي كَبِيرَةٌ. هٰذَا أَنَا. وَهٰذَا أَبِي. وَهٰذِهِ أُمِّي. وَذٰلِكَ أَخِي. وَتِلْكَ أُخْتِي. وَهٰذَا جَدِّي. وَهٰذِهِ جَدَّتِي. بَيْتِي بَيْتٌ كَبِيرٌ وَوَاسِعٌ وَنَظِيفٌ. هُوَ جَانِبَ الْمَسْجِدِ الْكَبِيرِ فِي مَدِينَةِ بَانْجَارْمَاسِينْ.\n\nأَنَا سَكَنْتُ فِي الْبَيْتِ مَعَهُمْ جَمِيعًا. وَكُلَّ يَوْمٍ حَفِظْنَا نَظَافَةَ هٰذَا الْبَيْتِ. وَأُمِّي أَعْدَدَتِ الطَّعَامَ اللَّذِيذَ لِلْأُسْرَةِ. وَفِي غُرْفَةِ الأَكْلِ، أُخْتِي جَلَسَتْ عَلَى الْكُرْسِيِّ لِلأَكْلِ. وَأَخِي سَاعَدَهَا غَسْلَ الصُّحُونِ بَعْدَ الأَكْلِ. وَدَرَسَ أَخِي الصَّغِيرُ فِي غُرْفَتِهِ وَقَرَأَ كِتَابَ الْحَدِيثِ فِيهَا أَيْضًا. وَقَرَأَ أَبِي الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ.",
+                        "textIndo": "Ini adalah foto keluargaku. Keluargaku besar. Ini aku, dan ini ayahku, dan ini ibuku, dan itu saudara laki-lakiku, dan itu saudara perempuanku, dan ini kakekku, dan ini nenekku. Rumahku adalah rumah yang besar, luas, dan bersih. Rumah itu berada di samping masjid besar di Kota Banjarmasin.\n\nSaya tinggal di rumah bersama mereka semua. Setiap hari kami menjaga kebersihan rumah ini. Ibuku menyiapkan makanan yang lezat untuk keluarga. Di ruang makan, kakak perempuanku duduk di atas kursi untuk makan. Dan saudaraku membantunya mencuci piring setelah makan. Adik laki-lakiku belajar di kamarnya dan membaca buku Hadits di sana juga. Dan ayahku membaca majalah serta minum kopi.",
+                        "questions": [
+                            {
+                                "q": "أَيْنَ بَيْتُ أُسْرَةِ الرَّاوِي فِي النَّصِّ الأَوَّلِ؟",
+                                "options": [
+                                    "جَانِبَ الْمَسْجِدِ الْكَبِيرِ فِي بَانْجَارْمَاسِينْ",
+                                    "فِي شَارِعِ كَالِيمَانْتَان ٧٨ سَاهَارِينْدَا",
+                                    "فِي مَدِينَةِ مَالَانْج",
+                                    "فِي مَدِينَةِ سُورَابَايَا"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَاذَا قَرَأَ الْأَبُ فِي النَّصِّ الأَوَّلِ؟",
+                                "options": [
+                                    "قَرَأَ الْمَجَلَّةَ وَشَرِبَ الْقَهْوَةَ",
+                                    "قَرَأَ الْقُرْآنَ",
+                                    "قَرَأَ كِتَابَ الْحَدِيثِ",
+                                    "كَتَبَ الدَّرْسَ"
+                                ],
+                                "answer": 0
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "title": "النَّصُّ الثَّانِي: بَيْتُ عَمِّي",
+                        "titleIndo": "Bacaan 2: Rumah Pamanku (Pak Taufiq - Samarinda)",
+                        "textAr": "إِسْمِي رَشَاد. عِنْدِي عَمٌّ إِسْمُهُ السَّيِّد تَوْفِيق. وَهُوَ الأَخُ الْكَبِيرُ لأَبِي. لِلسَّيِّدِ تَوْفِيق بَيْتٌ كَبِيرٌ وَجَمِيلٌ. وَهُوَ فِي شَارِعِ كَالِيمَانْتَان رَقْم ٧٨ سَاهَارِينْدَا. وَفِي الْبَيْتِ طَابَقٌ سُفْلِيٌّ وَطَابَقٌ عُلْوِيٌّ. أَمَامَ الْبَيْتِ شَجَرَةٌ كَبِيرَةٌ. وَهِيَ شَجَرَةُ مَنْجَا. وَوَرَاءَ الْبَيْتِ حَدِيقَةٌ وَاسِعَةٌ.\n\nفِي غُرْفَةِ الْجُلُوسِ مُنَضَّدَةٌ وَاحِدَةٌ وَخَمْسَةُ كَرَاسِيَّ مُنَظَّمَةٌ. وَعَلَى الْمُنَضَّدَةِ زَهْرِيَّةٌ. وَفِي الزَّهْرِيَّةِ أَزْهَارٌ جَمِيلَةٌ، مِثْلُ زَهْرَةِ الْوَرْدَةِ وَالْيَاسَمِينِ. وَفَوْقَ الْمُنَضَّدَةِ مِصْبَاحٌ.\n\nوَهٰذِهِ غُرْفَةُ الْمُذَاكَرَةِ. هِيَ وَرَاءَ غُرْفَةِ الْجُلُوسِ. وَهِيَ لِيُوسُف اِبْنِ عَمِّي الصَّغِيرِ. فِيهَا مِرْسَمَةٌ وَكِتَابٌ وَمِقْلَمَةٌ وَقَلَمٌ وَمَكْتَبٌ وَرَفٌّ. وَهٰذِهِ غُرْفَةُ الأَكْلِ. وَهِيَ جَانِبَ الْمَطْبَخِ. فِيهَا مَائِدَةٌ كَبِيرَةٌ. وَعَلَى الْمَائِدَةِ رُزٌّ وَمِلْعَقَةٌ وَصَحْنٌ وَشَايٌ وَقَهْوَةٌ.\n\nوَهٰذِهِ غُرْفَةُ الْمَكْتَبِ. وَهِيَ لِعَمِّي. عَمِّي تَاجِرٌ نَاجِحٌ مَعْرُوفٌ فِي الْمَدِينَةِ. فِي غُرْفَةِ الْمَكْتَبِ هَاتِفٌ وَفَاكْسٌ وَتَقْوِيمٌ وَصُورَةٌ وَسَاعَةٌ. الْهَاتِفُ وَالْفَاكْسُ عَلَى مَكْتَبِهِ. وَالتَّقْوِيمُ وَالصُّورَةُ وَالسَّاعَةُ عَلَى الْجِدَارِ. وَجَانِبَ الْمَطْبَخِ حَمَّامٌ وَمُصَلَّى. فِي الْحَمَّامِ بِرْكَةٌ وَمِرْحَاضٌ وَمَاءٌ وَمِغْرَفَةٌ وَصَابُونٌ.\n\nفِي الطَّابَقِ الْعُلْوِيِّ شُرْفَةٌ وَغُرَفُ النَّوْمِ. وَهٰذِهِ الْغُرَفُ لِإِسْمَاعِيل وَيُوسُف وَإِبْرَاهِيم أَبْنَاءِ عَمِّي. هٰذِهِ غُرْفَةُ النَّوْمِ لِإِسْمَاعِيل، اِبْنِ عَمِّي الْكَبِيرِ. وَهِيَ غُرْفَةٌ نَظِيفَةٌ وَمُنَظَّمَةٌ. فِيهَا خِزَانَةٌ وَمَلَابِسُ وَسَرِيرٌ وَوِسَادَةٌ. وَفِي الطَّابَقِ السُّفْلِيِّ غُرَفٌ كَثِيرَةٌ أَيْضًا. مِنْهَا غُرْفَةُ الْجُلُوسِ وَغُرْفَةُ الْمَكْتَبِ وَغُرْفَةُ الْمُذَاكَرَةِ وَغُرْفَةُ الأَكْلِ وَالْمَطْبَخُ وَالْمُصَلَّى وَالْحَمَّامُ.",
+                        "textIndo": "Namaku Rashad. Saya punya paman bernama Pak Taufiq. Beliau adalah kakak tertua ayahku. Pak Taufiq memiliki rumah yang besar dan indah di Jalan Kalimantan No. 78 Samarinda. Di rumah tersebut ada lantai bawah dan lantai atas. Di depan rumah ada pohon besar, yaitu pohon mangga. Dan di belakang rumah ada taman yang luas.\n\nDi ruang tamu ada satu meja tamu dan lima kursi yang tertata rapi. Di atas meja tamu ada vas bunga. Di dalam vas bunga ada bunga-bunga yang indah, seperti bunga mawar dan melati. Dan di atas meja tamu ada lampu.\n\nDan ini ruang belajar yang berada di belakang ruang tamu, milik Yusuf anak paman saya yang kecil. Di dalamnya ada pensil, buku, kotak pensil, pena, meja, dan rak. Dan ini ruang makan yang berada di samping dapur. Di dalamnya ada meja makan besar, dan di atas meja makan ada nasi, sendok, piring, teh, dan kopi.\n\nDan ini ruang kerja/kantor milik pamanku. Pamanku adalah seorang pedagang sukses yang terkenal di kota. Di ruang kerja ada telepon, mesin fax, kalender, foto, dan jam. Telepon dan fax ada di atas mejanya. Kalender, foto, dan jam ada di dinding. Di samping dapur ada kamar mandi dan mushalla. Di kamar mandi ada kolam, toilet, air, gayung, dan sabun.\n\nDi lantai atas terdapat balkon dan kamar-kamar tidur milik Ismail, Yusuf, dan Ibrahim anak-anak paman saya. Ini kamar tidur Ismail, anak paman yang paling besar. Kamarnya bersih dan rapi, di dalamnya ada lemari, pakaian, tempat tidur, dan bantal. Dan di lantai bawah terdapat banyak ruangan juga, di antaranya ruang tamu, ruang kerja, ruang belajar, ruang makan, dapur, mushalla, dan kamar mandi.",
+                        "questions": [
+                            {
+                                "q": "أَيْنَ بَيْتُ السَّيِّدِ تَوْفِيق (عَمِّ رَشَادٍ)؟",
+                                "options": [
+                                    "فِي شَارِعِ كَالِيمَانْتَان رَقْم ٧٨ سَاهَارِينْدَا",
+                                    "فِي بَانْجَارْمَاسِينْ",
+                                    "فِي شَارِعِ بَاتُوبَارَا",
+                                    "فِي شَارِعِ بَانْدُونْج"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَاذَا أَمَامَ بَيْتِ السَّيِّدِ تَوْفِيق؟",
+                                "options": [
+                                    "شَجَرَةُ مَنْجَا كَبِيرَةٌ",
+                                    "حَدِيقَةٌ وَاسِعَةٌ",
+                                    "بِرْكَةٌ كَبِيرَةٌ",
+                                    "مُصَلَّى"
+                                ],
+                                "answer": 0
+                            },
+                            {
+                                "q": "مَا مِهْنَةُ السَّيِّدِ تَوْفِيق (عَمِّ رَشَادٍ)؟",
+                                "options": [
+                                    "تَاجِرٌ نَاجِحٌ مَعْرُوفٌ",
+                                    "مُدَرِّسُ اللُّغَةِ الْعَرَبِيَّةِ",
+                                    "طَبِيبٌ فِي الْمُسْتَشْفَى",
+                                    "مُوَظَّفٌ فِي الْبَنْكِ"
+                                ],
+                                "answer": 0
+                            }
+                        ]
+                    }
+                ]
+            },
             "qawaid": {
                 "title": "اَلْقَوَاعِدُ وَالتَّرَاكِيبُ: الفِعْلُ الْمَاضِي وَ (مَنْ / لِمَنْ)",
                 "titleIndo": "Kaidah Tata Bahasa: Fi'il Madhi & Kata Tanya 'Man' dan 'Liman'",
@@ -5484,7 +5501,8 @@ const arabicData = {
                         "الْجُلُوسِ"
                     ],
                     "meaning": "Meja tamu berada di ruang tamu."
-                }
+                },
+                "content": "\n            <div class=\"mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm\">\n                <h3 class=\"font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100\">١. الفِعْلُ الْمَاضِي (Kata Kerja Masa Lampau)</h3>\n                <div>\n                <div class=\"space-y-4 text-gray-700 leading-relaxed\">\n                    <p class=\"font-medium text-gray-800\">\n                        <strong>a. Pengertian:</strong> Kata kerja yang digunakan untuk mengungkapkan pekerjaan yang <strong>telah dikerjakan</strong> (masa lampau). Kata kerja ini diakhiri dengan akhiran huruf yang berbeda sesuai dengan pelakunya (dhamir).\n                    </p>\n                    <div class=\"bg-emerald-50 border-l-4 border-emerald-500 p-4 rounded-r-lg\">\n                        <h4 class=\"font-bold text-emerald-900 mb-2\">Perincian Konjugasi Fi'il Madhi (6 Dhamir):</h4>\n                        <div class=\"overflow-x-auto\">\n                            <table class=\"w-full text-center border-collapse bg-white rounded shadow-sm text-sm\">\n                                <thead>\n                                    <tr class=\"bg-emerald-600 text-white font-bold\">\n                                        <th class=\"p-2 border\">No</th>\n                                        <th class=\"p-2 border\">Kata Ganti (Dhamir)</th>\n                                        <th class=\"p-2 border\">Tambahan Akhiran</th>\n                                        <th class=\"p-2 border\">Bentuk Fi'il Madhi</th>\n                                        <th class=\"p-2 border\">Arti & Contoh</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr class=\"hover:bg-emerald-50\">\n                                        <td class=\"p-2 border font-bold\">1</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">هُوَ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-gray-400\">- (Tanpa akhiran)</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">فَعَلَ / ذَهَبَ</td>\n                                        <td class=\"p-2 border text-left\">Dia (1 Lk) telah pergi</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-emerald-50\">\n                                        <td class=\"p-2 border font-bold\">2</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">هِيَ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">ـَتْ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">فَعَلَتْ / ذَهَبَتْ</td>\n                                        <td class=\"p-2 border text-left\">Dia (1 Pr) telah pergi</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-emerald-50\">\n                                        <td class=\"p-2 border font-bold\">3</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">أَنْتَ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">ـْتَ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">فَعَلْتَ / ذَهَبْتَ</td>\n                                        <td class=\"p-2 border text-left\">Kamu (1 Lk) telah pergi</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-emerald-50\">\n                                        <td class=\"p-2 border font-bold\">4</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">أَنْتِ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">ـْتِ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">فَعَلْتِ / ذَهَبْتِ</td>\n                                        <td class=\"p-2 border text-left\">Kamu (1 Pr) telah pergi</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-emerald-50\">\n                                        <td class=\"p-2 border font-bold\">5</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">أَنَا</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">ـْتُ</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">فَعَلْتُ / ذَهَبْتُ</td>\n                                        <td class=\"p-2 border text-left\">Saya telah pergi</td>\n                                    </tr>\n                                    <tr class=\"hover:bg-emerald-50\">\n                                        <td class=\"p-2 border font-bold\">6</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-blue-800\">نَحْنُ</td>\n                                        <td class=\"p-2 border font-arabic text-lg font-bold text-red-500\">ـْنَا</td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-600\">فَعَلْنَا / ذَهَبْنَا</td>\n                                        <td class=\"p-2 border text-left\">Kami / Kita telah pergi</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            </div>\n        \n            <div class=\"mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm\">\n                <h3 class=\"font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100\">٢. تَحْلِيلُ الأَخْطَاءِ (Analisis Kesalahan Fi'il Madhi)</h3>\n                <div>\n                <div class=\"space-y-4 text-gray-700 leading-relaxed\">\n                    <p class=\"font-medium text-gray-800\">\n                        Bentuk <strong>Fi'il Madhi</strong> harus disesuaikan dengan pelakunya (tanda akhiran terletak di <strong>belakang kata</strong>).\n                    </p>\n                    <div class=\"overflow-x-auto\">\n                        <table class=\"w-full text-center border-collapse bg-white rounded shadow-sm text-sm\">\n                            <thead>\n                                <tr class=\"bg-gray-800 text-white font-bold\">\n                                    <th class=\"p-2 border bg-red-600\">Salah ❌</th>\n                                    <th class=\"p-2 border bg-emerald-600\">Benar ✅</th>\n                                    <th class=\"p-2 border text-left\">Keterangan / Alasan</th>\n                                </tr>\n                            </thead>\n                            <tbody>\n                                <tr class=\"hover:bg-gray-50\">\n                                    <td class=\"p-2 border font-arabic text-lg text-red-600 font-bold\">أَنَا ذَهَبْتَ</td>\n                                    <td class=\"p-2 border font-arabic text-lg text-emerald-600 font-bold\">أَنَا ذَهَبْتُ</td>\n                                    <td class=\"p-2 border text-left\">Kata kerja harus diakhiri dengan huruf <strong>ta' dharmah (-تُ)</strong> karena subjeknya adalah <em>Saya (أَنَا)</em>.</td>\n                                </tr>\n                                <tr class=\"hover:bg-gray-50\">\n                                    <td class=\"p-2 border font-arabic text-lg text-red-600 font-bold\">أَنْتَ ذَهَبْتُ</td>\n                                    <td class=\"p-2 border font-arabic text-lg text-emerald-600 font-bold\">أَنْتَ ذَهَبْتَ</td>\n                                    <td class=\"p-2 border text-left\">Kata kerja harus diakhiri dengan huruf <strong>ta' fathah (-تَ)</strong> karena subjeknya adalah <em>Kamu Laki-laki (أَنْتَ)</em>.</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>\n                </div>\n            </div>\n            </div>\n        \n            <div class=\"mb-6 bg-white p-5 rounded-2xl border border-emerald-100 shadow-sm\">\n                <h3 class=\"font-arabic text-xl font-bold text-bottle-green-dark mb-3 pb-2 border-b border-emerald-100\">٣. كَلِمَةُ الإِسْتِفْهَامِ \"مَنْ\" وَ \"لِمَنْ\"</h3>\n                <div>\n                <div class=\"space-y-4 text-gray-700 leading-relaxed\">\n                    <p class=\"font-medium text-gray-800\">\n                        Penggunaan kata tanya <strong>مَنْ (Siapa)</strong> untuk menanyakan subjek/orang, dan <strong>لِمَنْ (Milik Siapa)</strong> untuk menanyakan kepemilikan:\n                    </p>\n                    <div class=\"bg-purple-50 border-l-4 border-purple-500 p-4 rounded-r-lg\">\n                        <div class=\"overflow-x-auto\">\n                            <table class=\"w-full text-center border-collapse bg-white rounded shadow-sm text-sm\">\n                                <thead>\n                                    <tr class=\"bg-purple-600 text-white font-bold\">\n                                        <th class=\"p-2 border\">Kata Tanya</th>\n                                        <th class=\"p-2 border\">Pertanyaan (السُّؤَالُ)</th>\n                                        <th class=\"p-2 border\">Jawaban (الْجَوَابُ)</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr class=\"hover:bg-purple-50\">\n                                        <td class=\"p-2 border font-bold text-purple-900\">مَنْ <br><span class=\"font-normal text-xs\">(Siapa)</span></td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-purple-900\">مَنْ أَمَامَ الْمَدْرَسَةِ؟ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Siapa di depan madrasah?)</span></td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-700\">أَمَامَ الْمَدْرَسَةِ مُدَرِّسٌ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Di depan madrasah ada guru)</span></td>\n                                    </tr>\n                                    <tr class=\"hover:bg-purple-50\">\n                                        <td class=\"p-2 border font-bold text-purple-900\">لِمَنْ <br><span class=\"font-normal text-xs\">(Milik Siapa)</span></td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-purple-900\">لِمَنْ ذٰلِكَ الْبَيْتُ؟ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Milik siapa rumah itu?)</span></td>\n                                        <td class=\"p-2 border font-arabic text-xl font-bold text-emerald-700\">ذٰلِكَ الْبَيْتُ لِعُثْمَانَ <br><span class=\"font-sans font-normal text-xs text-gray-500\">(Rumah itu milik Utsman)</span></td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            </div>\n        "
             },
             "quiz": [
                 {
