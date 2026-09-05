@@ -2780,7 +2780,7 @@ const arabicData = {
                 {
                     "id": 401,
                     "ar": "عُنْوَانٌ",
-                    "latin": "Unwan",
+                    "latin": "",
                     "indo": "Alamat",
                     "exAr": "مَا عُنْوَانُ بَيْتِكَ؟",
                     "exIndo": "Apa alamat rumahmu?"
@@ -2788,7 +2788,7 @@ const arabicData = {
                 {
                     "id": 402,
                     "ar": "شَارِعٌ",
-                    "latin": "Syari'",
+                    "latin": "",
                     "indo": "Jalan",
                     "exAr": "أَسْكُنُ فِي شَارِعِ سُوكَارْنُو.",
                     "exIndo": "Saya tinggal di Jalan Soekarno."
@@ -2796,226 +2796,434 @@ const arabicData = {
                 {
                     "id": 403,
                     "ar": "رَقْمٌ",
-                    "latin": "Raqm",
+                    "latin": "",
                     "indo": "Nomor",
                     "exAr": "رَقْمُ بَيْتِي خَمْسَةٌ (٥).",
                     "exIndo": "Nomor rumahku adalah lima (5)."
                 },
                 {
                     "id": 404,
-                    "ar": "هَاتِفٌ / جَوَّالٌ",
-                    "latin": "Hatif / Jawwal",
-                    "indo": "Telepon / HP",
+                    "ar": "رَقْمُ الْهَاتِفِ",
+                    "latin": "",
+                    "indo": "Nomor Telepon",
                     "exAr": "مَا رَقْمُ هَاتِفِكَ؟",
                     "exIndo": "Berapa nomor teleponmu?"
                 },
                 {
                     "id": 405,
                     "ar": "بَيْتٌ",
-                    "latin": "Bait",
+                    "latin": "",
                     "indo": "Rumah",
                     "exAr": "بَيْتِي قَرِيبٌ مِنَ الْمَدْرَسَةِ.",
                     "exIndo": "Rumahku dekat dari sekolah."
                 },
                 {
                     "id": 406,
-                    "ar": "قَرِيبٌ مِنْ",
-                    "latin": "Qaribun min",
-                    "indo": "Dekat dari",
-                    "exAr": "الْمَسْجِدُ قَرِيبٌ مِنْ بَيْتِي.",
-                    "exIndo": "Masjid itu dekat dari rumahku."
-                },
-                {
-                    "id": 407,
-                    "ar": "بَعِيدٌ عَنْ",
-                    "latin": "Ba'idun 'an",
-                    "indo": "Jauh dari",
-                    "exAr": "بَيْتِي بَعِيدٌ عَنِ السُّوقِ.",
-                    "exIndo": "Rumahku jauh dari pasar."
-                },
-                {
-                    "id": 408,
                     "ar": "مَدِينَةٌ",
-                    "latin": "Madinah",
+                    "latin": "",
                     "indo": "Kota",
-                    "exAr": "أَسْكُنُ فِي مَدِينَةِ مَالاَنْج.",
+                    "exAr": "أَسْكُنُ فِي مَدِينَةِ مَالَانْج.",
                     "exIndo": "Saya tinggal di kota Malang."
                 },
                 {
-                    "id": 409,
-                    "ar": "قَرْيَةٌ",
-                    "latin": "Qaryah",
+                    "id": 407,
+                    "ar": "قَرِيَّةٌ",
+                    "latin": "",
                     "indo": "Desa / Kampung",
-                    "exAr": "جَدِّي يَعِيشُ فِي الْقَرْيَةِ.",
+                    "exAr": "جَدِّي يَعِيشُ فِي الْقَرِيَّةِ.",
                     "exIndo": "Kakekku tinggal di desa."
                 },
                 {
+                    "id": 408,
+                    "ar": "سَاعَةٌ",
+                    "latin": "",
+                    "indo": "Jam / Waktu",
+                    "exAr": "كَمِ السَّاعَةُ الآَنَ؟",
+                    "exIndo": "Jam berapa sekarang?"
+                },
+                {
+                    "id": 409,
+                    "ar": "دَقِيقَةٌ",
+                    "latin": "",
+                    "indo": "Menit",
+                    "exAr": "السَّاعَةُ الْوَاحِدَةُ وَخَمْسُ دَقَائِقَ.",
+                    "exIndo": "Jam satu lewat lima menit."
+                },
+                {
                     "id": 410,
-                    "ar": "بِجَوَارِ",
-                    "latin": "Bijawari",
-                    "indo": "Di sekitar / Bersebelahan",
-                    "exAr": "بَيْتِي بِجَوَارِ الْمَسْجِدِ.",
-                    "exIndo": "Rumahku bersebelahan dengan masjid."
+                    "ar": "نِصْفٌ",
+                    "latin": "",
+                    "indo": "Setengah (30 Menit)",
+                    "exAr": "السَّاعَةُ الثَّالِثَةُ وَالنِّصْفُ.",
+                    "exIndo": "Jam tiga setengah (03.30)."
                 },
                 {
                     "id": 411,
-                    "ar": "وَاحِدٌ (١)",
-                    "latin": "Wahid",
+                    "ar": "١ - وَاحِدٌ",
+                    "latin": "",
                     "indo": "Satu (1)",
+                    "exAr": "رَقْمُ الْبَيْتِ وَاحِدٌ.",
+                    "exIndo": "Nomor rumah satu."
+                },
+                {
+                    "id": 412,
+                    "ar": "٢ - إِثْنَانِ",
+                    "latin": "",
+                    "indo": "Dua (2)",
+                    "exAr": "عِنْدِي كِتَابَانِ إِثْنَانِ.",
+                    "exIndo": "Saya punya dua buku."
+                },
+                {
+                    "id": 413,
+                    "ar": "٣ - ثَلَاثَةٌ",
+                    "latin": "",
+                    "indo": "Tiga (3)",
+                    "exAr": "ثَلَاثَةُ أَيَّامٍ.",
+                    "exIndo": "Tiga hari."
+                },
+                {
+                    "id": 414,
+                    "ar": "٤ - أَرْبَعَةٌ",
+                    "latin": "",
+                    "indo": "Empat (4)",
+                    "exAr": "أَرْبَعَةُ غُرَفٍ.",
+                    "exIndo": "Empat ruangan."
+                },
+                {
+                    "id": 415,
+                    "ar": "٥ - خَمْسَةٌ",
+                    "latin": "",
+                    "indo": "Lima (5)",
+                    "exAr": "رَقْمُ الْهَاتِفِ خَمْسَةٌ.",
+                    "exIndo": "Nomor telepon lima."
+                },
+                {
+                    "id": 416,
+                    "ar": "٦ - سِتَّةٌ",
+                    "latin": "",
+                    "indo": "Enam (6)",
+                    "exAr": "سِتَّةُ طُلَّابٍ.",
+                    "exIndo": "Enam siswa."
+                },
+                {
+                    "id": 417,
+                    "ar": "٧ - سَبْعَةٌ",
+                    "latin": "",
+                    "indo": "Tujuh (7)",
+                    "exAr": "شَارِعُ بَانْدُونْج رَقْم ٧.",
+                    "exIndo": "Jalan Bandung nomor 7."
+                },
+                {
+                    "id": 418,
+                    "ar": "٨ - ثَمَانِيَةٌ",
+                    "latin": "",
+                    "indo": "Delapan (8)",
+                    "exAr": "ثَمَانِيَةُ كُتُبٍ.",
+                    "exIndo": "Delapan buku."
+                },
+                {
+                    "id": 419,
+                    "ar": "٩ - تِسْعَةٌ",
+                    "latin": "",
+                    "indo": "Sembilan (9)",
+                    "exAr": "تِسْعَةُ أَقْلَامٍ.",
+                    "exIndo": "Sembilan pulpen."
+                },
+                {
+                    "id": 420,
+                    "ar": "١٠ - عَشَرَةٌ",
+                    "latin": "",
+                    "indo": "Sepuluh (10)",
+                    "exAr": "عَشَرَةُ دَفَاتِرَ.",
+                    "exIndo": "Sepuluh buku tulis."
+                },
+                {
+                    "id": 421,
+                    "ar": "١١ - أَحَدَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Sebelas (11)",
+                    "exAr": "أَحَدَ عَشَرَ كَوْكَبًا.",
+                    "exIndo": "Sebelas planet."
+                },
+                {
+                    "id": 422,
+                    "ar": "١٢ - إِثْنَا عَشَرَ",
+                    "latin": "",
+                    "indo": "Dua Belas (12)",
+                    "exAr": "إِثْنَا عَشَرَ شَهْرًا.",
+                    "exIndo": "Dua belas bulan."
+                },
+                {
+                    "id": 423,
+                    "ar": "١٣ - ثَلَاثَةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Tiga Belas (13)",
+                    "exAr": "ثَلَاثَةَ عَشَرَ طَالِبًا.",
+                    "exIndo": "Tiga belas siswa."
+                },
+                {
+                    "id": 424,
+                    "ar": "١٤ - أَرْبَعَةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Empat Belas (14)",
+                    "exAr": "أَرْبَعَةَ عَشَرَ يَوْمًا.",
+                    "exIndo": "Empat belas hari."
+                },
+                {
+                    "id": 425,
+                    "ar": "١٥ - خَمْسَةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Lima Belas (15)",
+                    "exAr": "خَمْسَةَ عَشَرَ كِتَابًا.",
+                    "exIndo": "Lima belas buku."
+                },
+                {
+                    "id": 426,
+                    "ar": "١٦ - سِتَّةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Enam Belas (16)",
+                    "exAr": "سِتَّةَ عَشَرَ سَاعَةً.",
+                    "exIndo": "Enam belas jam."
+                },
+                {
+                    "id": 427,
+                    "ar": "١٧ - سَبْعَةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Tujuh Belas (17)",
+                    "exAr": "سَبْعَةَ عَشَرَ رَكْعَةً.",
+                    "exIndo": "Tujuh belas rakaat."
+                },
+                {
+                    "id": 428,
+                    "ar": "١٨ - ثَمَانِيَةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Delapan Belas (18)",
+                    "exAr": "ثَمَانِيَةَ عَشَرَ فَصْلًا.",
+                    "exIndo": "Delapan belas kelas."
+                },
+                {
+                    "id": 429,
+                    "ar": "١٩ - تِسْعَةَ عَشَرَ",
+                    "latin": "",
+                    "indo": "Sembilan Belas (19)",
+                    "exAr": "تِسْعَةَ عَشَرَ يَوْمًا.",
+                    "exIndo": "Sembilan belas hari."
+                },
+                {
+                    "id": 430,
+                    "ar": "٢٠ - عِشْرُونَ",
+                    "latin": "",
+                    "indo": "Dua Puluh (20)",
+                    "exAr": "عِشْرُونَ طَالِبًا.",
+                    "exIndo": "Dua puluh siswa."
+                },
+                {
+                    "id": 431,
+                    "ar": "٢١ - وَاحِدٌ وَعِشْرُونَ",
+                    "latin": "",
+                    "indo": "Dua Puluh Satu (21)",
+                    "exAr": "وَاحِدٌ وَعِشْرُونَ كِتَابًا.",
+                    "exIndo": "Dua puluh satu buku."
+                },
+                {
+                    "id": 432,
+                    "ar": "٢٢ - إِثْنَانِ وَعِشْرُونَ",
+                    "latin": "",
+                    "indo": "Dua Puluh Dua (22)",
+                    "exAr": "إِثْنَانِ وَعِشْرُونَ يَوْمًا.",
+                    "exIndo": "Dua puluh dua hari."
+                },
+                {
+                    "id": 433,
+                    "ar": "٣٠ - ثَلَاثُونَ",
+                    "latin": "",
+                    "indo": "Tiga Puluh (30)",
+                    "exAr": "ثَلَاثُونَ كُرَّاسَةً.",
+                    "exIndo": "Tiga puluh buku gambar."
+                },
+                {
+                    "id": 434,
+                    "ar": "٤٠ - أَرْبَعُونَ",
+                    "latin": "",
+                    "indo": "Empat Puluh (40)",
+                    "exAr": "أَرْبَعُونَ يَوْمًا.",
+                    "exIndo": "Empat puluh hari."
+                },
+                {
+                    "id": 435,
+                    "ar": "٥٠ - خَمْسُونَ",
+                    "latin": "",
+                    "indo": "Lima Puluh (50)",
+                    "exAr": "خَمْسُونَ دِرْهَمًا.",
+                    "exIndo": "Lima puluh dirham."
+                },
+                {
+                    "id": 436,
+                    "ar": "٦٠ - سِتُّونَ",
+                    "latin": "",
+                    "indo": "Enam Puluh (60)",
+                    "exAr": "سِتُّونَ دَقِيقَةً.",
+                    "exIndo": "Enam puluh menit."
+                },
+                {
+                    "id": 437,
+                    "ar": "٧٠ - سَبْعُونَ",
+                    "latin": "",
+                    "indo": "Tujuh Puluh (70)",
+                    "exAr": "سَبْعُونَ رَجُلًا.",
+                    "exIndo": "Tujuh puluh orang."
+                },
+                {
+                    "id": 438,
+                    "ar": "١٠٠ - مِائَةٌ",
+                    "latin": "",
+                    "indo": "Seratus (100)",
+                    "exAr": "مِائَةُ كِتَابٍ.",
+                    "exIndo": "Seratus buku."
+                },
+                {
+                    "id": 439,
+                    "ar": "كِتَابٌ وَاحِدٌ / كُرَّاسَةٌ وَاحِدَةٌ",
+                    "latin": "",
+                    "indo": "1 Buku (Lk) / 1 Buku Gambar (Pr)",
                     "exAr": "عِنْدِي كِتَابٌ وَاحِدٌ.",
                     "exIndo": "Saya punya satu buku."
                 },
                 {
-                    "id": 412,
-                    "ar": "إِثْنَـانِ (٢)",
-                    "latin": "Isnani",
-                    "indo": "Dua (2)",
-                    "exAr": "عِنْدِي قَلَمَانِ إِثْنَـانِ.",
-                    "exIndo": "Saya punya dua pulpen."
+                    "id": 440,
+                    "ar": "كِتَابَانِ إِثْنَانِ / كُرَّاسَتَانِ إِثْنَتَانِ",
+                    "latin": "",
+                    "indo": "2 Buku (Lk) / 2 Buku Gambar (Pr)",
+                    "exAr": "فِي الْحَقِيبَةِ كِتَابَانِ إِثْنَانِ.",
+                    "exIndo": "Di dalam tas ada dua buku."
                 },
                 {
-                    "id": 413,
-                    "ar": "ثَلاَثَةٌ (٣)",
-                    "latin": "Salasatah",
-                    "indo": "Tiga (3)",
-                    "exAr": "رَقْمُ الْبَيْتِ ثَلاَثَةٌ.",
-                    "exIndo": "Nomor rumahnya tiga."
+                    "id": 441,
+                    "ar": "ثَلَاثَةُ كُتُبٍ / ثَلَاثُ كُرَّاسَاتٍ",
+                    "latin": "",
+                    "indo": "3 Buku (Lk) / 3 Buku Gambar (Pr)",
+                    "exAr": "قَرَأْتُ ثَلَاثَةَ كُتُبٍ.",
+                    "exIndo": "Saya membaca tiga buku."
                 },
                 {
-                    "id": 414,
-                    "ar": "أَرْبَعَةٌ (٤)",
-                    "latin": "Arba'ah",
-                    "indo": "Empat (4)",
-                    "exAr": "عِنْدِي أَرْبَعَةُ إِخْوَةٍ.",
-                    "exIndo": "Saya punya empat saudara."
+                    "id": 442,
+                    "ar": "عَشَرَةُ كُتُبٍ / عَشْرُ كُرَّاسَاتٍ",
+                    "latin": "",
+                    "indo": "10 Buku (Lk) / 10 Buku Gambar (Pr)",
+                    "exAr": "اشْتَرَيْتُ عَشَرَةَ كُتُبٍ.",
+                    "exIndo": "Saya membeli sepuluh buku."
                 },
                 {
-                    "id": 415,
-                    "ar": "خَمْسَةٌ (٥)",
-                    "latin": "Khamsah",
-                    "indo": "Lima (5)",
-                    "exAr": "السَّاعَةُ الْآنَ الْخَامِسَةُ.",
-                    "exIndo": "Jam sekarang pukul lima."
+                    "id": 443,
+                    "ar": "أَحَدَ عَشَرَ كِتَابًا / إِحْدَى عَشْرَةَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "11 Buku (Lk) / 11 Buku Gambar (Pr)",
+                    "exAr": "فِي الْمَكْتَبَةِ أَحَدَ عَشَرَ كِتَابًا.",
+                    "exIndo": "Di perpustakaan ada 11 buku."
                 },
                 {
-                    "id": 416,
-                    "ar": "سِتَّةٌ (٦)",
-                    "latin": "Sittah",
-                    "indo": "Enam (6)",
-                    "exAr": "رَقْمُ الْهَاتِفِ يَبْدَأُ بِسِتَّةٍ.",
-                    "exIndo": "Nomor telepon dimulai angka enam."
+                    "id": 444,
+                    "ar": "إِثْنَا عَشَرَ كِتَابًا / إِثْنَتَا عَشْرَةَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "12 Buku (Lk) / 12 Buku Gambar (Pr)",
+                    "exAr": "عِنْدِي إِثْنَا عَشَرَ كِتَابًا.",
+                    "exIndo": "Saya punya 12 buku."
                 },
                 {
-                    "id": 417,
-                    "ar": "سَبْعَةٌ (٧)",
-                    "latin": "Sab'ah",
-                    "indo": "Tujuh (7)",
-                    "exAr": "أَنَا فِي الصَّفِّ السَّابِعِ.",
-                    "exIndo": "Saya di kelas tujuh."
+                    "id": 445,
+                    "ar": "ثَلَاثَةَ عَشَرَ كِتَابًا / ثَلَاثَ عَشْرَةَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "13 Buku (Lk) / 13 Buku Gambar (Pr)",
+                    "exAr": "قَرَأْتُ ثَلَاثَةَ عَشَرَ كِتَابًا.",
+                    "exIndo": "Saya membaca 13 buku."
                 },
                 {
-                    "id": 418,
-                    "ar": "ثَمَانِيَةٌ (٨)",
-                    "latin": "Samaniyah",
-                    "indo": "Delapan (8)",
-                    "exAr": "أَنَامُ فِي السَّاعَةِ الثَّامِنَةِ.",
-                    "exIndo": "Saya tidur pada jam delapan."
+                    "id": 446,
+                    "ar": "تِسْعَةَ عَشَرَ كِتَابًا / تِسْعَ عَشْرَةَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "19 Buku (Lk) / 19 Buku Gambar (Pr)",
+                    "exAr": "اشْتَرَيْتُ تِسْعَةَ عَشَرَ كِتَابًا.",
+                    "exIndo": "Saya membeli 19 buku."
                 },
                 {
-                    "id": 419,
-                    "ar": "تِسْعَةٌ (٩)",
-                    "latin": "Tis'ah",
-                    "indo": "Sembilan (9)",
-                    "exAr": "رَقْمُ الشَّارِعِ تِسْعَةٌ.",
-                    "exIndo": "Nomor jalan adalah sembilan."
+                    "id": 447,
+                    "ar": "عِشْرُونَ كِتَابًا / عِشْرُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "20 Buku (Lk) / 20 Buku Gambar (Pr)",
+                    "exAr": "فِي الْفَصْلِ عِشْرُونَ كِتَابًا.",
+                    "exIndo": "Di kelas ada 20 buku."
                 },
                 {
-                    "id": 420,
-                    "ar": "عَشَرَةٌ (١٠)",
-                    "latin": "Asyarah",
-                    "indo": "Sepuluh (10)",
-                    "exAr": "عِنْدِي عَشَرَةُ كُرَّاسَاتٍ.",
-                    "exIndo": "Saya punya sepuluh buku tulis."
+                    "id": 448,
+                    "ar": "ثَلَاثُونَ كِتَابًا / ثَلَاثُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "30 Buku (Lk) / 30 Buku Gambar (Pr)",
+                    "exAr": "عِنْدِي ثَلَاثُونَ كِتَابًا.",
+                    "exIndo": "Saya punya 30 buku."
                 },
                 {
-                    "id": 421,
-                    "ar": "صِفْرٌ (٠)",
-                    "latin": "Sifr",
-                    "indo": "Nol (0)",
-                    "exAr": "رَقْمُ الْهَاتِفِ يَبْدَأُ بِالصِّفْرِ.",
-                    "exIndo": "Nomor telepon diawali nol."
+                    "id": 449,
+                    "ar": "تِسْعُونَ كِتَابًا / تِسْعُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "90 Buku (Lk) / 90 Buku Gambar (Pr)",
+                    "exAr": "فِي الْمَكْتَبَةِ تِسْعُونَ كِتَابًا.",
+                    "exIndo": "Di perpustakaan ada 90 buku."
                 },
                 {
-                    "id": 422,
-                    "ar": "مَا رَقْمُ...؟",
-                    "latin": "Ma raqmu...?",
-                    "indo": "Berapa nomor...?",
-                    "exAr": "مَا رَقْمُ بَيْتِكَ؟",
-                    "exIndo": "Berapa nomor rumahmu?"
+                    "id": 450,
+                    "ar": "وَاحِدٌ وَعِشْرُونَ كِتَابًا / وَاحِدَةٌ وَعِشْرُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "21 Buku (Lk) / 21 Buku Gambar (Pr)",
+                    "exAr": "اشْتَرَيْتُ وَاحِدًا وَعِشْرِينَ كِتَابًا.",
+                    "exIndo": "Saya membeli 21 buku."
                 },
                 {
-                    "id": 423,
-                    "ar": "أَسْكُنُ فِي...",
-                    "latin": "Askunu fi...",
-                    "indo": "Saya tinggal di...",
-                    "exAr": "أَسْكُنُ فِي شَارِعِ أُحُدٍ.",
-                    "exIndo": "Saya tinggal di jalan Uhud."
+                    "id": 451,
+                    "ar": "وَاحِدٌ وَأَرْبَعُونَ كِتَابًا / وَاحِدَةٌ وَأَرْبَعُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "41 Buku (Lk) / 41 Buku Gambar (Pr)",
+                    "exAr": "عِنْدِي وَاحِدٌ وَأَرْبَعُونَ كِتَابًا.",
+                    "exIndo": "Saya punya 41 buku."
                 },
                 {
-                    "id": 424,
-                    "ar": "مَسَافَةٌ",
-                    "latin": "Masafah",
-                    "indo": "Jarak",
-                    "exAr": "الْمَسَافَةُ قَصِيرَةٌ.",
-                    "exIndo": "Jaraknya pendek/dekat."
+                    "id": 452,
+                    "ar": "إِثْنَانِ وَسِتُّونَ كِتَابًا / إِثْنَتَانِ وَسِتُّونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "62 Buku (Lk) / 62 Buku Gambar (Pr)",
+                    "exAr": "فِي الْمَخْزَنِ إِثْنَانِ وَسِتُّونَ كِتَابًا.",
+                    "exIndo": "Di gudang ada 62 buku."
                 },
                 {
-                    "id": 425,
-                    "ar": "مَوْقِعٌ",
-                    "latin": "Mauqi'",
-                    "indo": "Lokasi / Posisi",
-                    "exAr": "مَوْقِعُ الْبَيْتِ مُمْتَازٌ.",
-                    "exIndo": "Lokasi rumahnya strategis."
+                    "id": 453,
+                    "ar": "ثَلَاثَةٌ وَعِشْرُونَ كِتَابًا / ثَلَاثٌ وَعِشْرُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "23 Buku (Lk) / 23 Buku Gambar (Pr)",
+                    "exAr": "قَرَأْتُ ثَلَاثَةً وَعِشْرِينَ كِتَابًا.",
+                    "exIndo": "Saya membaca 23 buku."
                 },
                 {
-                    "id": 426,
-                    "ar": "حَيٌّ",
-                    "latin": "Hayy",
-                    "indo": "Kompleks / Kawasan Permukiman",
-                    "exAr": "أَسْكُنُ فِي حَيِّ الزُّهُورِ.",
-                    "exIndo": "Saya tinggal di kompleks Permukiman Bunga."
+                    "id": 454,
+                    "ar": "وَاحِدٌ وَتِسْعُونَ كِتَابًا / وَاحِدَةٌ وَتِسْعُونَ كُرَّاسَةً",
+                    "latin": "",
+                    "indo": "91 Buku (Lk) / 91 Buku Gambar (Pr)",
+                    "exAr": "عِنْدِي وَاحِدٌ وَتِسْعُونَ كِتَابًا.",
+                    "exIndo": "Saya punya 91 buku."
                 },
                 {
-                    "id": 427,
-                    "ar": "بَرِيدٌ",
-                    "latin": "Barid",
-                    "indo": "Pos / Surat Pos",
-                    "exAr": "أَرْسَلْتُ الرِّسَالَةَ عَبْرَ الْبَرِيدِ.",
-                    "exIndo": "Saya mengirim surat melalui kantor pos."
+                    "id": 455,
+                    "ar": "مِائَةُ كِتَابٍ / مِائَةُ كُرَّاسَةٍ",
+                    "latin": "",
+                    "indo": "100 Buku (Lk) / 100 Buku Gambar (Pr)",
+                    "exAr": "فِي الْمَكْتَبَةِ مِائَةُ كِتَابٍ.",
+                    "exIndo": "Di perpustakaan ada seratus buku."
                 },
                 {
-                    "id": 428,
-                    "ar": "كُودٌ بَرِيدِيٌّ",
-                    "latin": "Kud baridiyy",
-                    "indo": "Kode Pos",
-                    "exAr": "كُودُ الْبَرِيدِ لِمَدِينَتِي ٦٠١١١.",
-                    "exIndo": "Kode pos kotaku adalah 60111."
-                },
-                {
-                    "id": 429,
-                    "ar": "مَوْقِعٌ إِلِكْتُرُونِيٌّ",
-                    "latin": "Mauqi' iliktruniyy",
-                    "indo": "Website / Situs Web",
-                    "exAr": "مَوْقِعُ الْمَدْرَسَةِ عَلَى الإِنْتِرْنِت.",
-                    "exIndo": "Website sekolah ada di internet."
-                },
-                {
-                    "id": 430,
-                    "ar": "خَرِيطَةُ الْمَوْقِعِ",
-                    "latin": "Kharitatul mauqi'",
-                    "indo": "Denah / Peta Posisi",
-                    "exAr": "هٰذِهِ خَرِيطَةُ مَوْقِعِ بَيْتِي.",
-                    "exIndo": "Ini adalah denah lokasi rumahku."
+                    "id": 456,
+                    "ar": "أَرْبَعُمِائَةِ كِتَابٍ / أَرْبَعُمِائَةِ كُرَّاسَةٍ",
+                    "latin": "",
+                    "indo": "400 Buku (Lk) / 400 Buku Gambar (Pr)",
+                    "exAr": "فِي الْمَدْرَسَةِ أَرْبَعُمِائَةِ كِتَابٍ.",
+                    "exIndo": "Di sekolah ada empat ratus buku."
                 }
             ],
             "hiwar": {
