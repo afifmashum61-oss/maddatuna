@@ -4280,102 +4280,144 @@ const arabicData = {
                     "exIndo": "Saya belajar fiqih di sekolah."
                 }
             ],
-            "hiwar": {
-                "title": "الْحِوَارُ: زِيَارَةُ طَارِقٍ فِي بَيْتِ خَالِدٍ",
-                "titleIndo": "Percakapan Lengkap: Kunjungan Tariq di Rumah Khalid",
-                "lines": [
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ يَا خَالِدُ!",
-                        "indo": "Assalamu'alaikum warahmatullahi wabarakatuh wahai Khalid!"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ يَا طَارِقُ! أَهْلًا وَسَهْلًا فِي بَيْتِي!",
-                        "indo": "Wa'alaikumussalam warahmatullahi wabarakatuh wahai Tariq! Selamat datang di rumahku!"
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "أَهْلًا بِكَ يَا خَالِدُ. بَيْتُكَ جَمِيلٌ، وَاسِعٌ، وَمُنَظَّمٌ جِدًّا!",
-                        "indo": "Selamat datang juga wahai Khalid. Rumahmu sangat indah, luas, dan rapi!"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "شُكْرًا جَزِيلًا لَكَ. هٰذِهِ غُرْفَةُ الْجُلُوسِ، تَقَضَّلْ وَاجْلِسْ عَلَى الأَرِيكَةِ!",
-                        "indo": "Terima kasih banyak. Ini adalah ruang tamu, silakan duduk di atas sofa!"
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "شُكْرًا. مَا هٰذَا التِّلْفَازُ الْكَبِيرُ وَالسِّجَّادَةُ الْجَمِيلَةُ عَلَى الأَرْضِ؟",
-                        "indo": "Terima kasih. Apa TV besar dan karpet indah di lantai ini?"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "نُشَاهِدُ التِّلْفَازَ مَعَ الأُسْرَةِ هُنَا، وَنَبْسُطُ السِّجَّادَةَ لِلرَّاحَةِ.",
-                        "indo": "Kami menonton TV bersama keluarga di sini, dan membentangkan karpet untuk bersantai."
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "وَأَيْنَ غُرْفَةُ مُذَاكَرَتِكَ وَدِرَاسَتِكَ؟",
-                        "indo": "Dan di mana ruang belajar dan tempat belajarmu?"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "غُرْفَةُ الْمُذَاكَرَةِ بِجَانِبِ غُرْفَةِ النَّوْمِ. فِيهَا مَكْتَبِي، وَكُرْسِيِّي، وَخَزَانَةُ كُتُبِي.",
-                        "indo": "Ruang belajar di samping kamar tidur. Di sana ada mejaku, kursiku, dan lemari bukuku."
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "وَمَاذَا تُوجَدُ فِي غُرْفَةِ النَّوْمِ؟",
-                        "indo": "Dan apa yang terdapat di dalam kamar tidur?"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "فِي غُرْفَةِ النَّوْمِ سَرِيرٌ مَرِيحٌ، وَوِسَادَةٌ نَاعِمَةٌ، وَمُكَيِّفُ هَوَاءِ.",
-                        "indo": "Di kamar tidur ada ranjang yang nyaman, bantal yang empuk, dan AC."
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "مَا أَرْوَعَ هٰذَا! وَمَنْ فِي الْمَطْبَخِ الآنَ؟",
-                        "indo": "Betapa cantiknya ini! Dan siapa yang ada di dapur sekarang?"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "أُمِّي فِي الْمَطْبَخِ، هِيَ تُعِدُّ الشَّايَ السَّاخِنَ وَالْحَلْوَى اللَّذِيذَةَ لَنَا.",
-                        "indo": "Ibuku di dapur, beliau menyiapkan teh panas dan kue yang lezat untuk kita."
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "جَزَاهَا اللَّهُ خَيْرًا! وَأَيْنَ غُرْفَةُ الأَكْلِ؟",
-                        "indo": "Semoga Allah membalas kebaikan beliau! Dan di mana ruang makan?"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "غُرْفَةُ الأَكْلِ أَمَامَ الْمَطْبَخِ، فِيهَا طَاوِلَةٌ كَبِيرَةٌ وَأَطْبَاقٌ وَأَكْوَابٌ.",
-                        "indo": "Ruang makan ada di depan dapur, di sana ada meja besar, piring-piring, dan gelas-gelas."
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "وَهَلْ عِنْدَكُمْ حَدِيقَةٌ خَالْفَ الْبَيْتِ؟",
-                        "indo": "Dan apakah kalian punya taman di belakang rumah?"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "نَعَمْ، عِنْدَنَا حَدِيقَةٌ صَغِيرَةٌ فِيهَا أَزْهَارٌ مُلَوَّنَةٌ وَأَشْجَارٌ جَمِيلَةٌ.",
-                        "indo": "Ya, kami punya taman kecil yang di dalamnya ada bunga berwarna-warni dan pohon-pohon indah."
-                    },
-                    {
-                        "speaker": "طَارِق",
-                        "ar": "بَيْتُكَ بَيْتٌ مُبَارَكٌ وَمُرِيحٌ جِدًّا يَا خَالِدُ!",
-                        "indo": "Rumahmu adalah rumah yang diberkahi dan sangat nyaman wahai Khalid!"
-                    },
-                    {
-                        "speaker": "خَالِد",
-                        "ar": "شُكْرًا لَكَ يَا طَارِقُ، هَيَّا نَتَنَاوَلُ الشَّايَ وَالْحَلْوَى مَعًا!",
-                        "indo": "Terima kasih wahai Tariq, ayo kita nikmati teh dan kue bersama-sama!"
-                    }
-                ]
-            },
+            "hiwar": [
+                {
+                    "id": 1,
+                    "badge": "الْحِوَارُ 1",
+                    "title": "أُسْرَتِي وَأَعْمَالُهَا الْيَوْمِيَّةُ (١)",
+                    "titleIndo": "Percakapan 1: Mengenalkan Anggota Keluarga & Sekolahnya (Shadiq & Ali)",
+                    "lines": [
+                        {
+                            "speaker": "صَادِق",
+                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Assalamu'alaikum."
+                        },
+                        {
+                            "speaker": "عَلِيّ",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        },
+                        {
+                            "speaker": "صَادِق",
+                            "ar": "أَهْلًا وَسَهْلًا.",
+                            "indo": "Selamat datang."
+                        },
+                        {
+                            "speaker": "عَلِيّ",
+                            "ar": "أَهْلًا بِكَ.",
+                            "indo": "Selamat datang juga untukmu."
+                        },
+                        {
+                            "speaker": "صَادِق",
+                            "ar": "هَلْ هٰذِهِ صُورَةُ أُسْرَتِكَ يَا أَخِي؟",
+                            "indo": "Apakah ini foto keluargamu, wahai saudaraku?"
+                        },
+                        {
+                            "speaker": "عَلِيّ",
+                            "ar": "نَعَمْ، هٰذِهِ صُورَةُ أُسْرَتِي. هٰذَا أَبِي إِسْمُهُ عَبْدُ الْكَرِيمِ. وَهٰذِهِ أُمِّي إِسْمُهَا نَجْوَى.",
+                            "indo": "Ya, ini foto keluargaku. Ini ayahku namanya Abdul Karim, dan ini ibuku namanya Najwa."
+                        },
+                        {
+                            "speaker": "صَادِق",
+                            "ar": "وَمَنْ هٰذَا وَهٰذِهِ، يَا عَلِيُّ؟",
+                            "indo": "Dan siapa ini (lk) dan ini (pr), wahai Ali?"
+                        },
+                        {
+                            "speaker": "عَلِيّ",
+                            "ar": "هٰذَا أَخِي الْكَبِيرُ. إِسْمُهُ حُسَيْنٌ. هُوَ يَدْرُسُ فِي الْفَصْلِ الثَّانِي مِنَ الْمَدْرَسَةِ الْعَالِيَةِ الْحُكُومِيَّةِ سَمَارَانْج.",
+                            "indo": "Ini kakak laki-lakiku, namanya Husain. Dia belajar di kelas 11 (kelas 2) MAN Semarang."
+                        },
+                        {
+                            "speaker": "صَادِق",
+                            "ar": "وَهٰذِهِ؟",
+                            "indo": "Dan siapa ini (pr)?"
+                        },
+                        {
+                            "speaker": "عَلِيّ",
+                            "ar": "وَهٰذِهِ أُخْتِي الصَّغِيرَةُ. إِسْمُهَا نَجْمَةُ. هِيَ تَدْرُسُ فِي الْفَصْلِ السَّادِسِ مِنَ الْمَدْرَسَةِ الْإِبْتِدَائِيَّةِ الْحُكُومِيَّةِ سَمَارَانْج.",
+                            "indo": "Dan ini adik perempuanku, namanya Najmah. Dia belajar di kelas 6 MIN Semarang."
+                        },
+                        {
+                            "speaker": "صَادِق",
+                            "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Wassalamu'alaikum."
+                        },
+                        {
+                            "speaker": "عَلِيّ",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "badge": "الْحِوَارُ 2",
+                    "title": "أُسْرَتِي وَأَعْمَالُهَا الْيَوْمِيَّةُ (٢)",
+                    "titleIndo": "Percakapan 2: Aktivitas Harian Anggota Keluarga (Nazhim & Nur)",
+                    "lines": [
+                        {
+                            "speaker": "نَظِيم",
+                            "ar": "اَلسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Assalamu'alaikum."
+                        },
+                        {
+                            "speaker": "نُور",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        },
+                        {
+                            "speaker": "نَظِيم",
+                            "ar": "أَهْلًا وَسَهْلًا.",
+                            "indo": "Selamat datang."
+                        },
+                        {
+                            "speaker": "نُور",
+                            "ar": "أَهْلًا بِكَ.",
+                            "indo": "Selamat datang juga untukmu."
+                        },
+                        {
+                            "speaker": "نَظِيم",
+                            "ar": "عَلَى فِكْرَةٍ، أَيْنَ أَبُوكَ وَأُمُّكَ يَا نُورُ؟",
+                            "indo": "Ngomong-ngomong, di mana ayahmu dan ibumu, wahai Nur?"
+                        },
+                        {
+                            "speaker": "نُور",
+                            "ar": "أَبِي فِي غُرْفَةِ الْجُلُوسِ. هُوَ يَقْرَأُ الْجَرِيدَةَ. وَأُمِّي تَطْبُخُ الرُّزَّ فِي الْمَطْبَخِ.",
+                            "indo": "Ayahku ada di ruang tamu, dia sedang membaca koran. Dan ibuku sedang memasak nasi di dapur."
+                        },
+                        {
+                            "speaker": "نَظِيم",
+                            "ar": "وَأَخُوكَ وَأُخْتُكَ؟ أَيْنَ هُمَا؟",
+                            "indo": "Dan saudara laki-lakimu dan saudara perempuannmu? Di mana mereka berdua?"
+                        },
+                        {
+                            "speaker": "نُور",
+                            "ar": "أَخِي يَعْمَلُ الْوَاجِبَ الْمَنْزِلِيَّ فِي غُرْفَتِهِ. وَأُخْتِي تُسَاعِدُ أُمِّي فِي الْمَطْبَخِ.",
+                            "indo": "Saudara laki-lakiku sedang mengerjakan PR di kamarnya. Dan saudara perempuanku sedang membantu ibuku di dapur."
+                        },
+                        {
+                            "speaker": "نَظِيم",
+                            "ar": "أُسْرَتُكَ سَعِيدَةٌ يَا نُورُ.",
+                            "indo": "Keluargamu bahagia, wahai Nur."
+                        },
+                        {
+                            "speaker": "نُور",
+                            "ar": "اَلْحَمْدُ لِلَّهِ يَا نَظِيمُ، شُكْرًا.",
+                            "indo": "Alhamdulillah wahai Nazhim, terima kasih."
+                        },
+                        {
+                            "speaker": "نَظِيم",
+                            "ar": "وَالسَّلَامُ عَلَيْكُمْ.",
+                            "indo": "Wassalamu'alaikum."
+                        },
+                        {
+                            "speaker": "نُور",
+                            "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ.",
+                            "indo": "Wa'alaikumussalam warahmatullah."
+                        }
+                    ]
+                }
+            ],
             "qiraah": {
                 "title": "قِرَاءَةٌ: بَيْتِي المُرِيحُ",
                 "titleIndo": "Teks Bacaan: Rumahku yang Nyaman",
