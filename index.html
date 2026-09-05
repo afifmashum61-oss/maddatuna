@@ -50,6 +50,19 @@
             </button>
         </div>
 
+        <!-- Teacher / Owner Identity Card in Drawer -->
+        <div class="p-3.5 bg-emerald-50/80 border-b border-emerald-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-bottle-green text-gold flex items-center justify-center font-bold text-lg shadow-sm flex-shrink-0">
+                <i class="fa-solid fa-user-tie"></i>
+            </div>
+            <div class="text-xs">
+                <span class="text-[10px] uppercase font-extrabold text-bottle-green tracking-wider block">Pemilik Web / Guru:</span>
+                <h4 class="font-extrabold text-gray-900 text-xs">Nanang Arifin, S.Pd.I</h4>
+                <p class="text-[11px] text-gray-600 font-semibold">MTsN 1 Purwakarta Jawa Barat</p>
+                <p class="text-[10px] text-gray-500 font-mono">NIP. 197505312014111001</p>
+            </div>
+        </div>
+
         <!-- Drawer Body (List of 6 Babs) -->
         <div id="drawerChapterList" class="p-4 space-y-3 overflow-y-auto flex-grow">
             <!-- Injected dynamically by JavaScript -->
@@ -86,6 +99,14 @@
                         <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight">
                             Media Pembelajaran Bahasa Arab <span class="text-gold">Kelas 7 MTs</span>
                         </h1>
+                        <p class="text-xs text-emerald-100 font-medium mt-1 flex flex-wrap items-center gap-1.5 justify-center md:justify-start">
+                            <span><i class="fa-solid fa-user-tie text-gold"></i> Pemilik Web:</span>
+                            <strong class="text-white font-bold">Nanang Arifin, S.Pd.I</strong>
+                            <span class="text-gold">•</span>
+                            <span class="text-emerald-200">MTsN 1 Purwakarta Jawa Barat</span>
+                            <span class="text-gold">•</span>
+                            <span class="text-emerald-200">NIP. 197505312014111001</span>
+                        </p>
                     </div>
                 </div>
 
@@ -159,14 +180,21 @@
 
     <!-- FOOTER -->
     <footer class="bg-bottle-green-dark text-white border-t border-gold/30 mt-12 py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-xs text-emerald-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left text-xs text-emerald-200">
             <div>
-                <p class="font-bold text-white text-sm">Media Pembelajaran Bahasa Arab MTs Kelas 7</p>
+                <p class="font-bold text-white text-base">Media Pembelajaran Bahasa Arab MTs Kelas 7</p>
                 <p class="mt-0.5">Disusun sesuai Buku Siswa Kementerian Agama Republik Indonesia Tahun 2025.</p>
+                <p class="text-xs text-emerald-300 mt-2 font-medium">
+                    &copy; 2025 • Pemilik Web: <strong class="text-gold font-bold">Nanang Arifin, S.Pd.I</strong> (MTsN 1 Purwakarta Jawa Barat | NIP. 197505312014111001)
+                </p>
             </div>
-            <div class="flex items-center gap-2 font-semibold">
-                <span class="px-3 py-1 bg-gold/20 text-gold rounded-full border border-gold/30">Warna Hijau Botol & Putih</span>
-                <span>• Interaktif & Digital</span>
+            <div class="flex flex-col sm:flex-row items-center gap-2 font-semibold">
+                <span class="px-3.5 py-1.5 bg-gold/20 text-gold rounded-full border border-gold/30 flex items-center gap-1.5">
+                    <i class="fa-solid fa-school"></i> MTsN 1 Purwakarta
+                </span>
+                <span class="px-3.5 py-1.5 bg-emerald-900/60 text-emerald-100 rounded-full border border-emerald-700/50">
+                    Interaktif & Digital
+                </span>
             </div>
         </div>
     </footer>
