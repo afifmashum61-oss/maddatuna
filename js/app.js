@@ -266,19 +266,18 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
 
                         <div class="my-auto">
-                            <h3 class="font-arabic text-3xl font-bold text-bottle-green-dark mb-2 leading-relaxed">${item.ar}</h3>
-                            <p class="text-sm font-bold text-gray-800">${item.indo}</p>
+                            <h3 class="font-arabic text-3xl font-bold text-bottle-green-dark leading-relaxed">${item.ar}</h3>
                         </div>
 
                         <div class="text-right text-[11px] text-gray-400 font-medium flex items-center justify-end gap-1">
-                            <span>Sentuh kartu untuk contoh</span> <i class="fa-solid fa-rotate text-[10px]"></i>
+                            <span>Sentuh kartu untuk contoh & arti</span> <i class="fa-solid fa-rotate text-[10px]"></i>
                         </div>
                     </div>
 
-                    <!-- BACK CARD (CONTOH KALIMAT) -->
+                    <!-- BACK CARD (CONTOH KALIMAT & ARTI) -->
                     <div class="flip-card-back shadow-md">
                         <div class="flex items-center justify-between text-xs text-gold font-bold">
-                            <span><i class="fa-solid fa-lightbulb"></i> Contoh Kalimat</span>
+                            <span><i class="fa-solid fa-lightbulb"></i> Arti & Contoh Kalimat</span>
                             <button onclick="event.stopPropagation(); speakArabic('${item.exAr}')" 
                                 class="w-7 h-7 rounded-full bg-white/20 hover:bg-gold hover:text-bottle-green text-white transition-all flex items-center justify-center">
                                 <i class="fa-solid fa-volume-high text-xs"></i>
@@ -286,6 +285,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
 
                         <div class="my-auto text-right">
+                            <p class="text-xs font-bold text-gold bg-black/20 py-1 px-2.5 rounded-lg border border-white/10 text-left mb-2">
+                                <i class="fa-solid fa-language"></i> Arti: <span class="text-white">${item.indo}</span>
+                            </p>
                             <p class="font-arabic text-xl font-bold text-white leading-relaxed mb-2">${item.exAr}</p>
                             <p class="text-xs text-emerald-100 italic text-left">${item.exIndo}</p>
                         </div>
