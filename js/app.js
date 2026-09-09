@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         activeChapterId: 1,
         activeTab: 'mufrodat', // 'mufrodat', 'hiwar', 'qiraah', 'qawaid', 'quiz'
         searchQuery: '',
+        hideMufrodatMeaning: true, // Default: hide meaning on mufrodat cards
         qawaidSelectedWords: [],
         quizUserAnswers: {},
         quizSubmitted: false,
@@ -199,19 +200,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const items = chapter.mufrodat;
         
         mainContentArea.innerHTML = `
-            <div class="mb-6 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white p-4 rounded-2xl shadow-sm border border-emerald-100">
-                <div class="flex items-center gap-3 w-full sm:w-auto">
+            <div class="mb-6 flex flex-col md:flex-row items-center justify-between gap-4 bg-white p-4 rounded-2xl shadow-sm border border-emerald-100">
+                <div class="flex items-center gap-3 w-full md:w-auto">
                     <span class="bg-emerald-100 text-bottle-green p-3 rounded-xl"><i class="fa-solid fa-layer-group text-xl"></i></span>
                     <div>
                         <h3 class="font-bold text-gray-800">Kartu Mufrodat Interaktif (30 Kosakata)</h3>
-                        <p class="text-xs text-gray-500">Klik kartu untuk membalik & melihat contoh kalimat di balik kotak.</p>
+                        <p class="text-xs text-gray-500">Klik kartu untuk membalik & melihat arti serta contoh kalimat.</p>
                     </div>
                 </div>
-                <div class="relative w-full sm:w-72">
-                    <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
-                    <input type="text" id="mufrodatSearchInput" placeholder="Cari mufrodat / arti..." 
-                        class="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-bottle-green"
-                        value="${state.searchQuery}">
+                <div class="flex flex-wrap items-center gap-2.5 w-full md:w-auto">
+                    <button id="toggleMufrodatMeaningBtn" 
+                        class="px-3.5 py-2 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 shadow-sm ${
+                            state.hideMufrodatMeaning 
+                                ? 'bg-gold text-bottle-green-dark border-gold hover:bg-gold-hover' 
+                                : 'bg-emerald-50 text-bottle-green border-emerald-300 hover:bg-emerald-100'
+                        }">
+                        <i class="fa-solid ${state.hideMufrodatMeaning ? 'fa-eye' : 'fa-eye-slash'}"></i>
+                        <span>${state.hideMufrodatMeaning ? 'Tampilkan Arti' : 'Sembunyikan Arti'}</span>
+                    </button>
+                    <div class="relative w-full sm:w-60">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                        <input type="text" id="mufrodatSearchInput" placeholder="Cari mufrodat / arti..." 
+                            class="w-full pl-9 pr-4 py-2 text-sm border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-bottle-green"
+                            value="${state.searchQuery}">
+                    </div>
                 </div>
             </div>
 
@@ -220,11 +232,21 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
+        const toggleMeaningBtn = document.getElementById('toggleMufrodatMeaningBtn');
+        if (toggleMeaningBtn) {
+            toggleMeaningBtn.addEventListener('click', () => {
+                state.hideMufrodatMeaning = !state.hideMufrodatMeaning;
+                renderMufrodatTab(chapter);
+            });
+        }
+
         const searchInput = document.getElementById('mufrodatSearchInput');
-        searchInput.addEventListener('input', (e) => {
-            state.searchQuery = e.target.value.toLowerCase();
-            filterAndRenderCards(items);
-        });
+        if (searchInput) {
+            searchInput.addEventListener('input', (e) => {
+                state.searchQuery = e.target.value.toLowerCase();
+                filterAndRenderCards(items);
+            });
+        }
 
         filterAndRenderCards(items);
     }
@@ -258,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="bg-emerald-50 text-bottle-green text-xs font-extrabold px-2.5 py-1 rounded-full border border-emerald-200">
                                 #${idx + 1}
                             </span>
-                            <button onclick="event.stopPropagation(); speakArabic('${item.ar}')" 
+                            <button onclick="event.stopPropagation(); speakArabic('${(item.ar || '').replace(/'/g, "\\'")}')" 
                                 class="w-8 h-8 rounded-full bg-emerald-100 hover:bg-gold hover:text-bottle-green-dark text-bottle-green transition-all flex items-center justify-center"
                                 title="Dengarkan Pelafalan">
                                 <i class="fa-solid fa-volume-high text-xs"></i>
@@ -267,26 +289,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         <div class="my-auto">
                             <h3 class="font-arabic text-3xl font-bold text-bottle-green-dark mb-2 leading-relaxed">${item.ar}</h3>
-                            <p class="text-sm font-bold text-gray-800">${item.indo}</p>
+                            ${
+                                state.hideMufrodatMeaning 
+                                    ? `<p class="text-xs text-gray-400 italic bg-gray-50 py-1 px-3 rounded-lg border border-dashed border-gray-200 inline-block mt-1"><i class="fa-solid fa-eye-slash text-[10px]"></i> Arti tersembunyi</p>`
+                                    : `<p class="text-sm font-bold text-gray-800">${item.indo}</p>`
+                            }
                         </div>
 
                         <div class="text-right text-[11px] text-gray-400 font-medium flex items-center justify-end gap-1">
-                            <span>Sentuh kartu untuk contoh</span> <i class="fa-solid fa-rotate text-[10px]"></i>
+                            <span>Sentuh kartu untuk arti & contoh</span> <i class="fa-solid fa-rotate text-[10px]"></i>
                         </div>
                     </div>
 
-                    <!-- BACK CARD (CONTOH KALIMAT) -->
+                    <!-- BACK CARD (CONTOH KALIMAT & ARTI) -->
                     <div class="flip-card-back shadow-md">
                         <div class="flex items-center justify-between text-xs text-gold font-bold">
-                            <span><i class="fa-solid fa-lightbulb"></i> Contoh Kalimat</span>
-                            <button onclick="event.stopPropagation(); speakArabic('${item.exAr}')" 
+                            <span><i class="fa-solid fa-lightbulb"></i> Arti & Contoh Kalimat</span>
+                            <button onclick="event.stopPropagation(); speakArabic('${(item.exAr || '').replace(/'/g, "\\'")}')" 
                                 class="w-7 h-7 rounded-full bg-white/20 hover:bg-gold hover:text-bottle-green text-white transition-all flex items-center justify-center">
                                 <i class="fa-solid fa-volume-high text-xs"></i>
                             </button>
                         </div>
 
                         <div class="my-auto text-right">
-                            <p class="font-arabic text-xl font-bold text-white leading-relaxed mb-2">${item.exAr}</p>
+                            <p class="text-xs font-bold text-gold bg-black/20 py-1 px-2.5 rounded-lg border border-white/10 text-left mb-2.5">
+                                <i class="fa-solid fa-language"></i> Arti: <span class="text-white">${item.indo}</span>
+                            </p>
+                            <p class="font-arabic text-xl font-bold text-white leading-relaxed mb-1.5">${item.exAr}</p>
                             <p class="text-xs text-emerald-100 italic text-left">${item.exIndo}</p>
                         </div>
 
